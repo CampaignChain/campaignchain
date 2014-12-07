@@ -1,0 +1,10 @@
+assetic:
+  java: "%java_path%"
+  filters:
+    cssembed:
+      jar: %kernel.root_dir%/../vendor/packagist/cssembed-bin/bin/cssembed.jar
+    yui_js:
+      jar: %kernel.root_dir%/../vendor/packagist/yuicompressor-bin/bin/yuicompressor.jar
+    lessphp:
+      file: %kernel.root_dir%/../vendor/oyejorge/less.php/lessc.inc.php
+      apply_to: "\.less$"

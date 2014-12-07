@@ -1,0 +1,36 @@
+## Symfony default
+/web/bundles/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/build/
+/vendor/
+/bin/
+/composer.phar
+
+## CampaignChain
+app/campaignchain_bundles.php
+app/config/campaignchain_bundles.yml
+app/config/parameters.yml
+app/config/routing.yml
+components
+web/assetic
+web/css
+web/js
+web/media
+
+## Mac OS X
+.DS_Store
+
+## Backup files created by editor
+*~
+
+## PHPStorm
+.idea/
+*.ipr
+*.iml
+*.iws
+.idea_modules/
+atlassian-ide-plugin.xml
