@@ -26,7 +26,11 @@ security:
             anonymous:   true
 
     access_control:
-       # URL of FOSUserBundle which need to be available to anonymous users
+        # Installer
+        - { path: ^/install/.*, role: CAMPAIGNCHAIN_INSTALL }
+        - { path: ^/campaignchain/.*, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+
+        # URL of FOSUserBundle which need to be available to anonymous users
         - { path: ^/_wdt, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/_profiler, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
@@ -42,10 +46,6 @@ security:
 
         # REST API
         - { path: ^/api/v1/.*, roles: IS_AUTHENTICATED_ANONYMOUSLY }
-
-        # Installer
-        - { path: ^/install/.*, role: CAMPAIGNCHAIN_INSTALL }
-        - { path: ^/campaignchain/.*, roles: IS_AUTHENTICATED_ANONYMOUSLY }
 
         # Secured part of the site
         - { path: ^/, role: ROLE_USER }
