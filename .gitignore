@@ -15,6 +15,7 @@ app/campaignchain_bundles.php
 app/config/campaignchain_bundles.yml
 app/config/parameters.yml
 app/config/routing.yml
+app/sessions
 components
 web/assetic
 web/css
