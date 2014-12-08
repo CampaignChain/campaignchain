@@ -23,13 +23,6 @@ class CampaignChainRequirements extends SymfonyRequirements
             'Please enable the PHP function <strong>system()</strong>.'
         );
 
-        // PHP session directory must be writable.
-        $this->addRequirement(
-            is_writable(session_save_path()),
-            session_save_path().' must be writable',
-            'Change the permissions of "'.session_save_path().'" directory so that the web server can write into it.'
-        );
-
         // /app must be writable.
         // PHP session directory must be writable.
         $this->addRequirement(
