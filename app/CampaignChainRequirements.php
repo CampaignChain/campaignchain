@@ -24,11 +24,18 @@ class CampaignChainRequirements extends SymfonyRequirements
         );
 
         // /app must be writable.
-        // PHP session directory must be writable.
         $this->addRequirement(
             is_writable(__DIR__),
             realpath(__DIR__).' must be writable',
             'Change the permissions of "'.realpath(__DIR__).'" directory so that the web server can write into it.'
+        );
+
+        // /composer.json must be writable
+        $composerJson = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'composer.json';
+        $this->addRequirement(
+            is_writable($composerJson),
+            realpath($composerJson).' must be writable',
+            'Change the permissions of "'.realpath($composerJson).'" file so that the web server can write into it.'
         );
     }
 }
