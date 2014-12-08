@@ -10,7 +10,7 @@
     "require": {
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
-        "campaignchain/distribution-ce": "dev-1.0.0-alpha.3"
+        "campaignchain/distribution-ce": "insert_version_here"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
