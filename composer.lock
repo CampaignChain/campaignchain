@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "97e8e893af09b6fb6c3ced16f46a811437cd88eb"
+                "reference": "6ed89cb0ddf517bb26260a90eeca5a45e4f25707"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/97e8e893af09b6fb6c3ced16f46a811437cd88eb",
-                "reference": "97e8e893af09b6fb6c3ced16f46a811437cd88eb",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6ed89cb0ddf517bb26260a90eeca5a45e4f25707",
+                "reference": "6ed89cb0ddf517bb26260a90eeca5a45e4f25707",
                 "shasum": ""
             },
             "require": {
@@ -264,7 +264,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2014-12-07 21:14:01"
+            "time": "2014-12-08 20:01:39"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -272,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "dbe0cda86812f770716a32b743701c3e91c9634b"
+                "reference": "4232c6a46aaf8919a5fd4a3914dcff60eb89efdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/dbe0cda86812f770716a32b743701c3e91c9634b",
-                "reference": "dbe0cda86812f770716a32b743701c3e91c9634b",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/4232c6a46aaf8919a5fd4a3914dcff60eb89efdd",
+                "reference": "4232c6a46aaf8919a5fd4a3914dcff60eb89efdd",
                 "shasum": ""
             },
             "require": {
@@ -321,7 +321,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2014-12-07 18:23:16"
+            "time": "2014-12-08 17:00:23"
         },
         {
             "name": "campaignchain/doc-html",
@@ -504,12 +504,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/milestone-scheduled.git",
-                "reference": "027d6d0fe37e518ce53ea58338cb9224e51cc770"
+                "reference": "a04c6b601e5ea3b1e9ff090bbfd0e17f7f180cf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/027d6d0fe37e518ce53ea58338cb9224e51cc770",
-                "reference": "027d6d0fe37e518ce53ea58338cb9224e51cc770",
+                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/a04c6b601e5ea3b1e9ff090bbfd0e17f7f180cf7",
+                "reference": "a04c6b601e5ea3b1e9ff090bbfd0e17f7f180cf7",
                 "shasum": ""
             },
             "require": {
@@ -553,7 +553,7 @@
                 "milestone",
                 "scheduled"
             ],
-            "time": "2014-12-07 13:57:32"
+            "time": "2014-12-08 14:37:49"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
@@ -561,12 +561,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "d1be8658fe84fef662988e7b3083eb00421e72e8"
+                "reference": "ab147d3816a3bc85f0551fe16a9b742c85226960"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/d1be8658fe84fef662988e7b3083eb00421e72e8",
-                "reference": "d1be8658fe84fef662988e7b3083eb00421e72e8",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/ab147d3816a3bc85f0551fe16a9b742c85226960",
+                "reference": "ab147d3816a3bc85f0551fe16a9b742c85226960",
                 "shasum": ""
             },
             "require": {
@@ -608,7 +608,7 @@
                 "activity",
                 "reporting"
             ],
-            "time": "2014-12-07 13:57:34"
+            "time": "2014-12-08 14:35:46"
         },
         {
             "name": "cocur/slugify",
@@ -1376,12 +1376,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "f45cf2629e0ba8259c5ac3b555d3fcd030f43eb5"
+                "reference": "39f2f0eb91a6aa7797448ad24fccb05c2fdcec8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/f45cf2629e0ba8259c5ac3b555d3fcd030f43eb5",
-                "reference": "f45cf2629e0ba8259c5ac3b555d3fcd030f43eb5",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/39f2f0eb91a6aa7797448ad24fccb05c2fdcec8f",
+                "reference": "39f2f0eb91a6aa7797448ad24fccb05c2fdcec8f",
                 "shasum": ""
             },
             "require": {
@@ -1441,7 +1441,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2014-12-05 17:11:57"
+            "time": "2014-12-08 00:39:22"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
@@ -3561,12 +3561,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "f8fb8a98b2f9d797483a020cee3ec6ad2e82c366"
+                "reference": "d0d7ae24e4d8ec27ff6992fd51d7d090424942be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/f8fb8a98b2f9d797483a020cee3ec6ad2e82c366",
-                "reference": "f8fb8a98b2f9d797483a020cee3ec6ad2e82c366",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/d0d7ae24e4d8ec27ff6992fd51d7d090424942be",
+                "reference": "d0d7ae24e4d8ec27ff6992fd51d7d090424942be",
                 "shasum": ""
             },
             "require": {
@@ -3669,7 +3669,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-12-04 10:25:57"
+            "time": "2014-12-08 08:43:57"
         },
         {
             "name": "twbs/bootstrap",
@@ -3828,12 +3828,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "08f388679b7e77104d3129733feffb956b10dcf0"
+                "reference": "e11c634be998ccefef9587a059af680b17f9d9e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/08f388679b7e77104d3129733feffb956b10dcf0",
-                "reference": "08f388679b7e77104d3129733feffb956b10dcf0",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/e11c634be998ccefef9587a059af680b17f9d9e2",
+                "reference": "e11c634be998ccefef9587a059af680b17f9d9e2",
                 "shasum": ""
             },
             "replace": {
@@ -3871,7 +3871,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-12-06 21:55:31"
+            "time": "2014-12-08 06:26:19"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
