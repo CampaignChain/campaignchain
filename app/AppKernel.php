@@ -32,6 +32,7 @@ class AppKernel extends Kernel
             new Sonata\BlockBundle\SonataBlockBundle(),
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
+            new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
         );
 
         require 'campaignchain_bundles.php';
