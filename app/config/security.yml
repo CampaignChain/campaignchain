@@ -27,7 +27,7 @@ security:
 
     access_control:
         # Installer
-        - { path: ^/install/.*, role: CAMPAIGNCHAIN_INSTALL }
+        - { path: ^/install/.*, roles: [IS_AUTHENTICATED_ANONYMOUSLY, CAMPAIGNCHAIN_INSTALL] }
         - { path: ^/campaignchain/.*, roles: IS_AUTHENTICATED_ANONYMOUSLY }
 
         # URL of FOSUserBundle which need to be available to anonymous users
