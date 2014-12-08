@@ -20,12 +20,12 @@ if (!in_array(@$_SERVER['REMOTE_ADDR'], array(
     exit('This script is only accessible from localhost.');
 }
 
-require_once dirname(__FILE__) . '/../../app/SymfonyRequirements.php';
+require_once dirname(__FILE__) . '/../../app/CampaignChainRequirements.php';
 
-$symfonyRequirements = new SymfonyRequirements();
+$campaignchainRequirements = new CampaignChainRequirements();
 
-$majorProblems = $symfonyRequirements->getFailedRequirements();
-$minorProblems = $symfonyRequirements->getFailedRecommendations();
+$majorProblems = $campaignchainRequirements->getFailedRequirements();
+$minorProblems = $campaignchainRequirements->getFailedRecommendations();
 
 $page_title = 'Server Environment';
 ?>
@@ -81,10 +81,10 @@ $page_title = 'Server Environment';
     </ol>
 <?php endif; ?>
 
-<?php if ($symfonyRequirements->hasPhpIniConfigIssue()): ?>
+<?php if ($campaignchainRequirements->hasPhpIniConfigIssue()): ?>
     <p id="phpini">*
-        <?php if ($symfonyRequirements->getPhpIniConfigPath()): ?>
-            Changes to the <strong>php.ini</strong> file must be done in "<strong><?php echo $symfonyRequirements->getPhpIniConfigPath() ?></strong>".
+        <?php if ($campaignchainRequirements->getPhpIniConfigPath()): ?>
+            Changes to the <strong>php.ini</strong> file must be done in "<strong><?php echo $campaignchainRequirements->getPhpIniConfigPath() ?></strong>".
         <?php else: ?>
             To change settings, create a "<strong>php.ini</strong>".
         <?php endif; ?>
