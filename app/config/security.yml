@@ -17,18 +17,20 @@ security:
     firewalls:
         # defaut login area for standard users
         main:
-            pattern:     ^/
+            pattern:     ^/(?!(install)).*$
             form_login:
                 provider:      fos_userbundle
                 csrf_provider: form.csrf_provider
                 login_path: /login
             logout: true
-            anonymous:   true
+            anonymous: true
+        install:
+            pattern:     ^/install.*$
+            anonymous: true
 
     access_control:
         # Installer
-        - { path: ^/install, role: CAMPAIGNCHAIN_INSTALL }
-        - { path: ^/install/.*, roles: [IS_AUTHENTICATED_ANONYMOUSLY, CAMPAIGNCHAIN_INSTALL] }
+        - { path: ^/install.*, role: CAMPAIGNCHAIN_INSTALL }
         - { path: ^/campaignchain/.*, roles: IS_AUTHENTICATED_ANONYMOUSLY }
 
         # URL of FOSUserBundle which need to be available to anonymous users
