@@ -16,34 +16,27 @@ Find details about the issues here: https://campaignchain.atlassian.net
     * [CE-108] - Calendar never displays campaigns data
     * [CE-109] - Fix rendering of Activity entries in Calendar
     * [CE-110] - Get milestone icon per milestone module
-    * [CE-111] - Milestones not showing up in monitoring charts
     * [CE-118] - Move CSS of timeline from template to CSS file
     * [CE-127] - Make tracking API accessible without being logged in
     * [CE-134] - When importing sample data: Error: Call to a member function move() on a non-object
 
 * Improvement
 
-    * [CE-5] - Streamline "monitor" vs. "report"
     * [CE-26] - Add Cancel buttons to all forms and change “Save” to “Next” where applicable
     * [CE-33] - Move Timeline and Calendar view from core to campaign-scheduled
-    * [CE-37] - Start + end date checks for campaigns also on server-side
     * [CE-61] - Define colors of Timeline chart in CSS instead of tpl file
     * [CE-95] - Grab website favicon to be used as location icon
-    * [CE-96] - TrackingController.php should return error message in JSON response
     * [CE-102] - Optimize navbar for mobile
     * [CE-120] - Rename "Timeline" and "Calendar" headings to "Plan"
-    * [CE-129] - Move installer and tracking.js to web/ folder with composer plugin
     * [CE-130] - Make 1 bundle only contain 1 module?
     * [CE-131] - Split API routes to /api/v* for public and /api/private/ for internal use
     * [CE-133] - Include assetic and security parameters in config.yml instead of defining them there directly
 
 * New Feature
 
-    * [CE-1] - Allow to configure name of Tracking ID
     * [CE-9] - Created + Last Updated attributes for entities
     * [CE-68] - Module installation: Implement versioning
     * [CE-90] - Button to test CTA tracking configuration in Channels list
-    * [CE-99] - Functionality to add new OAuth App entry
     * [CE-103] - Implement blocks
     * [CE-104] - Make Dashboard page the About page
     * [CE-105] - 3 blocks on Execute entry page
