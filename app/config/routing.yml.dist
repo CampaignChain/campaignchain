@@ -1,0 +1,4 @@
+# This file is generated automatically by CampaignChain.
+campaignchain_core:
+    resource: '@CampaignChainCoreBundle/Resources/config/routing.yml'
+    prefix: /
