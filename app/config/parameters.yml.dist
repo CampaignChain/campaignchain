@@ -18,6 +18,7 @@ parameters:
 
     bitly_access_token: insert_here_your_bitly_access_token
 
+    campaignchain_dev:      false
     debug_toolbar:          true
     debug_redirects:        false
     use_assetic_controller: true
