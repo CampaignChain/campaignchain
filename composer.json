@@ -17,7 +17,8 @@
         "campaignchain/operation-twitter": "dev-1.0.0-alpha.4",
         "campaignchain/operation-facebook": "dev-1.0.0-alpha.4",
         "campaignchain/operation-linkedin": "dev-1.0.0-alpha.4",
-        "campaignchain/location-website": "dev-1.0.0-alpha.4"
+        "campaignchain/location-website": "dev-1.0.0-alpha.4",
+        "campaignchain/dev-tools": "dev-1.0.0-alpha.1"
     },
     "scripts": {
         "post-root-package-install": [

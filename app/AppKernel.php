@@ -33,6 +33,7 @@ class AppKernel extends Kernel
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
             new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
+            new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle(),
         );
 
         require 'campaignchain_bundles.php';
