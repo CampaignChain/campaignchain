@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "bacb52e77594d1d4077a325d06157d5fa0112a18"
+                "reference": "dd2a5427d987aec2dc86e973e105e242496471d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/bacb52e77594d1d4077a325d06157d5fa0112a18",
-                "reference": "bacb52e77594d1d4077a325d06157d5fa0112a18",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/dd2a5427d987aec2dc86e973e105e242496471d4",
+                "reference": "dd2a5427d987aec2dc86e973e105e242496471d4",
                 "shasum": ""
             },
             "require": {
@@ -264,7 +264,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2014-12-24 10:43:59"
+            "time": "2014-12-26 18:44:48"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -2890,12 +2890,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "8bd1726501a1bc6c60b1ac52d10f6de8ce4f17ee"
+                "reference": "0d38a09728d593ae4ec87baace90e2fef73e8368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/8bd1726501a1bc6c60b1ac52d10f6de8ce4f17ee",
-                "reference": "8bd1726501a1bc6c60b1ac52d10f6de8ce4f17ee",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/0d38a09728d593ae4ec87baace90e2fef73e8368",
+                "reference": "0d38a09728d593ae4ec87baace90e2fef73e8368",
                 "shasum": ""
             },
             "require": {
@@ -2961,7 +2961,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2014-12-25 05:42:01"
+            "time": "2014-12-26 23:09:21"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -3978,12 +3978,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "86f9bb5c8062269819e76089bee25f7d3410d3c8"
+                "reference": "b3c1f621b07a2de3228f154bf4ece405821741d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/86f9bb5c8062269819e76089bee25f7d3410d3c8",
-                "reference": "86f9bb5c8062269819e76089bee25f7d3410d3c8",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/b3c1f621b07a2de3228f154bf4ece405821741d3",
+                "reference": "b3c1f621b07a2de3228f154bf4ece405821741d3",
                 "shasum": ""
             },
             "require": {
@@ -4028,7 +4028,7 @@
                 "linkedin",
                 "news"
             ],
-            "time": "2014-12-19 12:50:56"
+            "time": "2014-12-26 18:44:48"
         },
         {
             "name": "campaignchain/activity-twitter",
@@ -4358,12 +4358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-facebook.git",
-                "reference": "9575fc4fdb6d1cbff2375a48c8cb1cd83f2977ba"
+                "reference": "e7e7de3e31a1aa913df4275cd5291cc659fc79a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/9575fc4fdb6d1cbff2375a48c8cb1cd83f2977ba",
-                "reference": "9575fc4fdb6d1cbff2375a48c8cb1cd83f2977ba",
+                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/e7e7de3e31a1aa913df4275cd5291cc659fc79a7",
+                "reference": "e7e7de3e31a1aa913df4275cd5291cc659fc79a7",
                 "shasum": ""
             },
             "require": {
@@ -4402,7 +4402,7 @@
                 "stream",
                 "user"
             ],
-            "time": "2014-12-16 14:47:09"
+            "time": "2014-12-27 06:30:10"
         },
         {
             "name": "campaignchain/location-linkedin",
@@ -4610,12 +4610,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "73b77d584ed678e5414dd4a09aeb3523b6f387da"
+                "reference": "8f6edf42bb3dbb15f0d2c2ac3ffcc5f06dd2ef1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/73b77d584ed678e5414dd4a09aeb3523b6f387da",
-                "reference": "73b77d584ed678e5414dd4a09aeb3523b6f387da",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/8f6edf42bb3dbb15f0d2c2ac3ffcc5f06dd2ef1b",
+                "reference": "8f6edf42bb3dbb15f0d2c2ac3ffcc5f06dd2ef1b",
                 "shasum": ""
             },
             "require": {
@@ -4652,7 +4652,7 @@
                 "linkedin",
                 "operation"
             ],
-            "time": "2014-12-19 12:50:56"
+            "time": "2014-12-26 18:44:48"
         },
         {
             "name": "campaignchain/operation-twitter",
