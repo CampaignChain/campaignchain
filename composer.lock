@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "33e67ccd628a4782e87ffc7b217dac36",
+    "hash": "04a987c674470cef5a6b2a562c2d0f4f",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "f4622b5ff5e829eb40dc89f71c27854337bc89a0"
+                "reference": "6eae4c7369d353366db0748342dfbfee63ab224a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f4622b5ff5e829eb40dc89f71c27854337bc89a0",
-                "reference": "f4622b5ff5e829eb40dc89f71c27854337bc89a0",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6eae4c7369d353366db0748342dfbfee63ab224a",
+                "reference": "6eae4c7369d353366db0748342dfbfee63ab224a",
                 "shasum": ""
             },
             "require": {
@@ -202,7 +202,7 @@
                 "knplabs/knp-paginator-bundle": "dev-master",
                 "oyejorge/less.php": "~1.5",
                 "php": ">=5.4",
-                "sensio/distribution-bundle": "~3.0",
+                "sensio/distribution-bundle": "3.0.13",
                 "sensio/framework-extra-bundle": "~3.0",
                 "sensio/generator-bundle": ">=2.3",
                 "sonata-project/admin-bundle": "~2.2",
@@ -263,7 +263,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-01 20:38:07"
+            "time": "2015-01-02 10:16:17"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -271,12 +271,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "0b3647a8ea109e8d728547a5cd709020e1935a22"
+                "reference": "9c9702d382f5b5154c2e0b879f7cd42a8dad3138"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/0b3647a8ea109e8d728547a5cd709020e1935a22",
-                "reference": "0b3647a8ea109e8d728547a5cd709020e1935a22",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/9c9702d382f5b5154c2e0b879f7cd42a8dad3138",
+                "reference": "9c9702d382f5b5154c2e0b879f7cd42a8dad3138",
                 "shasum": ""
             },
             "require": {
@@ -284,15 +284,15 @@
                 "campaignchain/core": "dev-1.0.0-alpha.4",
                 "campaignchain/doc-html": "1.0.0-alpha.3",
                 "campaignchain/milestone-scheduled": "dev-1.0.0-alpha.4",
-                "campaignchain/report-analytics-metrics-per-activity": "dev-1.0.0-alpha.4",
-                "symfony/symfony": "~2.5"
+                "campaignchain/report-analytics-metrics-per-activity": "dev-1.0.0-alpha.4"
             },
             "type": "campaignchain-distribution",
             "extra": {
                 "campaignchain": {
                     "kernel": {
                         "classes": [
-                            "CampaignChain\\DistributionCeBundle\\CampaignChainDistributionCeBundle"
+                            "CampaignChain\\DistributionCeBundle\\CampaignChainDistributionCeBundle",
+                            "CampaignChain\\DocHtmlBundle\\CampaignChainDocHtmlBundle"
                         ]
                     }
                 }
@@ -320,7 +320,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2014-12-12 15:44:03"
+            "time": "2015-01-02 10:28:02"
         },
         {
             "name": "campaignchain/doc-html",
@@ -1020,12 +1020,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "608d2a281b58209b8e2f69e5286c0108e254350e"
+                "reference": "89d4f06fb4ff6e7b8f3c29a7307bf66203e09922"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/608d2a281b58209b8e2f69e5286c0108e254350e",
-                "reference": "608d2a281b58209b8e2f69e5286c0108e254350e",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/89d4f06fb4ff6e7b8f3c29a7307bf66203e09922",
+                "reference": "89d4f06fb4ff6e7b8f3c29a7307bf66203e09922",
                 "shasum": ""
             },
             "require": {
@@ -1083,7 +1083,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2015-01-01 16:43:32"
+            "time": "2015-01-02 08:47:57"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -2684,17 +2684,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "dev-master",
+            "version": "v3.0.13",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "dc20d5ab3251587b047859ca2fc06c1b88a38d00"
+                "reference": "a46e422c1135f2efa27b72a94e58852849134420"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/dc20d5ab3251587b047859ca2fc06c1b88a38d00",
-                "reference": "dc20d5ab3251587b047859ca2fc06c1b88a38d00",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/a46e422c1135f2efa27b72a94e58852849134420",
+                "reference": "a46e422c1135f2efa27b72a94e58852849134420",
                 "shasum": ""
             },
             "require": {
@@ -2733,7 +2733,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2014-12-30 08:41:47"
+            "time": "2014-12-17 06:40:12"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -3558,12 +3558,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "aedb247a3007343963753fa10e1bab508082a837"
+                "reference": "9ca3e8be5f538cc3e60416f2a0c38c7193a06ac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/aedb247a3007343963753fa10e1bab508082a837",
-                "reference": "aedb247a3007343963753fa10e1bab508082a837",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/9ca3e8be5f538cc3e60416f2a0c38c7193a06ac2",
+                "reference": "9ca3e8be5f538cc3e60416f2a0c38c7193a06ac2",
                 "shasum": ""
             },
             "require": {
@@ -3666,7 +3666,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-12-30 13:34:24"
+            "time": "2015-01-02 07:57:18"
         },
         {
             "name": "twbs/bootstrap",
