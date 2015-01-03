@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "6eae4c7369d353366db0748342dfbfee63ab224a"
+                "reference": "6cae3187c16d8eb43a6ebd8eaba04518b157f09e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6eae4c7369d353366db0748342dfbfee63ab224a",
-                "reference": "6eae4c7369d353366db0748342dfbfee63ab224a",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6cae3187c16d8eb43a6ebd8eaba04518b157f09e",
+                "reference": "6cae3187c16d8eb43a6ebd8eaba04518b157f09e",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-02 10:16:17"
+            "time": "2015-01-03 13:22:17"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1570,12 +1570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d82603adc7aa0f7d47c2e767fd33636803f4117a"
+                "reference": "293b16ef75e09d511ca4ab131e7fa4c093534e6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d82603adc7aa0f7d47c2e767fd33636803f4117a",
-                "reference": "d82603adc7aa0f7d47c2e767fd33636803f4117a",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/293b16ef75e09d511ca4ab131e7fa4c093534e6b",
+                "reference": "293b16ef75e09d511ca4ab131e7fa4c093534e6b",
                 "shasum": ""
             },
             "require": {
@@ -1584,6 +1584,9 @@
             "require-dev": {
                 "phpunit/phpunit": "~4.0",
                 "squizlabs/php_codesniffer": "~1.5"
+            },
+            "suggest": {
+                "ext-intl": "*"
             },
             "type": "library",
             "extra": {
@@ -1611,7 +1614,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2014-12-18 07:45:28"
+            "time": "2015-01-02 23:06:12"
         },
         {
             "name": "guzzle/guzzle",
@@ -2254,12 +2257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "bdd814c775a554522838c583af9e381f3a5cc95a"
+                "reference": "d70f04639ff85cc7a1ad0d0267090ae27cb4fa8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/bdd814c775a554522838c583af9e381f3a5cc95a",
-                "reference": "bdd814c775a554522838c583af9e381f3a5cc95a",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/d70f04639ff85cc7a1ad0d0267090ae27cb4fa8c",
+                "reference": "d70f04639ff85cc7a1ad0d0267090ae27cb4fa8c",
                 "shasum": ""
             },
             "require": {
@@ -2320,7 +2323,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2014-12-17 00:27:33"
+            "time": "2015-01-02 21:24:57"
         },
         {
             "name": "monolog/monolog",
@@ -2889,12 +2892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "c7d545d5a66f5eae04c9cc05e77b10086189f28a"
+                "reference": "c39499106d71af62c9fef72b78e649a175d9b53b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/c7d545d5a66f5eae04c9cc05e77b10086189f28a",
-                "reference": "c7d545d5a66f5eae04c9cc05e77b10086189f28a",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/c39499106d71af62c9fef72b78e649a175d9b53b",
+                "reference": "c39499106d71af62c9fef72b78e649a175d9b53b",
                 "shasum": ""
             },
             "require": {
@@ -2960,7 +2963,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2014-12-31 10:02:14"
+            "time": "2015-01-03 12:10:25"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -3378,12 +3381,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/AsseticBundle.git",
-                "reference": "ae29934ccb666fe21d685037a6b2246f4013730a"
+                "reference": "ab3d73839939a77592f4c56fb1f6ce6b6d0eef1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/ae29934ccb666fe21d685037a6b2246f4013730a",
-                "reference": "ae29934ccb666fe21d685037a6b2246f4013730a",
+                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/ab3d73839939a77592f4c56fb1f6ce6b6d0eef1e",
+                "reference": "ab3d73839939a77592f4c56fb1f6ce6b6d0eef1e",
                 "shasum": ""
             },
             "require": {
@@ -3434,7 +3437,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2014-12-30 09:43:47"
+            "time": "2015-01-02 21:26:11"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -3558,12 +3561,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "9ca3e8be5f538cc3e60416f2a0c38c7193a06ac2"
+                "reference": "ff25c810026dd0e0737373bc7081e84443f0e7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/9ca3e8be5f538cc3e60416f2a0c38c7193a06ac2",
-                "reference": "9ca3e8be5f538cc3e60416f2a0c38c7193a06ac2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/ff25c810026dd0e0737373bc7081e84443f0e7e1",
+                "reference": "ff25c810026dd0e0737373bc7081e84443f0e7e1",
                 "shasum": ""
             },
             "require": {
@@ -3666,7 +3669,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-01-02 07:57:18"
+            "time": "2015-01-03 14:46:49"
         },
         {
             "name": "twbs/bootstrap",
