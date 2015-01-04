@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "65c6627f306eea22f6ad91db6de1fff16d305dbc"
+                "reference": "5c08ccb19df18c0aaba0515a30a48c1decc65f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/65c6627f306eea22f6ad91db6de1fff16d305dbc",
-                "reference": "65c6627f306eea22f6ad91db6de1fff16d305dbc",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/5c08ccb19df18c0aaba0515a30a48c1decc65f96",
+                "reference": "5c08ccb19df18c0aaba0515a30a48c1decc65f96",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-04 17:20:29"
+            "time": "2015-01-04 19:35:14"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -3561,12 +3561,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "60a97ec3c5b47b4424ef1d15131a7de2c01a7523"
+                "reference": "31ad8c9f7dca0177d139c33d748ec7992f98030d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/60a97ec3c5b47b4424ef1d15131a7de2c01a7523",
-                "reference": "60a97ec3c5b47b4424ef1d15131a7de2c01a7523",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/31ad8c9f7dca0177d139c33d748ec7992f98030d",
+                "reference": "31ad8c9f7dca0177d139c33d748ec7992f98030d",
                 "shasum": ""
             },
             "require": {
@@ -3669,7 +3669,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-01-04 10:49:17"
+            "time": "2015-01-04 18:35:03"
         },
         {
             "name": "twbs/bootstrap",
