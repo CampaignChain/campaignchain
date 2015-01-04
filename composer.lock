@@ -411,12 +411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "d5b468dbe1f167354312ac2b4da09f5471c38cba"
+                "reference": "59e59fa3578a121047a9763f2c975215ed3e2eb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/d5b468dbe1f167354312ac2b4da09f5471c38cba",
-                "reference": "d5b468dbe1f167354312ac2b4da09f5471c38cba",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/59e59fa3578a121047a9763f2c975215ed3e2eb7",
+                "reference": "59e59fa3578a121047a9763f2c975215ed3e2eb7",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -449,7 +449,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-01-04 13:33:17"
+            "time": "2015-01-04 19:41:15"
         },
         {
             "name": "campaignchain/hook-duration",
