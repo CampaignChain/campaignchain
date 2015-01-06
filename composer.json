@@ -25,8 +25,8 @@
             "SymfonyStandard\\Composer::hookRootPackageInstall"
         ],
         "post-install-cmd": [
-            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initApp",
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initApp",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
@@ -35,8 +35,8 @@
             "Sp\\BowerBundle\\Composer\\ScriptHandler::bowerInstall"
         ],
         "post-update-cmd": [
-            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initApp",
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initApp",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
