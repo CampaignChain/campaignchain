@@ -1,1 +1,6 @@
-{ imports: [{ resource: parameters.yml }, { resource: security.yml }, { resource: assetic.yml }, { resource: campaignchain.yml }, { resource: campaignchain_bundles.yml }] }
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+    - { resource: assetic.yml }
+    - { resource: campaignchain.yml }
+    - { resource: campaignchain_bundles.yml }
