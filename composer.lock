@@ -119,12 +119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "cb1b1767bde84c9b18669fb36d7d81e58801b488"
+                "reference": "9da56d599e713b40855eab755547b08eff9a44d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/cb1b1767bde84c9b18669fb36d7d81e58801b488",
-                "reference": "cb1b1767bde84c9b18669fb36d7d81e58801b488",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/9da56d599e713b40855eab755547b08eff9a44d8",
+                "reference": "9da56d599e713b40855eab755547b08eff9a44d8",
                 "shasum": ""
             },
             "require": {
@@ -168,7 +168,7 @@
                 "campaign",
                 "scheduled"
             ],
-            "time": "2015-01-07 12:27:59"
+            "time": "2015-01-08 17:24:22"
         },
         {
             "name": "campaignchain/core",
@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "2966228b694ae5f44cbeddad1b12855cdda87e31"
+                "reference": "d344be22c01060c26be1da5970dcfd6716f4c7c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2966228b694ae5f44cbeddad1b12855cdda87e31",
-                "reference": "2966228b694ae5f44cbeddad1b12855cdda87e31",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/d344be22c01060c26be1da5970dcfd6716f4c7c6",
+                "reference": "d344be22c01060c26be1da5970dcfd6716f4c7c6",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-08 13:35:55"
+            "time": "2015-01-08 17:24:22"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -503,12 +503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/milestone-scheduled.git",
-                "reference": "d18594b4f595ffc3842e38219af49f6dbbf38894"
+                "reference": "ed93cea165d667831a2d24d86484385740f9b878"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/d18594b4f595ffc3842e38219af49f6dbbf38894",
-                "reference": "d18594b4f595ffc3842e38219af49f6dbbf38894",
+                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/ed93cea165d667831a2d24d86484385740f9b878",
+                "reference": "ed93cea165d667831a2d24d86484385740f9b878",
                 "shasum": ""
             },
             "require": {
@@ -552,7 +552,7 @@
                 "milestone",
                 "scheduled"
             ],
-            "time": "2015-01-03 20:53:35"
+            "time": "2015-01-08 17:24:22"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
@@ -3562,12 +3562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "dcfc3384991241b3b6211c78b1911af48de35a85"
+                "reference": "e104595568ac415f11db32d014969336a0af1df1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/dcfc3384991241b3b6211c78b1911af48de35a85",
-                "reference": "dcfc3384991241b3b6211c78b1911af48de35a85",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/e104595568ac415f11db32d014969336a0af1df1",
+                "reference": "e104595568ac415f11db32d014969336a0af1df1",
                 "shasum": ""
             },
             "require": {
@@ -3670,7 +3670,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-01-08 13:03:53"
+            "time": "2015-01-08 16:31:33"
         },
         {
             "name": "twbs/bootstrap",
@@ -3880,12 +3880,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-facebook.git",
-                "reference": "262c9266e1fee82e7a0a01dec91c78f8234c0366"
+                "reference": "1f6cd025e2d808c6e98bae5ff62a7f7a542b0ad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/262c9266e1fee82e7a0a01dec91c78f8234c0366",
-                "reference": "262c9266e1fee82e7a0a01dec91c78f8234c0366",
+                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/1f6cd025e2d808c6e98bae5ff62a7f7a542b0ad3",
+                "reference": "1f6cd025e2d808c6e98bae5ff62a7f7a542b0ad3",
                 "shasum": ""
             },
             "require": {
@@ -3931,7 +3931,7 @@
                 "facebook",
                 "status"
             ],
-            "time": "2015-01-03 20:53:35"
+            "time": "2015-01-08 17:24:22"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -3939,12 +3939,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "5e848874a1e1c9e626d6039de66dd4224327d4e2"
+                "reference": "8405cb289fc56199c7fcc4e4be06a1242a23c717"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/5e848874a1e1c9e626d6039de66dd4224327d4e2",
-                "reference": "5e848874a1e1c9e626d6039de66dd4224327d4e2",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/8405cb289fc56199c7fcc4e4be06a1242a23c717",
+                "reference": "8405cb289fc56199c7fcc4e4be06a1242a23c717",
                 "shasum": ""
             },
             "require": {
@@ -3989,7 +3989,7 @@
                 "linkedin",
                 "news"
             ],
-            "time": "2015-01-03 20:53:36"
+            "time": "2015-01-08 17:24:23"
         },
         {
             "name": "campaignchain/activity-twitter",
@@ -3997,12 +3997,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-twitter.git",
-                "reference": "d3d459b9a5df1b101bd68b4c51ace027a5c49865"
+                "reference": "e08883f8d70ecaec8ea3574d57942c4788bf06aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/d3d459b9a5df1b101bd68b4c51ace027a5c49865",
-                "reference": "d3d459b9a5df1b101bd68b4c51ace027a5c49865",
+                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/e08883f8d70ecaec8ea3574d57942c4788bf06aa",
+                "reference": "e08883f8d70ecaec8ea3574d57942c4788bf06aa",
                 "shasum": ""
             },
             "require": {
@@ -4048,7 +4048,7 @@
                 "status",
                 "twitter"
             ],
-            "time": "2015-01-03 20:53:35"
+            "time": "2015-01-08 17:24:22"
         },
         {
             "name": "campaignchain/channel-facebook",
