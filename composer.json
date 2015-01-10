@@ -7,7 +7,6 @@
         "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
