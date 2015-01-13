@@ -3990,12 +3990,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "38d5b03580a4be05dbf21551677f4d10ddd8fcda"
+                "reference": "304c40bc0c2c9aa6934ae1dd1fe40355e3b1e2bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/38d5b03580a4be05dbf21551677f4d10ddd8fcda",
-                "reference": "38d5b03580a4be05dbf21551677f4d10ddd8fcda",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/304c40bc0c2c9aa6934ae1dd1fe40355e3b1e2bd",
+                "reference": "304c40bc0c2c9aa6934ae1dd1fe40355e3b1e2bd",
                 "shasum": ""
             },
             "require": {
@@ -4039,7 +4039,7 @@
                 "facebook",
                 "oauth"
             ],
-            "time": "2015-01-13 14:28:58"
+            "time": "2015-01-13 14:41:03"
         },
         {
             "name": "campaignchain/channel-linkedin",
@@ -4047,12 +4047,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-linkedin.git",
-                "reference": "23c26ee6d9e30bdd5a647c495fc8f9239599b2dc"
+                "reference": "b6cf046a9412e98e53d51f76c2f07b0c00bd3366"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/23c26ee6d9e30bdd5a647c495fc8f9239599b2dc",
-                "reference": "23c26ee6d9e30bdd5a647c495fc8f9239599b2dc",
+                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/b6cf046a9412e98e53d51f76c2f07b0c00bd3366",
+                "reference": "b6cf046a9412e98e53d51f76c2f07b0c00bd3366",
                 "shasum": ""
             },
             "require": {
@@ -4095,7 +4095,7 @@
                 "linkedin",
                 "oauth"
             ],
-            "time": "2015-01-13 14:28:58"
+            "time": "2015-01-13 14:41:03"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -4103,12 +4103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "b2f4696128e6d6bf3d19ba86ac44923ea4903ea7"
+                "reference": "d1c27f030fcb864ca47c0d7f6f749afd6eea464d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/b2f4696128e6d6bf3d19ba86ac44923ea4903ea7",
-                "reference": "b2f4696128e6d6bf3d19ba86ac44923ea4903ea7",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/d1c27f030fcb864ca47c0d7f6f749afd6eea464d",
+                "reference": "d1c27f030fcb864ca47c0d7f6f749afd6eea464d",
                 "shasum": ""
             },
             "require": {
@@ -4151,7 +4151,7 @@
                 "oauth",
                 "twitter"
             ],
-            "time": "2015-01-13 14:28:58"
+            "time": "2015-01-13 14:29:25"
         },
         {
             "name": "campaignchain/channel-website",
