@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "b9dce093d2ff2ef5b891e24f06274da70d75b24f"
+                "reference": "da6f37a96bc55b541bc120f2981c5ef2669bb794"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b9dce093d2ff2ef5b891e24f06274da70d75b24f",
-                "reference": "b9dce093d2ff2ef5b891e24f06274da70d75b24f",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/da6f37a96bc55b541bc120f2981c5ef2669bb794",
+                "reference": "da6f37a96bc55b541bc120f2981c5ef2669bb794",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-13 16:20:03"
+            "time": "2015-01-13 17:06:52"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -4103,12 +4103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "db1a05aa6c0ee29d556d6b4cd218a3fd9153202e"
+                "reference": "c7aeb8b1eacc063347a8daf4f7207cc11b803b01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/db1a05aa6c0ee29d556d6b4cd218a3fd9153202e",
-                "reference": "db1a05aa6c0ee29d556d6b4cd218a3fd9153202e",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/c7aeb8b1eacc063347a8daf4f7207cc11b803b01",
+                "reference": "c7aeb8b1eacc063347a8daf4f7207cc11b803b01",
                 "shasum": ""
             },
             "require": {
@@ -4151,7 +4151,7 @@
                 "oauth",
                 "twitter"
             ],
-            "time": "2015-01-13 14:41:37"
+            "time": "2015-01-13 16:43:20"
         },
         {
             "name": "campaignchain/channel-website",
