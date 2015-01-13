@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "fbcc9701f41e49d7b5a9062adb70843d961cd6d1"
+                "reference": "f510ebe7481c83d841b7422048c1abdce01e826f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fbcc9701f41e49d7b5a9062adb70843d961cd6d1",
-                "reference": "fbcc9701f41e49d7b5a9062adb70843d961cd6d1",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f510ebe7481c83d841b7422048c1abdce01e826f",
+                "reference": "f510ebe7481c83d841b7422048c1abdce01e826f",
                 "shasum": ""
             },
             "require": {
@@ -199,7 +199,7 @@
                 "ivaynberg/select2": "3.5.0",
                 "knplabs/knp-menu": "dev-master",
                 "knplabs/knp-menu-bundle": "dev-master",
-                "knplabs/knp-paginator-bundle": "2.4.*",
+                "knplabs/knp-paginator-bundle": "dev-master",
                 "oyejorge/less.php": "~1.5",
                 "php": ">=5.4",
                 "sensio/distribution-bundle": "3.0.13",
@@ -263,7 +263,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-13 11:54:23"
+            "time": "2015-01-13 13:38:50"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -2137,17 +2137,17 @@
         },
         {
             "name": "knplabs/knp-paginator-bundle",
-            "version": "2.4.1",
+            "version": "dev-master",
             "target-dir": "Knp/Bundle/PaginatorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "701dffe02dbe4aa8784d3d9e5343985318ef5e2c"
+                "reference": "b51aa32f129711fa76f853b7536efefd8c5dbf07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/701dffe02dbe4aa8784d3d9e5343985318ef5e2c",
-                "reference": "701dffe02dbe4aa8784d3d9e5343985318ef5e2c",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/b51aa32f129711fa76f853b7536efefd8c5dbf07",
+                "reference": "b51aa32f129711fa76f853b7536efefd8c5dbf07",
                 "shasum": ""
             },
             "require": {
@@ -2192,7 +2192,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2014-09-15 15:49:24"
+            "time": "2014-11-29 17:18:09"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -4455,12 +4455,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "c572473af062119ac4e3f312aed9e765ed713090"
+                "reference": "5f8f698461ed4bbb6222c637d601013f45f29d5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/c572473af062119ac4e3f312aed9e765ed713090",
-                "reference": "c572473af062119ac4e3f312aed9e765ed713090",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/5f8f698461ed4bbb6222c637d601013f45f29d5a",
+                "reference": "5f8f698461ed4bbb6222c637d601013f45f29d5a",
                 "shasum": ""
             },
             "require": {
@@ -4497,7 +4497,7 @@
                 "facebook",
                 "operation"
             ],
-            "time": "2015-01-13 09:59:17"
+            "time": "2015-01-13 13:37:35"
         },
         {
             "name": "campaignchain/operation-linkedin",
@@ -4505,12 +4505,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "b29636a603e55b254a243f1ef4b5c241072b5c33"
+                "reference": "a0acaa799fd5e7647b0ee5f06d46ee486aae7ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/b29636a603e55b254a243f1ef4b5c241072b5c33",
-                "reference": "b29636a603e55b254a243f1ef4b5c241072b5c33",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/a0acaa799fd5e7647b0ee5f06d46ee486aae7ac6",
+                "reference": "a0acaa799fd5e7647b0ee5f06d46ee486aae7ac6",
                 "shasum": ""
             },
             "require": {
@@ -4547,7 +4547,7 @@
                 "linkedin",
                 "operation"
             ],
-            "time": "2015-01-13 09:59:17"
+            "time": "2015-01-13 13:37:35"
         },
         {
             "name": "campaignchain/operation-twitter",
@@ -4555,12 +4555,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "ebeee4550c95f293a6c642378630e9debac2a447"
+                "reference": "4fe8a14cc0f9ce40384db5f31532567fb3b907c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/ebeee4550c95f293a6c642378630e9debac2a447",
-                "reference": "ebeee4550c95f293a6c642378630e9debac2a447",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/4fe8a14cc0f9ce40384db5f31532567fb3b907c3",
+                "reference": "4fe8a14cc0f9ce40384db5f31532567fb3b907c3",
                 "shasum": ""
             },
             "require": {
@@ -4598,7 +4598,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2015-01-13 09:59:17"
+            "time": "2015-01-13 13:37:35"
         },
         {
             "name": "campaignchain/security-authentication-client-oauth",
