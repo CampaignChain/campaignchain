@@ -13,8 +13,8 @@ application.
 2. Install Composer
 -------------------
 
-CampaignChain utilizes `Composer`_ for its package and modules management. Install
-it with this command:
+CampaignChain utilizes https://getcomposer.org/download/ for its package and
+modules management. Install it with this command:
 
 .. code-block:: bash
 
