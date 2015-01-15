@@ -38,3 +38,4 @@ atlassian-ide-plugin.xml
 app/SymfonyRequirements.php
 web/fonts
 web/images
+src
