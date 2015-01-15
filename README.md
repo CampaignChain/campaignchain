@@ -16,8 +16,6 @@ application.
 CampaignChain utilizes https://getcomposer.org/download/ for its package and
 modules management. Install it with this command:
 
-.. code-block:: bash
-
     $ curl -sS https://getcomposer.org/installer | php
 
 3. Install Bower
@@ -31,8 +29,6 @@ node.js: http://nodejs.org/download/
 
 Now install Bower through npm:
 
-.. code-block:: bash
-
     $ npm install -g bower
 
 4. PHP as Files Owner
@@ -40,8 +36,6 @@ Now install Bower through npm:
 
 Make sure that PHP has access to all files in the CampaignChain directory. On
 Linux, you could issue this command:
-
-.. code-block:: bash
 
     $ chown -R www-data:www-data /path/to/campaignchain
 
@@ -52,8 +46,6 @@ Linux, you could issue this command:
 
 In the root of CampaignChain, execute Composer to install all the packages
 required by the base system.
-
-.. code-block:: bash
 
     $ composer install --no-dev --optimize-autoloader
 
@@ -66,8 +58,6 @@ CampaignChain base system. Please note that this might take a while.
 During the process, Composer will ask in the command line to provide some
 configuration parameters. Please make sure you check/provide at least the
 following (default values in brackets):
-
-.. code-block:: bash
 
     database_driver (pdo_mysql):
     database_host (127.0.0.1):
@@ -83,11 +73,7 @@ following (default values in brackets):
 Once Composer is done, execute the following commands, still inside the
 CampaignChain root folder:
 
-.. code-block:: bash
-
     $ php app/console cache:clear --env=prod --no-debug
-
-.. code-block:: bash
 
     $ php app/console assetic:dump --env=prod --no-debug
 
@@ -101,16 +87,12 @@ CampaignChain root folder:
 
 Use PHP's built-in Web server to run CampaignChain.
 
-.. code-block:: bash
-
     $ php app/console server:run
 
 By default, the built-in Web server listens for connections on 127.0.0.1. If
 you're planning to connect to the server over a network, you can specify the
 network IP address that the server should use. For example, the command below
 runs the Web server on port 80 of IP address 192.168.1.1:
-
-.. code-block:: bash
 
     $ php app/console server:run 192.168.1.1:80
     
