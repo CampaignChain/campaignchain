@@ -85,8 +85,6 @@ The CampaignChain scheduler is a PHP script that executes scheduled Operations.
 On Linux or Mac OS X, configure it as a cron job so that it runs automatically
 every minute:
 
-.. code-block:: bash
-
     $ crontab -e -u <username>
     */1 * * * * /usr/bin/php /path/to/campaignchain/app/console campaignchain:scheduler
 
