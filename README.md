@@ -4,13 +4,6 @@ Community Edition (CE)
 The CampaignChain Community Edition has all basic modules included and you can
 easily add more of them inside the application.
 
-0. Preparation
---------------
-
-1. Verify that your system meets the :doc:`minimum system requirements <../requirements>`
-   to run CampaignChain.
-2. Ensure that your MySQL server is running.
-
 1. Set up Database
 ------------------
 
@@ -33,8 +26,8 @@ it with this command:
 For JavaScript components, CampaignChain makes use of Bower, which - you guessed
 it - is a package manager for JavaScript code.
 
-Before you can install Bower, you must first `install npm`_ which ships with
-node.js.
+Before you can install Bower, you must first install npm which ships with
+node.js: http://nodejs.org/download/
 
 Now install Bower through npm:
 
@@ -42,12 +35,8 @@ Now install Bower through npm:
 
     $ npm install -g bower
 
-4. Download CampaignChain
--------------------------
-
-Download the Community Edition from `www.campaignchain.com/download`_.
-
-Extract the contents of the archive to a directory on your system.
+4. PHP as Files Owner
+---------------------
 
 Make sure that PHP has access to all files in the CampaignChain directory. On
 Linux, you could issue this command:
@@ -116,8 +105,10 @@ Use PHP's built-in Web server to run CampaignChain.
 
     $ php app/console server:run
 
-
-By default, the built-in Web server listens for connections on 127.0.0.1. If you're planning to connect to the server over a network, you can specify the network IP address that the server should use. For example, the command below runs the Web server on port 80 of IP address 192.168.1.1:
+By default, the built-in Web server listens for connections on 127.0.0.1. If
+you're planning to connect to the server over a network, you can specify the
+network IP address that the server should use. For example, the command below
+runs the Web server on port 80 of IP address 192.168.1.1:
 
 .. code-block:: bash
 
@@ -126,23 +117,16 @@ By default, the built-in Web server listens for connections on 127.0.0.1. If you
 10. Installation Wizard
 -----------------------
 
-Hop over to http://localhost:8000/campaignchain/install.php and follow the instructions.
+Hop over to http://localhost:8000/campaignchain/install.php and follow the
+instructions.
 
 11. Install Modules
 -------------------
 
-You can easily add modules (e.g. to post on Twitter or Facebook) at http://localhost:8000/modules/new/.
+You can easily add modules (e.g. to post on Twitter or Facebook) at
+http://localhost:8000/modules/new/.
 
 Success!
 --------
 
 CampaignChain is now installed, configured and ready for use!
-
-To make full use of CampaignChain's capabilities, you could now
-
-1. :doc:`Configure Call to Action (CTA) tracking <../configuration/cta>`
-2. :doc:`Learn how to create your first campaign and activity </user/get_started>`
-
-.. _install npm: http://nodejs.org/download/
-.. _www.campaignchain.com/download: http://www.campaignchain.com/download
-.. _Composer: https://getcomposer.org/download/
