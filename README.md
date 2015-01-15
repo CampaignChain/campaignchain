@@ -80,7 +80,18 @@ CampaignChain root folder:
 8. Configure CampaignChain Scheduler
 ------------------------------------
 
-.. include:: ../include/_configure_scheduler.rst.inc
+The CampaignChain scheduler is a PHP script that executes scheduled Operations.
+
+On Linux or Mac OS X, configure it as a cron job so that it runs automatically
+every minute:
+
+.. code-block:: bash
+
+    $ crontab -e -u <username>
+    */1 * * * * /usr/bin/php /path/to/campaignchain/app/console campaignchain:scheduler
+
+On Windows, you could use the task scheduler or AT command to achieve the same:
+http://technet.microsoft.com/en-us/library/bb726974.aspx
 
 9. Start Server
 ---------------
