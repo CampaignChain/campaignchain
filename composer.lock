@@ -560,12 +560,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "f021a9265ae8889546a1b5137f009e93ee02dac1"
+                "reference": "68f83527062919ae853b5b2339cbb75bf1697fc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/f021a9265ae8889546a1b5137f009e93ee02dac1",
-                "reference": "f021a9265ae8889546a1b5137f009e93ee02dac1",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/68f83527062919ae853b5b2339cbb75bf1697fc8",
+                "reference": "68f83527062919ae853b5b2339cbb75bf1697fc8",
                 "shasum": ""
             },
             "require": {
@@ -607,7 +607,7 @@
                 "activity",
                 "reporting"
             ],
-            "time": "2015-01-15 10:00:09"
+            "time": "2015-01-15 14:59:20"
         },
         {
             "name": "components/jquery",
