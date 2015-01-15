@@ -3873,12 +3873,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "f23c9f71f75574aca3551226ea0799dba16c8de8"
+                "reference": "5dca3effe5c3971bbcc55bfa5e1542787003b430"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/f23c9f71f75574aca3551226ea0799dba16c8de8",
-                "reference": "f23c9f71f75574aca3551226ea0799dba16c8de8",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/5dca3effe5c3971bbcc55bfa5e1542787003b430",
+                "reference": "5dca3effe5c3971bbcc55bfa5e1542787003b430",
                 "shasum": ""
             },
             "require": {
@@ -3923,7 +3923,7 @@
                 "linkedin",
                 "news"
             ],
-            "time": "2015-01-15 10:00:09"
+            "time": "2015-01-15 10:29:46"
         },
         {
             "name": "campaignchain/activity-twitter",
