@@ -3814,12 +3814,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-facebook.git",
-                "reference": "0627ca3286759b3a6bfb35e16458225e0d9267b7"
+                "reference": "1f8e4561b2ef150e1127afbb99737dd3843c2130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/0627ca3286759b3a6bfb35e16458225e0d9267b7",
-                "reference": "0627ca3286759b3a6bfb35e16458225e0d9267b7",
+                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/1f8e4561b2ef150e1127afbb99737dd3843c2130",
+                "reference": "1f8e4561b2ef150e1127afbb99737dd3843c2130",
                 "shasum": ""
             },
             "require": {
@@ -3865,7 +3865,7 @@
                 "facebook",
                 "status"
             ],
-            "time": "2015-01-14 22:35:49"
+            "time": "2015-01-15 08:51:33"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -4455,12 +4455,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "e17e156da9fe95c8218d88bcfd0ce1bf9d6ea022"
+                "reference": "cd4a137c81a5c652f1a466d31dbb7c192d326bfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/e17e156da9fe95c8218d88bcfd0ce1bf9d6ea022",
-                "reference": "e17e156da9fe95c8218d88bcfd0ce1bf9d6ea022",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/cd4a137c81a5c652f1a466d31dbb7c192d326bfb",
+                "reference": "cd4a137c81a5c652f1a466d31dbb7c192d326bfb",
                 "shasum": ""
             },
             "require": {
@@ -4497,7 +4497,7 @@
                 "facebook",
                 "operation"
             ],
-            "time": "2015-01-14 22:35:49"
+            "time": "2015-01-15 08:51:32"
         },
         {
             "name": "campaignchain/operation-linkedin",
