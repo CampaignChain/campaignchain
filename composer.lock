@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "ede7e1978afc72e299ae6e2eb77ee24d2201f1c8"
+                "reference": "1559c8fc2f88eb03e8607a2ed3b887a7714aa92b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ede7e1978afc72e299ae6e2eb77ee24d2201f1c8",
-                "reference": "ede7e1978afc72e299ae6e2eb77ee24d2201f1c8",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/1559c8fc2f88eb03e8607a2ed3b887a7714aa92b",
+                "reference": "1559c8fc2f88eb03e8607a2ed3b887a7714aa92b",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-15 10:00:09"
+            "time": "2015-01-15 10:58:08"
         },
         {
             "name": "campaignchain/distribution-ce",
