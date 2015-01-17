@@ -31,28 +31,15 @@ Now install Bower through npm:
 
     $ npm install -g bower
 
-4. PHP as Files Owner
----------------------
-
-Make sure that PHP has access to all files in the CampaignChain directory. On
-Linux, you could issue this command:
-
-    $ chown -R www-data:www-data /path/to/campaignchain
-
-... with ``www-data`` being the HTTP server's user and group, respectively.
-
-5. Install Base System
+4. Install Base System
 ----------------------
 
-In the root of CampaignChain, execute Composer to install all the packages
-required by the base system.
-
-    $ composer install --no-dev --optimize-autoloader
-
-It will download and install all required packages and modules for the
+In a folder of your choice, execute Composer to download all files of the
 CampaignChain base system. Please note that this might take a while.
 
-6. Configure Base System
+    $ composer create-project --stability=dev campaignchain/campaignchain-ce campaignchain dev-1.0.0-alpha.4
+
+5. Configure Base System
 ------------------------
 
 During the process, Composer will ask in the command line to provide some
@@ -67,7 +54,7 @@ following (default values in brackets):
     database_password (null):
     java_path (/usr/bin/java):
 
-7. Clear Cache and Dump Assets
+6. Clear Cache and Dump Assets
 ------------------------------
 
 Once Composer is done, execute the following commands, still inside the
@@ -77,7 +64,7 @@ CampaignChain root folder:
 
     $ php app/console assetic:dump --env=prod --no-debug
 
-8. Configure CampaignChain Scheduler
+7. Configure CampaignChain Scheduler
 ------------------------------------
 
 The CampaignChain scheduler is a PHP script that executes scheduled Operations.
@@ -91,7 +78,7 @@ every minute:
 On Windows, you could use the task scheduler or AT command to achieve the same:
 http://technet.microsoft.com/en-us/library/bb726974.aspx
 
-9. Start Server
+8. Start Server
 ---------------
 
 Use PHP's built-in Web server to run CampaignChain.
@@ -105,13 +92,13 @@ runs the Web server on port 80 of IP address 192.168.1.1:
 
     $ php app/console server:run 192.168.1.1:80
     
-10. Installation Wizard
+9. Installation Wizard
 -----------------------
 
 Hop over to http://localhost:8000/campaignchain/install.php and follow the
 instructions.
 
-11. Install Modules
+10. Install Modules
 -------------------
 
 You can easily add modules (e.g. to post on Twitter or Facebook) at
