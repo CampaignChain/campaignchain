@@ -11,15 +11,15 @@
     "require": {
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
-        "campaignchain/distribution-ce": "dev-1.0.0-alpha.4"
+        "campaignchain/distribution-ce": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
-        "campaignchain/operation-twitter": "dev-1.0.0-alpha.4",
-        "campaignchain/operation-facebook": "dev-1.0.0-alpha.4",
-        "campaignchain/operation-linkedin": "dev-1.0.0-alpha.4",
-        "campaignchain/location-website": "dev-1.0.0-alpha.4",
-        "campaignchain/dev-tools": "dev-1.0.0-alpha.1"
+        "campaignchain/operation-twitter": "dev-master",
+        "campaignchain/operation-facebook": "dev-master",
+        "campaignchain/operation-linkedin": "dev-master",
+        "campaignchain/location-website": "dev-master",
+        "campaignchain/dev-tools": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
