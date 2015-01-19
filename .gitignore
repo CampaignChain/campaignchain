@@ -35,3 +35,7 @@ web/media
 *.iws
 .idea_modules/
 atlassian-ide-plugin.xml
+app/SymfonyRequirements.php
+web/fonts
+web/images
+src

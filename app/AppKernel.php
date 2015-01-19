@@ -5,6 +5,13 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 
 class AppKernel extends Kernel
 {
+    protected function initializeContainer()
+    {
+        parent::initializeContainer();
+
+        date_default_timezone_set('UTC');
+    }
+
     public function registerBundles()
     {
         $bundles = array(
@@ -33,6 +40,7 @@ class AppKernel extends Kernel
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
             new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
+//            new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle(),
         );
 
         require 'campaignchain_bundles.php';

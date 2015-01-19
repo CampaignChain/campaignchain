@@ -7,21 +7,27 @@
         "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
-        "campaignchain/distribution-ce": "dev-master"
+        "campaignchain/distribution-ce": "dev-1.0.0-alpha.4"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "campaignchain/operation-twitter": "dev-1.0.0-alpha.4",
+        "campaignchain/operation-facebook": "dev-1.0.0-alpha.4",
+        "campaignchain/operation-linkedin": "dev-1.0.0-alpha.4",
+        "campaignchain/location-website": "dev-1.0.0-alpha.4",
+        "campaignchain/dev-tools": "dev-1.0.0-alpha.1"
     },
     "scripts": {
         "post-root-package-install": [
             "SymfonyStandard\\Composer::hookRootPackageInstall"
         ],
         "post-install-cmd": [
-            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initApp",
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initApp",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
@@ -30,8 +36,8 @@
             "Sp\\BowerBundle\\Composer\\ScriptHandler::bowerInstall"
         ],
         "post-update-cmd": [
-            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initApp",
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initApp",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
