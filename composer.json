@@ -16,7 +16,7 @@
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
         "campaignchain/operation-twitter": "1.0.0-alpha.4",
-        "campaignchain/operation-facebook": "1.0.0-alpha.4",
+        "campaignchain/operation-facebook": "dev-1.0.0-beta.1",
         "campaignchain/operation-linkedin": "1.0.0-alpha.4",
         "campaignchain/location-website": "1.0.0-alpha.4",
         "campaignchain/dev-tools": "1.0.0-alpha.1"
