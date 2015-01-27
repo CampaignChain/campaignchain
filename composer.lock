@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "2cb2651836568d9100ff67cf2c3264a44a7ac723"
+                "reference": "b3221832e3cfd6982173de2920f4add01d450439"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2cb2651836568d9100ff67cf2c3264a44a7ac723",
-                "reference": "2cb2651836568d9100ff67cf2c3264a44a7ac723",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b3221832e3cfd6982173de2920f4add01d450439",
+                "reference": "b3221832e3cfd6982173de2920f4add01d450439",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-27 15:41:16"
+            "time": "2015-01-27 20:48:13"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -569,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "2ba516f1607e5666d18c8ce9dc75bef941f1e562"
+                "reference": "a5b39148ae2341b3086f43ce50174b3ae39b6234"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/2ba516f1607e5666d18c8ce9dc75bef941f1e562",
-                "reference": "2ba516f1607e5666d18c8ce9dc75bef941f1e562",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/a5b39148ae2341b3086f43ce50174b3ae39b6234",
+                "reference": "a5b39148ae2341b3086f43ce50174b3ae39b6234",
                 "shasum": ""
             },
             "require": {
@@ -619,7 +619,7 @@
                 "activity",
                 "reporting"
             ],
-            "time": "2015-01-27 14:21:56"
+            "time": "2015-01-27 20:25:04"
         },
         {
             "name": "components/jquery",
@@ -4012,12 +4012,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-citrix.git",
-                "reference": "c52b27f93b2804c30c41560a0b7a4888c3b660d7"
+                "reference": "834f1039b4fee3ff5a3d2b35adb846a2033d1b83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/c52b27f93b2804c30c41560a0b7a4888c3b660d7",
-                "reference": "c52b27f93b2804c30c41560a0b7a4888c3b660d7",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/834f1039b4fee3ff5a3d2b35adb846a2033d1b83",
+                "reference": "834f1039b4fee3ff5a3d2b35adb846a2033d1b83",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -4051,7 +4051,7 @@
                 }
             ],
             "description": "Connects to Citrix services such as GoToMeeting or GoToWebinar.",
-            "time": "2015-01-27 15:07:55"
+            "time": "2015-01-27 20:48:13"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -4334,12 +4334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-citrix.git",
-                "reference": "7b55e74d592213d4637b81ada9725ed0b74aa973"
+                "reference": "1c367d0393ae6fc8413e4937227d670fa2f07814"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-citrix/zipball/7b55e74d592213d4637b81ada9725ed0b74aa973",
-                "reference": "7b55e74d592213d4637b81ada9725ed0b74aa973",
+                "url": "https://api.github.com/repos/CampaignChain/location-citrix/zipball/1c367d0393ae6fc8413e4937227d670fa2f07814",
+                "reference": "1c367d0393ae6fc8413e4937227d670fa2f07814",
                 "shasum": ""
             },
             "type": "campaignchain-location",
@@ -4373,7 +4373,7 @@
                 }
             ],
             "description": "Holds information about a Citrix Location and user.",
-            "time": "2015-01-27 15:07:55"
+            "time": "2015-01-27 15:47:27"
         },
         {
             "name": "campaignchain/location-facebook",
@@ -4755,12 +4755,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "df0fa51d938622100f799f7950d1ff1c210b88ce"
+                "reference": "8dfc5d688929feee7aab7b8efa782b746a1b18f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/df0fa51d938622100f799f7950d1ff1c210b88ce",
-                "reference": "df0fa51d938622100f799f7950d1ff1c210b88ce",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/8dfc5d688929feee7aab7b8efa782b746a1b18f3",
+                "reference": "8dfc5d688929feee7aab7b8efa782b746a1b18f3",
                 "shasum": ""
             },
             "require": {
@@ -4809,7 +4809,7 @@
                 "client",
                 "oauth"
             ],
-            "time": "2015-01-27 15:42:04"
+            "time": "2015-01-27 16:52:59"
         },
         {
             "name": "facebook/php-sdk-v4",
