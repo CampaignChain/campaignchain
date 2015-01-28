@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "b3221832e3cfd6982173de2920f4add01d450439"
+                "reference": "2ad950f2d0601bf4ae1c2a3c360f1a9fe22ffb6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b3221832e3cfd6982173de2920f4add01d450439",
-                "reference": "b3221832e3cfd6982173de2920f4add01d450439",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2ad950f2d0601bf4ae1c2a3c360f1a9fe22ffb6b",
+                "reference": "2ad950f2d0601bf4ae1c2a3c360f1a9fe22ffb6b",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-27 20:48:13"
+            "time": "2015-01-28 08:41:37"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -4334,12 +4334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-citrix.git",
-                "reference": "1c367d0393ae6fc8413e4937227d670fa2f07814"
+                "reference": "618d8f7684c1195e7f72e4b5d2131b919dfd83d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-citrix/zipball/1c367d0393ae6fc8413e4937227d670fa2f07814",
-                "reference": "1c367d0393ae6fc8413e4937227d670fa2f07814",
+                "url": "https://api.github.com/repos/CampaignChain/location-citrix/zipball/618d8f7684c1195e7f72e4b5d2131b919dfd83d1",
+                "reference": "618d8f7684c1195e7f72e4b5d2131b919dfd83d1",
                 "shasum": ""
             },
             "type": "campaignchain-location",
@@ -4373,7 +4373,7 @@
                 }
             ],
             "description": "Holds information about a Citrix Location and user.",
-            "time": "2015-01-27 15:47:27"
+            "time": "2015-01-27 20:52:22"
         },
         {
             "name": "campaignchain/location-facebook",
