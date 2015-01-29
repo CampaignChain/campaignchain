@@ -21,7 +21,9 @@
         "campaignchain/location-website": "dev-1.0.0-beta.1",
         "campaignchain/dev-tools": "1.0.0-alpha.1",
         "campaignchain/channel-citrix": "dev-master",
-        "campaignchain/location-citrix": "dev-master"
+        "campaignchain/location-citrix": "dev-master",
+        "campaignchain/activity-gotowebinar": "dev-master",
+        "campaignchain/operation-gotowebinar": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
