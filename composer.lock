@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "a3e6fdec74355380eaef377878f5e55aa75614eb"
+                "reference": "a174a3763c48642099b9220220ff12964fc4dd80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/a3e6fdec74355380eaef377878f5e55aa75614eb",
-                "reference": "a3e6fdec74355380eaef377878f5e55aa75614eb",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/a174a3763c48642099b9220220ff12964fc4dd80",
+                "reference": "a174a3763c48642099b9220220ff12964fc4dd80",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-28 14:52:20"
+            "time": "2015-01-29 16:40:41"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -3892,12 +3892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-gotowebinar.git",
-                "reference": "3ee207f1b4fbada02572e73782e45064f4e042ad"
+                "reference": "b93b755fee373ecddf6ff95215e19460e9f9455a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/3ee207f1b4fbada02572e73782e45064f4e042ad",
-                "reference": "3ee207f1b4fbada02572e73782e45064f4e042ad",
+                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/b93b755fee373ecddf6ff95215e19460e9f9455a",
+                "reference": "b93b755fee373ecddf6ff95215e19460e9f9455a",
                 "shasum": ""
             },
             "require": {
@@ -3935,7 +3935,7 @@
                 }
             ],
             "description": "Include a Webinar into a campaign.",
-            "time": "2015-01-29 11:50:01"
+            "time": "2015-01-29 11:56:42"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -4063,12 +4063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-citrix.git",
-                "reference": "8dc738fb4baedccde598b6b8079b888ebdf90cc5"
+                "reference": "08947b185a3e00f39bf3d9677492350134607c12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/8dc738fb4baedccde598b6b8079b888ebdf90cc5",
-                "reference": "8dc738fb4baedccde598b6b8079b888ebdf90cc5",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/08947b185a3e00f39bf3d9677492350134607c12",
+                "reference": "08947b185a3e00f39bf3d9677492350134607c12",
                 "shasum": ""
             },
             "require": {
@@ -4106,7 +4106,7 @@
                 }
             ],
             "description": "Connects to Citrix services such as GoToMeeting or GoToWebinar.",
-            "time": "2015-01-28 12:30:49"
+            "time": "2015-01-29 16:40:41"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -4704,12 +4704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-gotowebinar.git",
-                "reference": "c1919a25fc72984cbeffcd92dbce593e25918fea"
+                "reference": "4ada83e7d5cb2641e5e42f403693a3ed47a5fbf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/c1919a25fc72984cbeffcd92dbce593e25918fea",
-                "reference": "c1919a25fc72984cbeffcd92dbce593e25918fea",
+                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/4ada83e7d5cb2641e5e42f403693a3ed47a5fbf9",
+                "reference": "4ada83e7d5cb2641e5e42f403693a3ed47a5fbf9",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -4743,7 +4743,7 @@
                 }
             ],
             "description": "Include a Webinar into a campaign.",
-            "time": "2015-01-29 11:42:30"
+            "time": "2015-01-29 16:40:41"
         },
         {
             "name": "campaignchain/operation-linkedin",
