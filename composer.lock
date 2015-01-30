@@ -569,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "a5b39148ae2341b3086f43ce50174b3ae39b6234"
+                "reference": "e910c3f1007842048af40e11aa3d809502ed90db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/a5b39148ae2341b3086f43ce50174b3ae39b6234",
-                "reference": "a5b39148ae2341b3086f43ce50174b3ae39b6234",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/e910c3f1007842048af40e11aa3d809502ed90db",
+                "reference": "e910c3f1007842048af40e11aa3d809502ed90db",
                 "shasum": ""
             },
             "require": {
@@ -619,7 +619,7 @@
                 "activity",
                 "reporting"
             ],
-            "time": "2015-01-27 20:25:04"
+            "time": "2015-01-30 07:24:02"
         },
         {
             "name": "components/jquery",
@@ -4858,12 +4858,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "8dfc5d688929feee7aab7b8efa782b746a1b18f3"
+                "reference": "d8c728b72feecaf520fd328070662564793574f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/8dfc5d688929feee7aab7b8efa782b746a1b18f3",
-                "reference": "8dfc5d688929feee7aab7b8efa782b746a1b18f3",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/d8c728b72feecaf520fd328070662564793574f3",
+                "reference": "d8c728b72feecaf520fd328070662564793574f3",
                 "shasum": ""
             },
             "require": {
@@ -4891,10 +4891,7 @@
             "autoload": {
                 "psr-4": {
                     "CampaignChain\\Security\\Authentication\\Client\\OAuthBundle\\": ""
-                },
-                "classmap": [
-                    "/../../../vendor/hybridauth/hybridauth/hybridauth"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4912,7 +4909,7 @@
                 "client",
                 "oauth"
             ],
-            "time": "2015-01-27 16:52:59"
+            "time": "2015-01-30 07:46:15"
         },
         {
             "name": "facebook/php-sdk-v4",
