@@ -4063,12 +4063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-citrix.git",
-                "reference": "08947b185a3e00f39bf3d9677492350134607c12"
+                "reference": "cd4a9a8d050c35f3c3fe8d8edf82012d7ff19733"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/08947b185a3e00f39bf3d9677492350134607c12",
-                "reference": "08947b185a3e00f39bf3d9677492350134607c12",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/cd4a9a8d050c35f3c3fe8d8edf82012d7ff19733",
+                "reference": "cd4a9a8d050c35f3c3fe8d8edf82012d7ff19733",
                 "shasum": ""
             },
             "require": {
@@ -4106,7 +4106,7 @@
                 }
             ],
             "description": "Connects to Citrix services such as GoToMeeting or GoToWebinar.",
-            "time": "2015-01-29 16:40:41"
+            "time": "2015-01-30 08:31:08"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -4858,17 +4858,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "f924df078b3a260c60253d4baf71ec6d0854cb6c"
+                "reference": "ba0147e7a23b2da0c67d3839517e7cda1cc91fe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/f924df078b3a260c60253d4baf71ec6d0854cb6c",
-                "reference": "f924df078b3a260c60253d4baf71ec6d0854cb6c",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/ba0147e7a23b2da0c67d3839517e7cda1cc91fe9",
+                "reference": "ba0147e7a23b2da0c67d3839517e7cda1cc91fe9",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/core": "dev-1.0.0-beta.1",
-                "hybridauth/hybridauth": "dev-master"
+                "hybridauth/hybridauth": "2.2.2"
             },
             "type": "campaignchain-security",
             "extra": {
@@ -4892,8 +4892,8 @@
                 "psr-4": {
                     "CampaignChain\\Security\\Authentication\\Client\\OAuthBundle\\": ""
                 },
-                "files": [
-                    "/../../../vendor/hybridauth/hybridauth/hybridauth/Hybrid/User_Profile.php"
+                "classmap": [
+                    "/../../../vendor/hybridauth/hybridauth/hybridauth"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4912,7 +4912,7 @@
                 "client",
                 "oauth"
             ],
-            "time": "2015-01-30 08:20:09"
+            "time": "2015-01-30 08:31:08"
         },
         {
             "name": "facebook/php-sdk-v4",
@@ -4965,16 +4965,16 @@
         },
         {
             "name": "hybridauth/hybridauth",
-            "version": "dev-master",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "abb809ad258518b525e30400dd2dfd484fb1a3a6"
+                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/abb809ad258518b525e30400dd2dfd484fb1a3a6",
-                "reference": "abb809ad258518b525e30400dd2dfd484fb1a3a6",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/b32c4bf14007c80118a88c5e249f4e3151585732",
+                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732",
                 "shasum": ""
             },
             "require": {
@@ -5010,7 +5010,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2015-01-26 17:11:23"
+            "time": "2014-07-11 20:25:12"
         }
     ],
     "aliases": [],
