@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bmatzner/BmatznerFontAwesomeBundle.git",
-                "reference": "c7f5e1632dea03c2043acff9a71e320282dd9918"
+                "reference": "8077deca421d26992f75c01e09bcc088d3b4d00d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bmatzner/BmatznerFontAwesomeBundle/zipball/c7f5e1632dea03c2043acff9a71e320282dd9918",
-                "reference": "c7f5e1632dea03c2043acff9a71e320282dd9918",
+                "url": "https://api.github.com/repos/bmatzner/BmatznerFontAwesomeBundle/zipball/8077deca421d26992f75c01e09bcc088d3b4d00d",
+                "reference": "8077deca421d26992f75c01e09bcc088d3b4d00d",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "typography",
                 "webfonts"
             ],
-            "time": "2014-09-24 19:27:27"
+            "time": "2015-02-08 11:55:29"
         },
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/braincrafted/bootstrap-bundle.git",
-                "reference": "56231594bfce2b4fd293592662f508becc4c494e"
+                "reference": "2dc17466f95a035869b51c845024f6a92bc1d6d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/56231594bfce2b4fd293592662f508becc4c494e",
-                "reference": "56231594bfce2b4fd293592662f508becc4c494e",
+                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/2dc17466f95a035869b51c845024f6a92bc1d6d1",
+                "reference": "2dc17466f95a035869b51c845024f6a92bc1d6d1",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +80,7 @@
                 "knplabs/knp-menu": "~2.0@alpha",
                 "knplabs/knp-menu-bundle": "~2.0@alpha",
                 "knplabs/knp-paginator-bundle": "dev-master",
-                "mockery/mockery": "0.8.*",
+                "mockery/mockery": "0.9.*",
                 "phpunit/phpunit": "3.7.*",
                 "symfony/assetic-bundle": "~2.3"
             },
@@ -111,7 +111,7 @@
             "keywords": [
                 "bootstrap"
             ],
-            "time": "2014-08-31 10:47:30"
+            "time": "2015-01-31 10:32:31"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "a174a3763c48642099b9220220ff12964fc4dd80"
+                "reference": "85af40006eb732ef3a5c9593d3019d6dd5c44bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/a174a3763c48642099b9220220ff12964fc4dd80",
-                "reference": "a174a3763c48642099b9220220ff12964fc4dd80",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/85af40006eb732ef3a5c9593d3019d6dd5c44bee",
+                "reference": "85af40006eb732ef3a5c9593d3019d6dd5c44bee",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-29 16:40:41"
+            "time": "2015-02-09 21:21:09"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -672,12 +672,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataTables/DataTables.git",
-                "reference": "4112da87a25560ca088ace3de5548d43ea5b2aac"
+                "reference": "d6f46dffbb9622799cb4bc87086d980cc95a7332"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/4112da87a25560ca088ace3de5548d43ea5b2aac",
-                "reference": "4112da87a25560ca088ace3de5548d43ea5b2aac",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/d6f46dffbb9622799cb4bc87086d980cc95a7332",
+                "reference": "d6f46dffbb9622799cb4bc87086d980cc95a7332",
                 "shasum": ""
             },
             "type": "library",
@@ -687,7 +687,7 @@
             ],
             "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
             "homepage": "http://www.datatables.net/",
-            "time": "2014-12-02 10:38:13"
+            "time": "2015-02-06 16:35:34"
         },
         {
             "name": "doctrine/annotations",
@@ -2153,16 +2153,15 @@
         {
             "name": "knplabs/knp-paginator-bundle",
             "version": "dev-master",
-            "target-dir": "Knp/Bundle/PaginatorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "b51aa32f129711fa76f853b7536efefd8c5dbf07"
+                "reference": "5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/b51aa32f129711fa76f853b7536efefd8c5dbf07",
-                "reference": "b51aa32f129711fa76f853b7536efefd8c5dbf07",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a",
+                "reference": "5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a",
                 "shasum": ""
             },
             "require": {
@@ -2171,6 +2170,9 @@
                 "symfony/framework-bundle": "~2.0",
                 "twig/twig": "~1.5"
             },
+            "require-dev": {
+                "symfony/expression-language": "~2.4"
+            },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2178,8 +2180,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Knp\\Bundle\\PaginatorBundle": ""
+                "psr-4": {
+                    "Knp\\Bundle\\PaginatorBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2207,7 +2209,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2014-11-29 17:18:09"
+            "time": "2015-02-03 02:04:01"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -3508,16 +3510,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "c34ef418015793a4653f2670afb69dd167ebf578"
+                "reference": "23b647f1e4eeb24a457d3c47f5f5046377d5a3bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/c34ef418015793a4653f2670afb69dd167ebf578",
-                "reference": "c34ef418015793a4653f2670afb69dd167ebf578",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/23b647f1e4eeb24a457d3c47f5f5046377d5a3bf",
+                "reference": "23b647f1e4eeb24a457d3c47f5f5046377d5a3bf",
                 "shasum": ""
             },
             "require": {
@@ -3620,7 +3622,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-01-07 14:47:29"
+            "time": "2015-02-02 18:02:30"
         },
         {
             "name": "twbs/bootstrap",
@@ -3892,12 +3894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-gotowebinar.git",
-                "reference": "b93b755fee373ecddf6ff95215e19460e9f9455a"
+                "reference": "da1a379921cdc7c557cb757719c523f058c90069"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/b93b755fee373ecddf6ff95215e19460e9f9455a",
-                "reference": "b93b755fee373ecddf6ff95215e19460e9f9455a",
+                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/da1a379921cdc7c557cb757719c523f058c90069",
+                "reference": "da1a379921cdc7c557cb757719c523f058c90069",
                 "shasum": ""
             },
             "require": {
@@ -3935,7 +3937,7 @@
                 }
             ],
             "description": "Include a Webinar into a campaign.",
-            "time": "2015-01-29 11:56:42"
+            "time": "2015-02-09 21:21:09"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -4063,12 +4065,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-citrix.git",
-                "reference": "cd4a9a8d050c35f3c3fe8d8edf82012d7ff19733"
+                "reference": "484e6b15ed5e3d1d863a531c73d8c234ee116265"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/cd4a9a8d050c35f3c3fe8d8edf82012d7ff19733",
-                "reference": "cd4a9a8d050c35f3c3fe8d8edf82012d7ff19733",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/484e6b15ed5e3d1d863a531c73d8c234ee116265",
+                "reference": "484e6b15ed5e3d1d863a531c73d8c234ee116265",
                 "shasum": ""
             },
             "require": {
@@ -4106,7 +4108,7 @@
                 }
             ],
             "description": "Connects to Citrix services such as GoToMeeting or GoToWebinar.",
-            "time": "2015-01-30 08:31:08"
+            "time": "2015-02-04 22:34:03"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -4704,12 +4706,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-gotowebinar.git",
-                "reference": "4ada83e7d5cb2641e5e42f403693a3ed47a5fbf9"
+                "reference": "66e6ab065f223a3498daf9d99d966bd687c0f471"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/4ada83e7d5cb2641e5e42f403693a3ed47a5fbf9",
-                "reference": "4ada83e7d5cb2641e5e42f403693a3ed47a5fbf9",
+                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/66e6ab065f223a3498daf9d99d966bd687c0f471",
+                "reference": "66e6ab065f223a3498daf9d99d966bd687c0f471",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -4743,7 +4745,7 @@
                 }
             ],
             "description": "Include a Webinar into a campaign.",
-            "time": "2015-01-29 16:40:41"
+            "time": "2015-02-09 21:21:09"
         },
         {
             "name": "campaignchain/operation-linkedin",
@@ -4916,16 +4918,16 @@
         },
         {
             "name": "facebook/php-sdk-v4",
-            "version": "4.0.15",
+            "version": "4.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
-                "reference": "ebc82667ef953b98e2eca5dfb6784d6466a185cd"
+                "reference": "66da9e0e123b6440974bfe22210a8a053e9b5599"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/ebc82667ef953b98e2eca5dfb6784d6466a185cd",
-                "reference": "ebc82667ef953b98e2eca5dfb6784d6466a185cd",
+                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/66da9e0e123b6440974bfe22210a8a053e9b5599",
+                "reference": "66da9e0e123b6440974bfe22210a8a053e9b5599",
                 "shasum": ""
             },
             "require": {
@@ -4961,7 +4963,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2015-01-06 21:29:27"
+            "time": "2015-02-03 19:20:31"
         },
         {
             "name": "hybridauth/hybridauth",
