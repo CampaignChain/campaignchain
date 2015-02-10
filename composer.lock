@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c80debd740490eabcd1c363fc6eda30b",
+    "hash": "e5a3c620a1b2e630e8f0138d82d82b6b",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "85af40006eb732ef3a5c9593d3019d6dd5c44bee"
+                "reference": "1708b6011a7a58b40d1470fa7035cabe2bb79cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/85af40006eb732ef3a5c9593d3019d6dd5c44bee",
-                "reference": "85af40006eb732ef3a5c9593d3019d6dd5c44bee",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/1708b6011a7a58b40d1470fa7035cabe2bb79cdb",
+                "reference": "1708b6011a7a58b40d1470fa7035cabe2bb79cdb",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-02-09 21:21:09"
+            "time": "2015-02-10 07:27:49"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -4349,16 +4349,16 @@
         },
         {
             "name": "campaignchain/dev-tools",
-            "version": "1.0.0-alpha.1",
+            "version": "dev-1.0.0-beta.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "93147895afef51d139a8c6d9b8f12f788b4ebd99"
+                "reference": "2e5418cdd38aebf5c72cd11eb4b0501356c0b30c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/93147895afef51d139a8c6d9b8f12f788b4ebd99",
-                "reference": "93147895afef51d139a8c6d9b8f12f788b4ebd99",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/2e5418cdd38aebf5c72cd11eb4b0501356c0b30c",
+                "reference": "2e5418cdd38aebf5c72cd11eb4b0501356c0b30c",
                 "shasum": ""
             },
             "require": {
@@ -4384,7 +4384,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-01-19 08:34:01"
+            "time": "2015-02-06 16:44:19"
         },
         {
             "name": "campaignchain/location-citrix",
@@ -5023,6 +5023,7 @@
         "campaignchain/operation-facebook": 20,
         "campaignchain/operation-linkedin": 20,
         "campaignchain/location-website": 20,
+        "campaignchain/dev-tools": 20,
         "campaignchain/channel-citrix": 20,
         "campaignchain/location-citrix": 20,
         "campaignchain/activity-gotowebinar": 20,
