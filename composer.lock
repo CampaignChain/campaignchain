@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "c81cb5c863732b71f9fec932d5d730dc65b6a720"
+                "reference": "b4d0df60428c187ad16bd2bfb29fc3c17f2ee871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c81cb5c863732b71f9fec932d5d730dc65b6a720",
-                "reference": "c81cb5c863732b71f9fec932d5d730dc65b6a720",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b4d0df60428c187ad16bd2bfb29fc3c17f2ee871",
+                "reference": "b4d0df60428c187ad16bd2bfb29fc3c17f2ee871",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-02-12 08:25:06"
+            "time": "2015-02-12 12:07:27"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -4353,12 +4353,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "ad05193b2db92baf9bd0726a5f5c1426b60cd89a"
+                "reference": "19f89f8636052d776d9588217550a33d5b7785cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/ad05193b2db92baf9bd0726a5f5c1426b60cd89a",
-                "reference": "ad05193b2db92baf9bd0726a5f5c1426b60cd89a",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/19f89f8636052d776d9588217550a33d5b7785cd",
+                "reference": "19f89f8636052d776d9588217550a33d5b7785cd",
                 "shasum": ""
             },
             "require": {
@@ -4384,7 +4384,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-11 17:02:36"
+            "time": "2015-02-12 10:46:30"
         },
         {
             "name": "campaignchain/location-citrix",
