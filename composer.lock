@@ -4295,12 +4295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-website.git",
-                "reference": "4c3c17dfa04bc07b68a55a0dfb85aeba1bcb2991"
+                "reference": "e9dbe0416e6dcdd373ffed40a7bb8b41ec235649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/4c3c17dfa04bc07b68a55a0dfb85aeba1bcb2991",
-                "reference": "4c3c17dfa04bc07b68a55a0dfb85aeba1bcb2991",
+                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/e9dbe0416e6dcdd373ffed40a7bb8b41ec235649",
+                "reference": "e9dbe0416e6dcdd373ffed40a7bb8b41ec235649",
                 "shasum": ""
             },
             "require": {
@@ -4345,7 +4345,7 @@
             "keywords": [
                 "website"
             ],
-            "time": "2015-01-27 14:21:57"
+            "time": "2015-02-12 08:03:18"
         },
         {
             "name": "campaignchain/dev-tools",
