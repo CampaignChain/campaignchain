@@ -179,19 +179,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "0ac91a290cfdff3a2ca68c8bd36a7524c83add72"
+                "reference": "c81cb5c863732b71f9fec932d5d730dc65b6a720"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/0ac91a290cfdff3a2ca68c8bd36a7524c83add72",
-                "reference": "0ac91a290cfdff3a2ca68c8bd36a7524c83add72",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c81cb5c863732b71f9fec932d5d730dc65b6a720",
+                "reference": "c81cb5c863732b71f9fec932d5d730dc65b6a720",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
                 "braincrafted/bootstrap-bundle": "dev-master",
                 "components/jquery": "1.11.*",
-                "datatables/datatables": "1.10.*",
+                "datatables/datatables": "1.10.4",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
                 "friendsofsymfony/jsrouting-bundle": "dev-master",
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-02-12 08:09:04"
+            "time": "2015-02-12 08:25:06"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -668,16 +668,16 @@
         },
         {
             "name": "datatables/datatables",
-            "version": "1.10.5",
+            "version": "1.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataTables/DataTables.git",
-                "reference": "a5d77d99bcda1dd072f4f3d0717e69893d7425d1"
+                "reference": "06c1cbebdefe002b0bac853f16e685cae496146f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/a5d77d99bcda1dd072f4f3d0717e69893d7425d1",
-                "reference": "a5d77d99bcda1dd072f4f3d0717e69893d7425d1",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/06c1cbebdefe002b0bac853f16e685cae496146f",
+                "reference": "06c1cbebdefe002b0bac853f16e685cae496146f",
                 "shasum": ""
             },
             "type": "library",
@@ -687,7 +687,7 @@
             ],
             "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
             "homepage": "http://www.datatables.net/",
-            "time": "2015-02-10 14:27:53"
+            "time": "2014-11-07 15:17:44"
         },
         {
             "name": "doctrine/annotations",
