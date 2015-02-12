@@ -668,16 +668,16 @@
         },
         {
             "name": "datatables/datatables",
-            "version": "1.10.4",
+            "version": "1.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataTables/DataTables.git",
-                "reference": "06c1cbebdefe002b0bac853f16e685cae496146f"
+                "reference": "a5d77d99bcda1dd072f4f3d0717e69893d7425d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/06c1cbebdefe002b0bac853f16e685cae496146f",
-                "reference": "06c1cbebdefe002b0bac853f16e685cae496146f",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/a5d77d99bcda1dd072f4f3d0717e69893d7425d1",
+                "reference": "a5d77d99bcda1dd072f4f3d0717e69893d7425d1",
                 "shasum": ""
             },
             "type": "library",
@@ -687,7 +687,7 @@
             ],
             "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
             "homepage": "http://www.datatables.net/",
-            "time": "2014-11-07 15:17:44"
+            "time": "2015-02-10 14:27:53"
         },
         {
             "name": "doctrine/annotations",
@@ -2750,17 +2750,17 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v2.5.1",
+            "version": "v2.5.2",
             "target-dir": "Sensio/Bundle/GeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "9e23fc3de265ae013690d84aab98e7a84f46edcd"
+                "reference": "4b09746520a826a7bf34a466ba31c7d8740fef7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/9e23fc3de265ae013690d84aab98e7a84f46edcd",
-                "reference": "9e23fc3de265ae013690d84aab98e7a84f46edcd",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/4b09746520a826a7bf34a466ba31c7d8740fef7e",
+                "reference": "4b09746520a826a7bf34a466ba31c7d8740fef7e",
                 "shasum": ""
             },
             "require": {
@@ -2794,7 +2794,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2015-01-13 07:33:46"
+            "time": "2015-02-11 07:21:23"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -4353,12 +4353,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "2e5418cdd38aebf5c72cd11eb4b0501356c0b30c"
+                "reference": "ad05193b2db92baf9bd0726a5f5c1426b60cd89a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/2e5418cdd38aebf5c72cd11eb4b0501356c0b30c",
-                "reference": "2e5418cdd38aebf5c72cd11eb4b0501356c0b30c",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/ad05193b2db92baf9bd0726a5f5c1426b60cd89a",
+                "reference": "ad05193b2db92baf9bd0726a5f5c1426b60cd89a",
                 "shasum": ""
             },
             "require": {
@@ -4384,7 +4384,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-06 16:44:19"
+            "time": "2015-02-11 17:02:36"
         },
         {
             "name": "campaignchain/location-citrix",
