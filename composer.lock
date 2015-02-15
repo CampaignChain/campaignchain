@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "116fba77765c3329d22cd2befc3d837f4273da8e"
+                "reference": "c7cf28097b44cf0c99206926db21f04b1f2d84d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/116fba77765c3329d22cd2befc3d837f4273da8e",
-                "reference": "116fba77765c3329d22cd2befc3d837f4273da8e",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c7cf28097b44cf0c99206926db21f04b1f2d84d0",
+                "reference": "c7cf28097b44cf0c99206926db21f04b1f2d84d0",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-02-12 15:23:11"
+            "time": "2015-02-15 19:13:01"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -277,12 +277,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "09448928edd065a3afa0f5de68f60be7116a7cc1"
+                "reference": "9f9c18c27dd863d6e8039b486375c2590674334a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/09448928edd065a3afa0f5de68f60be7116a7cc1",
-                "reference": "09448928edd065a3afa0f5de68f60be7116a7cc1",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/9f9c18c27dd863d6e8039b486375c2590674334a",
+                "reference": "9f9c18c27dd863d6e8039b486375c2590674334a",
                 "shasum": ""
             },
             "require": {
@@ -290,6 +290,7 @@
                 "campaignchain/core": "dev-1.0.0-beta.1",
                 "campaignchain/doc-html": "1.0.0-alpha.3",
                 "campaignchain/milestone-scheduled": "dev-1.0.0-beta.1",
+                "campaignchain/report-analytics-cta-tracking": "dev-master",
                 "campaignchain/report-analytics-metrics-per-activity": "dev-1.0.0-beta.1"
             },
             "type": "campaignchain-distribution",
@@ -326,7 +327,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2015-01-27 10:10:01"
+            "time": "2015-02-15 19:13:01"
         },
         {
             "name": "campaignchain/doc-html",
@@ -564,17 +565,65 @@
             "time": "2015-01-27 14:21:58"
         },
         {
+            "name": "campaignchain/report-analytics-cta-tracking",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
+                "reference": "33d18787b352fb1746cd460e30ef5f791be592d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/33d18787b352fb1746cd460e30ef5f791be592d7",
+                "reference": "33d18787b352fb1746cd460e30ef5f791be592d7",
+                "shasum": ""
+            },
+            "type": "campaignchain-report-analytics",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Report\\AnalyticsCtaTrackingBundle\\CampaignChainReportAnalyticsCtaTrackingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_report_analytics_cta_tracking",
+                            "resource": "@CampaignChainReportAnalyticsCtaTrackingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Report\\AnalyticsCtaTrackingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Shows Activities that linked to a Location and CTAs executed on that Location.",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-02-15 19:05:12"
+        },
+        {
             "name": "campaignchain/report-analytics-metrics-per-activity",
             "version": "dev-1.0.0-beta.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "e910c3f1007842048af40e11aa3d809502ed90db"
+                "reference": "42d880866072b7f2def9f5d7cc7b8f57cf38d19c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/e910c3f1007842048af40e11aa3d809502ed90db",
-                "reference": "e910c3f1007842048af40e11aa3d809502ed90db",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/42d880866072b7f2def9f5d7cc7b8f57cf38d19c",
+                "reference": "42d880866072b7f2def9f5d7cc7b8f57cf38d19c",
                 "shasum": ""
             },
             "require": {
@@ -619,7 +668,7 @@
                 "activity",
                 "reporting"
             ],
-            "time": "2015-01-30 07:24:02"
+            "time": "2015-02-15 19:13:01"
         },
         {
             "name": "components/jquery",
@@ -4353,12 +4402,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "19f89f8636052d776d9588217550a33d5b7785cd"
+                "reference": "2df3b3be09d8320c873974f3623226d366872216"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/19f89f8636052d776d9588217550a33d5b7785cd",
-                "reference": "19f89f8636052d776d9588217550a33d5b7785cd",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/2df3b3be09d8320c873974f3623226d366872216",
+                "reference": "2df3b3be09d8320c873974f3623226d366872216",
                 "shasum": ""
             },
             "require": {
@@ -4384,7 +4433,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-12 10:46:30"
+            "time": "2015-02-12 23:23:47"
         },
         {
             "name": "campaignchain/location-citrix",
