@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "4a8d7ea77afad7f42c22c20b1c7d130423153ce2"
+                "reference": "10e2ff97072bddfc1482e11a594e8aed379840a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/4a8d7ea77afad7f42c22c20b1c7d130423153ce2",
-                "reference": "4a8d7ea77afad7f42c22c20b1c7d130423153ce2",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/10e2ff97072bddfc1482e11a594e8aed379840a8",
+                "reference": "10e2ff97072bddfc1482e11a594e8aed379840a8",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-02-15 19:37:21"
+            "time": "2015-02-16 13:09:23"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -570,12 +570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
-                "reference": "33d18787b352fb1746cd460e30ef5f791be592d7"
+                "reference": "1008e5e2d5e3453ce8c3b9f33b169aaceefe0a17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/33d18787b352fb1746cd460e30ef5f791be592d7",
-                "reference": "33d18787b352fb1746cd460e30ef5f791be592d7",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/1008e5e2d5e3453ce8c3b9f33b169aaceefe0a17",
+                "reference": "1008e5e2d5e3453ce8c3b9f33b169aaceefe0a17",
                 "shasum": ""
             },
             "type": "campaignchain-report-analytics",
@@ -610,7 +610,7 @@
             ],
             "description": "Shows Activities that linked to a Location and CTAs executed on that Location.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-15 19:05:12"
+            "time": "2015-02-16 13:09:23"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
