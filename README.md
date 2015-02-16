@@ -98,12 +98,6 @@ runs the Web server on port 80 of IP address 192.168.1.1:
 Hop over to http://localhost:8000/campaignchain/install.php and follow the
 instructions.
 
-10. Install Modules
--------------------
-
-You can easily add modules (e.g. to post on Twitter or Facebook) at
-http://localhost:8000/modules/new/.
-
 Success!
 --------
 
