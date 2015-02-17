@@ -37,7 +37,7 @@ Now install Bower through npm:
 In a folder of your choice, execute Composer to download all files of the
 CampaignChain base system. Please note that this might take a while.
 
-    $ composer create-project campaignchain/campaignchain-ce campaignchain 1.0.0-alpha.4
+    $ composer create-project campaignchain/campaignchain-ce campaignchain 1.0.0-beta.1
 
 5. Configure Base System
 ------------------------
@@ -97,12 +97,6 @@ runs the Web server on port 80 of IP address 192.168.1.1:
 
 Hop over to http://localhost:8000/campaignchain/install.php and follow the
 instructions.
-
-10. Install Modules
--------------------
-
-You can easily add modules (e.g. to post on Twitter or Facebook) at
-http://localhost:8000/modules/new/.
 
 Success!
 --------
