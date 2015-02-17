@@ -37,7 +37,7 @@ Now install Bower through npm:
 In a folder of your choice, execute Composer to download all files of the
 CampaignChain base system. Please note that this might take a while.
 
-    $ composer create-project campaignchain/campaignchain-ce campaignchain 1.0.0-beta.1
+    $ composer create-project --stability=dev campaignchain/campaignchain-ce campaignchain dev-master
 
 5. Configure Base System
 ------------------------
