@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6a7b58b8e7e5f739ee2f390e09bbdac",
+    "hash": "924957d9c42327c5b14a447f4adc20f5",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bmatzner/BmatznerFontAwesomeBundle.git",
-                "reference": "c7f5e1632dea03c2043acff9a71e320282dd9918"
+                "reference": "8077deca421d26992f75c01e09bcc088d3b4d00d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bmatzner/BmatznerFontAwesomeBundle/zipball/c7f5e1632dea03c2043acff9a71e320282dd9918",
-                "reference": "c7f5e1632dea03c2043acff9a71e320282dd9918",
+                "url": "https://api.github.com/repos/bmatzner/BmatznerFontAwesomeBundle/zipball/8077deca421d26992f75c01e09bcc088d3b4d00d",
+                "reference": "8077deca421d26992f75c01e09bcc088d3b4d00d",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "typography",
                 "webfonts"
             ],
-            "time": "2014-09-24 19:27:27"
+            "time": "2015-02-08 11:55:29"
         },
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/braincrafted/bootstrap-bundle.git",
-                "reference": "56231594bfce2b4fd293592662f508becc4c494e"
+                "reference": "2dc17466f95a035869b51c845024f6a92bc1d6d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/56231594bfce2b4fd293592662f508becc4c494e",
-                "reference": "56231594bfce2b4fd293592662f508becc4c494e",
+                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/2dc17466f95a035869b51c845024f6a92bc1d6d1",
+                "reference": "2dc17466f95a035869b51c845024f6a92bc1d6d1",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +80,7 @@
                 "knplabs/knp-menu": "~2.0@alpha",
                 "knplabs/knp-menu-bundle": "~2.0@alpha",
                 "knplabs/knp-paginator-bundle": "dev-master",
-                "mockery/mockery": "0.8.*",
+                "mockery/mockery": "0.9.*",
                 "phpunit/phpunit": "3.7.*",
                 "symfony/assetic-bundle": "~2.3"
             },
@@ -111,29 +111,268 @@
             "keywords": [
                 "bootstrap"
             ],
-            "time": "2014-08-31 10:47:30"
+            "time": "2015-01-31 10:32:31"
         },
         {
-            "name": "campaignchain/campaign-scheduled",
-            "version": "dev-1.0.0-alpha.4",
+            "name": "campaignchain/activity-facebook",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "9da56d599e713b40855eab755547b08eff9a44d8"
+                "url": "https://github.com/CampaignChain/activity-facebook.git",
+                "reference": "276c7e7611910ac76062001fbd363bd355c3a95a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/9da56d599e713b40855eab755547b08eff9a44d8",
-                "reference": "9da56d599e713b40855eab755547b08eff9a44d8",
+                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/276c7e7611910ac76062001fbd363bd355c3a95a",
+                "reference": "276c7e7611910ac76062001fbd363bd355c3a95a",
                 "shasum": ""
             },
             "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "campaignchain/hook-assignee": "1.0.0-alpha.3",
-                "campaignchain/hook-duration": "dev-1.0.0-alpha.4"
+                "campaignchain/core": "dev-master",
+                "campaignchain/hook-assignee": "dev-master",
+                "campaignchain/hook-due": "dev-master",
+                "campaignchain/location-facebook": "dev-master",
+                "campaignchain/operation-facebook": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\FacebookBundle\\CampaignChainActivityFacebookBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_facebook",
+                            "resource": "@CampaignChainActivityFacebookBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\FacebookBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Post a status message on the feed of a channel.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "facebook",
+                "status"
+            ],
+            "time": "2015-02-17 09:59:50"
+        },
+        {
+            "name": "campaignchain/activity-gotowebinar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-gotowebinar.git",
+                "reference": "dc0926460ae7aff6e5a93eb85d98fc97f02a8f76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/dc0926460ae7aff6e5a93eb85d98fc97f02a8f76",
+                "reference": "dc0926460ae7aff6e5a93eb85d98fc97f02a8f76",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/hook-assignee": "dev-master",
+                "campaignchain/hook-duration": "dev-master",
+                "campaignchain/location-citrix": "dev-master",
+                "campaignchain/operation-gotowebinar": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\GoToWebinarBundle\\CampaignChainActivityGoToWebinarBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_gotowebinar",
+                            "resource": "@CampaignChainActivityGoToWebinarBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\GoToWebinarBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Include a Webinar into a campaign.",
+            "time": "2015-02-17 09:59:09"
+        },
+        {
+            "name": "campaignchain/activity-linkedin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-linkedin.git",
+                "reference": "74effc94a8457ccfc80492bf1df5a5546a7864d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/74effc94a8457ccfc80492bf1df5a5546a7864d6",
+                "reference": "74effc94a8457ccfc80492bf1df5a5546a7864d6",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/hook-due": "dev-master",
+                "campaignchain/location-linkedin": "dev-master",
+                "campaignchain/operation-linkedin": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\LinkedInBundle\\CampaignChainActivityLinkedInBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_linked_in",
+                            "resource": "@CampaignChainActivityLinkedInBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\LinkedInBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Post a news update on a LinkedIn stream.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "linkedin",
+                "news"
+            ],
+            "time": "2015-02-17 09:58:34"
+        },
+        {
+            "name": "campaignchain/activity-twitter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-twitter.git",
+                "reference": "515c1b595b052262d33e00971fc3caee6dbe5d7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/515c1b595b052262d33e00971fc3caee6dbe5d7a",
+                "reference": "515c1b595b052262d33e00971fc3caee6dbe5d7a",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/hook-assignee": "dev-master",
+                "campaignchain/hook-due": "dev-master",
+                "campaignchain/location-twitter": "dev-master",
+                "campaignchain/operation-twitter": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\TwitterBundle\\CampaignChainActivityTwitterBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_twitter",
+                            "resource": "@CampaignChainActivityTwitterBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\TwitterBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Post a status update (aka Tweet) on a Twitter stream.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "status",
+                "twitter"
+            ],
+            "time": "2015-02-17 09:58:00"
+        },
+        {
+            "name": "campaignchain/campaign-scheduled",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/campaign-scheduled.git",
+                "reference": "a20b29f162096d49770ca81e20e3f53bec9d43fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/a20b29f162096d49770ca81e20e3f53bec9d43fe",
+                "reference": "a20b29f162096d49770ca81e20e3f53bec9d43fe",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/hook-assignee": "dev-master",
+                "campaignchain/hook-duration": "dev-master"
             },
             "type": "campaignchain-campaign",
             "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
                 "campaignchain": {
                     "kernel": {
                         "classes": [
@@ -168,27 +407,315 @@
                 "campaign",
                 "scheduled"
             ],
-            "time": "2015-01-08 17:24:22"
+            "time": "2015-02-17 09:57:04"
         },
         {
-            "name": "campaignchain/core",
-            "version": "dev-1.0.0-alpha.4",
+            "name": "campaignchain/channel-citrix",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CampaignChain/core.git",
-                "reference": "3149eb6f05d9c9db7f95ac5514e4263c4e23d3dd"
+                "url": "https://github.com/CampaignChain/channel-citrix.git",
+                "reference": "80599e9ab6ad367565f06caff5a84eeeec46c236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/3149eb6f05d9c9db7f95ac5514e4263c4e23d3dd",
-                "reference": "3149eb6f05d9c9db7f95ac5514e4263c4e23d3dd",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/80599e9ab6ad367565f06caff5a84eeeec46c236",
+                "reference": "80599e9ab6ad367565f06caff5a84eeeec46c236",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "guzzle/guzzle": "~3.9"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\CitrixBundle\\CampaignChainChannelCitrixBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_citrix",
+                            "resource": "@CampaignChainChannelCitrixBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\CitrixBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Connects to Citrix services such as GoToMeeting or GoToWebinar.",
+            "time": "2015-02-17 09:41:12"
+        },
+        {
+            "name": "campaignchain/channel-facebook",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-facebook.git",
+                "reference": "a949a1f19770e4393d41615aabca75b84bc4ba27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/a949a1f19770e4393d41615aabca75b84bc4ba27",
+                "reference": "a949a1f19770e4393d41615aabca75b84bc4ba27",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/security-authentication-client-oauth": "dev-master",
+                "facebook/php-sdk-v4": "4.0.*"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\FacebookBundle\\CampaignChainChannelFacebookBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_facebook",
+                            "resource": "@CampaignChainChannelFacebookBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\FacebookBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Connect with Facebook.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "facebook",
+                "oauth"
+            ],
+            "time": "2015-02-17 09:56:08"
+        },
+        {
+            "name": "campaignchain/channel-linkedin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-linkedin.git",
+                "reference": "2eef0134333349b2897ad8bce4e3d40065b9f432"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/2eef0134333349b2897ad8bce4e3d40065b9f432",
+                "reference": "2eef0134333349b2897ad8bce4e3d40065b9f432",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/security-authentication-client-oauth": "dev-master"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\LinkedInBundle\\CampaignChainChannelLinkedInBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_linked_in",
+                            "resource": "@CampaignChainChannelLinkedInBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\LinkedInBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Connect with LinkedIn",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "linkedin",
+                "oauth"
+            ],
+            "time": "2015-02-17 09:55:36"
+        },
+        {
+            "name": "campaignchain/channel-twitter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-twitter.git",
+                "reference": "4b2ec91dfe941da4ab5fc970f68255bbad1ad993"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/4b2ec91dfe941da4ab5fc970f68255bbad1ad993",
+                "reference": "4b2ec91dfe941da4ab5fc970f68255bbad1ad993",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/security-authentication-client-oauth": "dev-master",
+                "guzzle/guzzle": "~3.9"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\TwitterBundle\\CampaignChainChannelTwitterBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_twitter",
+                            "resource": "@CampaignChainChannelTwitterBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\TwitterBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Connect with Twitter.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "oauth",
+                "twitter"
+            ],
+            "time": "2015-02-17 09:55:11"
+        },
+        {
+            "name": "campaignchain/channel-website",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-website.git",
+                "reference": "390ac675dd4224eab68dbf8b60903e9f7cfc94b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/390ac675dd4224eab68dbf8b60903e9f7cfc94b0",
+                "reference": "390ac675dd4224eab68dbf8b60903e9f7cfc94b0",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "guzzle/guzzle": "~3.9"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\WebsiteBundle\\CampaignChainChannelWebsiteBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_website",
+                            "resource": "@CampaignChainChannelWebsiteBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\WebsiteBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Connect with a Website.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "website"
+            ],
+            "time": "2015-02-17 09:54:42"
+        },
+        {
+            "name": "campaignchain/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/core.git",
+                "reference": "112260755bd0f4872ec555ee173b7f9f56c839f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/112260755bd0f4872ec555ee173b7f9f56c839f4",
+                "reference": "112260755bd0f4872ec555ee173b7f9f56c839f4",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
                 "braincrafted/bootstrap-bundle": "dev-master",
                 "components/jquery": "1.11.*",
-                "datatables/datatables": "dev-master",
+                "datatables/datatables": "1.10.4",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
                 "friendsofsymfony/jsrouting-bundle": "dev-master",
@@ -222,6 +749,9 @@
             },
             "type": "campaignchain-core",
             "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
                 "campaignchain": {
                     "kernel": {
                         "classes": [
@@ -263,28 +793,34 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-01-15 14:47:23"
+            "time": "2015-02-17 09:41:42"
         },
         {
             "name": "campaignchain/distribution-ce",
-            "version": "dev-1.0.0-alpha.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "037cc61c56accab17e697fd32908ef5d530e87d5"
+                "reference": "f30a55e885e70ba7247f3a9590238a683840f12c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/037cc61c56accab17e697fd32908ef5d530e87d5",
-                "reference": "037cc61c56accab17e697fd32908ef5d530e87d5",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/f30a55e885e70ba7247f3a9590238a683840f12c",
+                "reference": "f30a55e885e70ba7247f3a9590238a683840f12c",
                 "shasum": ""
             },
             "require": {
-                "campaignchain/campaign-scheduled": "dev-1.0.0-alpha.4",
-                "campaignchain/core": "dev-1.0.0-alpha.4",
+                "campaignchain/activity-facebook": "dev-master",
+                "campaignchain/activity-gotowebinar": "dev-master",
+                "campaignchain/activity-linkedin": "dev-master",
+                "campaignchain/activity-twitter": "dev-master",
+                "campaignchain/campaign-scheduled": "dev-master",
+                "campaignchain/core": "dev-master",
                 "campaignchain/doc-html": "1.0.0-alpha.3",
-                "campaignchain/milestone-scheduled": "dev-1.0.0-alpha.4",
-                "campaignchain/report-analytics-metrics-per-activity": "dev-1.0.0-alpha.4"
+                "campaignchain/location-website": "dev-master",
+                "campaignchain/milestone-scheduled": "dev-master",
+                "campaignchain/report-analytics-cta-tracking": "dev-master",
+                "campaignchain/report-analytics-metrics-per-activity": "dev-master"
             },
             "type": "campaignchain-distribution",
             "extra": {
@@ -320,7 +856,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2015-01-13 16:24:39"
+            "time": "2015-02-17 09:53:23"
         },
         {
             "name": "campaignchain/doc-html",
@@ -361,7 +897,7 @@
         },
         {
             "name": "campaignchain/hook-assignee",
-            "version": "1.0.0-alpha.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-assignee.git",
@@ -407,7 +943,7 @@
         },
         {
             "name": "campaignchain/hook-due",
-            "version": "dev-1.0.0-alpha.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
@@ -453,16 +989,16 @@
         },
         {
             "name": "campaignchain/hook-duration",
-            "version": "dev-1.0.0-alpha.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-duration.git",
-                "reference": "4c85986b8b34df2d210039d8d14072c6509cce02"
+                "reference": "62ed73c41c840b08ceff82ae5ccb15b4fc95e59c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/4c85986b8b34df2d210039d8d14072c6509cce02",
-                "reference": "4c85986b8b34df2d210039d8d14072c6509cce02",
+                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/62ed73c41c840b08ceff82ae5ccb15b4fc95e59c",
+                "reference": "62ed73c41c840b08ceff82ae5ccb15b4fc95e59c",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -495,29 +1031,296 @@
             "keywords": [
                 "duration"
             ],
-            "time": "2015-01-04 13:33:17"
+            "time": "2015-01-28 12:30:49"
         },
         {
-            "name": "campaignchain/milestone-scheduled",
-            "version": "dev-1.0.0-alpha.4",
+            "name": "campaignchain/location-citrix",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CampaignChain/milestone-scheduled.git",
-                "reference": "ed93cea165d667831a2d24d86484385740f9b878"
+                "url": "https://github.com/CampaignChain/location-citrix.git",
+                "reference": "df272c9fe81bd15242f895ab0e45ec48a1d2b340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/ed93cea165d667831a2d24d86484385740f9b878",
-                "reference": "ed93cea165d667831a2d24d86484385740f9b878",
+                "url": "https://api.github.com/repos/CampaignChain/location-citrix/zipball/df272c9fe81bd15242f895ab0e45ec48a1d2b340",
+                "reference": "df272c9fe81bd15242f895ab0e45ec48a1d2b340",
                 "shasum": ""
             },
             "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "campaignchain/hook-assignee": "1.0.0-alpha.3",
-                "campaignchain/hook-due": "dev-1.0.0-alpha.4"
+                "campaignchain/channel-citrix": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\CitrixBundle\\CampaignChainLocationCitrixBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_citrix",
+                            "resource": "@CampaignChainLocationCitrixBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\CitrixBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Holds information about a Citrix Location and user.",
+            "time": "2015-02-17 09:42:09"
+        },
+        {
+            "name": "campaignchain/location-facebook",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-facebook.git",
+                "reference": "c24ff267241a8bad3371139f4a1471f4832a5f2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/c24ff267241a8bad3371139f4a1471f4832a5f2e",
+                "reference": "c24ff267241a8bad3371139f4a1471f4832a5f2e",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-facebook": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\FacebookBundle\\CampaignChainLocationFacebookBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\FacebookBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Facebook locations such as user and page stream, as well as status.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "facebook",
+                "page",
+                "stream",
+                "user"
+            ],
+            "time": "2015-02-17 09:51:28"
+        },
+        {
+            "name": "campaignchain/location-linkedin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-linkedin.git",
+                "reference": "57d26dfcf268a1577cbb944ba0fa7c89552acb78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-linkedin/zipball/57d26dfcf268a1577cbb944ba0fa7c89552acb78",
+                "reference": "57d26dfcf268a1577cbb944ba0fa7c89552acb78",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-linkedin": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\LinkedInBundle\\CampaignChainLocationLinkedInBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\LinkedInBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "LinkedIn user stream.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "linkedin",
+                "stream",
+                "user"
+            ],
+            "time": "2015-02-17 09:50:58"
+        },
+        {
+            "name": "campaignchain/location-twitter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-twitter.git",
+                "reference": "8a1f8860f9beb97cb5bad7598f76ebed71d3a260"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-twitter/zipball/8a1f8860f9beb97cb5bad7598f76ebed71d3a260",
+                "reference": "8a1f8860f9beb97cb5bad7598f76ebed71d3a260",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-twitter": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\TwitterBundle\\CampaignChainLocationTwitterBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\TwitterBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Integrates Twitter locations such as user stream and status.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "stream",
+                "twitter"
+            ],
+            "time": "2015-02-17 09:50:24"
+        },
+        {
+            "name": "campaignchain/location-website",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-website.git",
+                "reference": "4099b1adbf921a33c28ef86279dfd2382a877063"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/4099b1adbf921a33c28ef86279dfd2382a877063",
+                "reference": "4099b1adbf921a33c28ef86279dfd2382a877063",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-website": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\WebsiteBundle\\CampaignChainLocationWebsiteBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\WebsiteBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Simple module that connects a Website and to define its pages as CampaignChain Locations.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "website"
+            ],
+            "time": "2015-02-17 09:49:44"
+        },
+        {
+            "name": "campaignchain/milestone-scheduled",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/milestone-scheduled.git",
+                "reference": "027c8ff190dfe0380b451c945712e2f452bffe12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/027c8ff190dfe0380b451c945712e2f452bffe12",
+                "reference": "027c8ff190dfe0380b451c945712e2f452bffe12",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/hook-assignee": "dev-master",
+                "campaignchain/hook-due": "dev-master"
             },
             "type": "campaignchain-milestone",
             "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
                 "campaignchain": {
                     "kernel": {
                         "classes": [
@@ -552,27 +1355,285 @@
                 "milestone",
                 "scheduled"
             ],
-            "time": "2015-01-08 17:24:22"
+            "time": "2015-02-17 09:49:12"
         },
         {
-            "name": "campaignchain/report-analytics-metrics-per-activity",
-            "version": "dev-1.0.0-alpha.4",
+            "name": "campaignchain/operation-facebook",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "68f83527062919ae853b5b2339cbb75bf1697fc8"
+                "url": "https://github.com/CampaignChain/operation-facebook.git",
+                "reference": "f190622fa772c3394a7582add4120eb0117008f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/68f83527062919ae853b5b2339cbb75bf1697fc8",
-                "reference": "68f83527062919ae853b5b2339cbb75bf1697fc8",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/f190622fa772c3394a7582add4120eb0117008f7",
+                "reference": "f190622fa772c3394a7582add4120eb0117008f7",
                 "shasum": ""
             },
             "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4"
+                "campaignchain/activity-facebook": "dev-master"
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\FacebookBundle\\CampaignChainOperationFacebookBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\FacebookBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Collection of various Facebook operations.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "facebook",
+                "operation"
+            ],
+            "time": "2015-02-17 09:48:34"
+        },
+        {
+            "name": "campaignchain/operation-gotowebinar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-gotowebinar.git",
+                "reference": "66e6ab065f223a3498daf9d99d966bd687c0f471"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/66e6ab065f223a3498daf9d99d966bd687c0f471",
+                "reference": "66e6ab065f223a3498daf9d99d966bd687c0f471",
+                "shasum": ""
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\GoToWebinarBundle\\CampaignChainOperationGoToWebinarBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_operation_gotowebinar",
+                            "resource": "@CampaignChainOperationGoToWebinarBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\GoToWebinarBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Include a Webinar into a campaign.",
+            "time": "2015-02-09 21:21:09"
+        },
+        {
+            "name": "campaignchain/operation-linkedin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-linkedin.git",
+                "reference": "965f0b3b77282f261bfb801f65303016d4b071fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/965f0b3b77282f261bfb801f65303016d4b071fd",
+                "reference": "965f0b3b77282f261bfb801f65303016d4b071fd",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/activity-linkedin": "dev-master"
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\LinkedInBundle\\CampaignChainOperationLinkedInBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\LinkedInBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Collection of various LinkedIn operations.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "linkedin",
+                "operation"
+            ],
+            "time": "2015-02-17 09:47:50"
+        },
+        {
+            "name": "campaignchain/operation-twitter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-twitter.git",
+                "reference": "041767bd594ab09e70b2534bc6b448d9bec3f54d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/041767bd594ab09e70b2534bc6b448d9bec3f54d",
+                "reference": "041767bd594ab09e70b2534bc6b448d9bec3f54d",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/activity-twitter": "dev-master",
+                "guzzle/guzzle": "~3.9"
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\TwitterBundle\\CampaignChainOperationTwitterBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\TwitterBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Collection of various Twitter operations.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "operation",
+                "twitter"
+            ],
+            "time": "2015-02-17 09:46:53"
+        },
+        {
+            "name": "campaignchain/report-analytics-cta-tracking",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
+                "reference": "1008e5e2d5e3453ce8c3b9f33b169aaceefe0a17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/1008e5e2d5e3453ce8c3b9f33b169aaceefe0a17",
+                "reference": "1008e5e2d5e3453ce8c3b9f33b169aaceefe0a17",
+                "shasum": ""
             },
             "type": "campaignchain-report-analytics",
             "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Report\\AnalyticsCtaTrackingBundle\\CampaignChainReportAnalyticsCtaTrackingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_report_analytics_cta_tracking",
+                            "resource": "@CampaignChainReportAnalyticsCtaTrackingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Report\\AnalyticsCtaTrackingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Shows Activities that linked to a Location and CTAs executed on that Location.",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-02-16 13:09:23"
+        },
+        {
+            "name": "campaignchain/report-analytics-metrics-per-activity",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
+                "reference": "b346e9aa40097ef874e3994bfa93ed4855c84010"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/b346e9aa40097ef874e3994bfa93ed4855c84010",
+                "reference": "b346e9aa40097ef874e3994bfa93ed4855c84010",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master"
+            },
+            "type": "campaignchain-report-analytics",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
                 "campaignchain": {
                     "kernel": {
                         "classes": [
@@ -607,7 +1668,69 @@
                 "activity",
                 "reporting"
             ],
-            "time": "2015-01-15 14:59:20"
+            "time": "2015-02-17 09:46:02"
+        },
+        {
+            "name": "campaignchain/security-authentication-client-oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
+                "reference": "77e95883f87863b5c5882f0ecb01e814bca20e25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/77e95883f87863b5c5882f0ecb01e814bca20e25",
+                "reference": "77e95883f87863b5c5882f0ecb01e814bca20e25",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "hybridauth/hybridauth": "2.2.2"
+            },
+            "type": "campaignchain-security",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.0-beta.1": "1.0.0-dev"
+                },
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Security\\Authentication\\Client\\OAuthBundle\\CampaignChainSecurityAuthenticationClientOAuthBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_security_authentication_client_o_auth",
+                            "resource": "@CampaignChainSecurityAuthenticationClientOAuthBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Security\\Authentication\\Client\\OAuthBundle\\": ""
+                },
+                "classmap": [
+                    "/../../../vendor/hybridauth/hybridauth/hybridauth"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "OAuth client to be used by channel modules.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "client",
+                "oauth"
+            ],
+            "time": "2015-02-17 09:45:34"
         },
         {
             "name": "components/jquery",
@@ -656,16 +1779,16 @@
         },
         {
             "name": "datatables/datatables",
-            "version": "dev-master",
+            "version": "1.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DataTables/DataTables.git",
-                "reference": "4112da87a25560ca088ace3de5548d43ea5b2aac"
+                "reference": "06c1cbebdefe002b0bac853f16e685cae496146f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/4112da87a25560ca088ace3de5548d43ea5b2aac",
-                "reference": "4112da87a25560ca088ace3de5548d43ea5b2aac",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/06c1cbebdefe002b0bac853f16e685cae496146f",
+                "reference": "06c1cbebdefe002b0bac853f16e685cae496146f",
                 "shasum": ""
             },
             "type": "library",
@@ -675,7 +1798,7 @@
             ],
             "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
             "homepage": "http://www.datatables.net/",
-            "time": "2014-12-02 10:38:13"
+            "time": "2014-11-07 15:17:44"
         },
         {
             "name": "doctrine/annotations",
@@ -1390,18 +2513,66 @@
             "time": "2014-12-16 13:45:01"
         },
         {
-            "name": "friendsofsymfony/jsrouting-bundle",
-            "version": "dev-master",
-            "target-dir": "FOS/JsRoutingBundle",
+            "name": "facebook/php-sdk-v4",
+            "version": "4.0.16",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
-                "reference": "8f549586e8dfe16393f1c5ed2705bbc765c3ac20"
+                "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
+                "reference": "66da9e0e123b6440974bfe22210a8a053e9b5599"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/8f549586e8dfe16393f1c5ed2705bbc765c3ac20",
-                "reference": "8f549586e8dfe16393f1c5ed2705bbc765c3ac20",
+                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/66da9e0e123b6440974bfe22210a8a053e9b5599",
+                "reference": "66da9e0e123b6440974bfe22210a8a053e9b5599",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~4.0",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\": "src/Facebook/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Facebook Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
+                }
+            ],
+            "description": "Facebook SDK for PHP",
+            "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "time": "2015-02-03 19:20:31"
+        },
+        {
+            "name": "friendsofsymfony/jsrouting-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
+                "reference": "1053dd4c8864486cb78c1ef23ce4f021c659c261"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/1053dd4c8864486cb78c1ef23ce4f021c659c261",
+                "reference": "1053dd4c8864486cb78c1ef23ce4f021c659c261",
                 "shasum": ""
             },
             "require": {
@@ -1411,6 +2582,9 @@
                 "symfony/serializer": "~2.0",
                 "willdurand/jsonp-callback-validator": "~1.0"
             },
+            "require-dev": {
+                "symfony/expression-language": "~2.4"
+            },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1418,8 +2592,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "FOS\\JsRoutingBundle": ""
+                "psr-4": {
+                    "FOS\\JsRoutingBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1443,7 +2617,7 @@
                 "javascript",
                 "routing"
             ],
-            "time": "2015-01-04 12:51:34"
+            "time": "2015-01-23 02:51:30"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -1451,12 +2625,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git",
-                "reference": "145b7167237ea70a1fb66956e8d96642c288e019"
+                "reference": "f54031a652846cd8e7b12119fe713eae90e24cf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/145b7167237ea70a1fb66956e8d96642c288e019",
-                "reference": "145b7167237ea70a1fb66956e8d96642c288e019",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/f54031a652846cd8e7b12119fe713eae90e24cf9",
+                "reference": "f54031a652846cd8e7b12119fe713eae90e24cf9",
                 "shasum": ""
             },
             "require": {
@@ -1510,7 +2684,7 @@
             "keywords": [
                 "User management"
             ],
-            "time": "2015-01-19 14:06:28"
+            "time": "2015-01-20 09:35:03"
         },
         {
             "name": "fzaninotto/faker",
@@ -1562,16 +2736,16 @@
         },
         {
             "name": "guzzle/guzzle",
-            "version": "dev-master",
+            "version": "v3.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle3.git",
-                "reference": "5e9f5528619bde654375c012ac172fb199f43dda"
+                "reference": "54991459675c1a2924122afbb0e5609ade581155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/5e9f5528619bde654375c012ac172fb199f43dda",
-                "reference": "5e9f5528619bde654375c012ac172fb199f43dda",
+                "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/54991459675c1a2924122afbb0e5609ade581155",
+                "reference": "54991459675c1a2924122afbb0e5609ade581155",
                 "shasum": ""
             },
             "require": {
@@ -1650,7 +2824,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-12-18 23:26:35"
+            "time": "2014-08-11 04:32:36"
         },
         {
             "name": "h4cc/alice-fixtures-bundle",
@@ -1802,6 +2976,55 @@
                 "bitly"
             ],
             "time": "2014-07-02 05:55:25"
+        },
+        {
+            "name": "hybridauth/hybridauth",
+            "version": "v2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hybridauth/hybridauth.git",
+                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/b32c4bf14007c80118a88c5e249f4e3151585732",
+                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Hybrid": "hybridauth/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(MIT or GPL-3.0+)"
+            ],
+            "authors": [
+                {
+                    "name": "Miled",
+                    "email": "hybridauth@gmail.com"
+                }
+            ],
+            "description": "Open source social sign on PHP library.",
+            "homepage": "http://hybridauth.sourceforge.net",
+            "keywords": [
+                "OpenId",
+                "facebook",
+                "google",
+                "hybridauth",
+                "login",
+                "oauth",
+                "social",
+                "twitter",
+                "yahoo"
+            ],
+            "time": "2014-07-11 20:25:12"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -2086,17 +3309,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "a5c0dba19a549d50cacb4b896cd975b2059243e6"
+                "reference": "dc2c5b9702369f952fd7268a9a8a24473705b3a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/a5c0dba19a549d50cacb4b896cd975b2059243e6",
-                "reference": "a5c0dba19a549d50cacb4b896cd975b2059243e6",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/dc2c5b9702369f952fd7268a9a8a24473705b3a7",
+                "reference": "dc2c5b9702369f952fd7268a9a8a24473705b3a7",
                 "shasum": ""
             },
             "require": {
                 "knplabs/knp-menu": "~2.0",
-                "symfony/framework-bundle": "~2.0"
+                "symfony/framework-bundle": "~2.3"
             },
             "require-dev": {
                 "symfony/expression-language": "~2.4"
@@ -2134,21 +3357,20 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2015-01-19 02:12:47"
+            "time": "2015-01-28 10:37:00"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
             "version": "dev-master",
-            "target-dir": "Knp/Bundle/PaginatorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "b51aa32f129711fa76f853b7536efefd8c5dbf07"
+                "reference": "5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/b51aa32f129711fa76f853b7536efefd8c5dbf07",
-                "reference": "b51aa32f129711fa76f853b7536efefd8c5dbf07",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a",
+                "reference": "5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a",
                 "shasum": ""
             },
             "require": {
@@ -2157,6 +3379,9 @@
                 "symfony/framework-bundle": "~2.0",
                 "twig/twig": "~1.5"
             },
+            "require-dev": {
+                "symfony/expression-language": "~2.4"
+            },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2164,8 +3389,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Knp\\Bundle\\PaginatorBundle": ""
+                "psr-4": {
+                    "Knp\\Bundle\\PaginatorBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2193,7 +3418,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2014-11-29 17:18:09"
+            "time": "2015-02-03 02:04:01"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -2734,17 +3959,17 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v2.5.1",
+            "version": "v2.5.2",
             "target-dir": "Sensio/Bundle/GeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "9e23fc3de265ae013690d84aab98e7a84f46edcd"
+                "reference": "4b09746520a826a7bf34a466ba31c7d8740fef7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/9e23fc3de265ae013690d84aab98e7a84f46edcd",
-                "reference": "9e23fc3de265ae013690d84aab98e7a84f46edcd",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/4b09746520a826a7bf34a466ba31c7d8740fef7e",
+                "reference": "4b09746520a826a7bf34a466ba31c7d8740fef7e",
                 "shasum": ""
             },
             "require": {
@@ -2778,20 +4003,20 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2015-01-13 07:33:46"
+            "time": "2015-02-11 07:21:23"
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "5b4eb4743ebe68276c911c84101ecdf4a9ae76ee"
+                "reference": "134cecf1c61256bd8e973e11376891a724543820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/5b4eb4743ebe68276c911c84101ecdf4a9ae76ee",
-                "reference": "5b4eb4743ebe68276c911c84101ecdf4a9ae76ee",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/134cecf1c61256bd8e973e11376891a724543820",
+                "reference": "134cecf1c61256bd8e973e11376891a724543820",
                 "shasum": ""
             },
             "require": {
@@ -2823,7 +4048,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2014-07-19 10:52:35"
+            "time": "2015-01-26 16:25:19"
         },
         {
             "name": "sonata-project/admin-bundle",
@@ -3220,12 +4445,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephanecollot/DatetimepickerBundle.git",
-                "reference": "52214fd5ad476ef33d1ad67b5fc9a3fb35c571b0"
+                "reference": "a887f7dceee3831983a60829940caa8bbaa01b9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/52214fd5ad476ef33d1ad67b5fc9a3fb35c571b0",
-                "reference": "52214fd5ad476ef33d1ad67b5fc9a3fb35c571b0",
+                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/a887f7dceee3831983a60829940caa8bbaa01b9e",
+                "reference": "a887f7dceee3831983a60829940caa8bbaa01b9e",
                 "shasum": ""
             },
             "require": {
@@ -3257,7 +4482,7 @@
                 "symfony",
                 "timepicker"
             ],
-            "time": "2015-01-05 05:33:58"
+            "time": "2015-01-21 18:52:53"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3313,32 +4538,33 @@
         },
         {
             "name": "symfony/assetic-bundle",
-            "version": "v2.5.0",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/AsseticBundle.git",
-                "reference": "90ea7fb66d6d5245fd4afc16e4c8070214254fec"
+                "reference": "422b0add2110f0cf9bc7a873a386ea053f4a89f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/90ea7fb66d6d5245fd4afc16e4c8070214254fec",
-                "reference": "90ea7fb66d6d5245fd4afc16e4c8070214254fec",
+                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/422b0add2110f0cf9bc7a873a386ea053f4a89f0",
+                "reference": "422b0add2110f0cf9bc7a873a386ea053f4a89f0",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/assetic": "~1.2",
                 "php": ">=5.3.0",
-                "symfony/console": "~2.1",
-                "symfony/framework-bundle": "~2.1",
-                "symfony/yaml": "~2.1"
+                "symfony/console": "~2.3",
+                "symfony/dependency-injection": "~2.3",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/yaml": "~2.3"
             },
             "require-dev": {
                 "kriswallsmith/spork": "~0.2",
                 "patchwork/jsqueeze": "~1.0",
-                "symfony/class-loader": "~2.1",
-                "symfony/css-selector": "~2.1",
-                "symfony/dom-crawler": "~2.1",
-                "symfony/twig-bundle": "~2.1"
+                "symfony/class-loader": "~2.3",
+                "symfony/css-selector": "~2.3",
+                "symfony/dom-crawler": "~2.3",
+                "symfony/twig-bundle": "~2.3"
             },
             "suggest": {
                 "kriswallsmith/spork": "to be able to dump assets in parallel",
@@ -3373,7 +4599,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2014-10-15 12:03:38"
+            "time": "2015-01-27 12:45:16"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -3493,16 +4719,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "c34ef418015793a4653f2670afb69dd167ebf578"
+                "reference": "23b647f1e4eeb24a457d3c47f5f5046377d5a3bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/c34ef418015793a4653f2670afb69dd167ebf578",
-                "reference": "c34ef418015793a4653f2670afb69dd167ebf578",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/23b647f1e4eeb24a457d3c47f5f5046377d5a3bf",
+                "reference": "23b647f1e4eeb24a457d3c47f5f5046377d5a3bf",
                 "shasum": ""
             },
             "require": {
@@ -3605,20 +4831,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-01-07 14:47:29"
+            "time": "2015-02-02 18:02:30"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v3.3.1",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "9a7e365c2c4360335d25246dac11afb1f577210a"
+                "reference": "bcf7dd38b5ab180256e2e4fb5da0369551b3f082"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/9a7e365c2c4360335d25246dac11afb1f577210a",
-                "reference": "9a7e365c2c4360335d25246dac11afb1f577210a",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/bcf7dd38b5ab180256e2e4fb5da0369551b3f082",
+                "reference": "bcf7dd38b5ab180256e2e4fb5da0369551b3f082",
                 "shasum": ""
             },
             "replace": {
@@ -3656,7 +4882,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-11-12 17:03:16"
+            "time": "2015-01-19 17:03:09"
         },
         {
             "name": "twig/extensions",
@@ -3712,16 +4938,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.17.0",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "2493970fa4d587eca73f77e6d8bd48a8bdd4c608"
+                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/2493970fa4d587eca73f77e6d8bd48a8bdd4c608",
-                "reference": "2493970fa4d587eca73f77e6d8bd48a8bdd4c608",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/4cf7464348e7f9893a93f7096a90b73722be99cf",
+                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf",
                 "shasum": ""
             },
             "require": {
@@ -3730,7 +4956,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 }
             },
             "autoload": {
@@ -3765,7 +4991,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-01-14 10:15:49"
+            "time": "2015-01-25 17:32:08"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
@@ -3810,417 +5036,17 @@
     ],
     "packages-dev": [
         {
-            "name": "campaignchain/activity-facebook",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/activity-facebook.git",
-                "reference": "1f8e4561b2ef150e1127afbb99737dd3843c2130"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/1f8e4561b2ef150e1127afbb99737dd3843c2130",
-                "reference": "1f8e4561b2ef150e1127afbb99737dd3843c2130",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "campaignchain/hook-assignee": "1.0.0-alpha.3",
-                "campaignchain/hook-due": "dev-1.0.0-alpha.4",
-                "campaignchain/location-facebook": "dev-1.0.0-alpha.4",
-                "campaignchain/operation-facebook": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-activity",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Activity\\FacebookBundle\\CampaignChainActivityFacebookBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_activity_facebook",
-                            "resource": "@CampaignChainActivityFacebookBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Activity\\FacebookBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Post a status message on the feed of a channel.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "facebook",
-                "status"
-            ],
-            "time": "2015-01-15 08:51:33"
-        },
-        {
-            "name": "campaignchain/activity-linkedin",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "5dca3effe5c3971bbcc55bfa5e1542787003b430"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/5dca3effe5c3971bbcc55bfa5e1542787003b430",
-                "reference": "5dca3effe5c3971bbcc55bfa5e1542787003b430",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "campaignchain/hook-due": "dev-1.0.0-alpha.4",
-                "campaignchain/location-linkedin": "dev-1.0.0-alpha.4",
-                "campaignchain/operation-linkedin": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-activity",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Activity\\LinkedInBundle\\CampaignChainActivityLinkedInBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_activity_linked_in",
-                            "resource": "@CampaignChainActivityLinkedInBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Activity\\LinkedInBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Post a news update on a LinkedIn stream.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "linkedin",
-                "news"
-            ],
-            "time": "2015-01-15 10:29:46"
-        },
-        {
-            "name": "campaignchain/activity-twitter",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/activity-twitter.git",
-                "reference": "0a532a1c887d6489f9880f8670b3ea3b30d22ffe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/0a532a1c887d6489f9880f8670b3ea3b30d22ffe",
-                "reference": "0a532a1c887d6489f9880f8670b3ea3b30d22ffe",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "campaignchain/hook-assignee": "1.0.0-alpha.3",
-                "campaignchain/hook-due": "dev-1.0.0-alpha.4",
-                "campaignchain/location-twitter": "dev-1.0.0-alpha.4",
-                "campaignchain/operation-twitter": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-activity",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Activity\\TwitterBundle\\CampaignChainActivityTwitterBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_activity_twitter",
-                            "resource": "@CampaignChainActivityTwitterBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Activity\\TwitterBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Post a status update (aka Tweet) on a Twitter stream.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "status",
-                "twitter"
-            ],
-            "time": "2015-01-13 09:59:17"
-        },
-        {
-            "name": "campaignchain/channel-facebook",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "b6755a8f438157606729a16acbdd4248488c0dcb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/b6755a8f438157606729a16acbdd4248488c0dcb",
-                "reference": "b6755a8f438157606729a16acbdd4248488c0dcb",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "campaignchain/security-authentication-client-oauth": "dev-1.0.0-alpha.4",
-                "facebook/php-sdk-v4": "dev-master"
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\FacebookBundle\\CampaignChainChannelFacebookBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_facebook",
-                            "resource": "@CampaignChainChannelFacebookBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\FacebookBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Connect with Facebook.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "facebook",
-                "oauth"
-            ],
-            "time": "2015-01-14 22:35:49"
-        },
-        {
-            "name": "campaignchain/channel-linkedin",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-linkedin.git",
-                "reference": "b6cf046a9412e98e53d51f76c2f07b0c00bd3366"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/b6cf046a9412e98e53d51f76c2f07b0c00bd3366",
-                "reference": "b6cf046a9412e98e53d51f76c2f07b0c00bd3366",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "campaignchain/security-authentication-client-oauth": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\LinkedInBundle\\CampaignChainChannelLinkedInBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_linked_in",
-                            "resource": "@CampaignChainChannelLinkedInBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\LinkedInBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Connect with LinkedIn",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "linkedin",
-                "oauth"
-            ],
-            "time": "2015-01-13 14:41:03"
-        },
-        {
-            "name": "campaignchain/channel-twitter",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "c7aeb8b1eacc063347a8daf4f7207cc11b803b01"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/c7aeb8b1eacc063347a8daf4f7207cc11b803b01",
-                "reference": "c7aeb8b1eacc063347a8daf4f7207cc11b803b01",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "campaignchain/security-authentication-client-oauth": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\TwitterBundle\\CampaignChainChannelTwitterBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_twitter",
-                            "resource": "@CampaignChainChannelTwitterBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\TwitterBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Connect with Twitter.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "oauth",
-                "twitter"
-            ],
-            "time": "2015-01-13 16:43:20"
-        },
-        {
-            "name": "campaignchain/channel-website",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-website.git",
-                "reference": "2746d542e8e98912416873125e9d8154af46eb65"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/2746d542e8e98912416873125e9d8154af46eb65",
-                "reference": "2746d542e8e98912416873125e9d8154af46eb65",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "guzzle/guzzle": "dev-master"
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\WebsiteBundle\\CampaignChainChannelWebsiteBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_website",
-                            "resource": "@CampaignChainChannelWebsiteBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\WebsiteBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Connect with a Website.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "website"
-            ],
-            "time": "2015-01-09 19:58:36"
-        },
-        {
             "name": "campaignchain/dev-tools",
-            "version": "dev-1.0.0-alpha.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "93147895afef51d139a8c6d9b8f12f788b4ebd99"
+                "reference": "8c3effa402169f83eb082fa69d90e45992fb6b1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/93147895afef51d139a8c6d9b8f12f788b4ebd99",
-                "reference": "93147895afef51d139a8c6d9b8f12f788b4ebd99",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/8c3effa402169f83eb082fa69d90e45992fb6b1b",
+                "reference": "8c3effa402169f83eb082fa69d90e45992fb6b1b",
                 "shasum": ""
             },
             "require": {
@@ -4246,533 +5072,13 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-01-19 08:34:01"
-        },
-        {
-            "name": "campaignchain/location-facebook",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-facebook.git",
-                "reference": "e7e7de3e31a1aa913df4275cd5291cc659fc79a7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/e7e7de3e31a1aa913df4275cd5291cc659fc79a7",
-                "reference": "e7e7de3e31a1aa913df4275cd5291cc659fc79a7",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/channel-facebook": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\FacebookBundle\\CampaignChainLocationFacebookBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\FacebookBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Facebook locations such as user and page stream, as well as status.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "facebook",
-                "page",
-                "stream",
-                "user"
-            ],
-            "time": "2014-12-27 06:30:10"
-        },
-        {
-            "name": "campaignchain/location-linkedin",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-linkedin.git",
-                "reference": "a940dbfb910c40b6ce0ae9a05b6f13afa70a861b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-linkedin/zipball/a940dbfb910c40b6ce0ae9a05b6f13afa70a861b",
-                "reference": "a940dbfb910c40b6ce0ae9a05b6f13afa70a861b",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/channel-linkedin": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\LinkedInBundle\\CampaignChainLocationLinkedInBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\LinkedInBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "LinkedIn user stream.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "linkedin",
-                "stream",
-                "user"
-            ],
-            "time": "2014-12-12 12:53:03"
-        },
-        {
-            "name": "campaignchain/location-twitter",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-twitter.git",
-                "reference": "85d9d17fc44467a45b3e8feff2c5d542765d3daa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-twitter/zipball/85d9d17fc44467a45b3e8feff2c5d542765d3daa",
-                "reference": "85d9d17fc44467a45b3e8feff2c5d542765d3daa",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/channel-twitter": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\TwitterBundle\\CampaignChainLocationTwitterBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\TwitterBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Integrates Twitter locations such as user stream and status.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "stream",
-                "twitter"
-            ],
-            "time": "2014-12-12 12:53:03"
-        },
-        {
-            "name": "campaignchain/location-website",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-website.git",
-                "reference": "a3dd6395c8e4b9332252d18dc703c8bacda8bad6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/a3dd6395c8e4b9332252d18dc703c8bacda8bad6",
-                "reference": "a3dd6395c8e4b9332252d18dc703c8bacda8bad6",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/channel-website": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\WebsiteBundle\\CampaignChainLocationWebsiteBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\WebsiteBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Simple module that connects a Website and to define its pages as CampaignChain Locations.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "website"
-            ],
-            "time": "2014-12-12 12:12:22"
-        },
-        {
-            "name": "campaignchain/operation-facebook",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "84d72461012c2cb531c3d244310ac047a240eddb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/84d72461012c2cb531c3d244310ac047a240eddb",
-                "reference": "84d72461012c2cb531c3d244310ac047a240eddb",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/activity-facebook": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-operation",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Operation\\FacebookBundle\\CampaignChainOperationFacebookBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Operation\\FacebookBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Collection of various Facebook operations.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "facebook",
-                "operation"
-            ],
-            "time": "2015-01-15 10:00:09"
-        },
-        {
-            "name": "campaignchain/operation-linkedin",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "06278b27eb58902d32e944f0dd21c4bed4d54e5d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/06278b27eb58902d32e944f0dd21c4bed4d54e5d",
-                "reference": "06278b27eb58902d32e944f0dd21c4bed4d54e5d",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/activity-linkedin": "dev-1.0.0-alpha.4"
-            },
-            "type": "campaignchain-operation",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Operation\\LinkedInBundle\\CampaignChainOperationLinkedInBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Operation\\LinkedInBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Collection of various LinkedIn operations.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "linkedin",
-                "operation"
-            ],
-            "time": "2015-01-15 10:00:09"
-        },
-        {
-            "name": "campaignchain/operation-twitter",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "daf029a178e8aaa927a49d4082e83b9e7b827145"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/daf029a178e8aaa927a49d4082e83b9e7b827145",
-                "reference": "daf029a178e8aaa927a49d4082e83b9e7b827145",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/activity-twitter": "dev-1.0.0-alpha.4",
-                "guzzle/guzzle": "dev-master"
-            },
-            "type": "campaignchain-operation",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Operation\\TwitterBundle\\CampaignChainOperationTwitterBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Operation\\TwitterBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Collection of various Twitter operations.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "operation",
-                "twitter"
-            ],
-            "time": "2015-01-15 15:40:01"
-        },
-        {
-            "name": "campaignchain/security-authentication-client-oauth",
-            "version": "dev-1.0.0-alpha.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "2f7e43295a556194e758711dcfaa9efcc9a7222f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/2f7e43295a556194e758711dcfaa9efcc9a7222f",
-                "reference": "2f7e43295a556194e758711dcfaa9efcc9a7222f",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-1.0.0-alpha.4",
-                "hybridauth/hybridauth": "2.2.2"
-            },
-            "type": "campaignchain-security",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Security\\Authentication\\Client\\OAuthBundle\\CampaignChainSecurityAuthenticationClientOAuthBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_security_authentication_client_o_auth",
-                            "resource": "@CampaignChainSecurityAuthenticationClientOAuthBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Security\\Authentication\\Client\\OAuthBundle\\": ""
-                },
-                "classmap": [
-                    "/../../../vendor/hybridauth/hybridauth/hybridauth"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "OAuth client to be used by channel modules.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "client",
-                "oauth"
-            ],
-            "time": "2015-01-14 16:21:10"
-        },
-        {
-            "name": "facebook/php-sdk-v4",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
-                "reference": "be383ddf8ac5dc86f96e9eca902fa86f477112ee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/be383ddf8ac5dc86f96e9eca902fa86f477112ee",
-                "reference": "be383ddf8ac5dc86f96e9eca902fa86f477112ee",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "~5.0",
-                "mockery/mockery": "~0.8",
-                "phpunit/phpunit": "~4.0"
-            },
-            "suggest": {
-                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Facebook\\": "src/Facebook/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Facebook Platform"
-            ],
-            "authors": [
-                {
-                    "name": "Facebook",
-                    "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
-                }
-            ],
-            "description": "Facebook SDK for PHP",
-            "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
-            "keywords": [
-                "facebook",
-                "sdk"
-            ],
-            "time": "2015-01-06 20:19:43"
-        },
-        {
-            "name": "hybridauth/hybridauth",
-            "version": "v2.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/b32c4bf14007c80118a88c5e249f4e3151585732",
-                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Hybrid": "hybridauth/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "(MIT or GPL-3.0+)"
-            ],
-            "authors": [
-                {
-                    "name": "Miled",
-                    "email": "hybridauth@gmail.com"
-                }
-            ],
-            "description": "Open source social sign on PHP library.",
-            "homepage": "http://hybridauth.sourceforge.net",
-            "keywords": [
-                "OpenId",
-                "facebook",
-                "google",
-                "hybridauth",
-                "login",
-                "oauth",
-                "social",
-                "twitter",
-                "yahoo"
-            ],
-            "time": "2014-07-11 20:25:12"
+            "time": "2015-02-17 09:41:44"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/distribution-ce": 20,
-        "campaignchain/operation-twitter": 20,
-        "campaignchain/operation-facebook": 20,
-        "campaignchain/operation-linkedin": 20,
-        "campaignchain/location-website": 20,
         "campaignchain/dev-tools": 20
     },
     "prefer-stable": true,
