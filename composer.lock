@@ -415,12 +415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-citrix.git",
-                "reference": "80599e9ab6ad367565f06caff5a84eeeec46c236"
+                "reference": "ae6f7036b463cab75c84d80b7155f0163937b003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/80599e9ab6ad367565f06caff5a84eeeec46c236",
-                "reference": "80599e9ab6ad367565f06caff5a84eeeec46c236",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/ae6f7036b463cab75c84d80b7155f0163937b003",
+                "reference": "ae6f7036b463cab75c84d80b7155f0163937b003",
                 "shasum": ""
             },
             "require": {
@@ -458,7 +458,7 @@
                 }
             ],
             "description": "Connects to Citrix services such as GoToMeeting or GoToWebinar.",
-            "time": "2015-02-17 09:41:12"
+            "time": "2015-02-22 12:14:21"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -578,6 +578,54 @@
                 "oauth"
             ],
             "time": "2015-02-17 09:55:36"
+        },
+        {
+            "name": "campaignchain/channel-mailchimp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-mailchimp.git",
+                "reference": "6b24c39a96837a73ab53899783e409995557f11f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/6b24c39a96837a73ab53899783e409995557f11f",
+                "reference": "6b24c39a96837a73ab53899783e409995557f11f",
+                "shasum": ""
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\MailChimpBundle\\CampaignChainChannelMailChimpBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_mailchimp",
+                            "resource": "@CampaignChainChannelMailChimpBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\MailChimpBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Connects to MailChimp.",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-02-22 12:02:05"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -801,12 +849,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "f30a55e885e70ba7247f3a9590238a683840f12c"
+                "reference": "455ffb20b9ff7d758b5f066a980a8fc3f94bb3a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/f30a55e885e70ba7247f3a9590238a683840f12c",
-                "reference": "f30a55e885e70ba7247f3a9590238a683840f12c",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/455ffb20b9ff7d758b5f066a980a8fc3f94bb3a1",
+                "reference": "455ffb20b9ff7d758b5f066a980a8fc3f94bb3a1",
                 "shasum": ""
             },
             "require": {
@@ -815,8 +863,10 @@
                 "campaignchain/activity-linkedin": "dev-master",
                 "campaignchain/activity-twitter": "dev-master",
                 "campaignchain/campaign-scheduled": "dev-master",
+                "campaignchain/channel-mailchimp": "dev-master",
                 "campaignchain/core": "dev-master",
                 "campaignchain/doc-html": "1.0.0-alpha.3",
+                "campaignchain/location-mailchimp": "dev-master",
                 "campaignchain/location-website": "dev-master",
                 "campaignchain/milestone-scheduled": "dev-master",
                 "campaignchain/report-analytics-cta-tracking": "dev-master",
@@ -856,7 +906,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2015-02-17 09:53:23"
+            "time": "2015-02-22 12:18:28"
         },
         {
             "name": "campaignchain/doc-html",
@@ -1089,12 +1139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-facebook.git",
-                "reference": "c24ff267241a8bad3371139f4a1471f4832a5f2e"
+                "reference": "3cd79d08fb84f4b6ebc5e6688d9b0af0eca3a2f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/c24ff267241a8bad3371139f4a1471f4832a5f2e",
-                "reference": "c24ff267241a8bad3371139f4a1471f4832a5f2e",
+                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/3cd79d08fb84f4b6ebc5e6688d9b0af0eca3a2f6",
+                "reference": "3cd79d08fb84f4b6ebc5e6688d9b0af0eca3a2f6",
                 "shasum": ""
             },
             "require": {
@@ -1136,7 +1186,7 @@
                 "stream",
                 "user"
             ],
-            "time": "2015-02-17 09:51:28"
+            "time": "2015-02-22 12:14:22"
         },
         {
             "name": "campaignchain/location-linkedin",
@@ -1191,6 +1241,54 @@
                 "user"
             ],
             "time": "2015-02-17 09:50:58"
+        },
+        {
+            "name": "campaignchain/location-mailchimp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-mailchimp.git",
+                "reference": "20cc21ca57c8d596da0b1370d6257d24f31e9a5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-mailchimp/zipball/20cc21ca57c8d596da0b1370d6257d24f31e9a5f",
+                "reference": "20cc21ca57c8d596da0b1370d6257d24f31e9a5f",
+                "shasum": ""
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\MailChimpBundle\\CampaignChainLocationMailChimpBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_mailchimp",
+                            "resource": "@CampaignChainLocationMailChimpBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\MailChimpBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "MailChimp account owner and newsletter Location.",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-02-22 12:12:11"
         },
         {
             "name": "campaignchain/location-twitter",
@@ -1676,12 +1774,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "77e95883f87863b5c5882f0ecb01e814bca20e25"
+                "reference": "76f8fc3dcf620ed0bd74be418541aed3c9d78480"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/77e95883f87863b5c5882f0ecb01e814bca20e25",
-                "reference": "77e95883f87863b5c5882f0ecb01e814bca20e25",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/76f8fc3dcf620ed0bd74be418541aed3c9d78480",
+                "reference": "76f8fc3dcf620ed0bd74be418541aed3c9d78480",
                 "shasum": ""
             },
             "require": {
@@ -1730,7 +1828,7 @@
                 "client",
                 "oauth"
             ],
-            "time": "2015-02-17 09:45:34"
+            "time": "2015-02-22 12:14:22"
         },
         {
             "name": "components/jquery",
@@ -2514,16 +2612,16 @@
         },
         {
             "name": "facebook/php-sdk-v4",
-            "version": "4.0.16",
+            "version": "4.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
-                "reference": "66da9e0e123b6440974bfe22210a8a053e9b5599"
+                "reference": "93ea67bf68439e17433537c0e9f308fa0d2ce42c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/66da9e0e123b6440974bfe22210a8a053e9b5599",
-                "reference": "66da9e0e123b6440974bfe22210a8a053e9b5599",
+                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/93ea67bf68439e17433537c0e9f308fa0d2ce42c",
+                "reference": "93ea67bf68439e17433537c0e9f308fa0d2ce42c",
                 "shasum": ""
             },
             "require": {
@@ -2559,7 +2657,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2015-02-03 19:20:31"
+            "time": "2015-02-19 22:52:24"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
@@ -4383,12 +4481,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spea/SpBowerBundle.git",
-                "reference": "2e244dfba6bd38937648a55fa03b41ca3ee830c8"
+                "reference": "d2f51eb9b894896ac53b303359ab18c66c9859ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spea/SpBowerBundle/zipball/2e244dfba6bd38937648a55fa03b41ca3ee830c8",
-                "reference": "2e244dfba6bd38937648a55fa03b41ca3ee830c8",
+                "url": "https://api.github.com/repos/Spea/SpBowerBundle/zipball/d2f51eb9b894896ac53b303359ab18c66c9859ad",
+                "reference": "d2f51eb9b894896ac53b303359ab18c66c9859ad",
                 "shasum": ""
             },
             "require": {
@@ -4397,7 +4495,7 @@
                 "php": ">=5.3.3",
                 "symfony/assetic-bundle": "~2.1",
                 "symfony/framework-bundle": "~2.1",
-                "symfony/process": "~2.1"
+                "symfony/process": "~2.3,>=2.3.20 | ~2.4,>=2.4.10 | ~2.5,>=2.5.5"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.0.*",
@@ -4436,7 +4534,7 @@
                 "bower manager",
                 "dependencies"
             ],
-            "time": "2014-12-22 09:38:19"
+            "time": "2015-02-19 18:10:24"
         },
         {
             "name": "stephanecollot/datetimepicker-bundle",
@@ -5041,12 +5139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "8c3effa402169f83eb082fa69d90e45992fb6b1b"
+                "reference": "06773143b98fe4b58eca64fa5a9b5eeaac8671a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/8c3effa402169f83eb082fa69d90e45992fb6b1b",
-                "reference": "8c3effa402169f83eb082fa69d90e45992fb6b1b",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/06773143b98fe4b58eca64fa5a9b5eeaac8671a2",
+                "reference": "06773143b98fe4b58eca64fa5a9b5eeaac8671a2",
                 "shasum": ""
             },
             "require": {
@@ -5072,7 +5170,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-17 09:41:44"
+            "time": "2015-02-21 08:11:13"
         }
     ],
     "aliases": [],
