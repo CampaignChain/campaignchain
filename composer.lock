@@ -585,13 +585,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-mailchimp.git",
-                "reference": "6b24c39a96837a73ab53899783e409995557f11f"
+                "reference": "51c57bad769b41230a4a0b91d34cd97212a032af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/6b24c39a96837a73ab53899783e409995557f11f",
-                "reference": "6b24c39a96837a73ab53899783e409995557f11f",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/51c57bad769b41230a4a0b91d34cd97212a032af",
+                "reference": "51c57bad769b41230a4a0b91d34cd97212a032af",
                 "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master"
             },
             "type": "campaignchain-channel",
             "extra": {
@@ -625,7 +628,7 @@
             ],
             "description": "Connects to MailChimp.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-22 12:02:05"
+            "time": "2015-02-22 12:42:34"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -849,12 +852,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "455ffb20b9ff7d758b5f066a980a8fc3f94bb3a1"
+                "reference": "53292dce8426e01ad8faf7a7b371f8ffc6066383"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/455ffb20b9ff7d758b5f066a980a8fc3f94bb3a1",
-                "reference": "455ffb20b9ff7d758b5f066a980a8fc3f94bb3a1",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/53292dce8426e01ad8faf7a7b371f8ffc6066383",
+                "reference": "53292dce8426e01ad8faf7a7b371f8ffc6066383",
                 "shasum": ""
             },
             "require": {
@@ -863,7 +866,6 @@
                 "campaignchain/activity-linkedin": "dev-master",
                 "campaignchain/activity-twitter": "dev-master",
                 "campaignchain/campaign-scheduled": "dev-master",
-                "campaignchain/channel-mailchimp": "dev-master",
                 "campaignchain/core": "dev-master",
                 "campaignchain/doc-html": "1.0.0-alpha.3",
                 "campaignchain/location-mailchimp": "dev-master",
@@ -906,7 +908,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2015-02-22 12:18:28"
+            "time": "2015-02-22 12:42:34"
         },
         {
             "name": "campaignchain/doc-html",
@@ -1248,13 +1250,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-mailchimp.git",
-                "reference": "20cc21ca57c8d596da0b1370d6257d24f31e9a5f"
+                "reference": "01f3d384f17d93301b2b2a4818852b3aaf25a68f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-mailchimp/zipball/20cc21ca57c8d596da0b1370d6257d24f31e9a5f",
-                "reference": "20cc21ca57c8d596da0b1370d6257d24f31e9a5f",
+                "url": "https://api.github.com/repos/CampaignChain/location-mailchimp/zipball/01f3d384f17d93301b2b2a4818852b3aaf25a68f",
+                "reference": "01f3d384f17d93301b2b2a4818852b3aaf25a68f",
                 "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-mailchimp": "dev-master"
             },
             "type": "campaignchain-location",
             "extra": {
@@ -1288,7 +1293,7 @@
             ],
             "description": "MailChimp account owner and newsletter Location.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-22 12:12:11"
+            "time": "2015-02-22 12:42:34"
         },
         {
             "name": "campaignchain/location-twitter",
