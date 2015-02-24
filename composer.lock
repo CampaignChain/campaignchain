@@ -585,16 +585,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-mailchimp.git",
-                "reference": "51c57bad769b41230a4a0b91d34cd97212a032af"
+                "reference": "e0b26bb4aa50e7c798a19ece029ae244cc20f470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/51c57bad769b41230a4a0b91d34cd97212a032af",
-                "reference": "51c57bad769b41230a4a0b91d34cd97212a032af",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/e0b26bb4aa50e7c798a19ece029ae244cc20f470",
+                "reference": "e0b26bb4aa50e7c798a19ece029ae244cc20f470",
                 "shasum": ""
             },
             "require": {
-                "campaignchain/core": "dev-master"
+                "campaignchain/core": "dev-master",
+                "mailchimp/mailchimp": "2.0.*"
             },
             "type": "campaignchain-channel",
             "extra": {
@@ -628,7 +629,7 @@
             ],
             "description": "Connects to MailChimp.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-22 12:42:34"
+            "time": "2015-02-22 16:11:54"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -3596,6 +3597,52 @@
                 "minification"
             ],
             "time": "2014-12-12 05:04:05"
+        },
+        {
+            "name": "mailchimp/mailchimp",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/mailchimp/mailchimp-api-php.git",
+                "reference": "7ac99b5ac746d5875c5c350ad7e3b83674c83ec1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/mailchimp/mailchimp-api-php/get/7ac99b5ac746d5875c5c350ad7e3b83674c83ec1.zip",
+                "reference": "7ac99b5ac746d5875c5c350ad7e3b83674c83ec1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mailchimp": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MailChimp Devs",
+                    "email": "api@mailchimp.com",
+                    "homepage": "http://mailchimp.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "API client library for the MailChimp bulk email as a service platform",
+            "homepage": "https://bitbucket.org/mailchimp/mailchimp-api-php",
+            "keywords": [
+                "api",
+                "email"
+            ],
+            "time": "2014-10-30 20:38:12"
         },
         {
             "name": "monolog/monolog",
