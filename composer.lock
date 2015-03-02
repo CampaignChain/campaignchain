@@ -181,12 +181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-gotowebinar.git",
-                "reference": "dc0926460ae7aff6e5a93eb85d98fc97f02a8f76"
+                "reference": "eea7136f168ed21fbca4ab3475d4b2feca7412da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/dc0926460ae7aff6e5a93eb85d98fc97f02a8f76",
-                "reference": "dc0926460ae7aff6e5a93eb85d98fc97f02a8f76",
+                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/eea7136f168ed21fbca4ab3475d4b2feca7412da",
+                "reference": "eea7136f168ed21fbca4ab3475d4b2feca7412da",
                 "shasum": ""
             },
             "require": {
@@ -227,7 +227,7 @@
                 }
             ],
             "description": "Include a Webinar into a campaign.",
-            "time": "2015-02-17 09:59:09"
+            "time": "2015-02-24 11:09:55"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -585,12 +585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-mailchimp.git",
-                "reference": "e0b26bb4aa50e7c798a19ece029ae244cc20f470"
+                "reference": "a1cbaded4555b8adac84afb567808d638e60ccd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/e0b26bb4aa50e7c798a19ece029ae244cc20f470",
-                "reference": "e0b26bb4aa50e7c798a19ece029ae244cc20f470",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/a1cbaded4555b8adac84afb567808d638e60ccd6",
+                "reference": "a1cbaded4555b8adac84afb567808d638e60ccd6",
                 "shasum": ""
             },
             "require": {
@@ -629,7 +629,7 @@
             ],
             "description": "Connects to MailChimp.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-22 16:11:54"
+            "time": "2015-02-24 11:12:17"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -5191,12 +5191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "06773143b98fe4b58eca64fa5a9b5eeaac8671a2"
+                "reference": "8804fc71b833d9d7745d345f4bad66a74fa4d610"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/06773143b98fe4b58eca64fa5a9b5eeaac8671a2",
-                "reference": "06773143b98fe4b58eca64fa5a9b5eeaac8671a2",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/8804fc71b833d9d7745d345f4bad66a74fa4d610",
+                "reference": "8804fc71b833d9d7745d345f4bad66a74fa4d610",
                 "shasum": ""
             },
             "require": {
@@ -5222,7 +5222,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-21 08:11:13"
+            "time": "2015-02-22 21:22:53"
         }
     ],
     "aliases": [],
