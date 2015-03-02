@@ -181,12 +181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-gotowebinar.git",
-                "reference": "eea7136f168ed21fbca4ab3475d4b2feca7412da"
+                "reference": "5de572b205856eae7f633f4646b9b307f785b276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/eea7136f168ed21fbca4ab3475d4b2feca7412da",
-                "reference": "eea7136f168ed21fbca4ab3475d4b2feca7412da",
+                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/5de572b205856eae7f633f4646b9b307f785b276",
+                "reference": "5de572b205856eae7f633f4646b9b307f785b276",
                 "shasum": ""
             },
             "require": {
@@ -227,7 +227,7 @@
                 }
             ],
             "description": "Include a Webinar into a campaign.",
-            "time": "2015-02-24 11:09:55"
+            "time": "2015-03-02 21:49:45"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -289,6 +289,54 @@
                 "news"
             ],
             "time": "2015-02-17 09:58:34"
+        },
+        {
+            "name": "campaignchain/activity-mailchimp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-mailchimp.git",
+                "reference": "59fa8095f8313a86442512f5cd6e6f61ab92d642"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/59fa8095f8313a86442512f5cd6e6f61ab92d642",
+                "reference": "59fa8095f8313a86442512f5cd6e6f61ab92d642",
+                "shasum": ""
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\MailChimpBundle\\CampaignChainActivityMailChimpBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_mailchimp",
+                            "resource": "@CampaignChainActivityMailChimpBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\MailChimpBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Add upcoming newsletter campaign",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-03-02 21:55:55"
         },
         {
             "name": "campaignchain/activity-twitter",
@@ -585,12 +633,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-mailchimp.git",
-                "reference": "a1cbaded4555b8adac84afb567808d638e60ccd6"
+                "reference": "d98129027c6da02b41eac9ed2922105f081844eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/a1cbaded4555b8adac84afb567808d638e60ccd6",
-                "reference": "a1cbaded4555b8adac84afb567808d638e60ccd6",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/d98129027c6da02b41eac9ed2922105f081844eb",
+                "reference": "d98129027c6da02b41eac9ed2922105f081844eb",
                 "shasum": ""
             },
             "require": {
@@ -629,7 +677,7 @@
             ],
             "description": "Connects to MailChimp.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-24 11:12:17"
+            "time": "2015-03-02 21:49:45"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -755,12 +803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "112260755bd0f4872ec555ee173b7f9f56c839f4"
+                "reference": "a1e4be151807f38c49fbdb0e63086e8afaf747d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/112260755bd0f4872ec555ee173b7f9f56c839f4",
-                "reference": "112260755bd0f4872ec555ee173b7f9f56c839f4",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/a1e4be151807f38c49fbdb0e63086e8afaf747d1",
+                "reference": "a1e4be151807f38c49fbdb0e63086e8afaf747d1",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +893,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-02-17 09:41:42"
+            "time": "2015-03-02 21:49:45"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -853,18 +901,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "53292dce8426e01ad8faf7a7b371f8ffc6066383"
+                "reference": "dca325f6b39545f71d53a932a8b904fbb336288e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/53292dce8426e01ad8faf7a7b371f8ffc6066383",
-                "reference": "53292dce8426e01ad8faf7a7b371f8ffc6066383",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/dca325f6b39545f71d53a932a8b904fbb336288e",
+                "reference": "dca325f6b39545f71d53a932a8b904fbb336288e",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/activity-facebook": "dev-master",
                 "campaignchain/activity-gotowebinar": "dev-master",
                 "campaignchain/activity-linkedin": "dev-master",
+                "campaignchain/activity-mailchimp": "dev-master",
                 "campaignchain/activity-twitter": "dev-master",
                 "campaignchain/campaign-scheduled": "dev-master",
                 "campaignchain/core": "dev-master",
@@ -872,6 +921,7 @@
                 "campaignchain/location-mailchimp": "dev-master",
                 "campaignchain/location-website": "dev-master",
                 "campaignchain/milestone-scheduled": "dev-master",
+                "campaignchain/operation-mailchimp": "dev-master",
                 "campaignchain/report-analytics-cta-tracking": "dev-master",
                 "campaignchain/report-analytics-metrics-per-activity": "dev-master"
             },
@@ -909,7 +959,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2015-02-22 12:42:34"
+            "time": "2015-03-02 22:03:24"
         },
         {
             "name": "campaignchain/doc-html",
@@ -1251,12 +1301,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-mailchimp.git",
-                "reference": "01f3d384f17d93301b2b2a4818852b3aaf25a68f"
+                "reference": "183b10164e2f0a822b688a49c86eae00edd8e2b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-mailchimp/zipball/01f3d384f17d93301b2b2a4818852b3aaf25a68f",
-                "reference": "01f3d384f17d93301b2b2a4818852b3aaf25a68f",
+                "url": "https://api.github.com/repos/CampaignChain/location-mailchimp/zipball/183b10164e2f0a822b688a49c86eae00edd8e2b6",
+                "reference": "183b10164e2f0a822b688a49c86eae00edd8e2b6",
                 "shasum": ""
             },
             "require": {
@@ -1294,7 +1344,7 @@
             ],
             "description": "MailChimp account owner and newsletter Location.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-22 12:42:34"
+            "time": "2015-03-02 21:49:45"
         },
         {
             "name": "campaignchain/location-twitter",
@@ -1520,12 +1570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-gotowebinar.git",
-                "reference": "66e6ab065f223a3498daf9d99d966bd687c0f471"
+                "reference": "bbacbe147f048e569cd63788cc6ce7d4e564eb38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/66e6ab065f223a3498daf9d99d966bd687c0f471",
-                "reference": "66e6ab065f223a3498daf9d99d966bd687c0f471",
+                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/bbacbe147f048e569cd63788cc6ce7d4e564eb38",
+                "reference": "bbacbe147f048e569cd63788cc6ce7d4e564eb38",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -1559,7 +1609,7 @@
                 }
             ],
             "description": "Include a Webinar into a campaign.",
-            "time": "2015-02-09 21:21:09"
+            "time": "2015-03-02 21:49:45"
         },
         {
             "name": "campaignchain/operation-linkedin",
@@ -1613,6 +1663,54 @@
                 "operation"
             ],
             "time": "2015-02-17 09:47:50"
+        },
+        {
+            "name": "campaignchain/operation-mailchimp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-mailchimp.git",
+                "reference": "00ec885fbf228ddc89a5706fa83e84158298322f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/00ec885fbf228ddc89a5706fa83e84158298322f",
+                "reference": "00ec885fbf228ddc89a5706fa83e84158298322f",
+                "shasum": ""
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\MailChimpBundle\\CampaignChainOperationMailChimpBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_operation_mailchimp",
+                            "resource": "@CampaignChainOperationMailChimpBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\MailChimpBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Add upcoming newsletter campaign",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-03-02 22:01:04"
         },
         {
             "name": "campaignchain/operation-twitter",
@@ -2261,16 +2359,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "3beb3a780485ab01f86941f4892cd23ef8c39c6b"
+                "reference": "1986ff3a945b584c6505d07eae92d77e41131078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/3beb3a780485ab01f86941f4892cd23ef8c39c6b",
-                "reference": "3beb3a780485ab01f86941f4892cd23ef8c39c6b",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/1986ff3a945b584c6505d07eae92d77e41131078",
+                "reference": "1986ff3a945b584c6505d07eae92d77e41131078",
                 "shasum": ""
             },
             "require": {
@@ -2279,17 +2377,15 @@
                 "jdorn/sql-formatter": "~1.1",
                 "php": ">=5.3.2",
                 "symfony/doctrine-bridge": "~2.2",
-                "symfony/framework-bundle": "~2.2"
+                "symfony/framework-bundle": "~2.3"
             },
             "require-dev": {
                 "doctrine/orm": "~2.3",
-                "phpunit/php-code-coverage": "~1.2",
-                "phpunit/phpunit": "~3.7",
-                "phpunit/phpunit-mock-objects": "~1.2",
+                "phpunit/phpunit": "~4",
                 "satooshi/php-coveralls": "~0.6.1",
                 "symfony/validator": "~2.2",
                 "symfony/yaml": "~2.2",
-                "twig/twig": "~1"
+                "twig/twig": "~1.10"
             },
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle.",
@@ -2298,7 +2394,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3.x-dev"
+                    "dev-master": "1.4.x-dev"
                 }
             },
             "autoload": {
@@ -2336,7 +2432,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2014-11-28 08:32:03"
+            "time": "2015-02-28 11:04:45"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -2618,16 +2714,16 @@
         },
         {
             "name": "facebook/php-sdk-v4",
-            "version": "4.0.17",
+            "version": "4.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
-                "reference": "93ea67bf68439e17433537c0e9f308fa0d2ce42c"
+                "reference": "20e17fe022659f64d347c724f2a25a1e5caa32fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/93ea67bf68439e17433537c0e9f308fa0d2ce42c",
-                "reference": "93ea67bf68439e17433537c0e9f308fa0d2ce42c",
+                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/20e17fe022659f64d347c724f2a25a1e5caa32fa",
+                "reference": "20e17fe022659f64d347c724f2a25a1e5caa32fa",
                 "shasum": ""
             },
             "require": {
@@ -2663,7 +2759,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2015-02-19 22:52:24"
+            "time": "2015-03-02 20:09:17"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
@@ -4595,12 +4691,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephanecollot/DatetimepickerBundle.git",
-                "reference": "a887f7dceee3831983a60829940caa8bbaa01b9e"
+                "reference": "dcdc1f5ff0b93e9c7372700103ffaa459064f3f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/a887f7dceee3831983a60829940caa8bbaa01b9e",
-                "reference": "a887f7dceee3831983a60829940caa8bbaa01b9e",
+                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/dcdc1f5ff0b93e9c7372700103ffaa459064f3f3",
+                "reference": "dcdc1f5ff0b93e9c7372700103ffaa459064f3f3",
                 "shasum": ""
             },
             "require": {
@@ -4632,7 +4728,7 @@
                 "symfony",
                 "timepicker"
             ],
-            "time": "2015-01-21 18:52:53"
+            "time": "2015-02-27 05:46:07"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5191,12 +5287,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "8804fc71b833d9d7745d345f4bad66a74fa4d610"
+                "reference": "281a106369418969d209ada369786cf0b738b9fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/8804fc71b833d9d7745d345f4bad66a74fa4d610",
-                "reference": "8804fc71b833d9d7745d345f4bad66a74fa4d610",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/281a106369418969d209ada369786cf0b738b9fd",
+                "reference": "281a106369418969d209ada369786cf0b738b9fd",
                 "shasum": ""
             },
             "require": {
@@ -5222,7 +5318,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-02-22 21:22:53"
+            "time": "2015-02-28 18:15:10"
         }
     ],
     "aliases": [],
