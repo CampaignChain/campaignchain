@@ -14,7 +14,9 @@
         "campaignchain/distribution-ce": "dev-master"
     },
     "require-dev": {
-        "campaignchain/dev-tools": "dev-master"
+        "campaignchain/dev-tools": "dev-master",
+        "campaignchain/campaign-template": "dev-master",
+        "campaignchain/hook-timespan": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
