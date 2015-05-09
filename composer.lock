@@ -809,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "1a9dfaa3d67d91e8c5ea03fb2457e0b08c2d75cc"
+                "reference": "73b9543d44e8ad6861f4aef25ce9b5b318c0a4f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/1a9dfaa3d67d91e8c5ea03fb2457e0b08c2d75cc",
-                "reference": "1a9dfaa3d67d91e8c5ea03fb2457e0b08c2d75cc",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/73b9543d44e8ad6861f4aef25ce9b5b318c0a4f6",
+                "reference": "73b9543d44e8ad6861f4aef25ce9b5b318c0a4f6",
                 "shasum": ""
             },
             "require": {
@@ -899,7 +899,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-05-07 17:56:32"
+            "time": "2015-05-09 18:31:17"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1054,12 +1054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "59e59fa3578a121047a9763f2c975215ed3e2eb7"
+                "reference": "7a87195dab22d0698c3b03d9dc7be54aa887848a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/59e59fa3578a121047a9763f2c975215ed3e2eb7",
-                "reference": "59e59fa3578a121047a9763f2c975215ed3e2eb7",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/7a87195dab22d0698c3b03d9dc7be54aa887848a",
+                "reference": "7a87195dab22d0698c3b03d9dc7be54aa887848a",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1092,7 +1092,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-01-04 19:41:15"
+            "time": "2015-05-09 18:50:48"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -2002,16 +2002,16 @@
         },
         {
             "name": "components/jquery",
-            "version": "1.11.2",
+            "version": "1.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "d7dfc1aa3edf92038a24862888b46b4d0e74faba"
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jquery/zipball/d7dfc1aa3edf92038a24862888b46b4d0e74faba",
-                "reference": "d7dfc1aa3edf92038a24862888b46b4d0e74faba",
+                "url": "https://api.github.com/repos/components/jquery/zipball/b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
                 "shasum": ""
             },
             "require": {
@@ -2043,7 +2043,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2014-12-23 06:54:15"
+            "time": "2015-05-08 06:09:58"
         },
         {
             "name": "datatables/datatables",
@@ -5354,12 +5354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "0a4e0f555bed798cfff335a5568f232c08fff7e0"
+                "reference": "55d98383adfd117643e7e3bebe30e57c6ee313fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/0a4e0f555bed798cfff335a5568f232c08fff7e0",
-                "reference": "0a4e0f555bed798cfff335a5568f232c08fff7e0",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/55d98383adfd117643e7e3bebe30e57c6ee313fb",
+                "reference": "55d98383adfd117643e7e3bebe30e57c6ee313fb",
                 "shasum": ""
             },
             "type": "campaignchain-campaign",
@@ -5394,7 +5394,7 @@
             ],
             "description": "Create re-usable templates of campaigns.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-05-07 17:17:40"
+            "time": "2015-05-09 18:31:17"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -5441,12 +5441,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-timespan.git",
-                "reference": "f8086e556aef3e578ba90128663489412ff3d2f1"
+                "reference": "7908466f597afd9fcca3bfb9af509a40cc893e11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/f8086e556aef3e578ba90128663489412ff3d2f1",
-                "reference": "f8086e556aef3e578ba90128663489412ff3d2f1",
+                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/7908466f597afd9fcca3bfb9af509a40cc893e11",
+                "reference": "7908466f597afd9fcca3bfb9af509a40cc893e11",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -5479,7 +5479,7 @@
             "keywords": [
                 "timespan"
             ],
-            "time": "2015-05-07 17:20:07"
+            "time": "2015-05-09 18:31:17"
         }
     ],
     "aliases": [],
