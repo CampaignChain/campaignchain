@@ -809,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "73b9543d44e8ad6861f4aef25ce9b5b318c0a4f6"
+                "reference": "fb51c138622cdf6f0e219e7a016f844453fc1e1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/73b9543d44e8ad6861f4aef25ce9b5b318c0a4f6",
-                "reference": "73b9543d44e8ad6861f4aef25ce9b5b318c0a4f6",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fb51c138622cdf6f0e219e7a016f844453fc1e1e",
+                "reference": "fb51c138622cdf6f0e219e7a016f844453fc1e1e",
                 "shasum": ""
             },
             "require": {
@@ -899,7 +899,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-05-09 18:31:17"
+            "time": "2015-05-10 00:56:15"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1054,12 +1054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "7a87195dab22d0698c3b03d9dc7be54aa887848a"
+                "reference": "de686bf980f431919031baaec16337a5fe38d8bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/7a87195dab22d0698c3b03d9dc7be54aa887848a",
-                "reference": "7a87195dab22d0698c3b03d9dc7be54aa887848a",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/de686bf980f431919031baaec16337a5fe38d8bd",
+                "reference": "de686bf980f431919031baaec16337a5fe38d8bd",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1092,7 +1092,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-05-09 18:50:48"
+            "time": "2015-05-10 00:56:15"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -1461,12 +1461,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/milestone-scheduled.git",
-                "reference": "027c8ff190dfe0380b451c945712e2f452bffe12"
+                "reference": "bcf4ecaedb52750f04c52eda7de51afbd8f09c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/027c8ff190dfe0380b451c945712e2f452bffe12",
-                "reference": "027c8ff190dfe0380b451c945712e2f452bffe12",
+                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/bcf4ecaedb52750f04c52eda7de51afbd8f09c33",
+                "reference": "bcf4ecaedb52750f04c52eda7de51afbd8f09c33",
                 "shasum": ""
             },
             "require": {
@@ -1513,7 +1513,7 @@
                 "milestone",
                 "scheduled"
             ],
-            "time": "2015-02-17 09:49:12"
+            "time": "2015-05-10 00:56:15"
         },
         {
             "name": "campaignchain/operation-facebook",
