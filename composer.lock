@@ -809,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "a4593831277a00cea66b7d527b85fb807d47d657"
+                "reference": "05e357b1cc38242a375e866d4374e790d87bc961"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/a4593831277a00cea66b7d527b85fb807d47d657",
-                "reference": "a4593831277a00cea66b7d527b85fb807d47d657",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/05e357b1cc38242a375e866d4374e790d87bc961",
+                "reference": "05e357b1cc38242a375e866d4374e790d87bc961",
                 "shasum": ""
             },
             "require": {
@@ -899,7 +899,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-05-10 03:19:43"
+            "time": "2015-05-11 04:15:16"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -5031,16 +5031,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.6.6",
+            "version": "v2.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "48c9e835a877adfb023b8b6d033d9dd14f342b4b"
+                "reference": "0449d0e1178bc8e934520b20432d1705c3b25e7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/48c9e835a877adfb023b8b6d033d9dd14f342b4b",
-                "reference": "48c9e835a877adfb023b8b6d033d9dd14f342b4b",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/0449d0e1178bc8e934520b20432d1705c3b25e7e",
+                "reference": "0449d0e1178bc8e934520b20432d1705c3b25e7e",
                 "shasum": ""
             },
             "require": {
@@ -5144,7 +5144,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-04-01 16:55:26"
+            "time": "2015-05-11 01:58:49"
         },
         {
             "name": "twbs/bootstrap",
@@ -5354,12 +5354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "55d98383adfd117643e7e3bebe30e57c6ee313fb"
+                "reference": "36055d2ca587c4ca596267b916c997bfa5c632b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/55d98383adfd117643e7e3bebe30e57c6ee313fb",
-                "reference": "55d98383adfd117643e7e3bebe30e57c6ee313fb",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/36055d2ca587c4ca596267b916c997bfa5c632b9",
+                "reference": "36055d2ca587c4ca596267b916c997bfa5c632b9",
                 "shasum": ""
             },
             "type": "campaignchain-campaign",
@@ -5394,7 +5394,7 @@
             ],
             "description": "Create re-usable templates of campaigns.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-05-09 18:31:17"
+            "time": "2015-05-11 04:15:16"
         },
         {
             "name": "campaignchain/dev-tools",
