@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6d1c774cfdf47e7e1f24235e47c82934",
+    "hash": "082b713036dd8d617be6eb8fbe31c571",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -119,12 +119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-facebook.git",
-                "reference": "276c7e7611910ac76062001fbd363bd355c3a95a"
+                "reference": "a68f3c9c13cb67cf10703a1a7d83bbec34f9d998"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/276c7e7611910ac76062001fbd363bd355c3a95a",
-                "reference": "276c7e7611910ac76062001fbd363bd355c3a95a",
+                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/a68f3c9c13cb67cf10703a1a7d83bbec34f9d998",
+                "reference": "a68f3c9c13cb67cf10703a1a7d83bbec34f9d998",
                 "shasum": ""
             },
             "require": {
@@ -173,7 +173,7 @@
                 "facebook",
                 "status"
             ],
-            "time": "2015-02-17 09:59:50"
+            "time": "2015-05-22 12:41:41"
         },
         {
             "name": "campaignchain/activity-gotowebinar",
@@ -181,12 +181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-gotowebinar.git",
-                "reference": "5de572b205856eae7f633f4646b9b307f785b276"
+                "reference": "1f4a1c3332886d27c46a7e61952786f78c4bc835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/5de572b205856eae7f633f4646b9b307f785b276",
-                "reference": "5de572b205856eae7f633f4646b9b307f785b276",
+                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/1f4a1c3332886d27c46a7e61952786f78c4bc835",
+                "reference": "1f4a1c3332886d27c46a7e61952786f78c4bc835",
                 "shasum": ""
             },
             "require": {
@@ -227,7 +227,7 @@
                 }
             ],
             "description": "Include a Webinar into a campaign.",
-            "time": "2015-03-02 21:49:45"
+            "time": "2015-05-22 12:41:41"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -235,12 +235,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "74effc94a8457ccfc80492bf1df5a5546a7864d6"
+                "reference": "8db05664e1019a30412f4b44d00250928418eab2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/74effc94a8457ccfc80492bf1df5a5546a7864d6",
-                "reference": "74effc94a8457ccfc80492bf1df5a5546a7864d6",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/8db05664e1019a30412f4b44d00250928418eab2",
+                "reference": "8db05664e1019a30412f4b44d00250928418eab2",
                 "shasum": ""
             },
             "require": {
@@ -288,7 +288,7 @@
                 "linkedin",
                 "news"
             ],
-            "time": "2015-02-17 09:58:34"
+            "time": "2015-05-22 12:41:41"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-mailchimp.git",
-                "reference": "c7c0751f433550b7ec9f284f76e00a1ee7903a5c"
+                "reference": "8c6c063fd70551d25d0558d3fca1046f88090b8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/c7c0751f433550b7ec9f284f76e00a1ee7903a5c",
-                "reference": "c7c0751f433550b7ec9f284f76e00a1ee7903a5c",
+                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/8c6c063fd70551d25d0558d3fca1046f88090b8a",
+                "reference": "8c6c063fd70551d25d0558d3fca1046f88090b8a",
                 "shasum": ""
             },
             "require": {
@@ -342,7 +342,7 @@
             ],
             "description": "Add upcoming newsletter campaign",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-04-09 14:46:46"
+            "time": "2015-05-22 12:41:43"
         },
         {
             "name": "campaignchain/activity-twitter",
@@ -350,12 +350,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-twitter.git",
-                "reference": "515c1b595b052262d33e00971fc3caee6dbe5d7a"
+                "reference": "acc6f5141899eb8583f4e168bcf58b6a9d8f04e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/515c1b595b052262d33e00971fc3caee6dbe5d7a",
-                "reference": "515c1b595b052262d33e00971fc3caee6dbe5d7a",
+                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/acc6f5141899eb8583f4e168bcf58b6a9d8f04e6",
+                "reference": "acc6f5141899eb8583f4e168bcf58b6a9d8f04e6",
                 "shasum": ""
             },
             "require": {
@@ -401,7 +401,7 @@
                 "status",
                 "twitter"
             ],
-            "time": "2015-02-17 09:58:00"
+            "time": "2015-05-22 12:41:41"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -409,12 +409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "f5a599dea7c0baf16ccbf97727e9c36c8ad09052"
+                "reference": "db1be69de29cef66448422a9fafcc28937dfc461"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/f5a599dea7c0baf16ccbf97727e9c36c8ad09052",
-                "reference": "f5a599dea7c0baf16ccbf97727e9c36c8ad09052",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/db1be69de29cef66448422a9fafcc28937dfc461",
+                "reference": "db1be69de29cef66448422a9fafcc28937dfc461",
                 "shasum": ""
             },
             "require": {
@@ -461,7 +461,58 @@
                 "campaign",
                 "scheduled"
             ],
-            "time": "2015-05-07 17:56:32"
+            "time": "2015-05-27 13:03:02"
+        },
+        {
+            "name": "campaignchain/campaign-template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/campaign-template.git",
+                "reference": "b6d39ed9fa6b66fa622aeaf93e67f17171328ef6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/b6d39ed9fa6b66fa622aeaf93e67f17171328ef6",
+                "reference": "b6d39ed9fa6b66fa622aeaf93e67f17171328ef6",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/hook-timespan": "dev-master"
+            },
+            "type": "campaignchain-campaign",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Campaign\\TemplateBundle\\CampaignChainCampaignTemplateBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_campaign_template",
+                            "resource": "@CampaignChainCampaignTemplateBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Campaign\\TemplateBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Create re-usable templates of campaigns.",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-05-27 06:06:29"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -469,12 +520,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-citrix.git",
-                "reference": "ae6f7036b463cab75c84d80b7155f0163937b003"
+                "reference": "6f77a405d3ae363ef5c9e7d8110911055233c992"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/ae6f7036b463cab75c84d80b7155f0163937b003",
-                "reference": "ae6f7036b463cab75c84d80b7155f0163937b003",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/6f77a405d3ae363ef5c9e7d8110911055233c992",
+                "reference": "6f77a405d3ae363ef5c9e7d8110911055233c992",
                 "shasum": ""
             },
             "require": {
@@ -512,7 +563,7 @@
                 }
             ],
             "description": "Connects to Citrix services such as GoToMeeting or GoToWebinar.",
-            "time": "2015-02-22 12:14:21"
+            "time": "2015-05-22 12:41:41"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -520,12 +571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "a949a1f19770e4393d41615aabca75b84bc4ba27"
+                "reference": "e7a7b42238d52011f671cb8bb3496152b98a660f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/a949a1f19770e4393d41615aabca75b84bc4ba27",
-                "reference": "a949a1f19770e4393d41615aabca75b84bc4ba27",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/e7a7b42238d52011f671cb8bb3496152b98a660f",
+                "reference": "e7a7b42238d52011f671cb8bb3496152b98a660f",
                 "shasum": ""
             },
             "require": {
@@ -572,7 +623,7 @@
                 "facebook",
                 "oauth"
             ],
-            "time": "2015-02-17 09:56:08"
+            "time": "2015-05-22 12:41:41"
         },
         {
             "name": "campaignchain/channel-linkedin",
@@ -580,12 +631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-linkedin.git",
-                "reference": "2eef0134333349b2897ad8bce4e3d40065b9f432"
+                "reference": "f728b31e53f7f1ae2b710e605abaea082ec8b7a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/2eef0134333349b2897ad8bce4e3d40065b9f432",
-                "reference": "2eef0134333349b2897ad8bce4e3d40065b9f432",
+                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/f728b31e53f7f1ae2b710e605abaea082ec8b7a0",
+                "reference": "f728b31e53f7f1ae2b710e605abaea082ec8b7a0",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +682,7 @@
                 "linkedin",
                 "oauth"
             ],
-            "time": "2015-02-17 09:55:36"
+            "time": "2015-05-22 12:41:42"
         },
         {
             "name": "campaignchain/channel-mailchimp",
@@ -639,12 +690,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-mailchimp.git",
-                "reference": "d98129027c6da02b41eac9ed2922105f081844eb"
+                "reference": "65b72df138d1e70886891678628f3a832642e301"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/d98129027c6da02b41eac9ed2922105f081844eb",
-                "reference": "d98129027c6da02b41eac9ed2922105f081844eb",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/65b72df138d1e70886891678628f3a832642e301",
+                "reference": "65b72df138d1e70886891678628f3a832642e301",
                 "shasum": ""
             },
             "require": {
@@ -683,7 +734,7 @@
             ],
             "description": "Connects to MailChimp.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-03-02 21:49:45"
+            "time": "2015-05-22 12:41:42"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -691,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "4b2ec91dfe941da4ab5fc970f68255bbad1ad993"
+                "reference": "77da1c26266f5e9e8b91aeb6f836a5a7c2fd478f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/4b2ec91dfe941da4ab5fc970f68255bbad1ad993",
-                "reference": "4b2ec91dfe941da4ab5fc970f68255bbad1ad993",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/77da1c26266f5e9e8b91aeb6f836a5a7c2fd478f",
+                "reference": "77da1c26266f5e9e8b91aeb6f836a5a7c2fd478f",
                 "shasum": ""
             },
             "require": {
@@ -743,7 +794,7 @@
                 "oauth",
                 "twitter"
             ],
-            "time": "2015-02-17 09:55:11"
+            "time": "2015-05-22 12:41:41"
         },
         {
             "name": "campaignchain/channel-website",
@@ -751,12 +802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-website.git",
-                "reference": "390ac675dd4224eab68dbf8b60903e9f7cfc94b0"
+                "reference": "02ed846c8bd42f6f1ce31dc5a7f6944df8f54dbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/390ac675dd4224eab68dbf8b60903e9f7cfc94b0",
-                "reference": "390ac675dd4224eab68dbf8b60903e9f7cfc94b0",
+                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/02ed846c8bd42f6f1ce31dc5a7f6944df8f54dbb",
+                "reference": "02ed846c8bd42f6f1ce31dc5a7f6944df8f54dbb",
                 "shasum": ""
             },
             "require": {
@@ -801,7 +852,7 @@
             "keywords": [
                 "website"
             ],
-            "time": "2015-02-17 09:54:42"
+            "time": "2015-05-22 12:41:42"
         },
         {
             "name": "campaignchain/core",
@@ -809,12 +860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "05e357b1cc38242a375e866d4374e790d87bc961"
+                "reference": "888e210b4f4a04e3c3d1701ff52d59ccf51008e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/05e357b1cc38242a375e866d4374e790d87bc961",
-                "reference": "05e357b1cc38242a375e866d4374e790d87bc961",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/888e210b4f4a04e3c3d1701ff52d59ccf51008e8",
+                "reference": "888e210b4f4a04e3c3d1701ff52d59ccf51008e8",
                 "shasum": ""
             },
             "require": {
@@ -833,6 +884,7 @@
                 "knplabs/knp-menu": "dev-master",
                 "knplabs/knp-menu-bundle": "dev-master",
                 "knplabs/knp-paginator-bundle": "dev-master",
+                "myclabs/deep-copy": "dev-master",
                 "oyejorge/less.php": "~1.5",
                 "php": ">=5.4",
                 "sensio/distribution-bundle": "3.0.13",
@@ -899,7 +951,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-05-11 04:15:16"
+            "time": "2015-05-27 13:13:18"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -907,12 +959,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "41d2c188103066a3effcfc7e2e5130f80eb8dd7a"
+                "reference": "25d82fb202ab8c0c4921b0acb69d3308fdb7cc42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/41d2c188103066a3effcfc7e2e5130f80eb8dd7a",
-                "reference": "41d2c188103066a3effcfc7e2e5130f80eb8dd7a",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/25d82fb202ab8c0c4921b0acb69d3308fdb7cc42",
+                "reference": "25d82fb202ab8c0c4921b0acb69d3308fdb7cc42",
                 "shasum": ""
             },
             "require": {
@@ -922,6 +974,7 @@
                 "campaignchain/activity-mailchimp": "dev-master",
                 "campaignchain/activity-twitter": "dev-master",
                 "campaignchain/campaign-scheduled": "dev-master",
+                "campaignchain/campaign-template": "dev-master",
                 "campaignchain/core": "dev-master",
                 "campaignchain/doc-html": "1.0.0-alpha.3",
                 "campaignchain/location-website": "dev-master",
@@ -963,7 +1016,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2015-03-02 22:16:42"
+            "time": "2015-05-22 12:41:41"
         },
         {
             "name": "campaignchain/doc-html",
@@ -1054,12 +1107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "cf1549707f666ebfbca55bbb65f48a5aeaf1ad3c"
+                "reference": "b9f72c98f216267189b32e78dcbeff545570c9df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/cf1549707f666ebfbca55bbb65f48a5aeaf1ad3c",
-                "reference": "cf1549707f666ebfbca55bbb65f48a5aeaf1ad3c",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/b9f72c98f216267189b32e78dcbeff545570c9df",
+                "reference": "b9f72c98f216267189b32e78dcbeff545570c9df",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1092,7 +1145,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-05-10 03:19:43"
+            "time": "2015-05-27 06:06:29"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -1139,6 +1192,52 @@
                 "duration"
             ],
             "time": "2015-01-28 12:30:49"
+        },
+        {
+            "name": "campaignchain/hook-timespan",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/hook-timespan.git",
+                "reference": "7908466f597afd9fcca3bfb9af509a40cc893e11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/7908466f597afd9fcca3bfb9af509a40cc893e11",
+                "reference": "7908466f597afd9fcca3bfb9af509a40cc893e11",
+                "shasum": ""
+            },
+            "type": "campaignchain-hook",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Hook\\TimespanBundle\\CampaignChainHookTimespanBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Hook\\TimespanBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Define the timespan of an entity.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "timespan"
+            ],
+            "time": "2015-05-09 18:31:17"
         },
         {
             "name": "campaignchain/location-citrix",
@@ -1196,12 +1295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-facebook.git",
-                "reference": "3cd79d08fb84f4b6ebc5e6688d9b0af0eca3a2f6"
+                "reference": "ea7e366d04300e6523cf6e921f2a118afa37d921"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/3cd79d08fb84f4b6ebc5e6688d9b0af0eca3a2f6",
-                "reference": "3cd79d08fb84f4b6ebc5e6688d9b0af0eca3a2f6",
+                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/ea7e366d04300e6523cf6e921f2a118afa37d921",
+                "reference": "ea7e366d04300e6523cf6e921f2a118afa37d921",
                 "shasum": ""
             },
             "require": {
@@ -1243,7 +1342,7 @@
                 "stream",
                 "user"
             ],
-            "time": "2015-02-22 12:14:22"
+            "time": "2015-05-22 12:41:42"
         },
         {
             "name": "campaignchain/location-linkedin",
@@ -1461,12 +1560,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/milestone-scheduled.git",
-                "reference": "c07c14e237a4531a00f95dc3c113581bf0062c70"
+                "reference": "89971dc6895246896537fb0c7bd973dcab09730f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/c07c14e237a4531a00f95dc3c113581bf0062c70",
-                "reference": "c07c14e237a4531a00f95dc3c113581bf0062c70",
+                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/89971dc6895246896537fb0c7bd973dcab09730f",
+                "reference": "89971dc6895246896537fb0c7bd973dcab09730f",
                 "shasum": ""
             },
             "require": {
@@ -1513,7 +1612,7 @@
                 "milestone",
                 "scheduled"
             ],
-            "time": "2015-05-10 03:19:43"
+            "time": "2015-05-22 12:41:42"
         },
         {
             "name": "campaignchain/operation-facebook",
@@ -2826,12 +2925,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
-                "reference": "079020f97a66dc3dc0c08305f79d6152a35236c3"
+                "reference": "fbc7c38816aae80416a2f891873d648e14ceb20c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/079020f97a66dc3dc0c08305f79d6152a35236c3",
-                "reference": "079020f97a66dc3dc0c08305f79d6152a35236c3",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/fbc7c38816aae80416a2f891873d648e14ceb20c",
+                "reference": "fbc7c38816aae80416a2f891873d648e14ceb20c",
                 "shasum": ""
             },
             "require": {
@@ -2876,7 +2975,7 @@
                 "javascript",
                 "routing"
             ],
-            "time": "2015-04-29 20:39:05"
+            "time": "2015-05-19 15:57:18"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -3626,12 +3725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a"
+                "reference": "800eb12f225573869b6f04d77a6e329a6da9110f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a",
-                "reference": "5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/800eb12f225573869b6f04d77a6e329a6da9110f",
+                "reference": "800eb12f225573869b6f04d77a6e329a6da9110f",
                 "shasum": ""
             },
             "require": {
@@ -3679,7 +3778,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2015-02-03 02:04:01"
+            "time": "2015-05-20 15:09:02"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -3873,6 +3972,48 @@
                 "psr-3"
             ],
             "time": "2015-03-09 09:58:04"
+        },
+        {
+            "name": "myclabs/deep-copy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "729183efb780000769e1bfe56580b924c9e305f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/729183efb780000769e1bfe56580b924c9e305f4",
+                "reference": "729183efb780000769e1bfe56580b924c9e305f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "doctrine/collections": "1.*",
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create deep copies (clones) of your objects",
+            "homepage": "https://github.com/myclabs/DeepCopy",
+            "keywords": [
+                "clone",
+                "copy",
+                "duplicate",
+                "object",
+                "object graph"
+            ],
+            "time": "2015-03-26 21:12:28"
         },
         {
             "name": "nelmio/alice",
@@ -4115,28 +4256,33 @@
         },
         {
             "name": "robloach/component-installer",
-            "version": "0.0.12",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobLoach/component-installer.git",
-                "reference": "1864f25db21fc173e02a359f646acd596c1b0460"
+                "reference": "319597e78604a86379af0359944290d226b0d416"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/1864f25db21fc173e02a359f646acd596c1b0460",
-                "reference": "1864f25db21fc173e02a359f646acd596c1b0460",
+                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/319597e78604a86379af0359944290d226b0d416",
+                "reference": "319597e78604a86379af0359944290d226b0d416",
                 "shasum": ""
             },
             "require": {
+                "composer-plugin-api": "1.0.0",
                 "kriswallsmith/assetic": "1.*",
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "composer/composer": "1.*"
+                "composer/composer": "1.*@alpha",
+                "phpunit/phpunit": "4.*"
             },
-            "type": "composer-installer",
+            "type": "composer-plugin",
             "extra": {
-                "class": "ComponentInstaller\\Installer"
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                },
+                "class": "ComponentInstaller\\ComponentInstallerPlugin"
             },
             "autoload": {
                 "psr-0": {
@@ -4150,12 +4296,11 @@
             "authors": [
                 {
                     "name": "Rob Loach",
-                    "email": "robloach@gmail.com",
                     "homepage": "http://robloach.net"
                 }
             ],
             "description": "Allows installation of Components via Composer.",
-            "time": "2013-08-31 23:46:48"
+            "time": "2015-05-26 14:53:36"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -4315,16 +4460,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "cecb1397087dc9c733796eda6e9d121336039cdc"
+                "reference": "cde03c48d490d805ef1349e5108f8b3085981ead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/cecb1397087dc9c733796eda6e9d121336039cdc",
-                "reference": "cecb1397087dc9c733796eda6e9d121336039cdc",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/cde03c48d490d805ef1349e5108f8b3085981ead",
+                "reference": "cde03c48d490d805ef1349e5108f8b3085981ead",
                 "shasum": ""
             },
             "require": {
@@ -4356,7 +4501,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2015-04-21 07:52:05"
+            "time": "2015-05-22 14:21:04"
         },
         {
             "name": "sonata-project/admin-bundle",
@@ -4504,16 +4649,16 @@
         },
         {
             "name": "sonata-project/cache",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/cache.git",
-                "reference": "0d2956070d31a1e6d3504b0671ffeb76818b0676"
+                "reference": "a1522be3a1874c4646e7f9aaea6ca973b8bcbcde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/cache/zipball/0d2956070d31a1e6d3504b0671ffeb76818b0676",
-                "reference": "0d2956070d31a1e6d3504b0671ffeb76818b0676",
+                "url": "https://api.github.com/repos/sonata-project/cache/zipball/a1522be3a1874c4646e7f9aaea6ca973b8bcbcde",
+                "reference": "a1522be3a1874c4646e7f9aaea6ca973b8bcbcde",
                 "shasum": ""
             },
             "require-dev": {
@@ -4561,20 +4706,20 @@
                 "mongodb",
                 "redis"
             ],
-            "time": "2015-03-21 08:32:46"
+            "time": "2015-05-18 12:12:33"
         },
         {
             "name": "sonata-project/core-bundle",
-            "version": "2.3.1",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "b2e2127dbb739598b5ebc0378a9b1d93022680e6"
+                "reference": "360942d98ac7441dc9b06b089ef8636721e37f9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/b2e2127dbb739598b5ebc0378a9b1d93022680e6",
-                "reference": "b2e2127dbb739598b5ebc0378a9b1d93022680e6",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/360942d98ac7441dc9b06b089ef8636721e37f9c",
+                "reference": "360942d98ac7441dc9b06b089ef8636721e37f9c",
                 "shasum": ""
             },
             "require": {
@@ -4622,11 +4767,11 @@
                 }
             ],
             "description": "Symfony SonataCoreBundle",
-            "homepage": "http://sonata-project.org/bundles/core",
+            "homepage": "https://sonata-project.org/bundles/core",
             "keywords": [
                 "sonata"
             ],
-            "time": "2015-03-09 09:18:34"
+            "time": "2015-05-18 14:31:37"
         },
         {
             "name": "sonata-project/exporter",
@@ -4757,12 +4902,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephanecollot/DatetimepickerBundle.git",
-                "reference": "dcdc1f5ff0b93e9c7372700103ffaa459064f3f3"
+                "reference": "733e4d1896aba5ee7c0b924d0ce25bca179b47ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/dcdc1f5ff0b93e9c7372700103ffaa459064f3f3",
-                "reference": "dcdc1f5ff0b93e9c7372700103ffaa459064f3f3",
+                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/733e4d1896aba5ee7c0b924d0ce25bca179b47ef",
+                "reference": "733e4d1896aba5ee7c0b924d0ce25bca179b47ef",
                 "shasum": ""
             },
             "require": {
@@ -4794,7 +4939,7 @@
                 "symfony",
                 "timepicker"
             ],
-            "time": "2015-02-27 05:46:07"
+            "time": "2015-05-11 20:47:22"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5031,16 +5176,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.6.7",
+            "version": "v2.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "0449d0e1178bc8e934520b20432d1705c3b25e7e"
+                "reference": "7ae1934082d9ac299303b146e4a999274a723e94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/0449d0e1178bc8e934520b20432d1705c3b25e7e",
-                "reference": "0449d0e1178bc8e934520b20432d1705c3b25e7e",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/7ae1934082d9ac299303b146e4a999274a723e94",
+                "reference": "7ae1934082d9ac299303b146e4a999274a723e94",
                 "shasum": ""
             },
             "require": {
@@ -5131,20 +5276,20 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "The Symfony PHP framework",
-            "homepage": "http://symfony.com",
+            "homepage": "https://symfony.com",
             "keywords": [
                 "framework"
             ],
-            "time": "2015-05-11 01:58:49"
+            "time": "2015-05-27 00:17:10"
         },
         {
             "name": "twbs/bootstrap",
@@ -5349,54 +5494,6 @@
     ],
     "packages-dev": [
         {
-            "name": "campaignchain/campaign-template",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "36055d2ca587c4ca596267b916c997bfa5c632b9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/36055d2ca587c4ca596267b916c997bfa5c632b9",
-                "reference": "36055d2ca587c4ca596267b916c997bfa5c632b9",
-                "shasum": ""
-            },
-            "type": "campaignchain-campaign",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Campaign\\TemplateBundle\\CampaignChainCampaignTemplateBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_campaign_template",
-                            "resource": "@CampaignChainCampaignTemplateBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Campaign\\TemplateBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Create re-usable templates of campaigns.",
-            "homepage": "http://www.campaignchain.com",
-            "time": "2015-05-11 04:15:16"
-        },
-        {
             "name": "campaignchain/dev-tools",
             "version": "dev-master",
             "source": {
@@ -5434,61 +5531,14 @@
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
             "time": "2015-05-07 17:56:32"
-        },
-        {
-            "name": "campaignchain/hook-timespan",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/hook-timespan.git",
-                "reference": "7908466f597afd9fcca3bfb9af509a40cc893e11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/7908466f597afd9fcca3bfb9af509a40cc893e11",
-                "reference": "7908466f597afd9fcca3bfb9af509a40cc893e11",
-                "shasum": ""
-            },
-            "type": "campaignchain-hook",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Hook\\TimespanBundle\\CampaignChainHookTimespanBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Hook\\TimespanBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Define the timespan of an entity.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "timespan"
-            ],
-            "time": "2015-05-09 18:31:17"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/distribution-ce": 20,
-        "campaignchain/dev-tools": 20,
-        "campaignchain/campaign-template": 20,
-        "campaignchain/hook-timespan": 20
+        "myclabs/deep-copy": 20,
+        "campaignchain/dev-tools": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
