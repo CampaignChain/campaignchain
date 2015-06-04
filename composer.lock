@@ -860,12 +860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "dea8d0baea654423eb41469fb0dcc8f937822a1b"
+                "reference": "2ffa260b95aeed4e2a7784c7134ee143d5735ac4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/dea8d0baea654423eb41469fb0dcc8f937822a1b",
-                "reference": "dea8d0baea654423eb41469fb0dcc8f937822a1b",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2ffa260b95aeed4e2a7784c7134ee143d5735ac4",
+                "reference": "2ffa260b95aeed4e2a7784c7134ee143d5735ac4",
                 "shasum": ""
             },
             "require": {
@@ -951,7 +951,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-06-01 20:44:07"
+            "time": "2015-06-04 10:24:27"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -3393,17 +3393,16 @@
         },
         {
             "name": "incenteev/composer-parameter-handler",
-            "version": "v2.1.0",
-            "target-dir": "Incenteev/ParameterHandler",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241"
+                "reference": "84a205fe80a46101607bafbc423019527893ddd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/143272a0a09c62616a3c8011fc165a10c6b35241",
-                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/84a205fe80a46101607bafbc423019527893ddd0",
+                "reference": "84a205fe80a46101607bafbc423019527893ddd0",
                 "shasum": ""
             },
             "require": {
@@ -3422,8 +3421,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Incenteev\\ParameterHandler": ""
+                "psr-4": {
+                    "Incenteev\\ParameterHandler\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3441,7 +3440,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2013-12-07 10:10:39"
+            "time": "2015-06-03 08:27:03"
         },
         {
             "name": "ivaynberg/select2",
