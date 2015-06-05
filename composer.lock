@@ -409,12 +409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "745c5caeea03639a9dcc8bec4bf011311e0d50f6"
+                "reference": "c78be23720db98a6f8906ce5b8c928fd47ced906"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/745c5caeea03639a9dcc8bec4bf011311e0d50f6",
-                "reference": "745c5caeea03639a9dcc8bec4bf011311e0d50f6",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/c78be23720db98a6f8906ce5b8c928fd47ced906",
+                "reference": "c78be23720db98a6f8906ce5b8c928fd47ced906",
                 "shasum": ""
             },
             "require": {
@@ -461,7 +461,7 @@
                 "campaign",
                 "scheduled"
             ],
-            "time": "2015-05-30 14:10:53"
+            "time": "2015-06-05 18:01:38"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -469,12 +469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "44980f7f58abc23661f582513518c76197d3c05e"
+                "reference": "f2f11a59b566336503fe248e935fc269497f10bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/44980f7f58abc23661f582513518c76197d3c05e",
-                "reference": "44980f7f58abc23661f582513518c76197d3c05e",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/f2f11a59b566336503fe248e935fc269497f10bc",
+                "reference": "f2f11a59b566336503fe248e935fc269497f10bc",
                 "shasum": ""
             },
             "require": {
@@ -512,7 +512,7 @@
             ],
             "description": "Create re-usable templates of campaigns.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-05-30 14:10:53"
+            "time": "2015-06-05 18:01:38"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -860,12 +860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "2ffa260b95aeed4e2a7784c7134ee143d5735ac4"
+                "reference": "87855199122834cc6c1d8060fe78949ceb2094df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2ffa260b95aeed4e2a7784c7134ee143d5735ac4",
-                "reference": "2ffa260b95aeed4e2a7784c7134ee143d5735ac4",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/87855199122834cc6c1d8060fe78949ceb2094df",
+                "reference": "87855199122834cc6c1d8060fe78949ceb2094df",
                 "shasum": ""
             },
             "require": {
@@ -951,7 +951,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-06-04 10:24:27"
+            "time": "2015-06-05 18:01:38"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -4361,16 +4361,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.8",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "a30fc18bf147bc25faf6b1d54bf55cfad4b63cba"
+                "reference": "0616fd568da051adc19ca63006cc808531ba2da4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/a30fc18bf147bc25faf6b1d54bf55cfad4b63cba",
-                "reference": "a30fc18bf147bc25faf6b1d54bf55cfad4b63cba",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/0616fd568da051adc19ca63006cc808531ba2da4",
+                "reference": "0616fd568da051adc19ca63006cc808531ba2da4",
                 "shasum": ""
             },
             "require": {
@@ -4412,7 +4412,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2015-05-29 18:27:23"
+            "time": "2015-06-05 13:59:21"
         },
         {
             "name": "sensio/generator-bundle",
@@ -5184,12 +5184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "78cf382aa26fcdab09d900fd84c31b9e5cee84a3"
+                "reference": "4133aadd0c0be199b21ce5e171038e5d03bc818b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/78cf382aa26fcdab09d900fd84c31b9e5cee84a3",
-                "reference": "78cf382aa26fcdab09d900fd84c31b9e5cee84a3",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/4133aadd0c0be199b21ce5e171038e5d03bc818b",
+                "reference": "4133aadd0c0be199b21ce5e171038e5d03bc818b",
                 "shasum": ""
             },
             "require": {
@@ -5298,7 +5298,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-06-01 15:31:50"
+            "time": "2015-06-05 17:28:20"
         },
         {
             "name": "twbs/bootstrap",
