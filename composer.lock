@@ -409,12 +409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "35f926c30fd9970a8b48b7b68a81578080fcead7"
+                "reference": "b17ef65514cf52d13d6a0793e083d1404b937bde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/35f926c30fd9970a8b48b7b68a81578080fcead7",
-                "reference": "35f926c30fd9970a8b48b7b68a81578080fcead7",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/b17ef65514cf52d13d6a0793e083d1404b937bde",
+                "reference": "b17ef65514cf52d13d6a0793e083d1404b937bde",
                 "shasum": ""
             },
             "require": {
@@ -462,7 +462,7 @@
                 "campaign",
                 "scheduled"
             ],
-            "time": "2015-06-07 18:56:51"
+            "time": "2015-06-13 05:12:21"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -470,12 +470,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "fa284f3cd7f9a22b226c158ad17110a698adffc4"
+                "reference": "dab947b87aa1b861eb1c97e6d5805edc5c23a763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/fa284f3cd7f9a22b226c158ad17110a698adffc4",
-                "reference": "fa284f3cd7f9a22b226c158ad17110a698adffc4",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/dab947b87aa1b861eb1c97e6d5805edc5c23a763",
+                "reference": "dab947b87aa1b861eb1c97e6d5805edc5c23a763",
                 "shasum": ""
             },
             "require": {
@@ -514,7 +514,7 @@
             ],
             "description": "Create re-usable templates of campaigns.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-06-08 09:30:46"
+            "time": "2015-06-13 05:12:21"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -862,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "f655858df9e556bc90f196208480585a74ab965e"
+                "reference": "3a6695d983f21ff34a82983a978f4eb27cf2a972"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f655858df9e556bc90f196208480585a74ab965e",
-                "reference": "f655858df9e556bc90f196208480585a74ab965e",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/3a6695d983f21ff34a82983a978f4eb27cf2a972",
+                "reference": "3a6695d983f21ff34a82983a978f4eb27cf2a972",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +953,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-06-07 18:56:51"
+            "time": "2015-06-13 05:12:21"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1063,12 +1063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-assignee.git",
-                "reference": "49ba2980dc2530694f2d00c8868177d4ae9c7293"
+                "reference": "65d79abc4e406439b8391c21ad7d2c180f78a09c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/49ba2980dc2530694f2d00c8868177d4ae9c7293",
-                "reference": "49ba2980dc2530694f2d00c8868177d4ae9c7293",
+                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/65d79abc4e406439b8391c21ad7d2c180f78a09c",
+                "reference": "65d79abc4e406439b8391c21ad7d2c180f78a09c",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1101,7 +1101,7 @@
             "keywords": [
                 "assignee"
             ],
-            "time": "2014-12-07 13:57:34"
+            "time": "2015-06-13 05:12:21"
         },
         {
             "name": "campaignchain/hook-due",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "b9f72c98f216267189b32e78dcbeff545570c9df"
+                "reference": "d31ddbf924dadc3e0b149758ead0ad381c70e729"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/b9f72c98f216267189b32e78dcbeff545570c9df",
-                "reference": "b9f72c98f216267189b32e78dcbeff545570c9df",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/d31ddbf924dadc3e0b149758ead0ad381c70e729",
+                "reference": "d31ddbf924dadc3e0b149758ead0ad381c70e729",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1147,7 +1147,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-05-27 06:06:29"
+            "time": "2015-06-13 05:12:21"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -1155,12 +1155,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-duration.git",
-                "reference": "62ed73c41c840b08ceff82ae5ccb15b4fc95e59c"
+                "reference": "75b3574a6c4105e14df37886c3b65a51d5a28393"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/62ed73c41c840b08ceff82ae5ccb15b4fc95e59c",
-                "reference": "62ed73c41c840b08ceff82ae5ccb15b4fc95e59c",
+                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/75b3574a6c4105e14df37886c3b65a51d5a28393",
+                "reference": "75b3574a6c4105e14df37886c3b65a51d5a28393",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "duration"
             ],
-            "time": "2015-01-28 12:30:49"
+            "time": "2015-06-13 05:12:21"
         },
         {
             "name": "campaignchain/hook-timespan",
@@ -1201,12 +1201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-timespan.git",
-                "reference": "7908466f597afd9fcca3bfb9af509a40cc893e11"
+                "reference": "d320fe4b9103610078c1465a1a7d7118547843a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/7908466f597afd9fcca3bfb9af509a40cc893e11",
-                "reference": "7908466f597afd9fcca3bfb9af509a40cc893e11",
+                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/d320fe4b9103610078c1465a1a7d7118547843a6",
+                "reference": "d320fe4b9103610078c1465a1a7d7118547843a6",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1239,7 +1239,7 @@
             "keywords": [
                 "timespan"
             ],
-            "time": "2015-05-09 18:31:17"
+            "time": "2015-06-13 05:12:21"
         },
         {
             "name": "campaignchain/location-citrix",
@@ -2986,12 +2986,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git",
-                "reference": "92d5624f2a29e74d8fd9d2a94d7ed7998a8c2809"
+                "reference": "3efbc08a97f218d0a4524dee926fc4381e3d0947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/92d5624f2a29e74d8fd9d2a94d7ed7998a8c2809",
-                "reference": "92d5624f2a29e74d8fd9d2a94d7ed7998a8c2809",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/3efbc08a97f218d0a4524dee926fc4381e3d0947",
+                "reference": "3efbc08a97f218d0a4524dee926fc4381e3d0947",
                 "shasum": ""
             },
             "require": {
@@ -3045,7 +3045,7 @@
             "keywords": [
                 "User management"
             ],
-            "time": "2015-05-05 15:08:24"
+            "time": "2015-06-10 08:27:05"
         },
         {
             "name": "fzaninotto/faker",
@@ -4262,16 +4262,16 @@
         },
         {
             "name": "robloach/component-installer",
-            "version": "0.1.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobLoach/component-installer.git",
-                "reference": "f249264ea72390ea68f480984ab705cb68c92148"
+                "reference": "9ebfe24d48b08ce63cf377d719e4ad045e057855"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/f249264ea72390ea68f480984ab705cb68c92148",
-                "reference": "f249264ea72390ea68f480984ab705cb68c92148",
+                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/9ebfe24d48b08ce63cf377d719e4ad045e057855",
+                "reference": "9ebfe24d48b08ce63cf377d719e4ad045e057855",
                 "shasum": ""
             },
             "require": {
@@ -4306,7 +4306,7 @@
                 }
             ],
             "description": "Allows installation of Components via Composer.",
-            "time": "2015-05-29 20:57:02"
+            "time": "2015-06-08 13:01:20"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -5187,12 +5187,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "4133aadd0c0be199b21ce5e171038e5d03bc818b"
+                "reference": "5f36605e0e2264a1f52a8caa4bbe35a6f4ece8b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/4133aadd0c0be199b21ce5e171038e5d03bc818b",
-                "reference": "4133aadd0c0be199b21ce5e171038e5d03bc818b",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/5f36605e0e2264a1f52a8caa4bbe35a6f4ece8b4",
+                "reference": "5f36605e0e2264a1f52a8caa4bbe35a6f4ece8b4",
                 "shasum": ""
             },
             "require": {
@@ -5301,7 +5301,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-06-05 17:28:20"
+            "time": "2015-06-11 19:33:21"
         },
         {
             "name": "twbs/bootstrap",
