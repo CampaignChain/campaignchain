@@ -470,12 +470,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "07ebcbcddf5b453c2903c8eaad10fc0f9235d6f1"
+                "reference": "70a05a2de4ebbc75989182f093d0fbb958c2c949"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/07ebcbcddf5b453c2903c8eaad10fc0f9235d6f1",
-                "reference": "07ebcbcddf5b453c2903c8eaad10fc0f9235d6f1",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/70a05a2de4ebbc75989182f093d0fbb958c2c949",
+                "reference": "70a05a2de4ebbc75989182f093d0fbb958c2c949",
                 "shasum": ""
             },
             "require": {
@@ -514,7 +514,7 @@
             ],
             "description": "Create re-usable templates of campaigns.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-06-17 11:54:05"
+            "time": "2015-06-18 19:14:37"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -862,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "90965f51dba664051ed7255a964e633a11a2d148"
+                "reference": "6158992a92f1abfcd22c719874b29550aed2efe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/90965f51dba664051ed7255a964e633a11a2d148",
-                "reference": "90965f51dba664051ed7255a964e633a11a2d148",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6158992a92f1abfcd22c719874b29550aed2efe9",
+                "reference": "6158992a92f1abfcd22c719874b29550aed2efe9",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +953,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-06-18 07:26:44"
+            "time": "2015-06-18 19:14:55"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "dc179d5500123126b370cc73adc2d4c38f896283"
+                "reference": "47995f79bb808f81fdded97ad8e1624ccfd2fc15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/dc179d5500123126b370cc73adc2d4c38f896283",
-                "reference": "dc179d5500123126b370cc73adc2d4c38f896283",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/47995f79bb808f81fdded97ad8e1624ccfd2fc15",
+                "reference": "47995f79bb808f81fdded97ad8e1624ccfd2fc15",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1147,7 +1147,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-06-18 07:26:44"
+            "time": "2015-06-18 19:26:34"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -4262,20 +4262,20 @@
         },
         {
             "name": "robloach/component-installer",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobLoach/component-installer.git",
-                "reference": "9ebfe24d48b08ce63cf377d719e4ad045e057855"
+                "reference": "6f654095da6e364261093c2d9ca416e1027d0169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/9ebfe24d48b08ce63cf377d719e4ad045e057855",
-                "reference": "9ebfe24d48b08ce63cf377d719e4ad045e057855",
+                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/6f654095da6e364261093c2d9ca416e1027d0169",
+                "reference": "6f654095da6e364261093c2d9ca416e1027d0169",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0",
+                "composer-plugin-api": "^1.0",
                 "kriswallsmith/assetic": "1.*",
                 "php": ">=5.3.2"
             },
@@ -4306,7 +4306,7 @@
                 }
             ],
             "description": "Allows installation of Components via Composer.",
-            "time": "2015-06-08 13:01:20"
+            "time": "2015-06-18 13:02:30"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -5191,12 +5191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "04ae39131876b5852b246b44c891022ce5ac3229"
+                "reference": "6a2d3a4aec75853d0799893c6cd843e398f975a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/04ae39131876b5852b246b44c891022ce5ac3229",
-                "reference": "04ae39131876b5852b246b44c891022ce5ac3229",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/6a2d3a4aec75853d0799893c6cd843e398f975a9",
+                "reference": "6a2d3a4aec75853d0799893c6cd843e398f975a9",
                 "shasum": ""
             },
             "require": {
@@ -5305,7 +5305,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-06-17 21:27:07"
+            "time": "2015-06-18 16:14:27"
         },
         {
             "name": "twbs/bootstrap",
