@@ -862,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "6edd0b02763cd2d1666dd496e47bb83d5aa1e018"
+                "reference": "90965f51dba664051ed7255a964e633a11a2d148"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6edd0b02763cd2d1666dd496e47bb83d5aa1e018",
-                "reference": "6edd0b02763cd2d1666dd496e47bb83d5aa1e018",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/90965f51dba664051ed7255a964e633a11a2d148",
+                "reference": "90965f51dba664051ed7255a964e633a11a2d148",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +953,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-06-17 11:13:41"
+            "time": "2015-06-18 07:26:44"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "d31ddbf924dadc3e0b149758ead0ad381c70e729"
+                "reference": "dc179d5500123126b370cc73adc2d4c38f896283"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/d31ddbf924dadc3e0b149758ead0ad381c70e729",
-                "reference": "d31ddbf924dadc3e0b149758ead0ad381c70e729",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/dc179d5500123126b370cc73adc2d4c38f896283",
+                "reference": "dc179d5500123126b370cc73adc2d4c38f896283",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1147,7 +1147,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-06-13 05:12:21"
+            "time": "2015-06-18 07:26:44"
         },
         {
             "name": "campaignchain/hook-duration",
