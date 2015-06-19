@@ -409,12 +409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "e3753b40bdcdb1e2483339220403dbfd973a58d5"
+                "reference": "9131549d86ac93a758eee938acc49357da2cb210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/e3753b40bdcdb1e2483339220403dbfd973a58d5",
-                "reference": "e3753b40bdcdb1e2483339220403dbfd973a58d5",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/9131549d86ac93a758eee938acc49357da2cb210",
+                "reference": "9131549d86ac93a758eee938acc49357da2cb210",
                 "shasum": ""
             },
             "require": {
@@ -462,7 +462,7 @@
                 "campaign",
                 "scheduled"
             ],
-            "time": "2015-06-19 11:15:00"
+            "time": "2015-06-19 12:57:05"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -470,12 +470,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "ca54b1dc2d2108a9dedaf07fd96962f089adaef9"
+                "reference": "846ff8533edbf70f2624629223d784daf512cae0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/ca54b1dc2d2108a9dedaf07fd96962f089adaef9",
-                "reference": "ca54b1dc2d2108a9dedaf07fd96962f089adaef9",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/846ff8533edbf70f2624629223d784daf512cae0",
+                "reference": "846ff8533edbf70f2624629223d784daf512cae0",
                 "shasum": ""
             },
             "require": {
@@ -514,7 +514,7 @@
             ],
             "description": "Create re-usable templates of campaigns.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-06-19 11:15:00"
+            "time": "2015-06-19 12:57:05"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -862,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "6158992a92f1abfcd22c719874b29550aed2efe9"
+                "reference": "ac815c9c8343c42f98d0cf69e04292582e1e0c1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6158992a92f1abfcd22c719874b29550aed2efe9",
-                "reference": "6158992a92f1abfcd22c719874b29550aed2efe9",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ac815c9c8343c42f98d0cf69e04292582e1e0c1a",
+                "reference": "ac815c9c8343c42f98d0cf69e04292582e1e0c1a",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +953,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-06-18 19:14:55"
+            "time": "2015-06-19 12:57:05"
         },
         {
             "name": "campaignchain/distribution-ce",
