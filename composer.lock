@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "082b713036dd8d617be6eb8fbe31c571",
+    "hash": "45d1265ebfb5ffac32e508e42505514f",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -3908,16 +3908,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.13.1",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac"
+                "reference": "b287fbbe1ca27847064beff2bad7fb6920bf08cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
-                "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b287fbbe1ca27847064beff2bad7fb6920bf08cc",
+                "reference": "b287fbbe1ca27847064beff2bad7fb6920bf08cc",
                 "shasum": ""
             },
             "require": {
@@ -3928,12 +3928,14 @@
                 "psr/log-implementation": "1.0.0"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "~2.4, >2.4.8",
+                "aws/aws-sdk-php": "^2.4.9",
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
-                "phpunit/phpunit": "~4.0",
-                "raven/raven": "~0.5",
-                "ruflin/elastica": "0.90.*",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "raven/raven": "~0.8",
+                "ruflin/elastica": ">=0.90 <3.0",
                 "swiftmailer/swiftmailer": "~5.3",
                 "videlalvaro/php-amqplib": "~2.4"
             },
@@ -3943,6 +3945,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
@@ -3951,7 +3954,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13.x-dev"
+                    "dev-master": "1.14.x-dev"
                 }
             },
             "autoload": {
@@ -3977,7 +3980,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-03-09 09:58:04"
+            "time": "2015-06-19 13:29:54"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5510,6 +5513,106 @@
     ],
     "packages-dev": [
         {
+            "name": "campaignchain/activity-slideshare",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-slideshare.git",
+                "reference": "d4cbe15863e421274cee48934c9b23e0f1d9ab07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/d4cbe15863e421274cee48934c9b23e0f1d9ab07",
+                "reference": "d4cbe15863e421274cee48934c9b23e0f1d9ab07",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/location-slideshare": "dev-master",
+                "campaignchain/operation-slideshare": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\SlideShareBundle\\CampaignChainActivitySlideShareBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_slideshare",
+                            "resource": "@CampaignChainActivitySlideShareBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\SlideShareBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "homepage": "http://campaignchain.com",
+            "time": "2015-06-19 14:26:29"
+        },
+        {
+            "name": "campaignchain/channel-slideshare",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-slideshare.git",
+                "reference": "a91d715878af2e98e315a4dac05e229c89d020e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/a91d715878af2e98e315a4dac05e229c89d020e7",
+                "reference": "a91d715878af2e98e315a4dac05e229c89d020e7",
+                "shasum": ""
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\SlideShareBundle\\CampaignChainChannelSlideShareBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_slideshare",
+                            "resource": "@CampaignChainChannelSlideShareBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\SlideShareBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Connect to SlideShare",
+            "homepage": "http://campaignchain.com",
+            "time": "2015-06-19 14:12:32"
+        },
+        {
             "name": "campaignchain/dev-tools",
             "version": "dev-master",
             "source": {
@@ -5547,6 +5650,107 @@
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
             "time": "2015-05-07 17:56:32"
+        },
+        {
+            "name": "campaignchain/location-slideshare",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-slideshare.git",
+                "reference": "55e36dd5630500555bb209ae5215fe7459c5fb68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/55e36dd5630500555bb209ae5215fe7459c5fb68",
+                "reference": "55e36dd5630500555bb209ae5215fe7459c5fb68",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-slideshare": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\SlideShareBundle\\CampaignChainLocationSlideShareBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_slideshare",
+                            "resource": "@CampaignChainLocationSlideShareBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\SlideShareBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Holds information about a SlideShare user",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-06-19 14:27:16"
+        },
+        {
+            "name": "campaignchain/operation-slideshare",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-slideshare.git",
+                "reference": "ea75acc51b9a3a44b37dcc06368470fd160a29d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/ea75acc51b9a3a44b37dcc06368470fd160a29d0",
+                "reference": "ea75acc51b9a3a44b37dcc06368470fd160a29d0",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/activity-slideshare": "dev-master"
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\SlideShareBundle\\CampaignChainOperationSlideShareBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_operation_slideshare",
+                            "resource": "@CampaignChainOperationSlideShareBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\SlideShareBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "homepage": "http://campaignchain.com",
+            "time": "2015-06-19 14:26:07"
         }
     ],
     "aliases": [],
@@ -5554,7 +5758,8 @@
     "stability-flags": {
         "campaignchain/distribution-ce": 20,
         "myclabs/deep-copy": 20,
-        "campaignchain/dev-tools": 20
+        "campaignchain/dev-tools": 20,
+        "campaignchain/activity-slideshare": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

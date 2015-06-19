@@ -15,7 +15,8 @@
         "myclabs/deep-copy": "dev-master"
     },
     "require-dev": {
-        "campaignchain/dev-tools": "dev-master"
+        "campaignchain/dev-tools": "dev-master",
+        "campaignchain/activity-slideshare": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
