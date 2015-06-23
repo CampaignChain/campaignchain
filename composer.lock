@@ -470,12 +470,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "846ff8533edbf70f2624629223d784daf512cae0"
+                "reference": "6e1d1ebfb0e96466c4a44c6a16611f6fd99bae8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/846ff8533edbf70f2624629223d784daf512cae0",
-                "reference": "846ff8533edbf70f2624629223d784daf512cae0",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/6e1d1ebfb0e96466c4a44c6a16611f6fd99bae8c",
+                "reference": "6e1d1ebfb0e96466c4a44c6a16611f6fd99bae8c",
                 "shasum": ""
             },
             "require": {
@@ -514,7 +514,7 @@
             ],
             "description": "Create re-usable templates of campaigns.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-06-19 12:57:05"
+            "time": "2015-06-22 18:27:14"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -862,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "ac815c9c8343c42f98d0cf69e04292582e1e0c1a"
+                "reference": "9d9f9737355b4ed96cd095c0a7ef7ac8f6c7a29a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ac815c9c8343c42f98d0cf69e04292582e1e0c1a",
-                "reference": "ac815c9c8343c42f98d0cf69e04292582e1e0c1a",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9d9f9737355b4ed96cd095c0a7ef7ac8f6c7a29a",
+                "reference": "9d9f9737355b4ed96cd095c0a7ef7ac8f6c7a29a",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +953,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-06-19 12:57:05"
+            "time": "2015-06-22 18:27:14"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -961,12 +961,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "25d82fb202ab8c0c4921b0acb69d3308fdb7cc42"
+                "reference": "adb34a4cd06ec00446893ee9569e293834e5295c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/25d82fb202ab8c0c4921b0acb69d3308fdb7cc42",
-                "reference": "25d82fb202ab8c0c4921b0acb69d3308fdb7cc42",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/adb34a4cd06ec00446893ee9569e293834e5295c",
+                "reference": "adb34a4cd06ec00446893ee9569e293834e5295c",
                 "shasum": ""
             },
             "require": {
@@ -1018,7 +1018,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2015-05-22 12:41:41"
+            "time": "2015-06-21 07:41:46"
         },
         {
             "name": "campaignchain/doc-html",
@@ -1109,12 +1109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "47995f79bb808f81fdded97ad8e1624ccfd2fc15"
+                "reference": "fc1a697fd2b60cd8677a4e9cc54d023ddbbc5d8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/47995f79bb808f81fdded97ad8e1624ccfd2fc15",
-                "reference": "47995f79bb808f81fdded97ad8e1624ccfd2fc15",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/fc1a697fd2b60cd8677a4e9cc54d023ddbbc5d8c",
+                "reference": "fc1a697fd2b60cd8677a4e9cc54d023ddbbc5d8c",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1147,7 +1147,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-06-18 19:26:34"
+            "time": "2015-06-21 07:40:43"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -5194,12 +5194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "6a2d3a4aec75853d0799893c6cd843e398f975a9"
+                "reference": "9f86195158db1712f3d9944cb7e1a28c5e91f0ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/6a2d3a4aec75853d0799893c6cd843e398f975a9",
-                "reference": "6a2d3a4aec75853d0799893c6cd843e398f975a9",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/9f86195158db1712f3d9944cb7e1a28c5e91f0ee",
+                "reference": "9f86195158db1712f3d9944cb7e1a28c5e91f0ee",
                 "shasum": ""
             },
             "require": {
@@ -5308,20 +5308,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-06-18 16:14:27"
+            "time": "2015-06-22 16:34:55"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v3.3.4",
+            "version": "v3.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "a10eb60bc0b07b747fa0c4ebd8821eb7307bd07f"
+                "reference": "16b48259a62f576e52c903c476bd42b90ab22482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a10eb60bc0b07b747fa0c4ebd8821eb7307bd07f",
-                "reference": "a10eb60bc0b07b747fa0c4ebd8821eb7307bd07f",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/16b48259a62f576e52c903c476bd42b90ab22482",
+                "reference": "16b48259a62f576e52c903c476bd42b90ab22482",
                 "shasum": ""
             },
             "replace": {
@@ -5359,7 +5359,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2015-03-16 15:44:41"
+            "time": "2015-06-16 16:13:22"
         },
         {
             "name": "twig/extensions",
@@ -5518,12 +5518,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-slideshare.git",
-                "reference": "d4cbe15863e421274cee48934c9b23e0f1d9ab07"
+                "reference": "0dda35207b402b7ae5305d81bb6530474d66fdcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/d4cbe15863e421274cee48934c9b23e0f1d9ab07",
-                "reference": "d4cbe15863e421274cee48934c9b23e0f1d9ab07",
+                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/0dda35207b402b7ae5305d81bb6530474d66fdcb",
+                "reference": "0dda35207b402b7ae5305d81bb6530474d66fdcb",
                 "shasum": ""
             },
             "require": {
@@ -5561,8 +5561,9 @@
                     "email": "sandro@campaignchain.com"
                 }
             ],
+            "description": "Publish SlideShare slideshow",
             "homepage": "http://campaignchain.com",
-            "time": "2015-06-19 14:26:29"
+            "time": "2015-06-22 18:27:14"
         },
         {
             "name": "campaignchain/channel-slideshare",
@@ -5570,12 +5571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-slideshare.git",
-                "reference": "a91d715878af2e98e315a4dac05e229c89d020e7"
+                "reference": "eab69a9ee78059e0abd57b9c221ca1632c274099"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/a91d715878af2e98e315a4dac05e229c89d020e7",
-                "reference": "a91d715878af2e98e315a4dac05e229c89d020e7",
+                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/eab69a9ee78059e0abd57b9c221ca1632c274099",
+                "reference": "eab69a9ee78059e0abd57b9c221ca1632c274099",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -5610,7 +5611,7 @@
             ],
             "description": "Connect to SlideShare",
             "homepage": "http://campaignchain.com",
-            "time": "2015-06-19 14:12:32"
+            "time": "2015-06-22 18:27:14"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -5618,12 +5619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "dc343d466a32542aef44d045f9a669719924ecfb"
+                "reference": "cf8956ffc789d70f0e752c940953e5a26fba4c51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/dc343d466a32542aef44d045f9a669719924ecfb",
-                "reference": "dc343d466a32542aef44d045f9a669719924ecfb",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/cf8956ffc789d70f0e752c940953e5a26fba4c51",
+                "reference": "cf8956ffc789d70f0e752c940953e5a26fba4c51",
                 "shasum": ""
             },
             "require": {
@@ -5649,7 +5650,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-05-07 17:56:32"
+            "time": "2015-06-22 18:27:14"
         },
         {
             "name": "campaignchain/location-slideshare",
@@ -5657,12 +5658,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-slideshare.git",
-                "reference": "55e36dd5630500555bb209ae5215fe7459c5fb68"
+                "reference": "49824dd6078e15cbe50dbd1e2f03d0a48704e5c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/55e36dd5630500555bb209ae5215fe7459c5fb68",
-                "reference": "55e36dd5630500555bb209ae5215fe7459c5fb68",
+                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/49824dd6078e15cbe50dbd1e2f03d0a48704e5c1",
+                "reference": "49824dd6078e15cbe50dbd1e2f03d0a48704e5c1",
                 "shasum": ""
             },
             "require": {
@@ -5700,7 +5701,7 @@
             ],
             "description": "Holds information about a SlideShare user",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-06-19 14:27:16"
+            "time": "2015-06-22 18:27:14"
         },
         {
             "name": "campaignchain/operation-slideshare",
@@ -5708,12 +5709,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-slideshare.git",
-                "reference": "ea75acc51b9a3a44b37dcc06368470fd160a29d0"
+                "reference": "a663fadb7bb445c0c3c179a6041924633da42419"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/ea75acc51b9a3a44b37dcc06368470fd160a29d0",
-                "reference": "ea75acc51b9a3a44b37dcc06368470fd160a29d0",
+                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/a663fadb7bb445c0c3c179a6041924633da42419",
+                "reference": "a663fadb7bb445c0c3c179a6041924633da42419",
                 "shasum": ""
             },
             "require": {
@@ -5749,8 +5750,9 @@
                     "email": "sandro@campaignchain.com"
                 }
             ],
+            "description": "Publish SlideShare slideshow",
             "homepage": "http://campaignchain.com",
-            "time": "2015-06-19 14:26:07"
+            "time": "2015-06-22 18:27:14"
         }
     ],
     "aliases": [],
