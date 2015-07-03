@@ -16,7 +16,8 @@
     },
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
-        "campaignchain/activity-slideshare": "dev-master"
+        "campaignchain/activity-slideshare": "dev-master",
+        "campaignchain/hook-date-repeat": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
