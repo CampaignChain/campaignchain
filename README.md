@@ -83,14 +83,14 @@ http://technet.microsoft.com/en-us/library/bb726974.aspx
 
 Use PHP's built-in Web server to run CampaignChain.
 
-    $ php app/console server:run
+    $ php app/console server:start
 
 By default, the built-in Web server listens for connections on 127.0.0.1. If
 you're planning to connect to the server over a network, you can specify the
 network IP address that the server should use. For example, the command below
 runs the Web server on port 80 of IP address 192.168.1.1:
 
-    $ php app/console server:run 192.168.1.1:80
+    $ php app/console server:start 192.168.1.1:80
     
 9. Installation Wizard
 -----------------------
