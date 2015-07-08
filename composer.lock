@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8c0d70a1f364585ddee9ebb8f158ff60",
+    "hash": "1f56410f0fe68291637fc0db8043b262",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1013,12 +1013,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "adb34a4cd06ec00446893ee9569e293834e5295c"
+                "reference": "4ddf5f915d3f628958c11c348ed2777e1c81d592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/adb34a4cd06ec00446893ee9569e293834e5295c",
-                "reference": "adb34a4cd06ec00446893ee9569e293834e5295c",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/4ddf5f915d3f628958c11c348ed2777e1c81d592",
+                "reference": "4ddf5f915d3f628958c11c348ed2777e1c81d592",
                 "shasum": ""
             },
             "require": {
@@ -1027,6 +1027,7 @@
                 "campaignchain/activity-linkedin": "dev-master",
                 "campaignchain/activity-mailchimp": "dev-master",
                 "campaignchain/activity-twitter": "dev-master",
+                "campaignchain/campaign-repeating": "dev-master",
                 "campaignchain/campaign-scheduled": "dev-master",
                 "campaignchain/campaign-template": "dev-master",
                 "campaignchain/core": "dev-master",
@@ -1070,7 +1071,7 @@
                 "community edition",
                 "distribution"
             ],
-            "time": "2015-06-21 07:41:46"
+            "time": "2015-07-08 09:14:43"
         },
         {
             "name": "campaignchain/doc-html",
@@ -5863,8 +5864,7 @@
         "myclabs/deep-copy": 20,
         "campaignchain/campaign-repeating": 20,
         "campaignchain/dev-tools": 20,
-        "campaignchain/activity-slideshare": 20,
-        "campaignchain/hook-date-repeat": 20
+        "campaignchain/activity-slideshare": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
