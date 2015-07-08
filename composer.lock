@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f6e85a91a94019506cccb11d920b5310",
+    "hash": "8c0d70a1f364585ddee9ebb8f158ff60",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -404,6 +404,58 @@
             "time": "2015-05-30 14:10:53"
         },
         {
+            "name": "campaignchain/campaign-repeating",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/campaign-repeating.git",
+                "reference": "07b5b6dd711eeaad6b2d831e296feb101472e668"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/07b5b6dd711eeaad6b2d831e296feb101472e668",
+                "reference": "07b5b6dd711eeaad6b2d831e296feb101472e668",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/campaign-template": "dev-master",
+                "campaignchain/hook-date-repeat": "dev-master"
+            },
+            "type": "campaignchain-campaign",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Campaign\\RepeatingBundle\\CampaignChainCampaignRepeatingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_campaign_repeating",
+                            "resource": "@CampaignChainCampaignRepeatingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Campaign\\RepeatingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "A campaign that is being repeated automatically.",
+            "homepage": "http://www.campaignchain.com",
+            "time": "2015-07-08 09:00:24"
+        },
+        {
             "name": "campaignchain/campaign-scheduled",
             "version": "dev-master",
             "source": {
@@ -470,12 +522,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "6e1d1ebfb0e96466c4a44c6a16611f6fd99bae8c"
+                "reference": "cb1a65d2d78999f26d92a87d7aa203a733c779e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/6e1d1ebfb0e96466c4a44c6a16611f6fd99bae8c",
-                "reference": "6e1d1ebfb0e96466c4a44c6a16611f6fd99bae8c",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/cb1a65d2d78999f26d92a87d7aa203a733c779e1",
+                "reference": "cb1a65d2d78999f26d92a87d7aa203a733c779e1",
                 "shasum": ""
             },
             "require": {
@@ -514,7 +566,7 @@
             ],
             "description": "Create re-usable templates of campaigns.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-06-22 18:27:14"
+            "time": "2015-07-08 08:17:39"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -862,12 +914,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "529be1e51f02a0c5d72f7113ff88696443c8ac1c"
+                "reference": "b9bed974cba304aa1d07436c1072b9192d3fded4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/529be1e51f02a0c5d72f7113ff88696443c8ac1c",
-                "reference": "529be1e51f02a0c5d72f7113ff88696443c8ac1c",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b9bed974cba304aa1d07436c1072b9192d3fded4",
+                "reference": "b9bed974cba304aa1d07436c1072b9192d3fded4",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +1005,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-07-03 10:58:41"
+            "time": "2015-07-06 14:29:48"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1104,17 +1156,63 @@
             "time": "2015-06-13 05:12:21"
         },
         {
+            "name": "campaignchain/hook-date-repeat",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/hook-data-repeat.git",
+                "reference": "9625339cf0120289fa3432bfaf5ed2e99bc68925"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/9625339cf0120289fa3432bfaf5ed2e99bc68925",
+                "reference": "9625339cf0120289fa3432bfaf5ed2e99bc68925",
+                "shasum": ""
+            },
+            "type": "campaignchain-hook",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Hook\\DateRepeatBundle\\CampaignChainHookDateRepeatBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Hook\\DateRepeatBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Groganz",
+                    "email": "sandro@campaignchain.com"
+                }
+            ],
+            "description": "Define the repeating dates of an entity.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "HOOK"
+            ],
+            "time": "2015-07-08 08:17:39"
+        },
+        {
             "name": "campaignchain/hook-due",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "8ae1005bc8b2cbacdee36cf01e196f456aa96726"
+                "reference": "5cccd8da93d341fdbeefad7b0a1c295f406ef117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/8ae1005bc8b2cbacdee36cf01e196f456aa96726",
-                "reference": "8ae1005bc8b2cbacdee36cf01e196f456aa96726",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/5cccd8da93d341fdbeefad7b0a1c295f406ef117",
+                "reference": "5cccd8da93d341fdbeefad7b0a1c295f406ef117",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1147,7 +1245,7 @@
             "keywords": [
                 "due"
             ],
-            "time": "2015-07-03 10:58:41"
+            "time": "2015-07-08 08:17:39"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -1201,12 +1299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-timespan.git",
-                "reference": "d320fe4b9103610078c1465a1a7d7118547843a6"
+                "reference": "a20cf3d9e9cb1ccf9c739a5ce6a4f03c84a6aaa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/d320fe4b9103610078c1465a1a7d7118547843a6",
-                "reference": "d320fe4b9103610078c1465a1a7d7118547843a6",
+                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/a20cf3d9e9cb1ccf9c739a5ce6a4f03c84a6aaa1",
+                "reference": "a20cf3d9e9cb1ccf9c739a5ce6a4f03c84a6aaa1",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1239,7 +1337,7 @@
             "keywords": [
                 "timespan"
             ],
-            "time": "2015-06-13 05:12:21"
+            "time": "2015-07-08 08:17:39"
         },
         {
             "name": "campaignchain/location-citrix",
@@ -5521,12 +5619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-slideshare.git",
-                "reference": "6f4957746a17f81b7193ca324a61e5ef4b92d835"
+                "reference": "e43d1b4c8bfd838cb86098dbad7387486bbb68b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/6f4957746a17f81b7193ca324a61e5ef4b92d835",
-                "reference": "6f4957746a17f81b7193ca324a61e5ef4b92d835",
+                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/e43d1b4c8bfd838cb86098dbad7387486bbb68b5",
+                "reference": "e43d1b4c8bfd838cb86098dbad7387486bbb68b5",
                 "shasum": ""
             },
             "require": {
@@ -5566,7 +5664,7 @@
             ],
             "description": "Publish SlideShare slideshow",
             "homepage": "http://campaignchain.com",
-            "time": "2015-06-30 12:45:34"
+            "time": "2015-07-08 06:09:16"
         },
         {
             "name": "campaignchain/channel-slideshare",
@@ -5574,12 +5672,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-slideshare.git",
-                "reference": "eab69a9ee78059e0abd57b9c221ca1632c274099"
+                "reference": "4d0f3e1ef267e608b1c051525211b5ce350473d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/eab69a9ee78059e0abd57b9c221ca1632c274099",
-                "reference": "eab69a9ee78059e0abd57b9c221ca1632c274099",
+                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/4d0f3e1ef267e608b1c051525211b5ce350473d7",
+                "reference": "4d0f3e1ef267e608b1c051525211b5ce350473d7",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -5614,7 +5712,7 @@
             ],
             "description": "Connect to SlideShare",
             "homepage": "http://campaignchain.com",
-            "time": "2015-06-22 18:27:14"
+            "time": "2015-07-08 06:09:39"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -5622,12 +5720,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "cf8956ffc789d70f0e752c940953e5a26fba4c51"
+                "reference": "dce31d4c61cb6b1e671950a258588fa548ddcf23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/cf8956ffc789d70f0e752c940953e5a26fba4c51",
-                "reference": "cf8956ffc789d70f0e752c940953e5a26fba4c51",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/dce31d4c61cb6b1e671950a258588fa548ddcf23",
+                "reference": "dce31d4c61cb6b1e671950a258588fa548ddcf23",
                 "shasum": ""
             },
             "require": {
@@ -5653,53 +5751,7 @@
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-06-22 18:27:14"
-        },
-        {
-            "name": "campaignchain/hook-date-repeat",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/hook-data-repeat.git",
-                "reference": "42623ec0138f9841fa391ba2205efc1c55e89d99"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/42623ec0138f9841fa391ba2205efc1c55e89d99",
-                "reference": "42623ec0138f9841fa391ba2205efc1c55e89d99",
-                "shasum": ""
-            },
-            "type": "campaignchain-hook",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Hook\\DateRepeatBundle\\CampaignChainHookDateRepeatBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Hook\\DateRepeatBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
-                }
-            ],
-            "description": "Define the repeating dates of an entity.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "HOOK"
-            ],
-            "time": "2015-07-03 10:02:31"
+            "time": "2015-07-08 08:17:39"
         },
         {
             "name": "campaignchain/location-slideshare",
@@ -5707,12 +5759,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-slideshare.git",
-                "reference": "0a2f7268cf662456f16c1de5fb2c484d86766e47"
+                "reference": "e108bc6fb311eb4e60ad006f8f3c2b7eacb6c0d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/0a2f7268cf662456f16c1de5fb2c484d86766e47",
-                "reference": "0a2f7268cf662456f16c1de5fb2c484d86766e47",
+                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/e108bc6fb311eb4e60ad006f8f3c2b7eacb6c0d8",
+                "reference": "e108bc6fb311eb4e60ad006f8f3c2b7eacb6c0d8",
                 "shasum": ""
             },
             "require": {
@@ -5750,7 +5802,7 @@
             ],
             "description": "Holds information about a SlideShare user",
             "homepage": "http://www.campaignchain.com",
-            "time": "2015-06-30 12:44:02"
+            "time": "2015-07-07 19:35:17"
         },
         {
             "name": "campaignchain/operation-slideshare",
@@ -5758,12 +5810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-slideshare.git",
-                "reference": "cb47b9fcb316186b104278cc17937981bee45be4"
+                "reference": "ae77e074378e14a796eaf40ad2cb6654a98ef903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/cb47b9fcb316186b104278cc17937981bee45be4",
-                "reference": "cb47b9fcb316186b104278cc17937981bee45be4",
+                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/ae77e074378e14a796eaf40ad2cb6654a98ef903",
+                "reference": "ae77e074378e14a796eaf40ad2cb6654a98ef903",
                 "shasum": ""
             },
             "require": {
@@ -5801,7 +5853,7 @@
             ],
             "description": "Publish SlideShare slideshow",
             "homepage": "http://campaignchain.com",
-            "time": "2015-06-30 12:44:53"
+            "time": "2015-07-08 06:08:57"
         }
     ],
     "aliases": [],
@@ -5809,6 +5861,7 @@
     "stability-flags": {
         "campaignchain/distribution-ce": 20,
         "myclabs/deep-copy": 20,
+        "campaignchain/campaign-repeating": 20,
         "campaignchain/dev-tools": 20,
         "campaignchain/activity-slideshare": 20,
         "campaignchain/hook-date-repeat": 20

@@ -12,12 +12,12 @@
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
         "campaignchain/distribution-ce": "dev-master",
-        "myclabs/deep-copy": "dev-master"
+        "myclabs/deep-copy": "dev-master",
+        "campaignchain/campaign-repeating": "dev-master"
     },
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
-        "campaignchain/activity-slideshare": "dev-master",
-        "campaignchain/hook-date-repeat": "dev-master"
+        "campaignchain/activity-slideshare": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
