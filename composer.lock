@@ -914,12 +914,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "b9bed974cba304aa1d07436c1072b9192d3fded4"
+                "reference": "2550bd0c2f069270cdc499b369db680e75850d9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b9bed974cba304aa1d07436c1072b9192d3fded4",
-                "reference": "b9bed974cba304aa1d07436c1072b9192d3fded4",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2550bd0c2f069270cdc499b369db680e75850d9f",
+                "reference": "2550bd0c2f069270cdc499b369db680e75850d9f",
                 "shasum": ""
             },
             "require": {
@@ -1005,7 +1005,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-07-06 14:29:48"
+            "time": "2015-07-10 15:49:00"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -4008,16 +4008,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.14.0",
+            "version": "1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "b287fbbe1ca27847064beff2bad7fb6920bf08cc"
+                "reference": "dc5150cc608f2334c72c3b6a553ec9668a4156b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b287fbbe1ca27847064beff2bad7fb6920bf08cc",
-                "reference": "b287fbbe1ca27847064beff2bad7fb6920bf08cc",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/dc5150cc608f2334c72c3b6a553ec9668a4156b0",
+                "reference": "dc5150cc608f2334c72c3b6a553ec9668a4156b0",
                 "shasum": ""
             },
             "require": {
@@ -4054,7 +4054,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14.x-dev"
+                    "dev-master": "1.15.x-dev"
                 }
             },
             "autoload": {
@@ -4080,7 +4080,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-06-19 13:29:54"
+            "time": "2015-07-12 13:54:09"
         },
         {
             "name": "myclabs/deep-copy",
