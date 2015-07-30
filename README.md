@@ -4,6 +4,15 @@ Community Edition (CE)
 The CampaignChain Community Edition has all basic modules included and you can
 easily add more of them inside the application.
 
+0. Requirements
+---------------
+
+* PHP 5.4 or better
+* PHP’s JSON, PDO and intl extensions enabled
+* PHP’s system() function must work
+* MySQL 5.5 or better
+* Java 1.5 or better
+
 1. Set up Database
 ------------------
 
