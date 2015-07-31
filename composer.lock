@@ -3093,12 +3093,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
-                "reference": "0b102317cfb4d4f2a8250b9a5dc3480a9cebfb01"
+                "reference": "cc33cfd500cb056808a9f937d6c2e589b23ba936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/0b102317cfb4d4f2a8250b9a5dc3480a9cebfb01",
-                "reference": "0b102317cfb4d4f2a8250b9a5dc3480a9cebfb01",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/cc33cfd500cb056808a9f937d6c2e589b23ba936",
+                "reference": "cc33cfd500cb056808a9f937d6c2e589b23ba936",
                 "shasum": ""
             },
             "require": {
@@ -3143,7 +3143,7 @@
                 "javascript",
                 "routing"
             ],
-            "time": "2015-06-29 21:36:23"
+            "time": "2015-07-31 09:51:44"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -5745,12 +5745,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-slideshare.git",
-                "reference": "517d729cc2b4418c39c98316b73251640ab17c43"
+                "reference": "0940da85ba883e993ca714dd0dd1d2ff7b0a4ab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/517d729cc2b4418c39c98316b73251640ab17c43",
-                "reference": "517d729cc2b4418c39c98316b73251640ab17c43",
+                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/0940da85ba883e993ca714dd0dd1d2ff7b0a4ab9",
+                "reference": "0940da85ba883e993ca714dd0dd1d2ff7b0a4ab9",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -5789,7 +5789,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2015-07-30 04:46:26"
+            "time": "2015-07-31 11:21:39"
         },
         {
             "name": "campaignchain/dev-tools",
