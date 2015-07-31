@@ -5688,12 +5688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-slideshare.git",
-                "reference": "5ddbecf0e7d0915445714b26b5f0d50d435b27d0"
+                "reference": "adad5f36317bc7b2b39c220b75c4d0f2995f9e5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/5ddbecf0e7d0915445714b26b5f0d50d435b27d0",
-                "reference": "5ddbecf0e7d0915445714b26b5f0d50d435b27d0",
+                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/adad5f36317bc7b2b39c220b75c4d0f2995f9e5c",
+                "reference": "adad5f36317bc7b2b39c220b75c4d0f2995f9e5c",
                 "shasum": ""
             },
             "require": {
@@ -5737,7 +5737,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2015-07-30 04:29:19"
+            "time": "2015-07-31 06:50:13"
         },
         {
             "name": "campaignchain/channel-slideshare",
@@ -5894,12 +5894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-slideshare.git",
-                "reference": "f1a77db8303d01e1e4eddd4ded7aea30cd90231c"
+                "reference": "97e65d0ed99dc2902145246f2d090c64f1432b3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/f1a77db8303d01e1e4eddd4ded7aea30cd90231c",
-                "reference": "f1a77db8303d01e1e4eddd4ded7aea30cd90231c",
+                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/97e65d0ed99dc2902145246f2d090c64f1432b3c",
+                "reference": "97e65d0ed99dc2902145246f2d090c64f1432b3c",
                 "shasum": ""
             },
             "require": {
@@ -5941,7 +5941,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2015-07-30 04:43:05"
+            "time": "2015-07-31 06:50:13"
         }
     ],
     "aliases": [],
