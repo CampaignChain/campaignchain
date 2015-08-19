@@ -4887,16 +4887,16 @@
         },
         {
             "name": "sonata-project/core-bundle",
-            "version": "2.3.5",
+            "version": "2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "d5e0aea3998d6e94de01c475db972dca67786c28"
+                "reference": "2f8af76dbf43f6745f32605d7e2df2c645577fde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/d5e0aea3998d6e94de01c475db972dca67786c28",
-                "reference": "d5e0aea3998d6e94de01c475db972dca67786c28",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/2f8af76dbf43f6745f32605d7e2df2c645577fde",
+                "reference": "2f8af76dbf43f6745f32605d7e2df2c645577fde",
                 "shasum": ""
             },
             "require": {
@@ -4952,7 +4952,7 @@
             "keywords": [
                 "sonata"
             ],
-            "time": "2015-08-05 15:17:10"
+            "time": "2015-08-18 08:42:31"
         },
         {
             "name": "sonata-project/exporter",
