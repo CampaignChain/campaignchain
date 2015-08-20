@@ -3816,12 +3816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "7c0d579ca58f1c7cb3747a84b681fe273f00ffec"
+                "reference": "5c5b01905d671134efde7dd5d769fee4934a164a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/7c0d579ca58f1c7cb3747a84b681fe273f00ffec",
-                "reference": "7c0d579ca58f1c7cb3747a84b681fe273f00ffec",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/5c5b01905d671134efde7dd5d769fee4934a164a",
+                "reference": "5c5b01905d671134efde7dd5d769fee4934a164a",
                 "shasum": ""
             },
             "require": {
@@ -3864,7 +3864,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2015-06-16 12:38:43"
+            "time": "2015-08-20 12:52:01"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
