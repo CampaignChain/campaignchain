@@ -4,7 +4,7 @@
     "type": "project",
     "description": "The CampaignChain Community Edition",
     "autoload": {
-        "psr-0": { "": "src/", "SymfonyStandard": "app/" }
+        "psr-4": { "": "src/", "SymfonyStandard\\": "app/SymfonyStandard/" }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
