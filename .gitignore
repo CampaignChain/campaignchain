@@ -4,7 +4,7 @@
 /app/cache/*
 /app/logs/*
 /app/SymfonyRequirements.php
-/app/SymfonyStandard/*
+/app/SymfonyStandard/
 !app/cache/.gitkeep
 !app/logs/.gitkeep
 /build/
