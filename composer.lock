@@ -944,12 +944,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "d3a55c1ab1e47ff6f56b4ec717b00edee31b4e0b"
+                "reference": "0c6e0490649301ddee1b28ee4828f0ed6bde487d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/d3a55c1ab1e47ff6f56b4ec717b00edee31b4e0b",
-                "reference": "d3a55c1ab1e47ff6f56b4ec717b00edee31b4e0b",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/0c6e0490649301ddee1b28ee4828f0ed6bde487d",
+                "reference": "0c6e0490649301ddee1b28ee4828f0ed6bde487d",
                 "shasum": ""
             },
             "require": {
@@ -1034,7 +1034,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-08-19 15:59:03"
+            "time": "2015-08-20 08:20:36"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -3752,12 +3752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "c3578e1dd4230f1827e37699e7ca4012341f0696"
+                "reference": "79387e6e7c3b7fb2563c68ecc88878bb8923ee58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/c3578e1dd4230f1827e37699e7ca4012341f0696",
-                "reference": "c3578e1dd4230f1827e37699e7ca4012341f0696",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/79387e6e7c3b7fb2563c68ecc88878bb8923ee58",
+                "reference": "79387e6e7c3b7fb2563c68ecc88878bb8923ee58",
                 "shasum": ""
             },
             "require": {
@@ -3808,7 +3808,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2015-07-17 20:59:47"
+            "time": "2015-08-19 17:23:46"
         },
         {
             "name": "knplabs/knp-menu-bundle",
