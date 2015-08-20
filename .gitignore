@@ -3,12 +3,17 @@
 /app/bootstrap.php.cache
 /app/cache/*
 /app/logs/*
+/app/SymfonyRequirements.php
+/app/SymfonyStandard/
 !app/cache/.gitkeep
 !app/logs/.gitkeep
 /build/
 /vendor/
 /bin/
 /composer.phar
+web/fonts
+web/images
+src
 
 ## CampaignChain
 app/campaignchain_bundles.php
@@ -35,7 +40,3 @@ web/media
 *.iws
 .idea_modules/
 atlassian-ide-plugin.xml
-app/SymfonyRequirements.php
-web/fonts
-web/images
-src
