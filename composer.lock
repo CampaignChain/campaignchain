@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d9c210b5c277587ab1ea85ffafebec2",
+    "hash": "cf22c1080c6733bf580f7960d54b504e",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -944,12 +944,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "5061ac2a3d730a59612207e78265427bfb693867"
+                "reference": "f07a39a2d5b1ad70f96fb2513a5046c4416a4c38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/5061ac2a3d730a59612207e78265427bfb693867",
-                "reference": "5061ac2a3d730a59612207e78265427bfb693867",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f07a39a2d5b1ad70f96fb2513a5046c4416a4c38",
+                "reference": "f07a39a2d5b1ad70f96fb2513a5046c4416a4c38",
                 "shasum": ""
             },
             "require": {
@@ -1034,7 +1034,7 @@
                 "campaignchain",
                 "core"
             ],
-            "time": "2015-09-07 15:54:12"
+            "time": "2015-09-07 19:50:47"
         },
         {
             "name": "campaignchain/distribution-ce",
