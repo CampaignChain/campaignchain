@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "cf22c1080c6733bf580f7960d54b504e",
+    "content-hash": "181fb5e1405e71ae2c71d188c77e1159",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -119,12 +120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-facebook.git",
-                "reference": "02c7d6e2a55d51e1c6b1b3fb307aa81015bed44b"
+                "reference": "668bdccae41f0f51818725bbcfb1c836121ec493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/02c7d6e2a55d51e1c6b1b3fb307aa81015bed44b",
-                "reference": "02c7d6e2a55d51e1c6b1b3fb307aa81015bed44b",
+                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/668bdccae41f0f51818725bbcfb1c836121ec493",
+                "reference": "668bdccae41f0f51818725bbcfb1c836121ec493",
                 "shasum": ""
             },
             "require": {
@@ -160,18 +161,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Post a status message on the feed of a channel.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "facebook",
-                "status"
+                "facebook"
             ],
-            "time": "2015-09-12 19:54:01"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/activity-gotowebinar",
@@ -179,12 +180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-gotowebinar.git",
-                "reference": "1d1fa1f4a5a080476a46ef4b040344fac8403124"
+                "reference": "d7ef9d9500d29e738586d728bc19169937669bef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/1d1fa1f4a5a080476a46ef4b040344fac8403124",
-                "reference": "1d1fa1f4a5a080476a46ef4b040344fac8403124",
+                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/d7ef9d9500d29e738586d728bc19169937669bef",
+                "reference": "d7ef9d9500d29e738586d728bc19169937669bef",
                 "shasum": ""
             },
             "require": {
@@ -220,8 +221,9 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Include a Webinar into a campaign.",
@@ -229,7 +231,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:53:58"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -237,12 +239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "387f554e389586b2c798a2d059a81c5192bd5aa7"
+                "reference": "7817cb5a4a2802be5fccea4ca3987d325444ce3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/387f554e389586b2c798a2d059a81c5192bd5aa7",
-                "reference": "387f554e389586b2c798a2d059a81c5192bd5aa7",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/7817cb5a4a2802be5fccea4ca3987d325444ce3a",
+                "reference": "7817cb5a4a2802be5fccea4ca3987d325444ce3a",
                 "shasum": ""
             },
             "require": {
@@ -277,18 +279,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Post a news update on a LinkedIn stream.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "linkedin",
-                "news"
+                "linkedin"
             ],
-            "time": "2015-09-12 19:53:58"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -296,12 +298,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-mailchimp.git",
-                "reference": "e82ce01859009da9958dd9147e75921ba66afc2b"
+                "reference": "a36a31b9c3a81f34b5455efd388c87c8c02affa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/e82ce01859009da9958dd9147e75921ba66afc2b",
-                "reference": "e82ce01859009da9958dd9147e75921ba66afc2b",
+                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/a36a31b9c3a81f34b5455efd388c87c8c02affa3",
+                "reference": "a36a31b9c3a81f34b5455efd388c87c8c02affa3",
                 "shasum": ""
             },
             "require": {
@@ -336,17 +338,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Add upcoming newsletter campaign",
+            "description": "Add upcoming newsletter campaign.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2015-09-12 19:53:58"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/activity-twitter",
@@ -354,12 +357,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-twitter.git",
-                "reference": "8755d0eff8daaf959a2dadf0f8540505f14e781c"
+                "reference": "1deaee95d6676d5caf2d5f9a84405efef3792eba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/8755d0eff8daaf959a2dadf0f8540505f14e781c",
-                "reference": "8755d0eff8daaf959a2dadf0f8540505f14e781c",
+                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/1deaee95d6676d5caf2d5f9a84405efef3792eba",
+                "reference": "1deaee95d6676d5caf2d5f9a84405efef3792eba",
                 "shasum": ""
             },
             "require": {
@@ -395,18 +398,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Post a status update (aka Tweet) on a Twitter stream.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "status",
                 "twitter"
             ],
-            "time": "2015-09-12 19:53:59"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/campaign-repeating",
@@ -414,12 +417,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-repeating.git",
-                "reference": "d79f9ef8ed668f3397883d45305fbf3e52c73fce"
+                "reference": "a986d747da1c5882127d7fcd619ee86d41a4475d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/d79f9ef8ed668f3397883d45305fbf3e52c73fce",
-                "reference": "d79f9ef8ed668f3397883d45305fbf3e52c73fce",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/a986d747da1c5882127d7fcd619ee86d41a4475d",
+                "reference": "a986d747da1c5882127d7fcd619ee86d41a4475d",
                 "shasum": ""
             },
             "require": {
@@ -452,16 +455,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "A campaign that is being repeated automatically.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
+                "campaign",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:53:59"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -469,12 +474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "40e3689716d20a3600a3a2d2aa172fe4d379d902"
+                "reference": "d9bc3a05765640ed81e14fb5afc846835e1a538e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/40e3689716d20a3600a3a2d2aa172fe4d379d902",
-                "reference": "40e3689716d20a3600a3a2d2aa172fe4d379d902",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/d9bc3a05765640ed81e14fb5afc846835e1a538e",
+                "reference": "d9bc3a05765640ed81e14fb5afc846835e1a538e",
                 "shasum": ""
             },
             "require": {
@@ -509,18 +514,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "A campaign with a start and end date.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaign",
-                "campaignchain",
-                "scheduled"
+                "campaignchain"
             ],
-            "time": "2015-09-12 19:53:59"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -528,12 +533,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "493514a661ee877efa79f1f88725b8a080b6f13c"
+                "reference": "aacc6bbc7fc2d7b92ae68bc9846950e5be8c681d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/493514a661ee877efa79f1f88725b8a080b6f13c",
-                "reference": "493514a661ee877efa79f1f88725b8a080b6f13c",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/aacc6bbc7fc2d7b92ae68bc9846950e5be8c681d",
+                "reference": "aacc6bbc7fc2d7b92ae68bc9846950e5be8c681d",
                 "shasum": ""
             },
             "require": {
@@ -566,8 +571,9 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Create re-usable templates of campaigns.",
@@ -576,7 +582,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:00"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -584,12 +590,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-citrix.git",
-                "reference": "327c0fee4ee92f40c75fd398c2d1cf538abbb8ab"
+                "reference": "33a4adab881c96c7e5bd5aa489232c2a095028aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/327c0fee4ee92f40c75fd398c2d1cf538abbb8ab",
-                "reference": "327c0fee4ee92f40c75fd398c2d1cf538abbb8ab",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/33a4adab881c96c7e5bd5aa489232c2a095028aa",
+                "reference": "33a4adab881c96c7e5bd5aa489232c2a095028aa",
                 "shasum": ""
             },
             "require": {
@@ -622,8 +628,9 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Connects to Citrix services such as GoToMeeting or GoToWebinar.",
@@ -631,7 +638,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:53:59"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -639,12 +646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "08fb287ee7b2b8f0919fe2697bab9c1c28454c5a"
+                "reference": "544c2474928500981df2e3863a37c78ddd7471d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/08fb287ee7b2b8f0919fe2697bab9c1c28454c5a",
-                "reference": "08fb287ee7b2b8f0919fe2697bab9c1c28454c5a",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/544c2474928500981df2e3863a37c78ddd7471d1",
+                "reference": "544c2474928500981df2e3863a37c78ddd7471d1",
                 "shasum": ""
             },
             "require": {
@@ -678,18 +685,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Connect with Facebook.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "facebook",
-                "oauth"
+                "facebook"
             ],
-            "time": "2015-09-12 19:54:03"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/channel-linkedin",
@@ -697,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-linkedin.git",
-                "reference": "8da044bbc047d673e9208a29b56aad3787d4314f"
+                "reference": "a3cf9080e76f228df67ff5633c9087152f9327cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/8da044bbc047d673e9208a29b56aad3787d4314f",
-                "reference": "8da044bbc047d673e9208a29b56aad3787d4314f",
+                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/a3cf9080e76f228df67ff5633c9087152f9327cc",
+                "reference": "a3cf9080e76f228df67ff5633c9087152f9327cc",
                 "shasum": ""
             },
             "require": {
@@ -735,18 +742,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Connect with LinkedIn",
+            "description": "Connect with LinkedIn.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "linkedin",
-                "oauth"
+                "linkedin"
             ],
-            "time": "2015-09-12 19:54:03"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/channel-mailchimp",
@@ -754,12 +761,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-mailchimp.git",
-                "reference": "bb1113560c76a831b847c83cd2ae889219d58abf"
+                "reference": "9c55ab15f75c624134e30347123510af8833f71a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/bb1113560c76a831b847c83cd2ae889219d58abf",
-                "reference": "bb1113560c76a831b847c83cd2ae889219d58abf",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/9c55ab15f75c624134e30347123510af8833f71a",
+                "reference": "9c55ab15f75c624134e30347123510af8833f71a",
                 "shasum": ""
             },
             "require": {
@@ -792,16 +799,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Connects to MailChimp.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
-                "campaignchain"
+                "campaignchain",
+                "mailchimp"
             ],
-            "time": "2015-09-12 19:54:04"
+            "time": "2015-09-13 13:13:17"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -809,12 +818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "e4182a90d6d6c5773272a4a99d7605f49edcecce"
+                "reference": "25cae13ada4d73171d55802f67608e4058e62078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/e4182a90d6d6c5773272a4a99d7605f49edcecce",
-                "reference": "e4182a90d6d6c5773272a4a99d7605f49edcecce",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/25cae13ada4d73171d55802f67608e4058e62078",
+                "reference": "25cae13ada4d73171d55802f67608e4058e62078",
                 "shasum": ""
             },
             "require": {
@@ -848,18 +857,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Connect with Twitter.",
+            "description": "Connect to Twitter.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "oauth",
                 "twitter"
             ],
-            "time": "2015-09-12 19:54:05"
+            "time": "2015-09-13 13:58:55"
         },
         {
             "name": "campaignchain/channel-website",
@@ -867,12 +876,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-website.git",
-                "reference": "335c33a4c97d5a991fc154a1aa70d240a4a74846"
+                "reference": "d596fdfe924377175963476b0a0361eeca718262"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/335c33a4c97d5a991fc154a1aa70d240a4a74846",
-                "reference": "335c33a4c97d5a991fc154a1aa70d240a4a74846",
+                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/d596fdfe924377175963476b0a0361eeca718262",
+                "reference": "d596fdfe924377175963476b0a0361eeca718262",
                 "shasum": ""
             },
             "require": {
@@ -905,17 +914,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Connect with a Website.",
+            "description": "Connect to a Website.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "website"
             ],
-            "time": "2015-09-12 19:54:01"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/core",
@@ -923,12 +933,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "50d5157ec2d43dbeec39cd4cbb0324d0caefd9b4"
+                "reference": "84e5064783435deb884fd0720e048be6efa0fd43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/50d5157ec2d43dbeec39cd4cbb0324d0caefd9b4",
-                "reference": "50d5157ec2d43dbeec39cd4cbb0324d0caefd9b4",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/84e5064783435deb884fd0720e048be6efa0fd43",
+                "reference": "84e5064783435deb884fd0720e048be6efa0fd43",
                 "shasum": ""
             },
             "require": {
@@ -999,17 +1009,17 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Core bundle of CampaignChain.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
-                "campaignchain",
-                "core"
+                "campaignchain"
             ],
-            "time": "2015-09-12 19:54:02"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1017,12 +1027,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "77f6a4cb67ea1415dd393c234123fbefe6ca780d"
+                "reference": "cc287932972bfc0521a6bcf19a696579cae6740a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/77f6a4cb67ea1415dd393c234123fbefe6ca780d",
-                "reference": "77f6a4cb67ea1415dd393c234123fbefe6ca780d",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/cc287932972bfc0521a6bcf19a696579cae6740a",
+                "reference": "cc287932972bfc0521a6bcf19a696579cae6740a",
                 "shasum": ""
             },
             "require": {
@@ -1061,19 +1071,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Community Edition of CampaignChain.",
+            "description": "Distribution configuration for the Community Edition of CampaignChain.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "ce",
-                "community edition",
-                "distribution"
+                "community edition"
             ],
-            "time": "2015-09-12 20:00:07"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1081,12 +1090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-assignee.git",
-                "reference": "468ca8316d311c478d304cdc2e9b44e20ea0a8cb"
+                "reference": "eedb9b909c106c64dccf3773120c207e4ff5091f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/468ca8316d311c478d304cdc2e9b44e20ea0a8cb",
-                "reference": "468ca8316d311c478d304cdc2e9b44e20ea0a8cb",
+                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/eedb9b909c106c64dccf3773120c207e4ff5091f",
+                "reference": "eedb9b909c106c64dccf3773120c207e4ff5091f",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1110,17 +1119,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Assign a responsible user to an entity.",
+            "description": "Assign a responsible user to an Action or Medium.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:02"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/hook-date-repeat",
@@ -1128,12 +1138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-data-repeat.git",
-                "reference": "fc92a1ac13011003daf0183f2d9e357435fbbb1a"
+                "reference": "4a758747782c51f387d253e8771f82ad37faebb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/fc92a1ac13011003daf0183f2d9e357435fbbb1a",
-                "reference": "fc92a1ac13011003daf0183f2d9e357435fbbb1a",
+                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/4a758747782c51f387d253e8771f82ad37faebb7",
+                "reference": "4a758747782c51f387d253e8771f82ad37faebb7",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1157,17 +1167,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Define the repeating dates of an entity.",
+            "description": "Define the repeating dates of an Action.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:03"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/hook-due",
@@ -1175,12 +1186,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "3dd98a4b0bf74294d9c32f61bb87182181c0834e"
+                "reference": "a4eef8361882ba9801e9d9eea45e47fbe2dfb53d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/3dd98a4b0bf74294d9c32f61bb87182181c0834e",
-                "reference": "3dd98a4b0bf74294d9c32f61bb87182181c0834e",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/a4eef8361882ba9801e9d9eea45e47fbe2dfb53d",
+                "reference": "a4eef8361882ba9801e9d9eea45e47fbe2dfb53d",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1204,17 +1215,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Define the due date of an entity.",
+            "description": "Define the due date of an Action.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:00"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -1222,12 +1234,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-duration.git",
-                "reference": "f5bb0d2a3655cc658774e33bfa6eb30accbfeae9"
+                "reference": "c83f12260bae6271663a41daee163c00ce8ff57a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/f5bb0d2a3655cc658774e33bfa6eb30accbfeae9",
-                "reference": "f5bb0d2a3655cc658774e33bfa6eb30accbfeae9",
+                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/c83f12260bae6271663a41daee163c00ce8ff57a",
+                "reference": "c83f12260bae6271663a41daee163c00ce8ff57a",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1251,17 +1263,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Define the start and end date of an entity.",
+            "description": "Define the start and end date of an Action.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:01"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/hook-timespan",
@@ -1269,12 +1282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-timespan.git",
-                "reference": "d0d45230deacb738f99ed61450724009d8da5591"
+                "reference": "027cd0d2b672daaf0af618b2100b055fbad3b5a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/d0d45230deacb738f99ed61450724009d8da5591",
-                "reference": "d0d45230deacb738f99ed61450724009d8da5591",
+                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/027cd0d2b672daaf0af618b2100b055fbad3b5a0",
+                "reference": "027cd0d2b672daaf0af618b2100b055fbad3b5a0",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1298,17 +1311,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Define the timespan of an entity.",
+            "description": "Define the timespan of an Action.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:00"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/location-citrix",
@@ -1316,12 +1330,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-citrix.git",
-                "reference": "1fd414fa88f290e99b05cd37e7f052187f9f273a"
+                "reference": "f78bbd060f2984ff1b368ddf2a61706630e8f033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-citrix/zipball/1fd414fa88f290e99b05cd37e7f052187f9f273a",
-                "reference": "1fd414fa88f290e99b05cd37e7f052187f9f273a",
+                "url": "https://api.github.com/repos/CampaignChain/location-citrix/zipball/f78bbd060f2984ff1b368ddf2a61706630e8f033",
+                "reference": "f78bbd060f2984ff1b368ddf2a61706630e8f033",
                 "shasum": ""
             },
             "require": {
@@ -1353,16 +1367,17 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Holds information about a Citrix Location and user.",
+            "description": "Holds information about a GoToWebinar Location and Citrix user.",
             "keywords": [
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:01"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/location-facebook",
@@ -1370,12 +1385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-facebook.git",
-                "reference": "f24b9dde1cf3008c1c4119828064a99f59585ee8"
+                "reference": "accf4e74d13f15de2e9855dbed85130e0aea680e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/f24b9dde1cf3008c1c4119828064a99f59585ee8",
-                "reference": "f24b9dde1cf3008c1c4119828064a99f59585ee8",
+                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/accf4e74d13f15de2e9855dbed85130e0aea680e",
+                "reference": "accf4e74d13f15de2e9855dbed85130e0aea680e",
                 "shasum": ""
             },
             "require": {
@@ -1402,20 +1417,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Facebook locations such as user and page stream, as well as status.",
+            "description": "Holds information about Facebook locations such as user and page stream, as well as status messages.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "facebook",
-                "page",
-                "stream",
-                "user"
+                "facebook"
             ],
-            "time": "2015-09-12 19:54:00"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/location-linkedin",
@@ -1423,12 +1436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-linkedin.git",
-                "reference": "d159221af4f396ab6567a7db2c40018915e1e9c3"
+                "reference": "364906366ef4601c6d90eb9ea5fb5ce067fb834b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-linkedin/zipball/d159221af4f396ab6567a7db2c40018915e1e9c3",
-                "reference": "d159221af4f396ab6567a7db2c40018915e1e9c3",
+                "url": "https://api.github.com/repos/CampaignChain/location-linkedin/zipball/364906366ef4601c6d90eb9ea5fb5ce067fb834b",
+                "reference": "364906366ef4601c6d90eb9ea5fb5ce067fb834b",
                 "shasum": ""
             },
             "require": {
@@ -1455,19 +1468,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "LinkedIn user stream.",
+            "description": "Holds information about LinkedIn user streams.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "linkedin",
-                "stream",
-                "user"
+                "linkedin"
             ],
-            "time": "2015-09-12 19:54:00"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/location-mailchimp",
@@ -1475,12 +1487,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-mailchimp.git",
-                "reference": "48589aa6afdeaec27e3f09ab6a2bc1a97d9082c2"
+                "reference": "8d44a8512ad5d7317b9a1efe3b24ab32f543e0c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-mailchimp/zipball/48589aa6afdeaec27e3f09ab6a2bc1a97d9082c2",
-                "reference": "48589aa6afdeaec27e3f09ab6a2bc1a97d9082c2",
+                "url": "https://api.github.com/repos/CampaignChain/location-mailchimp/zipball/8d44a8512ad5d7317b9a1efe3b24ab32f543e0c5",
+                "reference": "8d44a8512ad5d7317b9a1efe3b24ab32f543e0c5",
                 "shasum": ""
             },
             "require": {
@@ -1512,17 +1524,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "MailChimp account owner and newsletter Location.",
+            "description": "Holds informaiton about a MailChimp account owner and newsletter Locations.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2015-09-12 19:54:00"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/location-twitter",
@@ -1530,12 +1543,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-twitter.git",
-                "reference": "c852fb5d72323326f4bc3d1158067c3a86f45dd9"
+                "reference": "bb597aa6a7acbc1c0f2849db9c38268cd0cc8723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-twitter/zipball/c852fb5d72323326f4bc3d1158067c3a86f45dd9",
-                "reference": "c852fb5d72323326f4bc3d1158067c3a86f45dd9",
+                "url": "https://api.github.com/repos/CampaignChain/location-twitter/zipball/bb597aa6a7acbc1c0f2849db9c38268cd0cc8723",
+                "reference": "bb597aa6a7acbc1c0f2849db9c38268cd0cc8723",
                 "shasum": ""
             },
             "require": {
@@ -1562,18 +1575,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Integrates Twitter locations such as user stream and status.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "stream",
                 "twitter"
             ],
-            "time": "2015-09-12 19:53:59"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/location-website",
@@ -1581,12 +1594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-website.git",
-                "reference": "90c43a1b5061f6d2c69b5a286d4460963c6d5225"
+                "reference": "a26d260f42905965e4cc33ba735c3189e2ceb3aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/90c43a1b5061f6d2c69b5a286d4460963c6d5225",
-                "reference": "90c43a1b5061f6d2c69b5a286d4460963c6d5225",
+                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/a26d260f42905965e4cc33ba735c3189e2ceb3aa",
+                "reference": "a26d260f42905965e4cc33ba735c3189e2ceb3aa",
                 "shasum": ""
             },
             "require": {
@@ -1613,17 +1626,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Simple module that connects a Website and to define its pages as CampaignChain Locations.",
+            "description": "Holds information about a Website and its pages.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "website"
             ],
-            "time": "2015-09-12 19:53:59"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/milestone-scheduled",
@@ -1631,12 +1645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/milestone-scheduled.git",
-                "reference": "851d66be2a58cdcffb7ef8d79d194d631021a253"
+                "reference": "0158567acf27e77828dac096e90589caf61f1c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/851d66be2a58cdcffb7ef8d79d194d631021a253",
-                "reference": "851d66be2a58cdcffb7ef8d79d194d631021a253",
+                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/0158567acf27e77828dac096e90589caf61f1c14",
+                "reference": "0158567acf27e77828dac096e90589caf61f1c14",
                 "shasum": ""
             },
             "require": {
@@ -1670,18 +1684,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "A milestone with a due date.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "milestone",
-                "scheduled"
+                "milestone"
             ],
-            "time": "2015-09-12 19:54:04"
+            "time": "2015-09-13 13:58:55"
         },
         {
             "name": "campaignchain/operation-facebook",
@@ -1689,12 +1703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "9db993cfa0d549e3a156e7e61ea06b007f228050"
+                "reference": "084d1e568706710d0bd9474ad7f2ea7dafee4a19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/9db993cfa0d549e3a156e7e61ea06b007f228050",
-                "reference": "9db993cfa0d549e3a156e7e61ea06b007f228050",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/084d1e568706710d0bd9474ad7f2ea7dafee4a19",
+                "reference": "084d1e568706710d0bd9474ad7f2ea7dafee4a19",
                 "shasum": ""
             },
             "require": {
@@ -1721,18 +1735,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Collection of various Facebook operations.",
+            "description": "Collection of various Facebook operations (e.g. posting a status update).",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "facebook",
-                "operation"
+                "facebook"
             ],
-            "time": "2015-09-12 19:54:04"
+            "time": "2015-09-13 13:58:55"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -1740,12 +1754,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-gotowebinar.git",
-                "reference": "e56970697523c7407c33ee2a48fbe5bfe57ae0f5"
+                "reference": "4b5f3cb39fb956050738bec8d6981fe84ba9bf32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/e56970697523c7407c33ee2a48fbe5bfe57ae0f5",
-                "reference": "e56970697523c7407c33ee2a48fbe5bfe57ae0f5",
+                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/4b5f3cb39fb956050738bec8d6981fe84ba9bf32",
+                "reference": "4b5f3cb39fb956050738bec8d6981fe84ba9bf32",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -1774,16 +1788,17 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Include a Webinar into a campaign.",
+            "description": "Operation to include a Webinar into a campaign.",
             "keywords": [
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:03"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/operation-linkedin",
@@ -1791,12 +1806,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "95b42e6f5ac8a09b2024beb79796c586c37949f4"
+                "reference": "c6cd9089e2e8c915dadf6c7233b07d47e788cad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/95b42e6f5ac8a09b2024beb79796c586c37949f4",
-                "reference": "95b42e6f5ac8a09b2024beb79796c586c37949f4",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/c6cd9089e2e8c915dadf6c7233b07d47e788cad3",
+                "reference": "c6cd9089e2e8c915dadf6c7233b07d47e788cad3",
                 "shasum": ""
             },
             "require": {
@@ -1823,18 +1838,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Collection of various LinkedIn operations.",
+            "description": "Collection of various LinkedIn operations (e.g. posting a news item).",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "linkedin",
-                "operation"
+                "linkedin"
             ],
-            "time": "2015-09-12 19:54:04"
+            "time": "2015-09-13 13:58:55"
         },
         {
             "name": "campaignchain/operation-mailchimp",
@@ -1842,12 +1857,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-mailchimp.git",
-                "reference": "e9284b372b389fa40a54cd1c74441f753fd0e5c3"
+                "reference": "6624949d99c61e6686d1136d482c1617d1cd9ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/e9284b372b389fa40a54cd1c74441f753fd0e5c3",
-                "reference": "e9284b372b389fa40a54cd1c74441f753fd0e5c3",
+                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/6624949d99c61e6686d1136d482c1617d1cd9ab3",
+                "reference": "6624949d99c61e6686d1136d482c1617d1cd9ab3",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -1876,17 +1891,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Add upcoming newsletter campaign",
+            "description": "Add an upcoming newsletter to a campaign.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2015-09-12 19:54:04"
+            "time": "2015-09-13 13:58:55"
         },
         {
             "name": "campaignchain/operation-twitter",
@@ -1894,12 +1910,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "f13ea8f58de234518c0f51a37cde06ed16bafd86"
+                "reference": "399fb19ac62ae86bc03f166674b49406e9187a90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/f13ea8f58de234518c0f51a37cde06ed16bafd86",
-                "reference": "f13ea8f58de234518c0f51a37cde06ed16bafd86",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/399fb19ac62ae86bc03f166674b49406e9187a90",
+                "reference": "399fb19ac62ae86bc03f166674b49406e9187a90",
                 "shasum": ""
             },
             "require": {
@@ -1927,18 +1943,19 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Collection of various Twitter operations.",
+            "description": "Collection of various Twitter operations (e.g. post a Tweet).",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "operation",
                 "twitter"
             ],
-            "time": "2015-09-12 19:54:02"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/report-analytics-cta-tracking",
@@ -1946,12 +1963,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
-                "reference": "a1d15fcf4cc3de2da9d0febfdea516054b5e3c80"
+                "reference": "9bf3a8f429a6a541906ffdc8e7e56074a0ba6559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/a1d15fcf4cc3de2da9d0febfdea516054b5e3c80",
-                "reference": "a1d15fcf4cc3de2da9d0febfdea516054b5e3c80",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/9bf3a8f429a6a541906ffdc8e7e56074a0ba6559",
+                "reference": "9bf3a8f429a6a541906ffdc8e7e56074a0ba6559",
                 "shasum": ""
             },
             "type": "campaignchain-report-analytics",
@@ -1980,17 +1997,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Shows Activities that linked to a Location and CTAs executed on that Location.",
+            "description": "Shows a graph of inbound and outbound calls-to-action related to an online location.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "report"
             ],
-            "time": "2015-09-12 19:54:01"
+            "time": "2015-09-13 13:58:53"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
@@ -1998,12 +2016,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "f394df5bc3715ad864fc7c52b43cb84cfaaa9f60"
+                "reference": "af5d975c6311ec2e76bbb8d1f0ffb36f7583566a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/f394df5bc3715ad864fc7c52b43cb84cfaaa9f60",
-                "reference": "f394df5bc3715ad864fc7c52b43cb84cfaaa9f60",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/af5d975c6311ec2e76bbb8d1f0ffb36f7583566a",
+                "reference": "af5d975c6311ec2e76bbb8d1f0ffb36f7583566a",
                 "shasum": ""
             },
             "require": {
@@ -2035,18 +2053,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Show metrics per activity.",
+            "description": "Graphs that display the metrics per marketing activity of a specific campaign.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
-                "activity",
                 "campaignchain",
                 "report"
             ],
-            "time": "2015-09-12 19:54:01"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "campaignchain/security-authentication-client-oauth",
@@ -2054,12 +2072,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "6286b2bd40ec55204d159a565c1d07c980c7f383"
+                "reference": "7b393673aef5da71ee89af02b2215f2a22cb952b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/6286b2bd40ec55204d159a565c1d07c980c7f383",
-                "reference": "6286b2bd40ec55204d159a565c1d07c980c7f383",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/7b393673aef5da71ee89af02b2215f2a22cb952b",
+                "reference": "7b393673aef5da71ee89af02b2215f2a22cb952b",
                 "shasum": ""
             },
             "require": {
@@ -2095,18 +2113,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "OAuth client to be used by channel modules.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
-                "client",
                 "oauth"
             ],
-            "time": "2015-09-12 19:54:03"
+            "time": "2015-09-13 13:58:54"
         },
         {
             "name": "cocur/slugify",
@@ -5586,12 +5604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-slideshare.git",
-                "reference": "5849569cce87dccf79dc7cc3c0e59a886fe3cb92"
+                "reference": "a4367cf7533851b19b4ef86db75f99b2a07be1b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/5849569cce87dccf79dc7cc3c0e59a886fe3cb92",
-                "reference": "5849569cce87dccf79dc7cc3c0e59a886fe3cb92",
+                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/a4367cf7533851b19b4ef86db75f99b2a07be1b7",
+                "reference": "a4367cf7533851b19b4ef86db75f99b2a07be1b7",
                 "shasum": ""
             },
             "require": {
@@ -5625,17 +5643,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Schedule SlideShare slideshow",
+            "description": "Schedule SlideShare slideshow.",
             "homepage": "http://campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2015-09-12 19:53:58"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/channel-slideshare",
@@ -5643,12 +5662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-slideshare.git",
-                "reference": "035c8786752b205eb46b1a114f9f0960c14f2d12"
+                "reference": "e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/035c8786752b205eb46b1a114f9f0960c14f2d12",
-                "reference": "035c8786752b205eb46b1a114f9f0960c14f2d12",
+                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae",
+                "reference": "e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -5677,17 +5696,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Connect to SlideShare",
+            "description": "Connect to SlideShare.",
             "homepage": "http://campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2015-09-12 19:54:04"
+            "time": "2015-09-13 13:58:55"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -5695,12 +5715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "35347c07c9f11685efb2ead9271a79e8a1095b95"
+                "reference": "d96ec7b583d09146229cdb98744ead7fa3a2a53f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/35347c07c9f11685efb2ead9271a79e8a1095b95",
-                "reference": "35347c07c9f11685efb2ead9271a79e8a1095b95",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/d96ec7b583d09146229cdb98744ead7fa3a2a53f",
+                "reference": "d96ec7b583d09146229cdb98744ead7fa3a2a53f",
                 "shasum": ""
             },
             "require": {
@@ -5720,8 +5740,9 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
             "description": "Various tools for developing with CampaignChain, e.g. to generate CampaignChain modules from the command line.",
@@ -5729,7 +5750,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-09-12 19:54:02"
+            "time": "2015-09-13 13:13:16"
         },
         {
             "name": "campaignchain/location-slideshare",
@@ -5737,12 +5758,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-slideshare.git",
-                "reference": "7ada18f97df0e0d864ad28353fd03ec8abfbdf51"
+                "reference": "48ac105ae723975b1254605b47c80dbae950719f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/7ada18f97df0e0d864ad28353fd03ec8abfbdf51",
-                "reference": "7ada18f97df0e0d864ad28353fd03ec8abfbdf51",
+                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/48ac105ae723975b1254605b47c80dbae950719f",
+                "reference": "48ac105ae723975b1254605b47c80dbae950719f",
                 "shasum": ""
             },
             "require": {
@@ -5774,17 +5795,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Holds information about a SlideShare user",
+            "description": "Holds information about a SlideShare user.",
             "homepage": "http://www.campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2015-09-12 19:53:59"
+            "time": "2015-09-13 13:58:52"
         },
         {
             "name": "campaignchain/operation-slideshare",
@@ -5792,12 +5814,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-slideshare.git",
-                "reference": "9f22ad4fa911a886af4ccf7d4bcd3abe2e478d7d"
+                "reference": "de1151a71d4604209b39ff8a559f8431f9064c97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/9f22ad4fa911a886af4ccf7d4bcd3abe2e478d7d",
-                "reference": "9f22ad4fa911a886af4ccf7d4bcd3abe2e478d7d",
+                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/de1151a71d4604209b39ff8a559f8431f9064c97",
+                "reference": "de1151a71d4604209b39ff8a559f8431f9064c97",
                 "shasum": ""
             },
             "require": {
@@ -5829,17 +5851,18 @@
             ],
             "authors": [
                 {
-                    "name": "Sandro Groganz",
-                    "email": "sandro@campaignchain.com"
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
                 }
             ],
-            "description": "Schedule SlideShare slideshow",
+            "description": "Operation to schedule a SlideShare slideshow.",
             "homepage": "http://campaignchain.com",
             "keywords": [
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2015-09-12 19:54:04"
+            "time": "2015-09-13 13:58:55"
         }
     ],
     "aliases": [],
