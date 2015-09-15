@@ -11,10 +11,10 @@
     "require": {
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
-        "campaignchain/distribution-ce": "1.0.0-beta.2"
+        "campaignchain/distribution-ce": "dev-master"
     },
     "require-dev": {
-        "campaignchain/dev-tools": "1.0.0-beta.2"
+        "campaignchain/dev-tools": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
