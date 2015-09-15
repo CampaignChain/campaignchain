@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cf22c1080c6733bf580f7960d54b504e",
-    "content-hash": "181fb5e1405e71ae2c71d188c77e1159",
+    "hash": "bf89d73c0ad98f1f4e00a22ae980e622",
+    "content-hash": "b1a7ab6003e6ed33234242bbecd05d4e",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -348,6 +348,64 @@
             "keywords": [
                 "campaignchain",
                 "mailchimp"
+            ],
+            "time": "2015-09-13 13:58:52"
+        },
+        {
+            "name": "campaignchain/activity-slideshare",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-slideshare.git",
+                "reference": "a4367cf7533851b19b4ef86db75f99b2a07be1b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/a4367cf7533851b19b4ef86db75f99b2a07be1b7",
+                "reference": "a4367cf7533851b19b4ef86db75f99b2a07be1b7",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/location-slideshare": "dev-master",
+                "campaignchain/operation-slideshare": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\SlideShareBundle\\CampaignChainActivitySlideShareBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_slideshare",
+                            "resource": "@CampaignChainActivitySlideShareBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\SlideShareBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Schedule SlideShare slideshow.",
+            "homepage": "http://campaignchain.com",
+            "keywords": [
+                "campaignchain",
+                "slideshare"
             ],
             "time": "2015-09-13 13:58:52"
         },
@@ -813,6 +871,59 @@
             "time": "2015-09-13 13:13:17"
         },
         {
+            "name": "campaignchain/channel-slideshare",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-slideshare.git",
+                "reference": "e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae",
+                "reference": "e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae",
+                "shasum": ""
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\SlideShareBundle\\CampaignChainChannelSlideShareBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_slideshare",
+                            "resource": "@CampaignChainChannelSlideShareBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\SlideShareBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Connect to SlideShare.",
+            "homepage": "http://campaignchain.com",
+            "keywords": [
+                "campaignchain",
+                "slideshare"
+            ],
+            "time": "2015-09-13 13:58:55"
+        },
+        {
             "name": "campaignchain/channel-twitter",
             "version": "dev-master",
             "source": {
@@ -1027,12 +1138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "cc287932972bfc0521a6bcf19a696579cae6740a"
+                "reference": "bbf934726add42a1bcc93e94cae8c56f295771d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/cc287932972bfc0521a6bcf19a696579cae6740a",
-                "reference": "cc287932972bfc0521a6bcf19a696579cae6740a",
+                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/bbf934726add42a1bcc93e94cae8c56f295771d0",
+                "reference": "bbf934726add42a1bcc93e94cae8c56f295771d0",
                 "shasum": ""
             },
             "require": {
@@ -1040,6 +1151,7 @@
                 "campaignchain/activity-gotowebinar": "dev-master",
                 "campaignchain/activity-linkedin": "dev-master",
                 "campaignchain/activity-mailchimp": "dev-master",
+                "campaignchain/activity-slideshare": "dev-master",
                 "campaignchain/activity-twitter": "dev-master",
                 "campaignchain/campaign-repeating": "dev-master",
                 "campaignchain/campaign-scheduled": "dev-master",
@@ -1082,7 +1194,7 @@
                 "campaignchain",
                 "community edition"
             ],
-            "time": "2015-09-13 13:58:54"
+            "time": "2015-09-15 07:31:50"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1538,6 +1650,62 @@
             "time": "2015-09-13 13:58:53"
         },
         {
+            "name": "campaignchain/location-slideshare",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-slideshare.git",
+                "reference": "48ac105ae723975b1254605b47c80dbae950719f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/48ac105ae723975b1254605b47c80dbae950719f",
+                "reference": "48ac105ae723975b1254605b47c80dbae950719f",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-slideshare": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\SlideShareBundle\\CampaignChainLocationSlideShareBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_slideshare",
+                            "resource": "@CampaignChainLocationSlideShareBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\SlideShareBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Holds information about a SlideShare user.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain",
+                "slideshare"
+            ],
+            "time": "2015-09-13 13:58:52"
+        },
+        {
             "name": "campaignchain/location-twitter",
             "version": "dev-master",
             "source": {
@@ -1901,6 +2069,62 @@
             "keywords": [
                 "campaignchain",
                 "mailchimp"
+            ],
+            "time": "2015-09-13 13:58:55"
+        },
+        {
+            "name": "campaignchain/operation-slideshare",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-slideshare.git",
+                "reference": "de1151a71d4604209b39ff8a559f8431f9064c97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/de1151a71d4604209b39ff8a559f8431f9064c97",
+                "reference": "de1151a71d4604209b39ff8a559f8431f9064c97",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/activity-slideshare": "dev-master"
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\SlideShareBundle\\CampaignChainOperationSlideShareBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_operation_slideshare",
+                            "resource": "@CampaignChainOperationSlideShareBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\SlideShareBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Operation to schedule a SlideShare slideshow.",
+            "homepage": "http://campaignchain.com",
+            "keywords": [
+                "campaignchain",
+                "slideshare"
             ],
             "time": "2015-09-13 13:58:55"
         },
@@ -4053,48 +4277,6 @@
             "time": "2015-08-31 09:17:37"
         },
         {
-            "name": "myclabs/deep-copy",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "5a9da1ab69daa3beb42357a16e46253e0347947b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/5a9da1ab69daa3beb42357a16e46253e0347947b",
-                "reference": "5a9da1ab69daa3beb42357a16e46253e0347947b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "doctrine/collections": "1.*",
-                "phpunit/phpunit": "~4.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "DeepCopy\\": "src/DeepCopy/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Create deep copies (clones) of your objects",
-            "homepage": "https://github.com/myclabs/DeepCopy",
-            "keywords": [
-                "clone",
-                "copy",
-                "duplicate",
-                "object",
-                "object graph"
-            ],
-            "time": "2015-09-09 10:18:42"
-        },
-        {
             "name": "nelmio/alice",
             "version": "1.7.2",
             "source": {
@@ -5599,117 +5781,6 @@
     ],
     "packages-dev": [
         {
-            "name": "campaignchain/activity-slideshare",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/activity-slideshare.git",
-                "reference": "a4367cf7533851b19b4ef86db75f99b2a07be1b7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/a4367cf7533851b19b4ef86db75f99b2a07be1b7",
-                "reference": "a4367cf7533851b19b4ef86db75f99b2a07be1b7",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-master",
-                "campaignchain/location-slideshare": "dev-master",
-                "campaignchain/operation-slideshare": "dev-master"
-            },
-            "type": "campaignchain-activity",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Activity\\SlideShareBundle\\CampaignChainActivitySlideShareBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_activity_slideshare",
-                            "resource": "@CampaignChainActivitySlideShareBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Activity\\SlideShareBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain Inc.",
-                    "email": "info@campaignchain.com",
-                    "homepage": "http://www.campaignchain.com"
-                }
-            ],
-            "description": "Schedule SlideShare slideshow.",
-            "homepage": "http://campaignchain.com",
-            "keywords": [
-                "campaignchain",
-                "slideshare"
-            ],
-            "time": "2015-09-13 13:58:52"
-        },
-        {
-            "name": "campaignchain/channel-slideshare",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-slideshare.git",
-                "reference": "e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-slideshare/zipball/e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae",
-                "reference": "e044b64f8ee0ec0da4f754d98fe99df6beb1e5ae",
-                "shasum": ""
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\SlideShareBundle\\CampaignChainChannelSlideShareBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_slideshare",
-                            "resource": "@CampaignChainChannelSlideShareBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\SlideShareBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain Inc.",
-                    "email": "info@campaignchain.com",
-                    "homepage": "http://www.campaignchain.com"
-                }
-            ],
-            "description": "Connect to SlideShare.",
-            "homepage": "http://campaignchain.com",
-            "keywords": [
-                "campaignchain",
-                "slideshare"
-            ],
-            "time": "2015-09-13 13:58:55"
-        },
-        {
             "name": "campaignchain/dev-tools",
             "version": "dev-master",
             "source": {
@@ -5751,128 +5822,13 @@
                 "campaignchain"
             ],
             "time": "2015-09-13 13:13:16"
-        },
-        {
-            "name": "campaignchain/location-slideshare",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-slideshare.git",
-                "reference": "48ac105ae723975b1254605b47c80dbae950719f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-slideshare/zipball/48ac105ae723975b1254605b47c80dbae950719f",
-                "reference": "48ac105ae723975b1254605b47c80dbae950719f",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/channel-slideshare": "dev-master"
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\SlideShareBundle\\CampaignChainLocationSlideShareBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_location_slideshare",
-                            "resource": "@CampaignChainLocationSlideShareBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\SlideShareBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain Inc.",
-                    "email": "info@campaignchain.com",
-                    "homepage": "http://www.campaignchain.com"
-                }
-            ],
-            "description": "Holds information about a SlideShare user.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain",
-                "slideshare"
-            ],
-            "time": "2015-09-13 13:58:52"
-        },
-        {
-            "name": "campaignchain/operation-slideshare",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/operation-slideshare.git",
-                "reference": "de1151a71d4604209b39ff8a559f8431f9064c97"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/de1151a71d4604209b39ff8a559f8431f9064c97",
-                "reference": "de1151a71d4604209b39ff8a559f8431f9064c97",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/activity-slideshare": "dev-master"
-            },
-            "type": "campaignchain-operation",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Operation\\SlideShareBundle\\CampaignChainOperationSlideShareBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_operation_slideshare",
-                            "resource": "@CampaignChainOperationSlideShareBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Operation\\SlideShareBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain Inc.",
-                    "email": "info@campaignchain.com",
-                    "homepage": "http://www.campaignchain.com"
-                }
-            ],
-            "description": "Operation to schedule a SlideShare slideshow.",
-            "homepage": "http://campaignchain.com",
-            "keywords": [
-                "campaignchain",
-                "slideshare"
-            ],
-            "time": "2015-09-13 13:58:55"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/distribution-ce": 20,
-        "myclabs/deep-copy": 20,
-        "campaignchain/campaign-repeating": 20,
-        "campaignchain/dev-tools": 20,
-        "campaignchain/activity-slideshare": 20
+        "campaignchain/dev-tools": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
