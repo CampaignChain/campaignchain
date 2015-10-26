@@ -24,6 +24,10 @@ security:
                 login_path: /login
             logout: true
             anonymous: true
+            remember_me:
+                key:      "%secret%"
+                lifetime: 604800 # 1 week in seconds
+                path:     /
         install:
             pattern:     ^/install.*$
             anonymous: true
