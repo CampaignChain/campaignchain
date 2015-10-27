@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "ffed24de311e461a2659124fd38d3a305f8bfad4"
+                "reference": "507851f859ca3c1ec874f5f47c72699d7b9baee0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/ffed24de311e461a2659124fd38d3a305f8bfad4",
-                "reference": "ffed24de311e461a2659124fd38d3a305f8bfad4",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/507851f859ca3c1ec874f5f47c72699d7b9baee0",
+                "reference": "507851f859ca3c1ec874f5f47c72699d7b9baee0",
                 "shasum": ""
             },
             "require": {
@@ -754,7 +754,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2015-09-15 08:02:37"
+            "time": "2015-10-26 20:18:13"
         },
         {
             "name": "campaignchain/channel-linkedin",
@@ -1044,12 +1044,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "7ffc1d8c32d2bed9df4a813db656a2321198d506"
+                "reference": "0e0691c5e6cc9126625a37300ee3a3cf4c2e2158"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7ffc1d8c32d2bed9df4a813db656a2321198d506",
-                "reference": "7ffc1d8c32d2bed9df4a813db656a2321198d506",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/0e0691c5e6cc9126625a37300ee3a3cf4c2e2158",
+                "reference": "0e0691c5e6cc9126625a37300ee3a3cf4c2e2158",
                 "shasum": ""
             },
             "require": {
@@ -1130,7 +1130,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-10-16 15:48:48"
+            "time": "2015-10-26 20:39:50"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1202,12 +1202,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-assignee.git",
-                "reference": "eedb9b909c106c64dccf3773120c207e4ff5091f"
+                "reference": "93dadfc1ea417ab29eab0705020d6d77dee6c1f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/eedb9b909c106c64dccf3773120c207e4ff5091f",
-                "reference": "eedb9b909c106c64dccf3773120c207e4ff5091f",
+                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/93dadfc1ea417ab29eab0705020d6d77dee6c1f4",
+                "reference": "93dadfc1ea417ab29eab0705020d6d77dee6c1f4",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1242,7 +1242,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-09-13 13:58:54"
+            "time": "2015-10-26 20:34:51"
         },
         {
             "name": "campaignchain/hook-date-repeat",
@@ -1871,12 +1871,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "ea05ae6cb26a31d4fdfd4aa241222488e2813a47"
+                "reference": "43c377bf6a45938ff23fc0aea894e07f8bfe0352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/ea05ae6cb26a31d4fdfd4aa241222488e2813a47",
-                "reference": "ea05ae6cb26a31d4fdfd4aa241222488e2813a47",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/43c377bf6a45938ff23fc0aea894e07f8bfe0352",
+                "reference": "43c377bf6a45938ff23fc0aea894e07f8bfe0352",
                 "shasum": ""
             },
             "require": {
@@ -1914,7 +1914,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2015-10-13 07:45:20"
+            "time": "2015-10-26 20:31:24"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -3965,12 +3965,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "f8c6b24a846e3713899f02e72604a78d80bb1b37"
+                "reference": "a07920b10a3b888abe7c47c7aecf56f69553f707"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/f8c6b24a846e3713899f02e72604a78d80bb1b37",
-                "reference": "f8c6b24a846e3713899f02e72604a78d80bb1b37",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/a07920b10a3b888abe7c47c7aecf56f69553f707",
+                "reference": "a07920b10a3b888abe7c47c7aecf56f69553f707",
                 "shasum": ""
             },
             "require": {
@@ -4014,7 +4014,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2015-10-01 08:23:01"
+            "time": "2015-10-22 10:06:42"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
