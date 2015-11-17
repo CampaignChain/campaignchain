@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bf89d73c0ad98f1f4e00a22ae980e622",
-    "content-hash": "b1a7ab6003e6ed33234242bbecd05d4e",
+    "hash": "4b12d6080aabcf1bf9f8ea03f80412f4",
+    "content-hash": "d33e133fb96487c399d09d85fb3b19e3",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1044,12 +1044,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "8db0ea8ec9d92b2a76ce3c6181ca08bcaf083fcd"
+                "reference": "fe24fa3b8a6e88953bba031ebb4fb07fa1dd3f90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/8db0ea8ec9d92b2a76ce3c6181ca08bcaf083fcd",
-                "reference": "8db0ea8ec9d92b2a76ce3c6181ca08bcaf083fcd",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fe24fa3b8a6e88953bba031ebb4fb07fa1dd3f90",
+                "reference": "fe24fa3b8a6e88953bba031ebb4fb07fa1dd3f90",
                 "shasum": ""
             },
             "require": {
@@ -1130,7 +1130,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-11-04 10:23:51"
+            "time": "2015-11-17 10:07:12"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -5790,6 +5790,72 @@
     ],
     "packages-dev": [
         {
+            "name": "amariki/data-demo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Amariki/data-demo.git",
+                "reference": "67bcee98855b9ce98b0ebfe581bd8d4de23a13d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/67bcee98855b9ce98b0ebfe581bd8d4de23a13d0",
+                "reference": "67bcee98855b9ce98b0ebfe581bd8d4de23a13d0",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Sample data that can be used to try CampaignChain or to demo it.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2015-11-17 13:49:08"
+        },
+        {
+            "name": "amariki/data-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Amariki/data-test.git",
+                "reference": "b6b7af85411d2fdc8fec37cfb06bec88bbedd3eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/b6b7af85411d2fdc8fec37cfb06bec88bbedd3eb",
+                "reference": "b6b7af85411d2fdc8fec37cfb06bec88bbedd3eb",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Sample data for CampaignChain that can be used for development and testing",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2015-11-17 13:50:14"
+        },
+        {
             "name": "campaignchain/dev-tools",
             "version": "dev-master",
             "source": {
@@ -5837,7 +5903,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/distribution-ce": 20,
-        "campaignchain/dev-tools": 20
+        "campaignchain/dev-tools": 20,
+        "amariki/data-test": 20,
+        "amariki/data-demo": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
