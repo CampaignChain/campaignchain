@@ -1044,12 +1044,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "fe24fa3b8a6e88953bba031ebb4fb07fa1dd3f90"
+                "reference": "bbe698c04b2fb1c26c9f8826dadf90ecfcdb1935"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fe24fa3b8a6e88953bba031ebb4fb07fa1dd3f90",
-                "reference": "fe24fa3b8a6e88953bba031ebb4fb07fa1dd3f90",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/bbe698c04b2fb1c26c9f8826dadf90ecfcdb1935",
+                "reference": "bbe698c04b2fb1c26c9f8826dadf90ecfcdb1935",
                 "shasum": ""
             },
             "require": {
@@ -1130,7 +1130,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-11-17 10:07:12"
+            "time": "2015-11-18 10:36:13"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -5795,12 +5795,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "67bcee98855b9ce98b0ebfe581bd8d4de23a13d0"
+                "reference": "6caa6058b60ea208e12f6528fe52f07886d14080"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/67bcee98855b9ce98b0ebfe581bd8d4de23a13d0",
-                "reference": "67bcee98855b9ce98b0ebfe581bd8d4de23a13d0",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/6caa6058b60ea208e12f6528fe52f07886d14080",
+                "reference": "6caa6058b60ea208e12f6528fe52f07886d14080",
                 "shasum": ""
             },
             "type": "library",
@@ -5820,7 +5820,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-11-17 13:49:08"
+            "time": "2015-11-18 09:04:31"
         },
         {
             "name": "amariki/data-test",
@@ -5828,12 +5828,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "b6b7af85411d2fdc8fec37cfb06bec88bbedd3eb"
+                "reference": "ee5bf048ed224fb5e076cacae3aebb2e5f3802ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/b6b7af85411d2fdc8fec37cfb06bec88bbedd3eb",
-                "reference": "b6b7af85411d2fdc8fec37cfb06bec88bbedd3eb",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/ee5bf048ed224fb5e076cacae3aebb2e5f3802ce",
+                "reference": "ee5bf048ed224fb5e076cacae3aebb2e5f3802ce",
                 "shasum": ""
             },
             "type": "library",
@@ -5853,7 +5853,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-11-17 13:50:14"
+            "time": "2015-11-18 09:04:31"
         },
         {
             "name": "campaignchain/dev-tools",
