@@ -37,10 +37,10 @@ class AppKernel extends Kernel
             new Sp\BowerBundle\SpBowerBundle(),
             new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
+            new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
             new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
-//            new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle(),
         );
 
         require 'campaignchain_bundles.php';
@@ -50,6 +50,8 @@ class AppKernel extends Kernel
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
+            // CampaignChain
+            $bundles[] = new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle();
         }
 
         return $bundles;

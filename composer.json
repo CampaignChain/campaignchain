@@ -16,7 +16,8 @@
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
         "amariki/data-test": "dev-master",
-        "amariki/data-demo": "dev-master"
+        "amariki/data-demo": "dev-master",
+        "friendsofsymfony/oauth-server-bundle": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [

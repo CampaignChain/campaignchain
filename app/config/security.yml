@@ -31,6 +31,22 @@ security:
         install:
             pattern:     ^/install.*$
             anonymous: true
+        oauth_token:
+            pattern:    ^/oauth/v2/token
+            security:   false
+
+        oauth_authorize:
+            pattern:    ^/oauth/v2/auth
+            form_login:
+                provider: fos_userbundle
+                check_path: /oauth/v2/auth_login_check
+                login_path: /oauth/v2/auth_login
+
+        api:
+            pattern:    ^/api
+            fos_oauth:  true
+            stateless:  true
+            anonymous:  false # can be omitted as its default value
 
     access_control:
         # Installer
@@ -55,7 +71,8 @@ security:
         - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
 
         # REST API
-        - { path: ^/api/v1/.*, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        #- { path: ^/api/v1/.*, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api, roles: [ IS_AUTHENTICATED_FULLY ] }
 
         # Secured part of the site
         - { path: ^/, role: ROLE_USER }
