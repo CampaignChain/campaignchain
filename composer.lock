@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4b12d6080aabcf1bf9f8ea03f80412f4",
-    "content-hash": "d33e133fb96487c399d09d85fb3b19e3",
+    "hash": "e2312ed3c3184f0ca0a6f4b060556653",
+    "content-hash": "c9bfb2860673b862e8ebc8ace565bf07",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -2419,16 +2419,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
                 "shasum": ""
-            },
-            "require": {
-                "robloach/component-installer": "*"
             },
             "type": "component",
             "extra": {
@@ -2456,7 +2453,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-05-08 06:09:58"
+            "time": "2015-06-08 13:35:17"
         },
         {
             "name": "doctrine/annotations",
@@ -3944,7 +3941,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4776,12 +4773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "1e7f7950f181faa6f7c265b300834d5d0d5618a1"
+                "reference": "c8744d80d90bd59766ffeb14d58036c83c3d2c7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/1e7f7950f181faa6f7c265b300834d5d0d5618a1",
-                "reference": "1e7f7950f181faa6f7c265b300834d5d0d5618a1",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/c8744d80d90bd59766ffeb14d58036c83c3d2c7a",
+                "reference": "c8744d80d90bd59766ffeb14d58036c83c3d2c7a",
                 "shasum": ""
             },
             "require": {
@@ -4856,7 +4853,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2015-11-16 09:55:40"
+            "time": "2015-11-19 09:29:01"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -5856,6 +5853,65 @@
             "time": "2015-11-18 09:04:31"
         },
         {
+            "name": "campaignchain/channel-google-analytics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-google-analytics.git",
+                "reference": "476370fdda727dce2fa14dd43704fae8e2071a5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/476370fdda727dce2fa14dd43704fae8e2071a5e",
+                "reference": "476370fdda727dce2fa14dd43704fae8e2071a5e",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/security-authentication-client-oauth": "dev-master",
+                "google/apiclient": "1.0.*@beta"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\GoogleAnalyticsBundle\\CampaignChainChannelGoogleAnalyticsBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_google_analytics",
+                            "resource": "@CampaignChainChannelGoogleAnalyticsBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\GoogleAnalyticsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Connect with Google Analytics",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "analytics",
+                "campaignchain",
+                "google"
+            ],
+            "time": "2015-11-17 10:05:26"
+        },
+        {
             "name": "campaignchain/dev-tools",
             "version": "dev-master",
             "source": {
@@ -5897,6 +5953,167 @@
                 "campaignchain"
             ],
             "time": "2015-11-02 10:49:38"
+        },
+        {
+            "name": "campaignchain/location-google-analytics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-google-analytics.git",
+                "reference": "d755db963be68e3194ec4f4c50d3183c70eb4dcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-google-analytics/zipball/d755db963be68e3194ec4f4c50d3183c70eb4dcf",
+                "reference": "d755db963be68e3194ec4f4c50d3183c70eb4dcf",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-google-analytics": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\GoogleAnalyticsBundle\\CampaignChainLocationGoogleAnalyticsBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_google_analytics",
+                            "resource": "@CampaignChainLocationGoogleAnalyticsBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\GoogleAnalyticsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Google Analytics Integration",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "analytics",
+                "campaignchain",
+                "google"
+            ],
+            "time": "2015-11-09 08:23:40"
+        },
+        {
+            "name": "campaignchain/report-google-analytics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/report-google-analytics.git",
+                "reference": "d300a96f6fe2a0e94a4c823411b2c5ad7e1666fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/d300a96f6fe2a0e94a4c823411b2c5ad7e1666fc",
+                "reference": "d300a96f6fe2a0e94a4c823411b2c5ad7e1666fc",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-google-analytics": "dev-master",
+                "campaignchain/location-google-analytics": "dev-master",
+                "google/apiclient": "1.0.*@beta"
+            },
+            "type": "campaignchain-report",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Report\\GoogleAnalyticsBundle\\CampaignChainReportGoogleAnalyticsBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_report_google_analytics",
+                            "resource": "@CampaignChainReportGoogleAnalyticsBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Report\\GoogleAnalyticsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Access Google Analytics Data",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "analytics",
+                "campaignchain",
+                "google"
+            ],
+            "time": "2015-11-19 09:34:11"
+        },
+        {
+            "name": "google/apiclient",
+            "version": "1.0.6-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client.git",
+                "reference": "a41a9dc0662e36420030eaab802dbb1f85459479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
+                "reference": "a41a9dc0662e36420030eaab802dbb1f85459479",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2014-09-30 19:33:59"
         }
     ],
     "aliases": [],
@@ -5905,7 +6122,8 @@
         "campaignchain/distribution-ce": 20,
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
-        "amariki/data-demo": 20
+        "amariki/data-demo": 20,
+        "campaignchain/report-google-analytics": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -16,7 +16,8 @@
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
         "amariki/data-test": "dev-master",
-        "amariki/data-demo": "dev-master"
+        "amariki/data-demo": "dev-master",
+        "campaignchain/report-google-analytics": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
