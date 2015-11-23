@@ -2,5 +2,5 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: assetic.yml }
-    - { resource: campaignchain.yml }
-    - { resource: campaignchain_bundles.yml }
+    - { resource: campaignchain/config.yml }
+    - { resource: campaignchain/config_bundles.yml }

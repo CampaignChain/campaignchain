@@ -17,7 +17,7 @@
         "campaignchain/dev-tools": "dev-master",
         "amariki/data-test": "dev-master",
         "amariki/data-demo": "dev-master",
-        "friendsofsymfony/oauth-server-bundle": "dev-master"
+        "campaignchain/security-authentication-server-oauth": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [

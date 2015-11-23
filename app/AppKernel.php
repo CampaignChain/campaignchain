@@ -37,7 +37,6 @@ class AppKernel extends Kernel
             new Sp\BowerBundle\SpBowerBundle(),
             new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
-            new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
             new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
