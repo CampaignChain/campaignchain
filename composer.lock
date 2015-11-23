@@ -5907,12 +5907,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "ac30e28f1794a505639181d27fbee0564491a525"
+                "reference": "2133d3ffe2409cf6882465c36c542effd91307e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/ac30e28f1794a505639181d27fbee0564491a525",
-                "reference": "ac30e28f1794a505639181d27fbee0564491a525",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/2133d3ffe2409cf6882465c36c542effd91307e2",
+                "reference": "2133d3ffe2409cf6882465c36c542effd91307e2",
                 "shasum": ""
             },
             "require": {
@@ -5957,7 +5957,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2015-11-23 16:10:11"
+            "time": "2015-11-23 16:30:26"
         },
         {
             "name": "friendsofsymfony/oauth-server-bundle",
