@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bacf1a847fd71486fbc69b34c48632f1",
-    "content-hash": "7d1fb1dc3974992a8b99d8912edc5098",
+    "hash": "426df0347454672f510546506820b97b",
+    "content-hash": "27a66b22899afdf24bbf7dd670dc7148",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -4023,19 +4023,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "340b3bc6182b5295e842c09284987be71b71e26d"
+                "reference": "ab4ece788de78552e1752f9f287bd7bbed0e7e31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/340b3bc6182b5295e842c09284987be71b71e26d",
-                "reference": "340b3bc6182b5295e842c09284987be71b71e26d",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/ab4ece788de78552e1752f9f287bd7bbed0e7e31",
+                "reference": "ab4ece788de78552e1752f9f287bd7bbed0e7e31",
                 "shasum": ""
             },
             "require": {
                 "knplabs/knp-components": "~1.2",
                 "php": ">=5.3.3",
                 "symfony/framework-bundle": "~2.3",
-                "twig/twig": "~1.12"
+                "twig/twig": "~1.12|~2"
             },
             "require-dev": {
                 "symfony/expression-language": "~2.4"
@@ -4076,7 +4076,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2015-11-16 18:51:22"
+            "time": "2015-11-23 10:35:33"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -4776,12 +4776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "c8744d80d90bd59766ffeb14d58036c83c3d2c7a"
+                "reference": "b918a537778f55ae87a6b2339514ff39a14bc7c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/c8744d80d90bd59766ffeb14d58036c83c3d2c7a",
-                "reference": "c8744d80d90bd59766ffeb14d58036c83c3d2c7a",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/b918a537778f55ae87a6b2339514ff39a14bc7c8",
+                "reference": "b918a537778f55ae87a6b2339514ff39a14bc7c8",
                 "shasum": ""
             },
             "require": {
@@ -4856,7 +4856,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2015-11-19 09:29:01"
+            "time": "2015-11-20 13:15:27"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -5464,23 +5464,23 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.7.6",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "66b2e9662c44d478b69e48278aa54079a006eb42"
+                "reference": "cc69dbd24b4b2e6de60b2414ef95da2794f459a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/66b2e9662c44d478b69e48278aa54079a006eb42",
-                "reference": "66b2e9662c44d478b69e48278aa54079a006eb42",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/cc69dbd24b4b2e6de60b2414ef95da2794f459a2",
+                "reference": "cc69dbd24b4b2e6de60b2414ef95da2794f459a2",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.4",
                 "php": ">=5.3.9",
                 "psr/log": "~1.0",
-                "twig/twig": "~1.20|~2.0"
+                "twig/twig": "~1.23|~2.0"
             },
             "replace": {
                 "symfony/asset": "self.version",
@@ -5560,6 +5560,9 @@
                 ],
                 "files": [
                     "src/Symfony/Component/Intl/Resources/stubs/functions.php"
+                ],
+                "exclude-from-classmap": [
+                    "**/Tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5581,7 +5584,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-10-27 19:07:24"
+            "time": "2015-11-23 11:58:08"
         },
         {
             "name": "twbs/bootstrap",
@@ -5899,6 +5902,64 @@
             "time": "2015-11-02 10:49:38"
         },
         {
+            "name": "campaignchain/security-authentication-server-oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
+                "reference": "ac30e28f1794a505639181d27fbee0564491a525"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/ac30e28f1794a505639181d27fbee0564491a525",
+                "reference": "ac30e28f1794a505639181d27fbee0564491a525",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "friendsofsymfony/oauth-server-bundle": "dev-master"
+            },
+            "type": "campaignchain-security",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Security\\Authentication\\Server\\OAuthBundle\\CampaignChainSecurityAuthenticationServerOAuthBundle",
+                            "FOS\\OAuthServerBundle\\FOSOAuthServerBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_security_authentication_server_o_auth",
+                            "resource": "@CampaignChainSecurityAuthenticationServerOAuthBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Security\\Authentication\\Server\\OAuthBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "OAuth server to authenticate against to use built-in REST API.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain",
+                "oauth"
+            ],
+            "time": "2015-11-23 16:10:11"
+        },
+        {
             "name": "friendsofsymfony/oauth-server-bundle",
             "version": "dev-master",
             "target-dir": "FOS/OAuthServerBundle",
@@ -6029,7 +6090,7 @@
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
-        "friendsofsymfony/oauth-server-bundle": 20
+        "campaignchain/security-authentication-server-oauth": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
