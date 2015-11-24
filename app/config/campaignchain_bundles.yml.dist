@@ -1,3 +1,0 @@
-# This file is generated automatically by CampaignChain.
-imports:
-    - { resource: ../../vendor/campaignchain/core/Resources/config/config.yml}

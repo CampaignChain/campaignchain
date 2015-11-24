@@ -40,7 +40,6 @@ class AppKernel extends Kernel
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
             new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
-//            new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle(),
         );
 
         require 'campaignchain_bundles.php';
@@ -50,6 +49,8 @@ class AppKernel extends Kernel
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
+            // CampaignChain
+            $bundles[] = new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle();
         }
 
         return $bundles;

@@ -17,7 +17,8 @@ src
 
 ## CampaignChain
 app/campaignchain_bundles.php
-app/config/campaignchain_bundles.yml
+app/config/campaignchain/config_bundles.yml
+/app/config/campaignchain/security.yml
 app/config/parameters.yml
 app/config/routing.yml
 app/sessions

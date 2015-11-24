@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e2312ed3c3184f0ca0a6f4b060556653",
-    "content-hash": "c9bfb2860673b862e8ebc8ace565bf07",
+    "hash": "2093ab1abfcf1cfa4a67666a1adc80bb",
+    "content-hash": "81c0b04873e68c19e1ead051fa463c11",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1044,12 +1044,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "fa2fced957399083d951effbdb6b1ee478d8f71d"
+                "reference": "634638dceaddb586601f7924af8e685c8e375149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fa2fced957399083d951effbdb6b1ee478d8f71d",
-                "reference": "fa2fced957399083d951effbdb6b1ee478d8f71d",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/634638dceaddb586601f7924af8e685c8e375149",
+                "reference": "634638dceaddb586601f7924af8e685c8e375149",
                 "shasum": ""
             },
             "require": {
@@ -1130,7 +1130,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-11-18 14:19:06"
+            "time": "2015-11-24 08:35:45"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -2296,12 +2296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "f598d5689b2ee147e16dd85258cda9bad81033d8"
+                "reference": "09d913851dd23204e7b9fadc62b6fcd3a514fdd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/f598d5689b2ee147e16dd85258cda9bad81033d8",
-                "reference": "f598d5689b2ee147e16dd85258cda9bad81033d8",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/09d913851dd23204e7b9fadc62b6fcd3a514fdd9",
+                "reference": "09d913851dd23204e7b9fadc62b6fcd3a514fdd9",
                 "shasum": ""
             },
             "require": {
@@ -2348,7 +2348,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2015-09-15 08:06:04"
+            "time": "2015-11-24 08:35:01"
         },
         {
             "name": "cocur/slugify",
@@ -3941,7 +3941,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4020,22 +4020,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "340b3bc6182b5295e842c09284987be71b71e26d"
+                "reference": "5147740faff4d32e6f42acf64475314c35320fa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/340b3bc6182b5295e842c09284987be71b71e26d",
-                "reference": "340b3bc6182b5295e842c09284987be71b71e26d",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/5147740faff4d32e6f42acf64475314c35320fa4",
+                "reference": "5147740faff4d32e6f42acf64475314c35320fa4",
                 "shasum": ""
             },
             "require": {
                 "knplabs/knp-components": "~1.2",
                 "php": ">=5.3.3",
-                "symfony/framework-bundle": "~2.3",
-                "twig/twig": "~1.12"
+                "symfony/framework-bundle": "~2.3|~3.0",
+                "twig/twig": "~1.12|~2"
             },
             "require-dev": {
-                "symfony/expression-language": "~2.4"
+                "symfony/expression-language": "~2.4|~3.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -4073,7 +4073,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2015-11-16 18:51:22"
+            "time": "2015-11-23 17:51:40"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -4773,12 +4773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "c8744d80d90bd59766ffeb14d58036c83c3d2c7a"
+                "reference": "b918a537778f55ae87a6b2339514ff39a14bc7c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/c8744d80d90bd59766ffeb14d58036c83c3d2c7a",
-                "reference": "c8744d80d90bd59766ffeb14d58036c83c3d2c7a",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/b918a537778f55ae87a6b2339514ff39a14bc7c8",
+                "reference": "b918a537778f55ae87a6b2339514ff39a14bc7c8",
                 "shasum": ""
             },
             "require": {
@@ -4853,7 +4853,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2015-11-19 09:29:01"
+            "time": "2015-11-20 13:15:27"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -5461,23 +5461,23 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.7.6",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "66b2e9662c44d478b69e48278aa54079a006eb42"
+                "reference": "cc69dbd24b4b2e6de60b2414ef95da2794f459a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/66b2e9662c44d478b69e48278aa54079a006eb42",
-                "reference": "66b2e9662c44d478b69e48278aa54079a006eb42",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/cc69dbd24b4b2e6de60b2414ef95da2794f459a2",
+                "reference": "cc69dbd24b4b2e6de60b2414ef95da2794f459a2",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.4",
                 "php": ">=5.3.9",
                 "psr/log": "~1.0",
-                "twig/twig": "~1.20|~2.0"
+                "twig/twig": "~1.23|~2.0"
             },
             "replace": {
                 "symfony/asset": "self.version",
@@ -5557,6 +5557,9 @@
                 ],
                 "files": [
                     "src/Symfony/Component/Intl/Resources/stubs/functions.php"
+                ],
+                "exclude-from-classmap": [
+                    "**/Tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5578,7 +5581,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-10-27 19:07:24"
+            "time": "2015-11-23 11:58:08"
         },
         {
             "name": "twbs/bootstrap",
@@ -5858,12 +5861,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-google-analytics.git",
-                "reference": "476370fdda727dce2fa14dd43704fae8e2071a5e"
+                "reference": "cf21756b05f66e4e31e4e9312aa024b3a7544967"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/476370fdda727dce2fa14dd43704fae8e2071a5e",
-                "reference": "476370fdda727dce2fa14dd43704fae8e2071a5e",
+                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/cf21756b05f66e4e31e4e9312aa024b3a7544967",
+                "reference": "cf21756b05f66e4e31e4e9312aa024b3a7544967",
                 "shasum": ""
             },
             "require": {
@@ -5909,7 +5912,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-11-17 10:05:26"
+            "time": "2015-11-23 16:06:55"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -5960,12 +5963,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-google-analytics.git",
-                "reference": "d755db963be68e3194ec4f4c50d3183c70eb4dcf"
+                "reference": "82c02923ea3cb7b320762214cdbe21b3731c3497"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-google-analytics/zipball/d755db963be68e3194ec4f4c50d3183c70eb4dcf",
-                "reference": "d755db963be68e3194ec4f4c50d3183c70eb4dcf",
+                "url": "https://api.github.com/repos/CampaignChain/location-google-analytics/zipball/82c02923ea3cb7b320762214cdbe21b3731c3497",
+                "reference": "82c02923ea3cb7b320762214cdbe21b3731c3497",
                 "shasum": ""
             },
             "require": {
@@ -6009,7 +6012,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-11-09 08:23:40"
+            "time": "2015-11-23 13:41:56"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -6017,12 +6020,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-google-analytics.git",
-                "reference": "d300a96f6fe2a0e94a4c823411b2c5ad7e1666fc"
+                "reference": "aa80e682c1fe564b13c259603f08eeb1fa995246"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/d300a96f6fe2a0e94a4c823411b2c5ad7e1666fc",
-                "reference": "d300a96f6fe2a0e94a4c823411b2c5ad7e1666fc",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/aa80e682c1fe564b13c259603f08eeb1fa995246",
+                "reference": "aa80e682c1fe564b13c259603f08eeb1fa995246",
                 "shasum": ""
             },
             "require": {
@@ -6068,7 +6071,188 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-11-19 09:34:11"
+            "time": "2015-11-23 13:18:09"
+        },
+        {
+            "name": "campaignchain/security-authentication-server-oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
+                "reference": "2133d3ffe2409cf6882465c36c542effd91307e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/2133d3ffe2409cf6882465c36c542effd91307e2",
+                "reference": "2133d3ffe2409cf6882465c36c542effd91307e2",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "friendsofsymfony/oauth-server-bundle": "dev-master"
+            },
+            "type": "campaignchain-security",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Security\\Authentication\\Server\\OAuthBundle\\CampaignChainSecurityAuthenticationServerOAuthBundle",
+                            "FOS\\OAuthServerBundle\\FOSOAuthServerBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_security_authentication_server_o_auth",
+                            "resource": "@CampaignChainSecurityAuthenticationServerOAuthBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Security\\Authentication\\Server\\OAuthBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "OAuth server to authenticate against to use built-in REST API.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain",
+                "oauth"
+            ],
+            "time": "2015-11-23 16:30:26"
+        },
+        {
+            "name": "friendsofsymfony/oauth-server-bundle",
+            "version": "dev-master",
+            "target-dir": "FOS/OAuthServerBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git",
+                "reference": "0c72d8baf707dce59c59a4daa1549c06e510bbed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/0c72d8baf707dce59c59a4daa1549c06e510bbed",
+                "reference": "0c72d8baf707dce59c59a4daa1549c06e510bbed",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofsymfony/oauth2-php": "~1.1.0",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.2",
+                "symfony/security-bundle": "~2.1"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "~1.0",
+                "doctrine/mongodb-odm": "1.0.*@dev",
+                "doctrine/orm": ">=2.2,<2.5-dev",
+                "symfony/class-loader": "~2.1",
+                "symfony/yaml": "~2.1",
+                "willdurand/propel-typehintable-behavior": "~1.0,>1.0.4"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "*",
+                "doctrine/mongodb-odm-bundle": "*",
+                "propel/propel-bundle": "If you want to use Propel with Symfony2, then you will have to install the PropelBundle",
+                "willdurand/propel-typehintable-behavior": "The Typehintable behavior is useful to add type hints on generated methods, to be compliant with interfaces"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "FOS\\OAuthServerBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle/contributors"
+                }
+            ],
+            "description": "Symfony2 OAuth Server Bundle",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "oauth",
+                "oauth2",
+                "server"
+            ],
+            "time": "2015-05-01 22:00:52"
+        },
+        {
+            "name": "friendsofsymfony/oauth2-php",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/oauth2-php.git",
+                "reference": "23e76537c4a02e666ab4ba5abe67a69a886a0310"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/oauth2-php/zipball/23e76537c4a02e666ab4ba5abe67a69a886a0310",
+                "reference": "23e76537c4a02e666ab4ba5abe67a69a886a0310",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/http-foundation": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OAuth2\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/oauth2-php/contributors"
+                }
+            ],
+            "description": "OAuth2 library",
+            "homepage": "https://github.com/FriendsOfSymfony/oauth2-php",
+            "keywords": [
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2014-11-03 10:21:20"
         },
         {
             "name": "google/apiclient",
@@ -6123,6 +6307,7 @@
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
+        "campaignchain/security-authentication-server-oauth": 20,
         "campaignchain/report-google-analytics": 20
     },
     "prefer-stable": true,
