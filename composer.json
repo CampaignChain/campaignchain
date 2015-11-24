@@ -17,7 +17,8 @@
         "campaignchain/dev-tools": "dev-master",
         "amariki/data-test": "dev-master",
         "amariki/data-demo": "dev-master",
-        "campaignchain/security-authentication-server-oauth": "dev-master"
+        "campaignchain/security-authentication-server-oauth": "dev-master",
+        "campaignchain/report-google-analytics": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [

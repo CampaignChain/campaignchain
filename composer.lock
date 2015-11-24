@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "426df0347454672f510546506820b97b",
-    "content-hash": "27a66b22899afdf24bbf7dd670dc7148",
+    "hash": "2093ab1abfcf1cfa4a67666a1adc80bb",
+    "content-hash": "81c0b04873e68c19e1ead051fa463c11",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1044,12 +1044,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "fa2fced957399083d951effbdb6b1ee478d8f71d"
+                "reference": "634638dceaddb586601f7924af8e685c8e375149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fa2fced957399083d951effbdb6b1ee478d8f71d",
-                "reference": "fa2fced957399083d951effbdb6b1ee478d8f71d",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/634638dceaddb586601f7924af8e685c8e375149",
+                "reference": "634638dceaddb586601f7924af8e685c8e375149",
                 "shasum": ""
             },
             "require": {
@@ -1130,7 +1130,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-11-18 14:19:06"
+            "time": "2015-11-24 08:35:45"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -2296,12 +2296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "f598d5689b2ee147e16dd85258cda9bad81033d8"
+                "reference": "09d913851dd23204e7b9fadc62b6fcd3a514fdd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/f598d5689b2ee147e16dd85258cda9bad81033d8",
-                "reference": "f598d5689b2ee147e16dd85258cda9bad81033d8",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/09d913851dd23204e7b9fadc62b6fcd3a514fdd9",
+                "reference": "09d913851dd23204e7b9fadc62b6fcd3a514fdd9",
                 "shasum": ""
             },
             "require": {
@@ -2348,7 +2348,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2015-09-15 08:06:04"
+            "time": "2015-11-24 08:35:01"
         },
         {
             "name": "cocur/slugify",
@@ -2419,16 +2419,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
                 "shasum": ""
-            },
-            "require": {
-                "robloach/component-installer": "*"
             },
             "type": "component",
             "extra": {
@@ -2456,7 +2453,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-05-08 06:09:58"
+            "time": "2015-06-08 13:35:17"
         },
         {
             "name": "doctrine/annotations",
@@ -4023,22 +4020,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "ab4ece788de78552e1752f9f287bd7bbed0e7e31"
+                "reference": "5147740faff4d32e6f42acf64475314c35320fa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/ab4ece788de78552e1752f9f287bd7bbed0e7e31",
-                "reference": "ab4ece788de78552e1752f9f287bd7bbed0e7e31",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/5147740faff4d32e6f42acf64475314c35320fa4",
+                "reference": "5147740faff4d32e6f42acf64475314c35320fa4",
                 "shasum": ""
             },
             "require": {
                 "knplabs/knp-components": "~1.2",
                 "php": ">=5.3.3",
-                "symfony/framework-bundle": "~2.3",
+                "symfony/framework-bundle": "~2.3|~3.0",
                 "twig/twig": "~1.12|~2"
             },
             "require-dev": {
-                "symfony/expression-language": "~2.4"
+                "symfony/expression-language": "~2.4|~3.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -4076,7 +4073,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2015-11-23 10:35:33"
+            "time": "2015-11-23 17:51:40"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -5859,6 +5856,65 @@
             "time": "2015-11-18 09:04:31"
         },
         {
+            "name": "campaignchain/channel-google-analytics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-google-analytics.git",
+                "reference": "cf21756b05f66e4e31e4e9312aa024b3a7544967"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/cf21756b05f66e4e31e4e9312aa024b3a7544967",
+                "reference": "cf21756b05f66e4e31e4e9312aa024b3a7544967",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/security-authentication-client-oauth": "dev-master",
+                "google/apiclient": "1.0.*@beta"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\GoogleAnalyticsBundle\\CampaignChainChannelGoogleAnalyticsBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_google_analytics",
+                            "resource": "@CampaignChainChannelGoogleAnalyticsBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\GoogleAnalyticsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Connect with Google Analytics",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "analytics",
+                "campaignchain",
+                "google"
+            ],
+            "time": "2015-11-23 16:06:55"
+        },
+        {
             "name": "campaignchain/dev-tools",
             "version": "dev-master",
             "source": {
@@ -5900,6 +5956,122 @@
                 "campaignchain"
             ],
             "time": "2015-11-02 10:49:38"
+        },
+        {
+            "name": "campaignchain/location-google-analytics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-google-analytics.git",
+                "reference": "82c02923ea3cb7b320762214cdbe21b3731c3497"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-google-analytics/zipball/82c02923ea3cb7b320762214cdbe21b3731c3497",
+                "reference": "82c02923ea3cb7b320762214cdbe21b3731c3497",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-google-analytics": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\GoogleAnalyticsBundle\\CampaignChainLocationGoogleAnalyticsBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_google_analytics",
+                            "resource": "@CampaignChainLocationGoogleAnalyticsBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\GoogleAnalyticsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Google Analytics Integration",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "analytics",
+                "campaignchain",
+                "google"
+            ],
+            "time": "2015-11-23 13:41:56"
+        },
+        {
+            "name": "campaignchain/report-google-analytics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/report-google-analytics.git",
+                "reference": "aa80e682c1fe564b13c259603f08eeb1fa995246"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/aa80e682c1fe564b13c259603f08eeb1fa995246",
+                "reference": "aa80e682c1fe564b13c259603f08eeb1fa995246",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-google-analytics": "dev-master",
+                "campaignchain/location-google-analytics": "dev-master",
+                "google/apiclient": "1.0.*@beta"
+            },
+            "type": "campaignchain-report",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Report\\GoogleAnalyticsBundle\\CampaignChainReportGoogleAnalyticsBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_report_google_analytics",
+                            "resource": "@CampaignChainReportGoogleAnalyticsBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Report\\GoogleAnalyticsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Access Google Analytics Data",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "analytics",
+                "campaignchain",
+                "google"
+            ],
+            "time": "2015-11-23 13:18:09"
         },
         {
             "name": "campaignchain/security-authentication-server-oauth",
@@ -6081,6 +6253,51 @@
                 "oauth2"
             ],
             "time": "2014-11-03 10:21:20"
+        },
+        {
+            "name": "google/apiclient",
+            "version": "1.0.6-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client.git",
+                "reference": "a41a9dc0662e36420030eaab802dbb1f85459479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
+                "reference": "a41a9dc0662e36420030eaab802dbb1f85459479",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2014-09-30 19:33:59"
         }
     ],
     "aliases": [],
@@ -6090,7 +6307,8 @@
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
-        "campaignchain/security-authentication-server-oauth": 20
+        "campaignchain/security-authentication-server-oauth": 20,
+        "campaignchain/report-google-analytics": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
