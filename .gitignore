@@ -27,6 +27,7 @@ web/assetic
 web/css
 web/js
 web/media
+web/storage
 
 ## Mac OS X
 .DS_Store
