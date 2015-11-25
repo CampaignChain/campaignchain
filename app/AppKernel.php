@@ -37,6 +37,8 @@ class AppKernel extends Kernel
             new Sp\BowerBundle\SpBowerBundle(),
             new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
+            new Oneup\UploaderBundle\OneupUploaderBundle(),
+            new Liip\ImagineBundle\LiipImagineBundle(),
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
             new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
