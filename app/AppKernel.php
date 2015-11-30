@@ -24,7 +24,8 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-            // Vendors
+
+            // Vendors for campaignchain/core bundle
             new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
@@ -37,11 +38,15 @@ class AppKernel extends Kernel
             new Sp\BowerBundle\SpBowerBundle(),
             new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
+            new FOS\RestBundle\FOSRestBundle(),
+            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
             new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
 
-            // More vendors
+            // More vendors for campaignchain/core bundle
             new Oneup\UploaderBundle\OneupUploaderBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
         );
