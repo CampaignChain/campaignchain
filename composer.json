@@ -26,7 +26,6 @@
         "friendsofsymfony/rest-bundle": "dev-master",
         "jms/serializer-bundle": "dev-master",
         "campaignchain/activity-ezplatform": "dev-master",
-        "campaignchain/location-ezplatform": "dev-master",
         "campaignchain/channel-ezplatform": "dev-master"
     },
     "scripts": {

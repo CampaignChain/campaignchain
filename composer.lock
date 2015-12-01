@@ -6825,16 +6825,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-ezplatform.git",
-                "reference": "5c53472f871ba0ee8df908620219ec9cc3f58831"
+                "reference": "ef5f8428fa01fdc4be5880088f11a7b231a28ec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-ezplatform/zipball/5c53472f871ba0ee8df908620219ec9cc3f58831",
-                "reference": "5c53472f871ba0ee8df908620219ec9cc3f58831",
+                "url": "https://api.github.com/repos/CampaignChain/activity-ezplatform/zipball/ef5f8428fa01fdc4be5880088f11a7b231a28ec9",
+                "reference": "ef5f8428fa01fdc4be5880088f11a7b231a28ec9",
                 "shasum": ""
             },
             "require": {
-                "campaignchain/channel-ezplatform": "dev-master",
+                "campaignchain/location-ezplatform": "dev-master",
                 "campaignchain/operation-ezplatform": "dev-master"
             },
             "type": "campaignchain-activity",
@@ -6872,7 +6872,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-01 10:41:54"
+            "time": "2015-12-01 10:51:11"
         },
         {
             "name": "campaignchain/channel-ezplatform",
