@@ -25,10 +25,7 @@
         "nelmio/api-doc-bundle": "dev-master",
         "friendsofsymfony/rest-bundle": "dev-master",
         "jms/serializer-bundle": "dev-master",
-        "campaignchain/activity-ezplatform": "dev-master",
-        "campaignchain/channel-ezplatform": "dev-master",
-        "campaignchain/location-ezplatform": "dev-master",
-        "campaignchain/operation-ezplatform": "dev-master"
+        "campaignchain/activity-ezplatform": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
