@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d01e0dafdcca58bdb06abfa0c9309fe0",
-    "content-hash": "1216fa5c00d0109e0a63b94ac8bc9ff6",
+    "hash": "a33767edcf7f581e553f7c6cbbe94cf9",
+    "content-hash": "722134b47c28c957d76da83f1ba3919e",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -6825,13 +6825,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-ezplatform.git",
-                "reference": "e8a6f6ce039631b51ab2a6a5ec2c052b576f6dc3"
+                "reference": "5c53472f871ba0ee8df908620219ec9cc3f58831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-ezplatform/zipball/e8a6f6ce039631b51ab2a6a5ec2c052b576f6dc3",
-                "reference": "e8a6f6ce039631b51ab2a6a5ec2c052b576f6dc3",
+                "url": "https://api.github.com/repos/CampaignChain/activity-ezplatform/zipball/5c53472f871ba0ee8df908620219ec9cc3f58831",
+                "reference": "5c53472f871ba0ee8df908620219ec9cc3f58831",
                 "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-ezplatform": "dev-master",
+                "campaignchain/operation-ezplatform": "dev-master"
             },
             "type": "campaignchain-activity",
             "extra": {
@@ -6868,7 +6872,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-01 10:20:44"
+            "time": "2015-12-01 10:41:54"
         },
         {
             "name": "campaignchain/channel-ezplatform",
@@ -6876,12 +6880,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-ezplatform.git",
-                "reference": "286e433d149ed8b41576ffa4af14ada72e8a2f6a"
+                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-ezplatform/zipball/286e433d149ed8b41576ffa4af14ada72e8a2f6a",
-                "reference": "286e433d149ed8b41576ffa4af14ada72e8a2f6a",
+                "url": "https://api.github.com/repos/CampaignChain/channel-ezplatform/zipball/2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
+                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
                 "shasum": ""
             },
             "require": {
@@ -6923,7 +6927,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-01 10:21:46"
+            "time": "2015-12-01 10:38:15"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -7028,57 +7032,6 @@
             "time": "2015-11-02 10:49:38"
         },
         {
-            "name": "campaignchain/location-ezplatform",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-ezplatform.git",
-                "reference": "ffe94aaf5451fbb4696c6c0bc1402e2e71873ea0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-ezplatform/zipball/ffe94aaf5451fbb4696c6c0bc1402e2e71873ea0",
-                "reference": "ffe94aaf5451fbb4696c6c0bc1402e2e71873ea0",
-                "shasum": ""
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\EZPlatformBundle\\CampaignChainLocationEZPlatformBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_location_ezplatform",
-                            "resource": "@CampaignChainLocationEZPlatformBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\EZPlatformBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com"
-                }
-            ],
-            "description": "Holds information about eZ Platform users and content objects.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2015-12-01 10:22:36"
-        },
-        {
             "name": "campaignchain/location-google-analytics",
             "version": "dev-master",
             "source": {
@@ -7141,12 +7094,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-ezplatform.git",
-                "reference": "223892e01ca3a08550e4847d7ff34d5ab8e05e28"
+                "reference": "9adf08454db6e329e3da25ab497709ea82ba03d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-ezplatform/zipball/223892e01ca3a08550e4847d7ff34d5ab8e05e28",
-                "reference": "223892e01ca3a08550e4847d7ff34d5ab8e05e28",
+                "url": "https://api.github.com/repos/CampaignChain/operation-ezplatform/zipball/9adf08454db6e329e3da25ab497709ea82ba03d8",
+                "reference": "9adf08454db6e329e3da25ab497709ea82ba03d8",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -7179,7 +7132,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-01 10:23:18"
+            "time": "2015-12-01 10:38:14"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -8132,9 +8085,8 @@
         "friendsofsymfony/rest-bundle": 20,
         "jms/serializer-bundle": 20,
         "campaignchain/activity-ezplatform": 20,
-        "campaignchain/channel-ezplatform": 20,
         "campaignchain/location-ezplatform": 20,
-        "campaignchain/operation-ezplatform": 20
+        "campaignchain/channel-ezplatform": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
