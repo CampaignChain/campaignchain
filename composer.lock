@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a33767edcf7f581e553f7c6cbbe94cf9",
-    "content-hash": "722134b47c28c957d76da83f1ba3919e",
+    "hash": "f27932dcf475b90713766e42838af0cc",
+    "content-hash": "b9e890874ba96faf62a892338eb00cc5",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -697,6 +697,61 @@
                 "campaignchain"
             ],
             "time": "2015-09-15 08:02:30"
+        },
+        {
+            "name": "campaignchain/channel-ezplatform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-ezplatform.git",
+                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-ezplatform/zipball/2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
+                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/guzzle": "~3.9"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\EZPlatformBundle\\CampaignChainChannelEZPlatformBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_ezplatform",
+                            "resource": "@CampaignChainChannelEZPlatformBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\EZPlatformBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Connects to eZ Platform's REST API.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2015-12-01 10:38:15"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -1496,6 +1551,60 @@
                 "campaignchain"
             ],
             "time": "2015-10-15 10:50:18"
+        },
+        {
+            "name": "campaignchain/location-ezplatform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-ezplatform.git",
+                "reference": "bbb1a4ba37f6076712beaebf771f8768d477dc01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-ezplatform/zipball/bbb1a4ba37f6076712beaebf771f8768d477dc01",
+                "reference": "bbb1a4ba37f6076712beaebf771f8768d477dc01",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-ezplatform": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\EZPlatformBundle\\CampaignChainLocationEZPlatformBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_ezplatform",
+                            "resource": "@CampaignChainLocationEZPlatformBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\EZPlatformBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Holds information about eZ Platform users and content objects.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2015-12-01 11:46:19"
         },
         {
             "name": "campaignchain/location-facebook",
@@ -6875,61 +6984,6 @@
             "time": "2015-12-01 10:51:11"
         },
         {
-            "name": "campaignchain/channel-ezplatform",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-ezplatform.git",
-                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-ezplatform/zipball/2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
-                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
-                "shasum": ""
-            },
-            "require": {
-                "guzzle/guzzle": "~3.9"
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\EZPlatformBundle\\CampaignChainChannelEZPlatformBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_ezplatform",
-                            "resource": "@CampaignChainChannelEZPlatformBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\EZPlatformBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain Inc.",
-                    "email": "info@campaignchain.com",
-                    "homepage": "http://www.campaignchain.com"
-                }
-            ],
-            "description": "Connects to eZ Platform's REST API.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2015-12-01 10:38:15"
-        },
-        {
             "name": "campaignchain/channel-google-analytics",
             "version": "dev-master",
             "source": {
@@ -8076,6 +8130,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/distribution-ce": 20,
+        "campaignchain/location-ezplatform": 20,
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
@@ -8084,9 +8139,7 @@
         "nelmio/api-doc-bundle": 20,
         "friendsofsymfony/rest-bundle": 20,
         "jms/serializer-bundle": 20,
-        "campaignchain/activity-ezplatform": 20,
-        "campaignchain/location-ezplatform": 20,
-        "campaignchain/channel-ezplatform": 20
+        "campaignchain/activity-ezplatform": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
