@@ -2923,16 +2923,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "a5b3ba908ba68f3e14e42762a7b940fde65ed7da"
+                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/a5b3ba908ba68f3e14e42762a7b940fde65ed7da",
-                "reference": "a5b3ba908ba68f3e14e42762a7b940fde65ed7da",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
+                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
                 "shasum": ""
             },
             "require": {
@@ -2997,7 +2997,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-11-04 21:33:02"
+            "time": "2015-11-16 17:11:46"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -4998,16 +4998,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "19f765b66c6fbb56ee3b11bc16d52e38eebdc295"
+                "reference": "a208865a5aeffc2dbbef2a5b3409887272d93f32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/19f765b66c6fbb56ee3b11bc16d52e38eebdc295",
-                "reference": "19f765b66c6fbb56ee3b11bc16d52e38eebdc295",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a208865a5aeffc2dbbef2a5b3409887272d93f32",
+                "reference": "a208865a5aeffc2dbbef2a5b3409887272d93f32",
                 "shasum": ""
             },
             "require": {
@@ -5042,7 +5042,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2015-11-10 00:45:41"
+            "time": "2015-12-01 02:52:15"
         },
         {
             "name": "psr/log",
@@ -5385,45 +5385,43 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "09cb3bf45b4c662059c668173f3c85234d825767"
+                "reference": "d9c85b2a76f72e23b861e33d0f67abdc4ea2c963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/09cb3bf45b4c662059c668173f3c85234d825767",
-                "reference": "09cb3bf45b4c662059c668173f3c85234d825767",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/d9c85b2a76f72e23b861e33d0f67abdc4ea2c963",
+                "reference": "d9c85b2a76f72e23b861e33d0f67abdc4ea2c963",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.2",
                 "doctrine/inflector": "~1.0",
-                "knplabs/knp-menu": ">=2.0,<3.0",
-                "knplabs/knp-menu-bundle": ">=2.0,<3.0.0",
-                "sonata-project/block-bundle": "^2.3.8",
-                "sonata-project/core-bundle": "^2.3.9",
+                "knplabs/knp-menu-bundle": "dev-master",
+                "sonata-project/block-bundle": "dev-master",
+                "sonata-project/core-bundle": "^2.3.10",
                 "sonata-project/exporter": "~1.0",
-                "symfony/class-loader": "~2.3",
-                "symfony/config": "^2.3.9",
-                "symfony/console": "~2.3",
-                "symfony/dependency-injection": "~2.3,>=2.3.3",
-                "symfony/expression-language": "~2.4",
-                "symfony/form": "~2.3",
-                "symfony/http-foundation": "~2.3",
-                "symfony/property-access": "~2.3",
-                "symfony/routing": "~2.3",
-                "symfony/security-bundle": "~2.3",
-                "symfony/translation": "~2.3",
-                "symfony/twig-bridge": "~2.3",
-                "symfony/validator": "~2.3",
+                "symfony/class-loader": "~2.3|~3.0",
+                "symfony/config": "^2.3.9|~3.0",
+                "symfony/console": "~2.3|~3.0",
+                "symfony/dependency-injection": "~2.3,>=2.3.3|~3.0",
+                "symfony/expression-language": "~2.4|~3.0",
+                "symfony/form": "~2.3|~3.0",
+                "symfony/http-foundation": "~2.3|~3.0",
+                "symfony/property-access": "~2.3|~3.0",
+                "symfony/routing": "~2.3|~3.0",
+                "symfony/security-bundle": "~2.3|~3.0",
+                "symfony/translation": "~2.3|~3.0",
+                "symfony/twig-bridge": "~2.3|~3.0",
+                "symfony/validator": "~2.3|~3.0",
                 "twig/extensions": "~1.0",
                 "twig/twig": "~1.23"
             },
             "require-dev": {
-                "jms/translation-bundle": "~1.1",
-                "sensio/generator-bundle": "~2.3",
-                "sonata-project/intl-bundle": "~2.1",
+                "sensio/generator-bundle": "~2.3|~3.0",
+                "sonata-project/intl-bundle": "dev-master",
                 "symfony/phpunit-bridge": "~2.7|~3.0",
-                "symfony/security-acl": "~2.4",
-                "symfony/yaml": "~2.3"
+                "symfony/security-acl": "~2.4|~3.0",
+                "symfony/yaml": "~2.3|~3.0"
             },
             "suggest": {
                 "jms/translation-bundle": "Extract message keys from Admins",
@@ -5465,33 +5463,33 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2015-11-29 06:47:08"
+            "time": "2015-12-02 11:07:20"
         },
         {
             "name": "sonata-project/block-bundle",
-            "version": "2.3.8",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataBlockBundle.git",
-                "reference": "ae5563d970ea438f78a0e73b20c7e61003aa62b6"
+                "reference": "49a015a4f1613c4ecc48b95dd074b79cf50ee711"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/ae5563d970ea438f78a0e73b20c7e61003aa62b6",
-                "reference": "ae5563d970ea438f78a0e73b20c7e61003aa62b6",
+                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/49a015a4f1613c4ecc48b95dd074b79cf50ee711",
+                "reference": "49a015a4f1613c4ecc48b95dd074b79cf50ee711",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.3",
                 "sonata-project/cache": "~1.0",
-                "sonata-project/core-bundle": "^2.3.1",
-                "symfony/form": "~2.3",
-                "symfony/http-kernel": "~2.3"
+                "sonata-project/core-bundle": "~2.3,>=2.3.10",
+                "symfony/form": "~2.3|~3.0",
+                "symfony/http-kernel": "~2.3|~3.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "~0.5|~1.0",
-                "knplabs/knp-menu-bundle": "~2.0",
-                "sonata-project/admin-bundle": "~2.2",
+                "fabpot/php-cs-fixer": "~0.5|~1.11@dev",
+                "knplabs/knp-menu-bundle": "~2.0|~2.1@dev",
+                "sonata-project/admin-bundle": "dev-master",
                 "symfony/phpunit-bridge": "~2.7|~3.0"
             },
             "suggest": {
@@ -5501,13 +5499,16 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3.x-dev"
+                    "dev-master": "2.4.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
                     "Sonata\\BlockBundle\\": ""
-                }
+                },
+                "files": [
+                    "Resources/stubs/symfony2.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5530,7 +5531,7 @@
                 "block",
                 "sonata"
             ],
-            "time": "2015-09-01 12:39:53"
+            "time": "2015-12-02 12:39:42"
         },
         {
             "name": "sonata-project/cache",
@@ -6989,12 +6990,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-google-analytics.git",
-                "reference": "cf21756b05f66e4e31e4e9312aa024b3a7544967"
+                "reference": "380a8b48ad2e200d445fb68b90fb368d84531f8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/cf21756b05f66e4e31e4e9312aa024b3a7544967",
-                "reference": "cf21756b05f66e4e31e4e9312aa024b3a7544967",
+                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/380a8b48ad2e200d445fb68b90fb368d84531f8f",
+                "reference": "380a8b48ad2e200d445fb68b90fb368d84531f8f",
                 "shasum": ""
             },
             "require": {
@@ -7040,7 +7041,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-11-23 16:06:55"
+            "time": "2015-12-02 11:08:39"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -7091,12 +7092,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-google-analytics.git",
-                "reference": "82c02923ea3cb7b320762214cdbe21b3731c3497"
+                "reference": "ea4f6e841922e27429551c973ef8be39bb176cef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-google-analytics/zipball/82c02923ea3cb7b320762214cdbe21b3731c3497",
-                "reference": "82c02923ea3cb7b320762214cdbe21b3731c3497",
+                "url": "https://api.github.com/repos/CampaignChain/location-google-analytics/zipball/ea4f6e841922e27429551c973ef8be39bb176cef",
+                "reference": "ea4f6e841922e27429551c973ef8be39bb176cef",
                 "shasum": ""
             },
             "require": {
@@ -7140,7 +7141,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-11-23 13:41:56"
+            "time": "2015-12-02 11:09:07"
         },
         {
             "name": "campaignchain/operation-ezplatform",
@@ -7194,12 +7195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-google-analytics.git",
-                "reference": "aa80e682c1fe564b13c259603f08eeb1fa995246"
+                "reference": "781329c04179a1dae0664905b03a16396bd9d9ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/aa80e682c1fe564b13c259603f08eeb1fa995246",
-                "reference": "aa80e682c1fe564b13c259603f08eeb1fa995246",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/781329c04179a1dae0664905b03a16396bd9d9ae",
+                "reference": "781329c04179a1dae0664905b03a16396bd9d9ae",
                 "shasum": ""
             },
             "require": {
@@ -7245,7 +7246,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-11-23 13:18:09"
+            "time": "2015-12-02 12:47:46"
         },
         {
             "name": "campaignchain/security-authentication-server-oauth",
@@ -7488,12 +7489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "aae3daf9d2909eb3d98f19d94ba34fdf231d2f85"
+                "reference": "469e8a19d8ca69b24d763b1bf73fd01e398256f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/aae3daf9d2909eb3d98f19d94ba34fdf231d2f85",
-                "reference": "aae3daf9d2909eb3d98f19d94ba34fdf231d2f85",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/469e8a19d8ca69b24d763b1bf73fd01e398256f4",
+                "reference": "469e8a19d8ca69b24d763b1bf73fd01e398256f4",
                 "shasum": ""
             },
             "require": {
@@ -7564,7 +7565,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2015-11-27 16:32:08"
+            "time": "2015-12-02 12:33:05"
         },
         {
             "name": "google/apiclient",
