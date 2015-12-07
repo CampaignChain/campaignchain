@@ -1,6 +1,6 @@
 security:
     role_hierarchy:
-        ROLE_ADMIN:       ROLE_USER
+        ROLE_ADMIN:       [ROLE_USER, ROLE_API]
         ROLE_SUPER_ADMIN: ROLE_ADMIN
 
     providers:
