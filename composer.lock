@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "b667746139ab578936bb6a9d329c04e9c097d4c2"
+                "reference": "cfeb0c7b4ea694492cb1b13425fbb18b14b30ad7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b667746139ab578936bb6a9d329c04e9c097d4c2",
-                "reference": "b667746139ab578936bb6a9d329c04e9c097d4c2",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/cfeb0c7b4ea694492cb1b13425fbb18b14b30ad7",
+                "reference": "cfeb0c7b4ea694492cb1b13425fbb18b14b30ad7",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-07 21:18:21"
+            "time": "2015-12-07 21:59:29"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -2304,12 +2304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
-                "reference": "2c9008b9817864e6ae7bc4419b86ed80f3865794"
+                "reference": "3aa2466f89b7c8dd13ca6bca01eb449ab093512a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/2c9008b9817864e6ae7bc4419b86ed80f3865794",
-                "reference": "2c9008b9817864e6ae7bc4419b86ed80f3865794",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/3aa2466f89b7c8dd13ca6bca01eb449ab093512a",
+                "reference": "3aa2466f89b7c8dd13ca6bca01eb449ab093512a",
                 "shasum": ""
             },
             "type": "campaignchain-report-analytics",
@@ -2349,7 +2349,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2015-12-07 21:36:54"
+            "time": "2015-12-07 21:59:29"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
@@ -6868,12 +6868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "9d18d46e97bc7f2fc2109135eef74879fde24924"
+                "reference": "49eb7604dbd83fe615f40c2b9881d4a90fca79cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/9d18d46e97bc7f2fc2109135eef74879fde24924",
-                "reference": "9d18d46e97bc7f2fc2109135eef74879fde24924",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/49eb7604dbd83fe615f40c2b9881d4a90fca79cd",
+                "reference": "49eb7604dbd83fe615f40c2b9881d4a90fca79cd",
                 "shasum": ""
             },
             "type": "library",
@@ -6893,7 +6893,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-11-25 22:02:51"
+            "time": "2015-12-07 21:59:29"
         },
         {
             "name": "amariki/data-test",
@@ -6901,12 +6901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "7b73b6fe07d7c27a9b6df781c106f31a62700ab7"
+                "reference": "65fe5010fcd0ac53019a620297ccd165d686f054"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/7b73b6fe07d7c27a9b6df781c106f31a62700ab7",
-                "reference": "7b73b6fe07d7c27a9b6df781c106f31a62700ab7",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/65fe5010fcd0ac53019a620297ccd165d686f054",
+                "reference": "65fe5010fcd0ac53019a620297ccd165d686f054",
                 "shasum": ""
             },
             "type": "library",
@@ -6926,7 +6926,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-11-25 22:21:24"
+            "time": "2015-12-07 21:59:29"
         },
         {
             "name": "campaignchain/activity-ezplatform",
