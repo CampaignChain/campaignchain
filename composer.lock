@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "4bc74f84aeed580aa78740041cf097d7595f1fac"
+                "reference": "b667746139ab578936bb6a9d329c04e9c097d4c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/4bc74f84aeed580aa78740041cf097d7595f1fac",
-                "reference": "4bc74f84aeed580aa78740041cf097d7595f1fac",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b667746139ab578936bb6a9d329c04e9c097d4c2",
+                "reference": "b667746139ab578936bb6a9d329c04e9c097d4c2",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-07 19:47:26"
+            "time": "2015-12-07 21:18:21"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -2304,12 +2304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
-                "reference": "9bf3a8f429a6a541906ffdc8e7e56074a0ba6559"
+                "reference": "2c9008b9817864e6ae7bc4419b86ed80f3865794"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/9bf3a8f429a6a541906ffdc8e7e56074a0ba6559",
-                "reference": "9bf3a8f429a6a541906ffdc8e7e56074a0ba6559",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/2c9008b9817864e6ae7bc4419b86ed80f3865794",
+                "reference": "2c9008b9817864e6ae7bc4419b86ed80f3865794",
                 "shasum": ""
             },
             "type": "campaignchain-report-analytics",
@@ -2349,7 +2349,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2015-09-13 13:58:53"
+            "time": "2015-12-07 21:36:54"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
