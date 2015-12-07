@@ -532,12 +532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "e169e379ec068916d94dedfbcf7e95c22f271162"
+                "reference": "f83d1eae5d542cdb166e88b1fc6f08a509293dec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/e169e379ec068916d94dedfbcf7e95c22f271162",
-                "reference": "e169e379ec068916d94dedfbcf7e95c22f271162",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/f83d1eae5d542cdb166e88b1fc6f08a509293dec",
+                "reference": "f83d1eae5d542cdb166e88b1fc6f08a509293dec",
                 "shasum": ""
             },
             "require": {
@@ -583,7 +583,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2015-09-15 08:02:15"
+            "time": "2015-12-07 21:18:08"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "1c923074c9f4531203cc963ee89d31f12942ba71"
+                "reference": "4bc74f84aeed580aa78740041cf097d7595f1fac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/1c923074c9f4531203cc963ee89d31f12942ba71",
-                "reference": "1c923074c9f4531203cc963ee89d31f12942ba71",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/4bc74f84aeed580aa78740041cf097d7595f1fac",
+                "reference": "4bc74f84aeed580aa78740041cf097d7595f1fac",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-07 18:32:45"
+            "time": "2015-12-07 19:47:26"
         },
         {
             "name": "campaignchain/distribution-ce",
