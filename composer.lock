@@ -7148,12 +7148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-ezplatform.git",
-                "reference": "9adf08454db6e329e3da25ab497709ea82ba03d8"
+                "reference": "05b043f30b4d444084d4aff0d70cac4e71511177"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-ezplatform/zipball/9adf08454db6e329e3da25ab497709ea82ba03d8",
-                "reference": "9adf08454db6e329e3da25ab497709ea82ba03d8",
+                "url": "https://api.github.com/repos/CampaignChain/operation-ezplatform/zipball/05b043f30b4d444084d4aff0d70cac4e71511177",
+                "reference": "05b043f30b4d444084d4aff0d70cac4e71511177",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -7186,7 +7186,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-01 10:38:14"
+            "time": "2015-12-08 12:39:51"
         },
         {
             "name": "campaignchain/report-google-analytics",
