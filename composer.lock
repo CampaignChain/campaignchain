@@ -239,12 +239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "60f89882a13f1931deb84f8eb144deb257c3c0ff"
+                "reference": "b521c807f649cf8f74854a69da1c45ba8a119982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/60f89882a13f1931deb84f8eb144deb257c3c0ff",
-                "reference": "60f89882a13f1931deb84f8eb144deb257c3c0ff",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/b521c807f649cf8f74854a69da1c45ba8a119982",
+                "reference": "b521c807f649cf8f74854a69da1c45ba8a119982",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2015-12-08 12:02:20"
+            "time": "2015-12-08 12:48:53"
         },
         {
             "name": "campaignchain/activity-mailchimp",
