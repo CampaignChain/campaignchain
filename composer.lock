@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "cfeb0c7b4ea694492cb1b13425fbb18b14b30ad7"
+                "reference": "f8314abc295399db9c4d9e0397e9855144c38e8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/cfeb0c7b4ea694492cb1b13425fbb18b14b30ad7",
-                "reference": "cfeb0c7b4ea694492cb1b13425fbb18b14b30ad7",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f8314abc295399db9c4d9e0397e9855144c38e8d",
+                "reference": "f8314abc295399db9c4d9e0397e9855144c38e8d",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-07 21:59:29"
+            "time": "2015-12-07 23:58:01"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -7194,12 +7194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-google-analytics.git",
-                "reference": "d6e2b797519b291af52e27219a612d6bce13f4e7"
+                "reference": "0643f4482b3d9b05dbc1263c2d4b856330839b84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/d6e2b797519b291af52e27219a612d6bce13f4e7",
-                "reference": "d6e2b797519b291af52e27219a612d6bce13f4e7",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/0643f4482b3d9b05dbc1263c2d4b856330839b84",
+                "reference": "0643f4482b3d9b05dbc1263c2d4b856330839b84",
                 "shasum": ""
             },
             "require": {
@@ -7245,7 +7245,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-12-04 15:01:52"
+            "time": "2015-12-07 23:58:01"
         },
         {
             "name": "campaignchain/security-authentication-server-oauth",
