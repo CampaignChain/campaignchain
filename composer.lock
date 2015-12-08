@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "b5886c2a8f057aed0c7e25d5cffa49a855b58139"
+                "reference": "c8ef8f5c62d15471de34d16b0f5a8f3847bfaa19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b5886c2a8f057aed0c7e25d5cffa49a855b58139",
-                "reference": "b5886c2a8f057aed0c7e25d5cffa49a855b58139",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c8ef8f5c62d15471de34d16b0f5a8f3847bfaa19",
+                "reference": "c8ef8f5c62d15471de34d16b0f5a8f3847bfaa19",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-08 12:02:20"
+            "time": "2015-12-08 12:59:51"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1265,12 +1265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-assignee.git",
-                "reference": "93dadfc1ea417ab29eab0705020d6d77dee6c1f4"
+                "reference": "4da0a7bfdec336d7810ff5beb414c1e1ead8e769"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/93dadfc1ea417ab29eab0705020d6d77dee6c1f4",
-                "reference": "93dadfc1ea417ab29eab0705020d6d77dee6c1f4",
+                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/4da0a7bfdec336d7810ff5beb414c1e1ead8e769",
+                "reference": "4da0a7bfdec336d7810ff5beb414c1e1ead8e769",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1305,7 +1305,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-10-26 20:34:51"
+            "time": "2015-12-08 12:59:51"
         },
         {
             "name": "campaignchain/hook-date-repeat",
@@ -6868,12 +6868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "e1a53c31515d0f249d84936d985d7b798f265869"
+                "reference": "6b48d3641ad3e5a23728e90273048746294c8304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/e1a53c31515d0f249d84936d985d7b798f265869",
-                "reference": "e1a53c31515d0f249d84936d985d7b798f265869",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/6b48d3641ad3e5a23728e90273048746294c8304",
+                "reference": "6b48d3641ad3e5a23728e90273048746294c8304",
                 "shasum": ""
             },
             "type": "library",
@@ -6893,7 +6893,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-08 09:04:44"
+            "time": "2015-12-08 12:59:51"
         },
         {
             "name": "amariki/data-test",
@@ -6901,12 +6901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "88e3af8db9d4a7bb862959c491ed16d4148140c1"
+                "reference": "5e2eb44b5e359859410e321c10ad312f5e8317cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/88e3af8db9d4a7bb862959c491ed16d4148140c1",
-                "reference": "88e3af8db9d4a7bb862959c491ed16d4148140c1",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/5e2eb44b5e359859410e321c10ad312f5e8317cf",
+                "reference": "5e2eb44b5e359859410e321c10ad312f5e8317cf",
                 "shasum": ""
             },
             "type": "library",
@@ -6926,7 +6926,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-08 09:04:44"
+            "time": "2015-12-08 12:59:51"
         },
         {
             "name": "campaignchain/activity-ezplatform",
