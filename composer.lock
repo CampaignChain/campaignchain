@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "f8314abc295399db9c4d9e0397e9855144c38e8d"
+                "reference": "9ed31ccee7cbc8414edc8e9db65e7a1adcbdb041"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f8314abc295399db9c4d9e0397e9855144c38e8d",
-                "reference": "f8314abc295399db9c4d9e0397e9855144c38e8d",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9ed31ccee7cbc8414edc8e9db65e7a1adcbdb041",
+                "reference": "9ed31ccee7cbc8414edc8e9db65e7a1adcbdb041",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-07 23:58:01"
+            "time": "2015-12-08 09:04:44"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -1361,12 +1361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "a4eef8361882ba9801e9d9eea45e47fbe2dfb53d"
+                "reference": "e29d23b5dbb0668ddfca9927d167da0a1f468d74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/a4eef8361882ba9801e9d9eea45e47fbe2dfb53d",
-                "reference": "a4eef8361882ba9801e9d9eea45e47fbe2dfb53d",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/e29d23b5dbb0668ddfca9927d167da0a1f468d74",
+                "reference": "e29d23b5dbb0668ddfca9927d167da0a1f468d74",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1401,7 +1401,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-09-13 13:58:53"
+            "time": "2015-12-08 09:04:44"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -6868,12 +6868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "49eb7604dbd83fe615f40c2b9881d4a90fca79cd"
+                "reference": "e1a53c31515d0f249d84936d985d7b798f265869"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/49eb7604dbd83fe615f40c2b9881d4a90fca79cd",
-                "reference": "49eb7604dbd83fe615f40c2b9881d4a90fca79cd",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/e1a53c31515d0f249d84936d985d7b798f265869",
+                "reference": "e1a53c31515d0f249d84936d985d7b798f265869",
                 "shasum": ""
             },
             "type": "library",
@@ -6893,7 +6893,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-07 21:59:29"
+            "time": "2015-12-08 09:04:44"
         },
         {
             "name": "amariki/data-test",
@@ -6901,12 +6901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "65fe5010fcd0ac53019a620297ccd165d686f054"
+                "reference": "88e3af8db9d4a7bb862959c491ed16d4148140c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/65fe5010fcd0ac53019a620297ccd165d686f054",
-                "reference": "65fe5010fcd0ac53019a620297ccd165d686f054",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/88e3af8db9d4a7bb862959c491ed16d4148140c1",
+                "reference": "88e3af8db9d4a7bb862959c491ed16d4148140c1",
                 "shasum": ""
             },
             "type": "library",
@@ -6926,7 +6926,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-07 21:59:29"
+            "time": "2015-12-08 09:04:44"
         },
         {
             "name": "campaignchain/activity-ezplatform",
@@ -6934,12 +6934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-ezplatform.git",
-                "reference": "f882527d7939d4d089fb1394a577b0d6a434cc96"
+                "reference": "6a3940f245a922e61c62314f72882ac993b5b910"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-ezplatform/zipball/f882527d7939d4d089fb1394a577b0d6a434cc96",
-                "reference": "f882527d7939d4d089fb1394a577b0d6a434cc96",
+                "url": "https://api.github.com/repos/CampaignChain/activity-ezplatform/zipball/6a3940f245a922e61c62314f72882ac993b5b910",
+                "reference": "6a3940f245a922e61c62314f72882ac993b5b910",
                 "shasum": ""
             },
             "require": {
@@ -6981,7 +6981,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-07 16:13:41"
+            "time": "2015-12-08 09:04:44"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -7488,12 +7488,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "ea4d28b7d1fc63151b736767aa49c42778e3c453"
+                "reference": "78698c16c2104e9bc2c7f65537131958555bfde7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/ea4d28b7d1fc63151b736767aa49c42778e3c453",
-                "reference": "ea4d28b7d1fc63151b736767aa49c42778e3c453",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/78698c16c2104e9bc2c7f65537131958555bfde7",
+                "reference": "78698c16c2104e9bc2c7f65537131958555bfde7",
                 "shasum": ""
             },
             "require": {
@@ -7564,7 +7564,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2015-12-07 18:41:57"
+            "time": "2015-12-08 08:13:17"
         },
         {
             "name": "google/apiclient",
