@@ -120,12 +120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-facebook.git",
-                "reference": "9d2d35d487e61eff437922f7a2dfe98196301f6d"
+                "reference": "18271507aad229279429bbd733639b40e5274429"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/9d2d35d487e61eff437922f7a2dfe98196301f6d",
-                "reference": "9d2d35d487e61eff437922f7a2dfe98196301f6d",
+                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/18271507aad229279429bbd733639b40e5274429",
+                "reference": "18271507aad229279429bbd733639b40e5274429",
                 "shasum": ""
             },
             "require": {
@@ -172,7 +172,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2015-12-16 09:05:59"
+            "time": "2015-12-16 10:57:14"
         },
         {
             "name": "campaignchain/activity-gotowebinar",
@@ -415,12 +415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-twitter.git",
-                "reference": "8d8326ba095118a7436660f2e94e6418aa96763a"
+                "reference": "53abf9f775e44cb89e2229d32d78ac1e6c9a45a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/8d8326ba095118a7436660f2e94e6418aa96763a",
-                "reference": "8d8326ba095118a7436660f2e94e6418aa96763a",
+                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/53abf9f775e44cb89e2229d32d78ac1e6c9a45a0",
+                "reference": "53abf9f775e44cb89e2229d32d78ac1e6c9a45a0",
                 "shasum": ""
             },
             "require": {
@@ -467,7 +467,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2015-12-16 09:05:59"
+            "time": "2015-12-16 10:57:14"
         },
         {
             "name": "campaignchain/campaign-repeating",
@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "f8ba93af8cb4888489cf0b564f7ac1f6040fd15b"
+                "reference": "d2974fd80e1d9f6df2aa21b961ecf49cf41ab5f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f8ba93af8cb4888489cf0b564f7ac1f6040fd15b",
-                "reference": "f8ba93af8cb4888489cf0b564f7ac1f6040fd15b",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/d2974fd80e1d9f6df2aa21b961ecf49cf41ab5f4",
+                "reference": "d2974fd80e1d9f6df2aa21b961ecf49cf41ab5f4",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-16 09:05:59"
+            "time": "2015-12-16 15:47:42"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -5380,18 +5380,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "76e0b766d20e766b9bd6066fc0e9a515145949ff"
+                "reference": "77562ccc24831a25ee13dd4c3b7e04e9f2fa8b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/76e0b766d20e766b9bd6066fc0e9a515145949ff",
-                "reference": "76e0b766d20e766b9bd6066fc0e9a515145949ff",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/77562ccc24831a25ee13dd4c3b7e04e9f2fa8b5c",
+                "reference": "77562ccc24831a25ee13dd4c3b7e04e9f2fa8b5c",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.2",
                 "doctrine/inflector": "~1.0",
-                "knplabs/knp-menu-bundle": "dev-master",
+                "knplabs/knp-menu-bundle": "^2.1.1",
                 "sonata-project/block-bundle": "~2.3,>=2.3.9",
                 "sonata-project/core-bundle": "^2.3.10",
                 "sonata-project/exporter": "~1.0",
@@ -5458,7 +5458,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2015-12-15 10:24:37"
+            "time": "2015-12-16 13:54:55"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -7897,12 +7897,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "93b189b16ad0d410eb9b300eae7ab0ad7d8edede"
+                "reference": "1ae2cfa9a50279d722d6b6e7b02322cef948d55d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/93b189b16ad0d410eb9b300eae7ab0ad7d8edede",
-                "reference": "93b189b16ad0d410eb9b300eae7ab0ad7d8edede",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/1ae2cfa9a50279d722d6b6e7b02322cef948d55d",
+                "reference": "1ae2cfa9a50279d722d6b6e7b02322cef948d55d",
                 "shasum": ""
             },
             "require": {
@@ -7972,7 +7972,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2015-12-11 08:12:17"
+            "time": "2015-12-16 15:17:51"
         },
         {
             "name": "phpcollection/phpcollection",
