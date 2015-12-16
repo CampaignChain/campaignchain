@@ -7251,12 +7251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "7a7494f4e0a06dac40bd6bf3e9fd33d9b45e9321"
+                "reference": "cbae3273bd3556320c4884f844a2cd931b8ed573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/7a7494f4e0a06dac40bd6bf3e9fd33d9b45e9321",
-                "reference": "7a7494f4e0a06dac40bd6bf3e9fd33d9b45e9321",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/cbae3273bd3556320c4884f844a2cd931b8ed573",
+                "reference": "cbae3273bd3556320c4884f844a2cd931b8ed573",
                 "shasum": ""
             },
             "require": {
@@ -7301,7 +7301,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2015-12-04 09:39:41"
+            "time": "2015-12-16 16:09:46"
         },
         {
             "name": "doctrine/instantiator",
