@@ -357,12 +357,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-slideshare.git",
-                "reference": "e23fe40569713d7f9e600a32f0802fde61ada2a2"
+                "reference": "312a0271cc85c5724cde6df247ae93f086c47e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/e23fe40569713d7f9e600a32f0802fde61ada2a2",
-                "reference": "e23fe40569713d7f9e600a32f0802fde61ada2a2",
+                "url": "https://api.github.com/repos/CampaignChain/activity-slideshare/zipball/312a0271cc85c5724cde6df247ae93f086c47e80",
+                "reference": "312a0271cc85c5724cde6df247ae93f086c47e80",
                 "shasum": ""
             },
             "require": {
@@ -407,7 +407,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2015-12-14 22:05:09"
+            "time": "2015-12-16 16:20:17"
         },
         {
             "name": "campaignchain/activity-twitter",
