@@ -14,6 +14,18 @@ if (!isset($_SERVER['HTTP_HOST'])) {
 
 require_once dirname(__FILE__) . '/../../app/CampaignChainRequirements.php';
 
+// Check if already installed.
+$installFile = __DIR__.'/../../app/config/campaignchain/.install';
+if(
+    !file_exists($installFile)
+) {
+    // System is installed and user wants to access the Installation
+    // Wizard. Hence, redirect to login page.
+    header('Location: /');
+    exit;
+}
+
+
 $campaignchainRequirements = new CampaignChainRequirements();
 
 $majorProblems = $campaignchainRequirements->getFailedRequirements();

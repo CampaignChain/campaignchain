@@ -7,3 +7,6 @@ CampaignChain is the result of the work of many people who made the code better:
 - Andras Ratz (YMC)
 - Jiayong Ou (YMC)
 - Pascal von Büren (YMC)
+- Stephanie Höhn (YMC)
+- Timo Collmann (YMC)
+- Jean-Pierre König (YMC)

@@ -16,9 +16,10 @@ web/images
 src
 
 ## CampaignChain
+app/config/campaignchain/.install
 app/campaignchain_bundles.php
 app/config/campaignchain/config_bundles.yml
-/app/config/campaignchain/security.yml
+app/config/campaignchain/security.yml
 app/config/parameters.yml
 app/config/routing.yml
 app/sessions

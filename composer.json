@@ -41,6 +41,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::removeSymfonyStandardFiles",
             "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::registerModules",
+            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::enableInstallMode",
             "Sp\\BowerBundle\\Composer\\ScriptHandler::bowerInstall"
         ],
         "post-update-cmd": [

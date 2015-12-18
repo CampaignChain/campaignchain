@@ -7,6 +7,8 @@ class AppKernel extends Kernel
 {
     protected function initializeContainer()
     {
+        \CampaignChain\CoreBundle\Util\SystemUtil::redirectInstallMode();
+
         parent::initializeContainer();
 
         date_default_timezone_set('UTC');
