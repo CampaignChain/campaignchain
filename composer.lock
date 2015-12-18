@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f27932dcf475b90713766e42838af0cc",
+    "hash": "a4a8be0b3c1294272e50ff1a56046e8b",
     "content-hash": "b9e890874ba96faf62a892338eb00cc5",
     "packages": [
         {
@@ -1042,12 +1042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-website.git",
-                "reference": "5e9b9568456bea3303acb175c115dd9be28940c2"
+                "reference": "d0971ed9cf80ede5834c3c9ee4eac58a41c78451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/5e9b9568456bea3303acb175c115dd9be28940c2",
-                "reference": "5e9b9568456bea3303acb175c115dd9be28940c2",
+                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/d0971ed9cf80ede5834c3c9ee4eac58a41c78451",
+                "reference": "d0971ed9cf80ede5834c3c9ee4eac58a41c78451",
                 "shasum": ""
             },
             "require": {
@@ -1091,7 +1091,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2015-09-15 08:03:12"
+            "time": "2015-12-18 15:33:53"
         },
         {
             "name": "campaignchain/core",
@@ -3871,17 +3871,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hpatoio/BitlyBundle.git",
-                "reference": "ba5c20fdc9e9e22bd76f855dd1c49f3c9a5c5c8d"
+                "reference": "e94240ec6a91db8e8c0da1235132448ff9d9c876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hpatoio/BitlyBundle/zipball/ba5c20fdc9e9e22bd76f855dd1c49f3c9a5c5c8d",
-                "reference": "ba5c20fdc9e9e22bd76f855dd1c49f3c9a5c5c8d",
+                "url": "https://api.github.com/repos/hpatoio/BitlyBundle/zipball/e94240ec6a91db8e8c0da1235132448ff9d9c876",
+                "reference": "e94240ec6a91db8e8c0da1235132448ff9d9c876",
                 "shasum": ""
             },
             "require": {
                 "hpatoio/bitly-api": "~2.0",
-                "symfony/framework-bundle": "~2.0"
+                "symfony/framework-bundle": "~2.0|~3.0"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -3905,7 +3905,7 @@
                 "api",
                 "bitly"
             ],
-            "time": "2015-05-01 16:46:00"
+            "time": "2015-12-18 15:52:44"
         },
         {
             "name": "hybridauth/hybridauth",
@@ -4339,12 +4339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "ff3434782588fa371adf8361f5d2e9fd162d5508"
+                "reference": "92e969ce3d577997f191839b5540502796216966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/ff3434782588fa371adf8361f5d2e9fd162d5508",
-                "reference": "ff3434782588fa371adf8361f5d2e9fd162d5508",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/92e969ce3d577997f191839b5540502796216966",
+                "reference": "92e969ce3d577997f191839b5540502796216966",
                 "shasum": ""
             },
             "require": {
@@ -4388,7 +4388,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2015-12-15 13:29:15"
+            "time": "2015-12-18 16:16:01"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -5380,12 +5380,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "77562ccc24831a25ee13dd4c3b7e04e9f2fa8b5c"
+                "reference": "d499812e8fe7c33cd322addd35d6b669fe00d4b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/77562ccc24831a25ee13dd4c3b7e04e9f2fa8b5c",
-                "reference": "77562ccc24831a25ee13dd4c3b7e04e9f2fa8b5c",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/d499812e8fe7c33cd322addd35d6b669fe00d4b5",
+                "reference": "d499812e8fe7c33cd322addd35d6b669fe00d4b5",
                 "shasum": ""
             },
             "require": {
@@ -5458,7 +5458,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2015-12-16 13:54:55"
+            "time": "2015-12-17 10:49:00"
         },
         {
             "name": "sonata-project/block-bundle",
