@@ -2,7 +2,8 @@
     "name": "campaignchain/campaignchain-ce",
     "license": "MIT",
     "type": "project",
-    "description": "The CampaignChain Community Edition",
+    "description": "CampaignChain Community Edition",
+    "keywords": ["campaignchain"],
     "autoload": {
         "psr-4": { "": "src/", "SymfonyStandard\\": "app/SymfonyStandard/" }
     },
