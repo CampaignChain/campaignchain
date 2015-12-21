@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "ca4943c15a8cc7f1c2d5dda2a38d49adf15b5953"
+                "reference": "2fbf75989b2163fef8af47a00333ff0042cbb39e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ca4943c15a8cc7f1c2d5dda2a38d49adf15b5953",
-                "reference": "ca4943c15a8cc7f1c2d5dda2a38d49adf15b5953",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2fbf75989b2163fef8af47a00333ff0042cbb39e",
+                "reference": "2fbf75989b2163fef8af47a00333ff0042cbb39e",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-19 19:06:32"
+            "time": "2015-12-21 09:33:26"
         },
         {
             "name": "campaignchain/distribution-ce",
@@ -7037,16 +7037,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "c3f1fd2c59f6aad2b84df6ebf776ce0fb720cd1b"
+                "reference": "d5e06116ee3a27cc8f2beecfc4b5cd3415ab97e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/c3f1fd2c59f6aad2b84df6ebf776ce0fb720cd1b",
-                "reference": "c3f1fd2c59f6aad2b84df6ebf776ce0fb720cd1b",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/d5e06116ee3a27cc8f2beecfc4b5cd3415ab97e1",
+                "reference": "d5e06116ee3a27cc8f2beecfc4b5cd3415ab97e1",
                 "shasum": ""
             },
             "require": {
-                "sensio/generator-bundle": ">=2.3",
+                "sensio/generator-bundle": "~2.5",
                 "symfony/console": "~2.5",
                 "symfony/symfony": "~2.5"
             },
@@ -7072,7 +7072,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-14 22:05:09"
+            "time": "2015-12-21 09:31:46"
         },
         {
             "name": "campaignchain/location-google-analytics",
