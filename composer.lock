@@ -7477,12 +7477,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "6ebbd6df404068b50f6f52c5b215c39fe8282772"
+                "reference": "dc44ee03b1904ee2987c232c383c3a8b5cac4772"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/6ebbd6df404068b50f6f52c5b215c39fe8282772",
-                "reference": "6ebbd6df404068b50f6f52c5b215c39fe8282772",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/dc44ee03b1904ee2987c232c383c3a8b5cac4772",
+                "reference": "dc44ee03b1904ee2987c232c383c3a8b5cac4772",
                 "shasum": ""
             },
             "require": {
@@ -7553,7 +7553,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2015-12-10 16:53:43"
+            "time": "2015-12-20 16:51:13"
         },
         {
             "name": "google/apiclient",
