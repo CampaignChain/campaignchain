@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "204fc0e2855d9ff1260e9800adbef7f5",
-    "content-hash": "ee3bf6ae54b6d52cc88b820b9f4b897e",
+    "hash": "390bb246577f54b3abd50e4681938355",
+    "content-hash": "d8707c19d99b747d64538760c712de26",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -699,61 +699,6 @@
             "time": "2015-09-15 08:02:30"
         },
         {
-            "name": "campaignchain/channel-ezplatform",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-ezplatform.git",
-                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-ezplatform/zipball/2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
-                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
-                "shasum": ""
-            },
-            "require": {
-                "guzzle/guzzle": "~3.9"
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\EZPlatformBundle\\CampaignChainChannelEZPlatformBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_ezplatform",
-                            "resource": "@CampaignChainChannelEZPlatformBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\EZPlatformBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain Inc.",
-                    "email": "info@campaignchain.com",
-                    "homepage": "http://www.campaignchain.com"
-                }
-            ],
-            "description": "Connects to eZ Platform's REST API.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2015-12-01 10:38:15"
-        },
-        {
             "name": "campaignchain/channel-facebook",
             "version": "dev-master",
             "source": {
@@ -1158,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "1a70c12e223c60602b19a0764594cb1a5793b170"
+                "reference": "c9eee9420fb5d2aa3fc2ee23b3f34de1322330bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/1a70c12e223c60602b19a0764594cb1a5793b170",
-                "reference": "1a70c12e223c60602b19a0764594cb1a5793b170",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c9eee9420fb5d2aa3fc2ee23b3f34de1322330bb",
+                "reference": "c9eee9420fb5d2aa3fc2ee23b3f34de1322330bb",
                 "shasum": ""
             },
             "require": {
@@ -1192,7 +1137,7 @@
                 "php": ">=5.4",
                 "sensio/distribution-bundle": "3.0.13",
                 "sensio/framework-extra-bundle": "~3.0",
-                "sensio/generator-bundle": ">=2.3",
+                "sensio/generator-bundle": "~2.5",
                 "sonata-project/admin-bundle": "~2.2",
                 "sonata-project/block-bundle": "~2.2",
                 "sp/bower-bundle": "dev-master",
@@ -1255,73 +1200,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-21 10:40:32"
-        },
-        {
-            "name": "campaignchain/distribution-ce",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/distribution-ce.git",
-                "reference": "d711979d3e03dec0c66b80b8705c50010a04afe9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/distribution-ce/zipball/d711979d3e03dec0c66b80b8705c50010a04afe9",
-                "reference": "d711979d3e03dec0c66b80b8705c50010a04afe9",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/activity-facebook": "dev-master",
-                "campaignchain/activity-gotowebinar": "dev-master",
-                "campaignchain/activity-linkedin": "dev-master",
-                "campaignchain/activity-mailchimp": "dev-master",
-                "campaignchain/activity-slideshare": "dev-master",
-                "campaignchain/activity-twitter": "dev-master",
-                "campaignchain/campaign-repeating": "dev-master",
-                "campaignchain/campaign-scheduled": "dev-master",
-                "campaignchain/campaign-template": "dev-master",
-                "campaignchain/core": "dev-master",
-                "campaignchain/location-website": "dev-master",
-                "campaignchain/milestone-scheduled": "dev-master",
-                "campaignchain/report-analytics-cta-tracking": "dev-master",
-                "campaignchain/report-analytics-metrics-per-activity": "dev-master",
-                "campaignchain/report-google-analytics": "dev-master",
-                "campaignchain/security-authentication-server-oauth": "dev-master"
-            },
-            "type": "campaignchain-distribution",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\DistributionCeBundle\\CampaignChainDistributionCeBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\DistributionCeBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain Inc.",
-                    "email": "info@campaignchain.com",
-                    "homepage": "http://www.campaignchain.com"
-                }
-            ],
-            "description": "Distribution configuration for the Community Edition of CampaignChain.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain",
-                "community edition"
-            ],
-            "time": "2015-12-21 10:40:32"
+            "time": "2015-12-21 14:46:49"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1617,60 +1496,6 @@
                 "campaignchain"
             ],
             "time": "2015-10-15 10:50:18"
-        },
-        {
-            "name": "campaignchain/location-ezplatform",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-ezplatform.git",
-                "reference": "278f93bf1d704cf96515df8cfee4ad5f7937e510"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-ezplatform/zipball/278f93bf1d704cf96515df8cfee4ad5f7937e510",
-                "reference": "278f93bf1d704cf96515df8cfee4ad5f7937e510",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/channel-ezplatform": "dev-master"
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\EZPlatformBundle\\CampaignChainLocationEZPlatformBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_location_ezplatform",
-                            "resource": "@CampaignChainLocationEZPlatformBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\EZPlatformBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com"
-                }
-            ],
-            "description": "Holds information about eZ Platform users and content objects.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2015-12-15 16:56:16"
         },
         {
             "name": "campaignchain/location-facebook",
@@ -2653,12 +2478,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "cbae3273bd3556320c4884f844a2cd931b8ed573"
+                "reference": "3acdc9fca44052466e428a60b7aa3e1f43bae0c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/cbae3273bd3556320c4884f844a2cd931b8ed573",
-                "reference": "cbae3273bd3556320c4884f844a2cd931b8ed573",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/3acdc9fca44052466e428a60b7aa3e1f43bae0c8",
+                "reference": "3acdc9fca44052466e428a60b7aa3e1f43bae0c8",
                 "shasum": ""
             },
             "require": {
@@ -2703,7 +2528,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2015-12-16 16:09:46"
+            "time": "2015-12-21 14:28:08"
         },
         {
             "name": "cocur/slugify",
@@ -3019,16 +2844,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.6.0",
+            "version": "v2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "3cb33d19beb3c62f76c55e7e9683fff12e242bc8"
+                "reference": "311001fd9865a4d0d59efff4eac6d7dcb3f5270c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/3cb33d19beb3c62f76c55e7e9683fff12e242bc8",
-                "reference": "3cb33d19beb3c62f76c55e7e9683fff12e242bc8",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/311001fd9865a4d0d59efff4eac6d7dcb3f5270c",
+                "reference": "311001fd9865a4d0d59efff4eac6d7dcb3f5270c",
                 "shasum": ""
             },
             "require": {
@@ -3037,20 +2862,20 @@
                 "doctrine/collections": "1.*",
                 "doctrine/inflector": "1.*",
                 "doctrine/lexer": "1.*",
-                "php": "~5.5|~7.0"
+                "php": ">=5.3.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8|~5.0"
+                "phpunit/phpunit": "~3.7"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7.x-dev"
+                    "dev-master": "2.5.x-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Doctrine\\Common\\": "lib/Doctrine/Common"
+                "psr-0": {
+                    "Doctrine\\Common\\": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3088,34 +2913,42 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-12-04 13:06:46"
+            "time": "2015-12-04 12:49:42"
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.4.4",
+            "version": "v2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "a370e5b95e509a7809d11f3d280acfc9310d464b"
+                "reference": "01dbcbc5cd0a913d751418e635434a18a2f2a75c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/a370e5b95e509a7809d11f3d280acfc9310d464b",
-                "reference": "a370e5b95e509a7809d11f3d280acfc9310d464b",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/01dbcbc5cd0a913d751418e635434a18a2f2a75c",
+                "reference": "01dbcbc5cd0a913d751418e635434a18a2f2a75c",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "~2.4",
+                "doctrine/common": ">=2.4,<2.6-dev",
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "symfony/console": "~2.0"
+                "phpunit/phpunit": "4.*",
+                "symfony/console": "2.*"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
             },
+            "bin": [
+                "bin/doctrine-dbal"
+            ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Doctrine\\DBAL\\": "lib/"
@@ -3151,7 +2984,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2015-01-12 21:57:01"
+            "time": "2015-09-16 16:29:33"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -7915,12 +7748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "a2a452578599465fc31f94188f44f29e41671a23"
+                "reference": "deeec5ba58d37062b999986be6de85010f8bcb92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/a2a452578599465fc31f94188f44f29e41671a23",
-                "reference": "a2a452578599465fc31f94188f44f29e41671a23",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/deeec5ba58d37062b999986be6de85010f8bcb92",
+                "reference": "deeec5ba58d37062b999986be6de85010f8bcb92",
                 "shasum": ""
             },
             "type": "library",
@@ -7940,7 +7773,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-17 10:05:46"
+            "time": "2015-12-21 14:28:08"
         },
         {
             "name": "amariki/data-test",
@@ -7948,12 +7781,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "4e7a1d8bb64a8611c8b03c6272d7822fca207ab2"
+                "reference": "48337d3165367de52c4dff47a87124ea146539a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/4e7a1d8bb64a8611c8b03c6272d7822fca207ab2",
-                "reference": "4e7a1d8bb64a8611c8b03c6272d7822fca207ab2",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/48337d3165367de52c4dff47a87124ea146539a7",
+                "reference": "48337d3165367de52c4dff47a87124ea146539a7",
                 "shasum": ""
             },
             "type": "library",
@@ -7973,7 +7806,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-17 10:05:46"
+            "time": "2015-12-21 14:28:08"
         },
         {
             "name": "campaignchain/activity-ezplatform",
@@ -8031,6 +7864,61 @@
             "time": "2015-12-16 09:05:59"
         },
         {
+            "name": "campaignchain/channel-ezplatform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-ezplatform.git",
+                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-ezplatform/zipball/2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
+                "reference": "2db1b449a2fda0cad44668aa6a1030b8be1eb5f8",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/guzzle": "~3.9"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\EZPlatformBundle\\CampaignChainChannelEZPlatformBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_ezplatform",
+                            "resource": "@CampaignChainChannelEZPlatformBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\EZPlatformBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Connects to eZ Platform's REST API.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2015-12-01 10:38:15"
+        },
+        {
             "name": "campaignchain/dev-tools",
             "version": "dev-master",
             "source": {
@@ -8072,6 +7960,60 @@
                 "campaignchain"
             ],
             "time": "2015-12-21 09:31:46"
+        },
+        {
+            "name": "campaignchain/location-ezplatform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-ezplatform.git",
+                "reference": "278f93bf1d704cf96515df8cfee4ad5f7937e510"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-ezplatform/zipball/278f93bf1d704cf96515df8cfee4ad5f7937e510",
+                "reference": "278f93bf1d704cf96515df8cfee4ad5f7937e510",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-ezplatform": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\EZPlatformBundle\\CampaignChainLocationEZPlatformBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_ezplatform",
+                            "resource": "@CampaignChainLocationEZPlatformBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\EZPlatformBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Holds information about eZ Platform users and content objects.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2015-12-15 16:56:16"
         },
         {
             "name": "campaignchain/operation-ezplatform",
@@ -8123,8 +8065,22 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "campaignchain/distribution-ce": 20,
-        "campaignchain/location-ezplatform": 20,
+        "campaignchain/core": 20,
+        "campaignchain/campaign-scheduled": 20,
+        "campaignchain/campaign-template": 20,
+        "campaignchain/campaign-repeating": 20,
+        "campaignchain/milestone-scheduled": 20,
+        "campaignchain/activity-twitter": 20,
+        "campaignchain/activity-facebook": 20,
+        "campaignchain/activity-linkedin": 20,
+        "campaignchain/activity-gotowebinar": 20,
+        "campaignchain/activity-mailchimp": 20,
+        "campaignchain/activity-slideshare": 20,
+        "campaignchain/location-website": 20,
+        "campaignchain/report-analytics-metrics-per-activity": 20,
+        "campaignchain/report-analytics-cta-tracking": 20,
+        "campaignchain/report-google-analytics": 20,
+        "campaignchain/security-authentication-server-oauth": 20,
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
