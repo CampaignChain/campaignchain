@@ -15,7 +15,8 @@
         "guzzlehttp/guzzle": "^5.3",
         "liip/imagine-bundle": "^1.3.1",
         "oneup/uploader-bundle": "^1.3.1",
-        "campaignchain/location-ezplatform": "dev-master"
+        "campaignchain/location-ezplatform": "dev-master",
+        "sensio/generator-bundle": "~2.5"
     },
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
