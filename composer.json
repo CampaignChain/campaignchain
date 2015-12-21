@@ -1,9 +1,26 @@
 {
     "name": "campaignchain/campaignchain-ce",
-    "license": "MIT",
-    "type": "project",
     "description": "CampaignChain Community Edition",
+    "version": "dev-master",
+    "type": "project",
+    "license": [
+        "Apache-2.0",
+        "GPL-3.0+"
+    ],
     "keywords": ["campaignchain"],
+    "homepage": "http://www.campaignchain.com",
+    "support": {
+        "email": "support@campaignchain.com",
+        "issues": "https://github.com/CampaignChain/campaignchain-ce/issues",
+        "docs": "http://docs.campaignchain.com"
+    },
+    "authors": [
+        {
+            "name": "CampaignChain Inc.",
+            "email": "info@campaignchain.com",
+            "homepage": "http://www.campaignchain.com"
+        }
+    ],
     "autoload": {
         "psr-4": { "": "src/", "SymfonyStandard\\": "app/SymfonyStandard/" }
     },
@@ -12,12 +29,22 @@
     "require": {
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
-        "campaignchain/distribution-ce": "dev-master",
-        "guzzlehttp/guzzle": "^5.3",
-        "liip/imagine-bundle": "^1.3.1",
-        "oneup/uploader-bundle": "^1.3.1",
-        "campaignchain/location-ezplatform": "dev-master",
-        "sensio/generator-bundle": "~2.5"
+        "campaignchain/core": "dev-master",
+        "campaignchain/campaign-scheduled": "dev-master",
+        "campaignchain/campaign-template": "dev-master",
+        "campaignchain/campaign-repeating": "dev-master",
+        "campaignchain/milestone-scheduled": "dev-master",
+        "campaignchain/activity-twitter": "dev-master",
+        "campaignchain/activity-facebook": "dev-master",
+        "campaignchain/activity-linkedin": "dev-master",
+        "campaignchain/activity-gotowebinar": "dev-master",
+        "campaignchain/activity-mailchimp": "dev-master",
+        "campaignchain/activity-slideshare": "dev-master",
+        "campaignchain/location-website": "dev-master",
+        "campaignchain/report-analytics-metrics-per-activity": "dev-master",
+        "campaignchain/report-analytics-cta-tracking": "dev-master",
+        "campaignchain/report-google-analytics": "dev-master",
+        "campaignchain/security-authentication-server-oauth": "dev-master"
     },
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
@@ -60,6 +87,18 @@
         "symfony-web-dir": "web",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
+        },
+        "campaignchain": {
+            "distribution": {
+                "modules": {
+                    "repositories": [
+                        "http://store.campaignchain.com/modules/"
+                    ],
+                    "repositories-dev": [
+                        "http://store.campaignchain.com/modules/dev/"
+                    ]
+                }
+            }
         }
     }
 }

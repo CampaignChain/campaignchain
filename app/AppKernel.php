@@ -46,7 +46,6 @@ class AppKernel extends Kernel
 
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
-            new CampaignChain\DistributionCeBundle\CampaignChainDistributionCeBundle(),
 
             // More vendors for campaignchain/core bundle
             new Oneup\UploaderBundle\OneupUploaderBundle(),
