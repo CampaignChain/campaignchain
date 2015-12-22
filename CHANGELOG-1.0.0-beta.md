@@ -22,6 +22,7 @@ Find details about the issues here: https://campaignchain.atlassian.net
     * [CE-428] - A user clicks on a button in the Settings sidebar to close it
     * [CE-444] - A developer selects the sample data as per the composer package name
     * [CE-455] - A developer would like his application to connect to the REST API via OAuth
+    * [CE-471] - Implement basic REST API endpoints
 
 * Task
 
