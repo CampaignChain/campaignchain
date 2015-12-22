@@ -1,7 +1,7 @@
 {
     "name": "campaignchain/campaignchain-ce",
     "description": "CampaignChain Community Edition",
-    "version": "dev-master",
+    "version": "1.0.0-beta.3",
     "type": "project",
     "license": [
         "Apache-2.0",
