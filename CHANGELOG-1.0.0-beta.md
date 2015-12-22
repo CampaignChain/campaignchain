@@ -41,17 +41,8 @@ Find details about the issues here: https://campaignchain.atlassian.net
     * [CE-66] - Gracefully ask user to restart if Wizard session data is empty (e.g. due to error)
     * [CE-172] - Add assignee hook to Linkedin activity
     * [CE-223] - When connecting new Facebook user, pages cannot be deselected and all of them will be connected
-    * [CE-303] - If start date of timeline is after today, don’t show today line
-    * [CE-305] - Module update script changes module data for scheduled campaign to that of scheduled milestone
-    * [CE-308] - Add "campaignchain" as tag for all composer packages
-    * [CE-310] - Module update script duplicates report
-    * [CE-312] - Don’t show scheduled campaigns in past when creating new Activity or Milestone
-    * [CE-325] - Today line almost gone after editing Activity
-    * [CE-330] - When activating "Now" in due hook, report scheduler is not being created
     * [CE-338] - Add hooks in modal edit view
     * [CE-353] - bootstrap-clockpicker.min.js missing upon installation at step 1
-    * [CE-358] - Installation on Windows - RuntimeException
-    * [CE-361] - Module installer wrongly uses full path prefixed with ..\..\ on Windows
     * [CE-363] - Assign copyright to CampaignChain Inc.
     * [CE-364] - Adding new Facebook location doesn't work
     * [CE-404] - Facebook REST client not connecting
