@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "650c0de0468fe68da87131986741f763e07c201c"
+                "reference": "cfdca371963770e441a71de39a4282ccc731d439"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/650c0de0468fe68da87131986741f763e07c201c",
-                "reference": "650c0de0468fe68da87131986741f763e07c201c",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/cfdca371963770e441a71de39a4282ccc731d439",
+                "reference": "cfdca371963770e441a71de39a4282ccc731d439",
                 "shasum": ""
             },
             "require": {
@@ -1200,7 +1200,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-22 08:49:52"
+            "time": "2015-12-23 15:44:19"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -5256,16 +5256,16 @@
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9"
+                "reference": "155287e4222d2dd69b6a21221617b50668d5892e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/e1aabe18173231ebcefc90e615565742fc1c7fd9",
-                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/155287e4222d2dd69b6a21221617b50668d5892e",
+                "reference": "155287e4222d2dd69b6a21221617b50668d5892e",
                 "shasum": ""
             },
             "require": {
@@ -5288,14 +5288,14 @@
             ],
             "authors": [
                 {
-                    "name": "John Gruber",
-                    "homepage": "http://daringfireball.net/"
-                },
-                {
                     "name": "Michel Fortin",
                     "email": "michel.fortin@michelf.ca",
                     "homepage": "https://michelf.ca/",
                     "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
                 }
             ],
             "description": "PHP Markdown",
@@ -5303,7 +5303,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2015-03-01 12:03:08"
+            "time": "2015-12-22 18:18:12"
         },
         {
             "name": "monolog/monolog",
