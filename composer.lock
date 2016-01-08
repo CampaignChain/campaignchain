@@ -1123,7 +1123,7 @@
                 "guzzle/guzzle": "~3.9",
                 "guzzlehttp/guzzle": "^5.3",
                 "h4cc/alice-fixtures-bundle": "dev-master",
-                "hpatoio/bitly-bundle": "dev-master",
+                "hpatoio/bitly-api": "~2.0",
                 "incenteev/composer-parameter-handler": "~2.0",
                 "ivaynberg/select2": "3.5.0",
                 "jms/serializer-bundle": "dev-master",
@@ -1167,7 +1167,6 @@
                             "Bmatzner\\FontAwesomeBundle\\BmatznerFontAwesomeBundle",
                             "h4cc\\AliceFixturesBundle\\h4ccAliceFixturesBundle",
                             "FOS\\JsRoutingBundle\\FOSJsRoutingBundle",
-                            "Hpatoio\\BitlyBundle\\HpatoioBitlyBundle",
                             "Sp\\BowerBundle\\SpBowerBundle",
                             "Sonata\\CoreBundle\\SonataCoreBundle",
                             "Sonata\\BlockBundle\\SonataBlockBundle",
@@ -4213,9 +4212,6 @@
                 "behat/mink": "~1.5",
                 "phpunit/phpunit": "~3.7"
             },
-            "suggest": {
-                "hpatoio/bitly-bundle": "for integration with Symfony2 web framework"
-            },
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -4241,48 +4237,6 @@
                 "bitly"
             ],
             "time": "2015-09-21 06:48:12"
-        },
-        {
-            "name": "hpatoio/bitly-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hpatoio/BitlyBundle.git",
-                "reference": "e94240ec6a91db8e8c0da1235132448ff9d9c876"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hpatoio/BitlyBundle/zipball/e94240ec6a91db8e8c0da1235132448ff9d9c876",
-                "reference": "e94240ec6a91db8e8c0da1235132448ff9d9c876",
-                "shasum": ""
-            },
-            "require": {
-                "hpatoio/bitly-api": "~2.0",
-                "symfony/framework-bundle": "~2.0|~3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-4": {
-                    "Hpatoio\\BitlyBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "CC-BY-SA-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Simone Fumagalli",
-                    "homepage": "http://www.iliveinperego.com/"
-                }
-            ],
-            "description": "Integrate hpatoio/bitly-api in your Symfony2 project",
-            "keywords": [
-                "Guzzle",
-                "api",
-                "bitly"
-            ],
-            "time": "2015-12-18 15:52:44"
         },
         {
             "name": "hybridauth/hybridauth",

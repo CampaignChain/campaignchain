@@ -36,7 +36,6 @@ class AppKernel extends Kernel
             new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
             new h4cc\AliceFixturesBundle\h4ccAliceFixturesBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
-            new Hpatoio\BitlyBundle\HpatoioBitlyBundle(),
             new Sp\BowerBundle\SpBowerBundle(),
             new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
