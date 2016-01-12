@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "09ff09e3e4320380bb5f82d91f4e290540eaf0e0"
+                "reference": "74b03fc3b2cae6b5a5c3489bf814692187fb00c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/09ff09e3e4320380bb5f82d91f4e290540eaf0e0",
-                "reference": "09ff09e3e4320380bb5f82d91f4e290540eaf0e0",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/74b03fc3b2cae6b5a5c3489bf814692187fb00c1",
+                "reference": "74b03fc3b2cae6b5a5c3489bf814692187fb00c1",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-12 15:46:35"
+            "time": "2016-01-12 18:42:25"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2598,16 +2598,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
                 "shasum": ""
-            },
-            "require": {
-                "robloach/component-installer": "*"
             },
             "type": "component",
             "extra": {
@@ -2635,7 +2632,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-05-08 06:09:58"
+            "time": "2015-06-08 13:35:17"
         },
         {
             "name": "doctrine/annotations",
@@ -3635,12 +3632,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "21573f0d58f5b471800f11dd89c12d064d81cfe3"
+                "reference": "0b6989af89fc3838473c64e92c2734f694ebce76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/21573f0d58f5b471800f11dd89c12d064d81cfe3",
-                "reference": "21573f0d58f5b471800f11dd89c12d064d81cfe3",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/0b6989af89fc3838473c64e92c2734f694ebce76",
+                "reference": "0b6989af89fc3838473c64e92c2734f694ebce76",
                 "shasum": ""
             },
             "require": {
@@ -3711,7 +3708,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-01-09 11:54:38"
+            "time": "2016-01-12 16:27:12"
         },
         {
             "name": "friendsofsymfony/user-bundle",
