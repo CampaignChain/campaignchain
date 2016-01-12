@@ -4212,9 +4212,6 @@
                 "behat/mink": "~1.5",
                 "phpunit/phpunit": "~3.7"
             },
-            "suggest": {
-                "hpatoio/bitly-bundle": "for integration with Symfony2 web framework"
-            },
             "type": "library",
             "autoload": {
                 "psr-4": {
