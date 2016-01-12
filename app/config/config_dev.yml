@@ -12,7 +12,13 @@ web_profiler:
     intercept_redirects: "%debug_redirects%"
 
 monolog:
+    channels: ["scheduler"]
     handlers:
+        scheduler:
+            type: stream
+            path: "%kernel.logs_dir%/scheduler.log"
+            level: debug
+            channels: ["scheduler"]
         main:
             type:   stream
             path:   "%kernel.logs_dir%/%kernel.environment%.log"
