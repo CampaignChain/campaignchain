@@ -12,7 +12,13 @@ imports:
 #        query_cache_driver: apc
 
 monolog:
+    channels: ["scheduler"]
     handlers:
+        scheduler:
+            type: stream
+            path: "%kernel.logs_dir%/scheduler.log"
+            level: debug
+            channels: ["scheduler"]
         main:
             type:         fingers_crossed
             action_level: error
