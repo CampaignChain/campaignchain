@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "78ab6d06fb6aa7f377b2091b54bb271b5eab4b19"
+                "reference": "4d671f151c15181eb03db4e436f1418f706a5430"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/78ab6d06fb6aa7f377b2091b54bb271b5eab4b19",
-                "reference": "78ab6d06fb6aa7f377b2091b54bb271b5eab4b19",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/4d671f151c15181eb03db4e436f1418f706a5430",
+                "reference": "4d671f151c15181eb03db4e436f1418f706a5430",
                 "shasum": ""
             },
             "require": {
@@ -754,7 +754,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-01-14 13:41:52"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "74b03fc3b2cae6b5a5c3489bf814692187fb00c1"
+                "reference": "eee0fbcab92690e61c288c015ee51165152de574"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/74b03fc3b2cae6b5a5c3489bf814692187fb00c1",
-                "reference": "74b03fc3b2cae6b5a5c3489bf814692187fb00c1",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/eee0fbcab92690e61c288c015ee51165152de574",
+                "reference": "eee0fbcab92690e61c288c015ee51165152de574",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-12 18:42:25"
+            "time": "2016-01-15 09:45:11"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -3506,31 +3506,32 @@
         {
             "name": "friendsofsymfony/oauth-server-bundle",
             "version": "dev-master",
-            "target-dir": "FOS/OAuthServerBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git",
-                "reference": "0c72d8baf707dce59c59a4daa1549c06e510bbed"
+                "reference": "61f20a2816ec5c4f59c41c2f36f0c3ec87eaa763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/0c72d8baf707dce59c59a4daa1549c06e510bbed",
-                "reference": "0c72d8baf707dce59c59a4daa1549c06e510bbed",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/61f20a2816ec5c4f59c41c2f36f0c3ec87eaa763",
+                "reference": "61f20a2816ec5c4f59c41c2f36f0c3ec87eaa763",
                 "shasum": ""
             },
             "require": {
-                "friendsofsymfony/oauth2-php": "~1.1.0",
+                "friendsofsymfony/oauth2-php": "~1.1",
                 "php": ">=5.3.3",
-                "symfony/framework-bundle": "~2.2",
-                "symfony/security-bundle": "~2.1"
+                "symfony/framework-bundle": "~2.2|~3.0",
+                "symfony/security-bundle": "~2.1|~3.0"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "~1.0",
-                "doctrine/mongodb-odm": "1.0.*@dev",
-                "doctrine/orm": ">=2.2,<2.5-dev",
-                "symfony/class-loader": "~2.1",
-                "symfony/yaml": "~2.1",
-                "willdurand/propel-typehintable-behavior": "~1.0,>1.0.4"
+                "doctrine/mongodb-odm": "~1.0",
+                "doctrine/orm": "~2.2",
+                "phing/phing": "~2.4",
+                "propel/propel1": "^1.6.5",
+                "symfony/class-loader": "~2.1|~3.0",
+                "symfony/yaml": "~2.1|~3.0",
+                "willdurand/propel-typehintable-behavior": "^1.0.4"
             },
             "suggest": {
                 "doctrine/doctrine-bundle": "*",
@@ -3541,12 +3542,12 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "FOS\\OAuthServerBundle": ""
+                "psr-4": {
+                    "FOS\\OAuthServerBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3570,25 +3571,25 @@
                 "oauth2",
                 "server"
             ],
-            "time": "2015-05-01 22:00:52"
+            "time": "2016-01-14 17:10:18"
         },
         {
             "name": "friendsofsymfony/oauth2-php",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/oauth2-php.git",
-                "reference": "23e76537c4a02e666ab4ba5abe67a69a886a0310"
+                "reference": "4ae0a2aa85566146ef6f0f7169854c49e0c9243a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/oauth2-php/zipball/23e76537c4a02e666ab4ba5abe67a69a886a0310",
-                "reference": "23e76537c4a02e666ab4ba5abe67a69a886a0310",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/oauth2-php/zipball/4ae0a2aa85566146ef6f0f7169854c49e0c9243a",
+                "reference": "4ae0a2aa85566146ef6f0f7169854c49e0c9243a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
-                "symfony/http-foundation": "~2.0"
+                "symfony/http-foundation": "~2.0|~3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
@@ -3624,7 +3625,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2014-11-03 10:21:20"
+            "time": "2015-12-21 11:32:17"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -3632,12 +3633,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "0b6989af89fc3838473c64e92c2734f694ebce76"
+                "reference": "ce3f18356178a4776362c6841ed7bb16e7d808b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/0b6989af89fc3838473c64e92c2734f694ebce76",
-                "reference": "0b6989af89fc3838473c64e92c2734f694ebce76",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/ce3f18356178a4776362c6841ed7bb16e7d808b1",
+                "reference": "ce3f18356178a4776362c6841ed7bb16e7d808b1",
                 "shasum": ""
             },
             "require": {
@@ -3708,7 +3709,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-01-12 16:27:12"
+            "time": "2016-01-13 20:59:23"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -5091,16 +5092,16 @@
         },
         {
             "name": "liip/imagine-bundle",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "19eda155dd4dd71fa1428efcdebecbb9142b0388"
+                "reference": "22d625e92337c1c25338922dc08706182be9b02f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/19eda155dd4dd71fa1428efcdebecbb9142b0388",
-                "reference": "19eda155dd4dd71fa1428efcdebecbb9142b0388",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/22d625e92337c1c25338922dc08706182be9b02f",
+                "reference": "22d625e92337c1c25338922dc08706182be9b02f",
                 "shasum": ""
             },
             "require": {
@@ -5130,6 +5131,7 @@
             "suggest": {
                 "amazonwebservices/aws-sdk-for-php": "Add it if you'd like to use aws v1 resolver",
                 "aws/aws-sdk-php": "Add it if you'd like to use aws v2 or v3 resolver",
+                "league/flysystem": "If you'd want to use Flysystem binary loader",
                 "monolog/monolog": "If you'd want to write logs",
                 "twig/twig": "If you'd want to use some handy twig filters, version 1.12 or greater required"
             },
@@ -5160,7 +5162,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2015-12-29 09:47:49"
+            "time": "2016-01-14 07:16:25"
         },
         {
             "name": "mailchimp/mailchimp",
@@ -7260,16 +7262,16 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.3.9",
+            "version": "v2.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "3d21ada19f23631f558ad6df653b168e35362e78"
+                "reference": "de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/3d21ada19f23631f558ad6df653b168e35362e78",
-                "reference": "3d21ada19f23631f558ad6df653b168e35362e78",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51",
+                "reference": "de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51",
                 "shasum": ""
             },
             "require": {
@@ -7313,20 +7315,20 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2015-11-28 10:59:29"
+            "time": "2016-01-14 10:25:38"
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.1",
+            "version": "v2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "8956ed50a44c5c4e02f2176c0773e24487477b09"
+                "reference": "f3e6a82bcbea4db3b56df08e491e20a1faae82b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/8956ed50a44c5c4e02f2176c0773e24487477b09",
-                "reference": "8956ed50a44c5c4e02f2176c0773e24487477b09",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/f3e6a82bcbea4db3b56df08e491e20a1faae82b5",
+                "reference": "f3e6a82bcbea4db3b56df08e491e20a1faae82b5",
                 "shasum": ""
             },
             "require": {
@@ -7446,7 +7448,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-12-26 15:56:52"
+            "time": "2016-01-14 12:01:11"
         },
         {
             "name": "twbs/bootstrap",
