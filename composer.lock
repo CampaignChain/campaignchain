@@ -2598,13 +2598,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
                 "shasum": ""
+            },
+            "require": {
+                "robloach/component-installer": "*"
             },
             "type": "component",
             "extra": {
@@ -2632,7 +2635,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-06-08 13:35:17"
+            "time": "2015-05-08 06:09:58"
         },
         {
             "name": "doctrine/annotations",
@@ -7887,12 +7890,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "c6784008740d8a67e93125b5edb6a3f4e01379e1"
+                "reference": "044d55b90d28e0b5305595dddb0cb744f41212b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/c6784008740d8a67e93125b5edb6a3f4e01379e1",
-                "reference": "c6784008740d8a67e93125b5edb6a3f4e01379e1",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/044d55b90d28e0b5305595dddb0cb744f41212b8",
+                "reference": "044d55b90d28e0b5305595dddb0cb744f41212b8",
                 "shasum": ""
             },
             "require": {
@@ -7922,7 +7925,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-01-15 12:55:23"
         },
         {
             "name": "campaignchain/location-ezplatform",
