@@ -23,6 +23,9 @@ monolog:
             type:   stream
             path:   "%kernel.logs_dir%/%kernel.environment%.log"
             level:  debug
+            excluded_404s:
+                - ^/
+            channels: [!scheduler, !event]
         console:
             type:   console
             bubble: false
