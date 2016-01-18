@@ -1046,12 +1046,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-website.git",
-                "reference": "c2385c2c930c5d9f1c9cf2a6702b06755e2f44b4"
+                "reference": "09da51b092a221ff155150fb5aabff91c36dc0ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/c2385c2c930c5d9f1c9cf2a6702b06755e2f44b4",
-                "reference": "c2385c2c930c5d9f1c9cf2a6702b06755e2f44b4",
+                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/09da51b092a221ff155150fb5aabff91c36dc0ee",
+                "reference": "09da51b092a221ff155150fb5aabff91c36dc0ee",
                 "shasum": ""
             },
             "require": {
@@ -1095,7 +1095,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-01-18 13:37:59"
         },
         {
             "name": "campaignchain/core",
@@ -2598,13 +2598,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
                 "shasum": ""
+            },
+            "require": {
+                "robloach/component-installer": "*"
             },
             "type": "component",
             "extra": {
@@ -2632,7 +2635,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-06-08 13:35:17"
+            "time": "2015-05-08 06:09:58"
         },
         {
             "name": "doctrine/annotations",
@@ -7887,12 +7890,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "ee68fbdbbef029d06ee6c53931a6bf8be1ae4aad"
+                "reference": "d57ca45391098060b393f784f2ec9f090ab0a7cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/ee68fbdbbef029d06ee6c53931a6bf8be1ae4aad",
-                "reference": "ee68fbdbbef029d06ee6c53931a6bf8be1ae4aad",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/d57ca45391098060b393f784f2ec9f090ab0a7cf",
+                "reference": "d57ca45391098060b393f784f2ec9f090ab0a7cf",
                 "shasum": ""
             },
             "require": {
@@ -7922,7 +7925,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-18 10:36:34"
+            "time": "2016-01-18 13:47:29"
         },
         {
             "name": "campaignchain/location-ezplatform",
