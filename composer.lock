@@ -1046,12 +1046,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-website.git",
-                "reference": "09da51b092a221ff155150fb5aabff91c36dc0ee"
+                "reference": "b38bb64af43f612f56fe028843f0af0bc188d24d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/09da51b092a221ff155150fb5aabff91c36dc0ee",
-                "reference": "09da51b092a221ff155150fb5aabff91c36dc0ee",
+                "url": "https://api.github.com/repos/CampaignChain/channel-website/zipball/b38bb64af43f612f56fe028843f0af0bc188d24d",
+                "reference": "b38bb64af43f612f56fe028843f0af0bc188d24d",
                 "shasum": ""
             },
             "require": {
@@ -1095,7 +1095,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2016-01-18 13:37:59"
+            "time": "2016-01-19 09:54:52"
         },
         {
             "name": "campaignchain/core",
@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "d3bc0315e54dd5f923000f62b193061991846e40"
+                "reference": "0ab2dc7683901c6eb52d37b4e8eadd78ef12b4a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/d3bc0315e54dd5f923000f62b193061991846e40",
-                "reference": "d3bc0315e54dd5f923000f62b193061991846e40",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/0ab2dc7683901c6eb52d37b4e8eadd78ef12b4a6",
+                "reference": "0ab2dc7683901c6eb52d37b4e8eadd78ef12b4a6",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-18 09:42:22"
+            "time": "2016-01-19 12:38:19"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2598,16 +2598,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
                 "shasum": ""
-            },
-            "require": {
-                "robloach/component-installer": "*"
             },
             "type": "component",
             "extra": {
@@ -2635,7 +2632,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-05-08 06:09:58"
+            "time": "2015-06-08 13:35:17"
         },
         {
             "name": "doctrine/annotations",
@@ -3512,12 +3509,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git",
-                "reference": "059312726a2d4ac8f47c98cd12ba188e3ab3c772"
+                "reference": "ce88c55118ca8d1ef4fd942296059b9fcccb1e38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/059312726a2d4ac8f47c98cd12ba188e3ab3c772",
-                "reference": "059312726a2d4ac8f47c98cd12ba188e3ab3c772",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/ce88c55118ca8d1ef4fd942296059b9fcccb1e38",
+                "reference": "ce88c55118ca8d1ef4fd942296059b9fcccb1e38",
                 "shasum": ""
             },
             "require": {
@@ -3574,7 +3571,7 @@
                 "oauth2",
                 "server"
             ],
-            "time": "2016-01-16 16:37:37"
+            "time": "2016-01-19 13:13:54"
         },
         {
             "name": "friendsofsymfony/oauth2-php",
