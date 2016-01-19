@@ -46,6 +46,9 @@ security:
         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/, role: ROLE_ADMIN }
 
+        # CTA tracking must be enabled
+        - { path: ^/api/v1/report/.*, role: IS_AUTHENTICATED_ANONYMOUSLY }
+
         # AsseticBundle paths used when using the controller for assets
         - { path: ^/js/, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/css/, role: IS_AUTHENTICATED_ANONYMOUSLY }
