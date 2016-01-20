@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "4d671f151c15181eb03db4e436f1418f706a5430"
+                "reference": "7e04d04598a37a2b2d61a6eb77f4841b4dcb219e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/4d671f151c15181eb03db4e436f1418f706a5430",
-                "reference": "4d671f151c15181eb03db4e436f1418f706a5430",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/7e04d04598a37a2b2d61a6eb77f4841b4dcb219e",
+                "reference": "7e04d04598a37a2b2d61a6eb77f4841b4dcb219e",
                 "shasum": ""
             },
             "require": {
@@ -754,7 +754,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-01-14 13:41:52"
+            "time": "2016-01-19 13:48:23"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "0ab2dc7683901c6eb52d37b4e8eadd78ef12b4a6"
+                "reference": "9a89ab24ee1a942d6bc7fa063451f4d9cbb33ac8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/0ab2dc7683901c6eb52d37b4e8eadd78ef12b4a6",
-                "reference": "0ab2dc7683901c6eb52d37b4e8eadd78ef12b4a6",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9a89ab24ee1a942d6bc7fa063451f4d9cbb33ac8",
+                "reference": "9a89ab24ee1a942d6bc7fa063451f4d9cbb33ac8",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-19 12:38:19"
+            "time": "2016-01-20 14:16:45"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2358,12 +2358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-google-analytics.git",
-                "reference": "aff8675c71b51654fc9a21baf8bd3adc87dad234"
+                "reference": "35917531ab854d6a438595b662c1c47237387983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/aff8675c71b51654fc9a21baf8bd3adc87dad234",
-                "reference": "aff8675c71b51654fc9a21baf8bd3adc87dad234",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/35917531ab854d6a438595b662c1c47237387983",
+                "reference": "35917531ab854d6a438595b662c1c47237387983",
                 "shasum": ""
             },
             "require": {
@@ -2409,7 +2409,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-12-22 08:49:52"
+            "time": "2016-01-20 08:31:36"
         },
         {
             "name": "campaignchain/security-authentication-client-oauth",
