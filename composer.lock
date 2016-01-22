@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "9a89ab24ee1a942d6bc7fa063451f4d9cbb33ac8"
+                "reference": "7de1dc06cb5d0b73b28b665c2ba61549a8bf4e39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9a89ab24ee1a942d6bc7fa063451f4d9cbb33ac8",
-                "reference": "9a89ab24ee1a942d6bc7fa063451f4d9cbb33ac8",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7de1dc06cb5d0b73b28b665c2ba61549a8bf4e39",
+                "reference": "7de1dc06cb5d0b73b28b665c2ba61549a8bf4e39",
                 "shasum": ""
             },
             "require": {
@@ -1123,7 +1123,6 @@
                 "guzzle/guzzle": "~3.9",
                 "guzzlehttp/guzzle": "^5.3",
                 "h4cc/alice-fixtures-bundle": "dev-master",
-                "hpatoio/bitly-api": "~2.0",
                 "incenteev/composer-parameter-handler": "~2.0",
                 "ivaynberg/select2": "3.5.0",
                 "jms/serializer-bundle": "dev-master",
@@ -1131,6 +1130,7 @@
                 "knplabs/knp-menu-bundle": "dev-master",
                 "knplabs/knp-paginator-bundle": "dev-master",
                 "liip/imagine-bundle": "^1.3.1",
+                "mremi/url-shortener": "dev-master",
                 "nelmio/api-doc-bundle": "dev-master",
                 "oneup/uploader-bundle": "^1.3.1",
                 "oyejorge/less.php": "~1.5",
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-20 14:16:45"
+            "time": "2016-01-22 14:55:50"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -4189,57 +4189,6 @@
             "time": "2015-10-05 19:18:37"
         },
         {
-            "name": "hpatoio/bitly-api",
-            "version": "2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hpatoio/bitly-api.git",
-                "reference": "a4b557fca5f955ce88245b6e24d961e13b90d1a8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hpatoio/bitly-api/zipball/a4b557fca5f955ce88245b6e24d961e13b90d1a8",
-                "reference": "a4b557fca5f955ce88245b6e24d961e13b90d1a8",
-                "shasum": ""
-            },
-            "require": {
-                "guzzle/guzzle": "~3.0"
-            },
-            "require-dev": {
-                "behat/behat": "~2.0",
-                "behat/mink": "~1.5",
-                "phpunit/phpunit": "~3.7"
-            },
-            "suggest": {
-                "hpatoio/bitly-bundle": "for integration with Symfony2 web framework"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Hpatoio\\Bitly\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "CC-BY-SA-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Simone Fumagalli",
-                    "email": "simone@iliveinperego.com"
-                }
-            ],
-            "description": "PHP Library based on Guzzle to consume Bit.ly API",
-            "homepage": "http://www.iliveinperego.com/",
-            "keywords": [
-                "Behat",
-                "Guzzle",
-                "api",
-                "bitly"
-            ],
-            "time": "2015-09-21 06:48:12"
-        },
-        {
             "name": "hybridauth/hybridauth",
             "version": "v2.2.2",
             "source": {
@@ -5337,6 +5286,55 @@
                 "psr-3"
             ],
             "time": "2015-10-14 12:51:02"
+        },
+        {
+            "name": "mremi/url-shortener",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mremi/UrlShortener.git",
+                "reference": "cbcba9afcfff08d3006f1619167497c0e7d1bb41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mremi/UrlShortener/zipball/cbcba9afcfff08d3006f1619167497c0e7d1bb41",
+                "reference": "cbcba9afcfff08d3006f1619167497c0e7d1bb41",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/guzzle": "~3.7",
+                "php": ">=5.3.3",
+                "symfony/console": "~2.5"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "~0.1|~1.0",
+                "phpunit/phpunit": "~4.8",
+                "symfony/phpunit-bridge": "~2.7|~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mremi\\UrlShortener": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rémi Marseille",
+                    "email": "marseille.remi@gmail.com"
+                }
+            ],
+            "description": "A PHP5 library using API to shorten/expand URL",
+            "homepage": "https://github.com/mremi/UrlShortener",
+            "keywords": [
+                "api",
+                "shortener",
+                "url"
+            ],
+            "time": "2015-12-03 17:41:51"
         },
         {
             "name": "nelmio/alice",
