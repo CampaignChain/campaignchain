@@ -25,7 +25,7 @@ monolog:
             level: debug
             channels: [tracking]
             max_files: 10
-        tracking:
+        external:
             type: rotating_file
             path: "%kernel.logs_dir%/external.log"
             level: debug
