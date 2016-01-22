@@ -12,7 +12,7 @@ imports:
 #        query_cache_driver: apc
 
 monolog:
-    channels: ["scheduler", "tracking"]
+    channels: ["scheduler", "tracking", "external"]
     handlers:
         scheduler:
             type: rotating_file
@@ -26,6 +26,12 @@ monolog:
             level: debug
             channels: [tracking]
             max_files: 10
+        external:
+            type: rotating_file
+            path: "%kernel.logs_dir%/external.log"
+            level: debug
+            channels: [external]
+            max_files: 10
         main:
             type:         fingers_crossed
             excluded_404s:
@@ -36,6 +42,6 @@ monolog:
             type:  stream
             path:  "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
-            channels: [!scheduler, !event, !tracking]
+            channels: [!scheduler, !event, !tracking, !external]
         console:
             type:  console

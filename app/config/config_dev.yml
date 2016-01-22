@@ -12,7 +12,7 @@ web_profiler:
     intercept_redirects: "%debug_redirects%"
 
 monolog:
-    channels: ["scheduler", "tracking"]
+    channels: ["scheduler", "tracking", "external"]
     handlers:
         scheduler:
             type: stream
@@ -25,13 +25,19 @@ monolog:
             level: debug
             channels: [tracking]
             max_files: 10
+        external:
+            type: rotating_file
+            path: "%kernel.logs_dir%/external.log"
+            level: debug
+            channels: [external]
+            max_files: 10
         main:
             type:   stream
             path:   "%kernel.logs_dir%/%kernel.environment%.log"
             level:  debug
             excluded_404s:
                 - ^/
-            channels: [!scheduler, !event]
+            channels: [!scheduler, !event, !external]
         console:
             type:   console
             bubble: false
