@@ -5481,26 +5481,28 @@
         },
         {
             "name": "oneup/uploader-bundle",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "target-dir": "Oneup/UploaderBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1up-lab/OneupUploaderBundle.git",
-                "reference": "ea2804ca78e8a139fcaf3f847997e9ff2a49b1a5"
+                "reference": "f5acda92ea3d6aa482408d1ef65a69f46efb3802"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1up-lab/OneupUploaderBundle/zipball/ea2804ca78e8a139fcaf3f847997e9ff2a49b1a5",
-                "reference": "ea2804ca78e8a139fcaf3f847997e9ff2a49b1a5",
+                "url": "https://api.github.com/repos/1up-lab/OneupUploaderBundle/zipball/f5acda92ea3d6aa482408d1ef65a69f46efb3802",
+                "reference": "f5acda92ea3d6aa482408d1ef65a69f46efb3802",
                 "shasum": ""
             },
             "require": {
+                "php": ">=5.4",
                 "symfony/finder": "^2.4.0|~3.0",
                 "symfony/framework-bundle": "^2.4.0|~3.0"
             },
             "require-dev": {
                 "amazonwebservices/aws-sdk-for-php": "1.5.*",
                 "knplabs/gaufrette": "0.2.*@dev",
+                "oneup/flysystem-bundle": "^1.2",
                 "phpunit/phpunit": "~4.4",
                 "sensio/framework-extra-bundle": "2.*|~3.0",
                 "symfony/browser-kit": "2.*|~3.0",
@@ -5508,7 +5510,8 @@
                 "symfony/security-bundle": "2.*|~3.0"
             },
             "suggest": {
-                "knplabs/knp-gaufrette-bundle": "0.1.*"
+                "knplabs/knp-gaufrette-bundle": "0.1.*",
+                "oneup/flysystem-bundle": "^1.2"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -5543,7 +5546,7 @@
                 "plupload",
                 "upload"
             ],
-            "time": "2016-01-04 11:03:05"
+            "time": "2016-01-28 15:06:49"
         },
         {
             "name": "oyejorge/less.php",
