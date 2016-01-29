@@ -240,12 +240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "df50fccb0185407dbdd449e2a684d893e23da7cd"
+                "reference": "1d1fd02a84554cb386d124b028b1c2a9b7c42e34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/df50fccb0185407dbdd449e2a684d893e23da7cd",
-                "reference": "df50fccb0185407dbdd449e2a684d893e23da7cd",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/1d1fd02a84554cb386d124b028b1c2a9b7c42e34",
+                "reference": "1d1fd02a84554cb386d124b028b1c2a9b7c42e34",
                 "shasum": ""
             },
             "require": {
@@ -291,7 +291,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-01-29 12:14:51"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -299,12 +299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-mailchimp.git",
-                "reference": "402ee0178e1fde86ea14e5a5982bd92a9f345198"
+                "reference": "e35b2d9e087519fb0cfa05ca11836cd9126c36f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/402ee0178e1fde86ea14e5a5982bd92a9f345198",
-                "reference": "402ee0178e1fde86ea14e5a5982bd92a9f345198",
+                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/e35b2d9e087519fb0cfa05ca11836cd9126c36f3",
+                "reference": "e35b2d9e087519fb0cfa05ca11836cd9126c36f3",
                 "shasum": ""
             },
             "require": {
@@ -350,7 +350,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-01-29 12:15:14"
         },
         {
             "name": "campaignchain/activity-slideshare",
@@ -705,12 +705,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "7e04d04598a37a2b2d61a6eb77f4841b4dcb219e"
+                "reference": "59c0951c51097e7b09e1ebb9b2271b1098fce413"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/7e04d04598a37a2b2d61a6eb77f4841b4dcb219e",
-                "reference": "7e04d04598a37a2b2d61a6eb77f4841b4dcb219e",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/59c0951c51097e7b09e1ebb9b2271b1098fce413",
+                "reference": "59c0951c51097e7b09e1ebb9b2271b1098fce413",
                 "shasum": ""
             },
             "require": {
@@ -755,7 +755,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-01-19 13:48:23"
+            "time": "2016-01-29 12:15:40"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -1104,12 +1104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "81dfaeed190cdce2a57a521ab175d6276c10a185"
+                "reference": "37613645f3f98fc1e63ffc7502038da1e83159a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/81dfaeed190cdce2a57a521ab175d6276c10a185",
-                "reference": "81dfaeed190cdce2a57a521ab175d6276c10a185",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/37613645f3f98fc1e63ffc7502038da1e83159a2",
+                "reference": "37613645f3f98fc1e63ffc7502038da1e83159a2",
                 "shasum": ""
             },
             "require": {
@@ -1200,7 +1200,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-28 12:24:07"
+            "time": "2016-01-29 15:45:29"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2037,12 +2037,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "f48cbbcce57206ec23fa4aae432873ec18110094"
+                "reference": "a6f3e4d6275518a237be6ece72fa09c35f219331"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/f48cbbcce57206ec23fa4aae432873ec18110094",
-                "reference": "f48cbbcce57206ec23fa4aae432873ec18110094",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/a6f3e4d6275518a237be6ece72fa09c35f219331",
+                "reference": "a6f3e4d6275518a237be6ece72fa09c35f219331",
                 "shasum": ""
             },
             "require": {
@@ -2080,7 +2080,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-01-15 14:47:13"
+            "time": "2016-01-29 12:17:48"
         },
         {
             "name": "campaignchain/operation-mailchimp",
@@ -2088,12 +2088,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-mailchimp.git",
-                "reference": "596104004565ec32c6a58a18463e1051c46711c9"
+                "reference": "2e450c7e2908f00b218b6ee5e7285629ed9416c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/596104004565ec32c6a58a18463e1051c46711c9",
-                "reference": "596104004565ec32c6a58a18463e1051c46711c9",
+                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/2e450c7e2908f00b218b6ee5e7285629ed9416c6",
+                "reference": "2e450c7e2908f00b218b6ee5e7285629ed9416c6",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -2133,7 +2133,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2015-12-22 08:49:52"
+            "time": "2016-01-28 15:33:51"
         },
         {
             "name": "campaignchain/operation-slideshare",
@@ -2418,17 +2418,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "71db44b153352bbebc4abc9b2749f205898f03f8"
+                "reference": "7a701a48b4485caaf74242da8a1f788ae47929db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/71db44b153352bbebc4abc9b2749f205898f03f8",
-                "reference": "71db44b153352bbebc4abc9b2749f205898f03f8",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/7a701a48b4485caaf74242da8a1f788ae47929db",
+                "reference": "7a701a48b4485caaf74242da8a1f788ae47929db",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/core": "dev-master",
-                "hybridauth/hybridauth": "2.2.2"
+                "hybridauth/hybridauth": "~2.6"
             },
             "type": "campaignchain-security",
             "extra": {
@@ -2470,7 +2470,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2015-12-22 08:49:52"
+            "time": "2016-01-29 13:03:46"
         },
         {
             "name": "campaignchain/security-authentication-server-oauth",
@@ -4192,16 +4192,16 @@
         },
         {
             "name": "hybridauth/hybridauth",
-            "version": "v2.2.2",
+            "version": "v2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732"
+                "reference": "45e52d12dccc00d4de25dc534961ab46204a15cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/b32c4bf14007c80118a88c5e249f4e3151585732",
-                "reference": "b32c4bf14007c80118a88c5e249f4e3151585732",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/45e52d12dccc00d4de25dc534961ab46204a15cf",
+                "reference": "45e52d12dccc00d4de25dc534961ab46204a15cf",
                 "shasum": ""
             },
             "require": {
@@ -4212,7 +4212,10 @@
             "autoload": {
                 "psr-0": {
                     "Hybrid": "hybridauth/"
-                }
+                },
+                "classmap": [
+                    "hybridauth/Hybrid"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4237,7 +4240,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2014-07-11 20:25:12"
+            "time": "2016-01-12 12:19:25"
         },
         {
             "name": "imagine/imagine",
@@ -7747,12 +7750,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "27a4cabb4fe6e953f900ca74079bdc88512a3d37"
+                "reference": "bb0116e8ad63389cdf1bb70eccd65e302ee05f3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/27a4cabb4fe6e953f900ca74079bdc88512a3d37",
-                "reference": "27a4cabb4fe6e953f900ca74079bdc88512a3d37",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/bb0116e8ad63389cdf1bb70eccd65e302ee05f3d",
+                "reference": "bb0116e8ad63389cdf1bb70eccd65e302ee05f3d",
                 "shasum": ""
             },
             "type": "library",
@@ -7772,7 +7775,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-25 09:30:22"
+            "time": "2016-01-29 09:28:18"
         },
         {
             "name": "campaignchain/activity-ezplatform",
