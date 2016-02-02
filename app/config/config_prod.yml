@@ -16,22 +16,19 @@ monolog:
     handlers:
         scheduler:
             type: rotating_file
-            path: "%kernel.logs_dir%/scheduler.log"
+            path: "%kernel.logs_dir%/scheduler/scheduler.log"
             level: debug
             channels: [scheduler]
-            max_files: 10
         tracking:
             type: rotating_file
-            path: "%kernel.logs_dir%/tracking.log"
+            path: "%kernel.logs_dir%/tracking/tracking.log"
             level: debug
             channels: [tracking]
-            max_files: 10
         external:
             type: rotating_file
-            path: "%kernel.logs_dir%/external.log"
+            path: "%kernel.logs_dir%/external/external.log"
             level: debug
             channels: [external]
-            max_files: 10
         main:
             type:         fingers_crossed
             excluded_404s:
@@ -41,7 +38,7 @@ monolog:
         nested:
             type:  stream
             path:  "%kernel.logs_dir%/%kernel.environment%.log"
-            level: debug
+            level: error
             channels: [!scheduler, !event, !tracking, !external]
         console:
             type:  console
