@@ -56,35 +56,34 @@
         },
         {
             "name": "braincrafted/bootstrap-bundle",
-            "version": "dev-master",
+            "version": "v2.1.2",
             "target-dir": "Braincrafted/Bundle/BootstrapBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/braincrafted/bootstrap-bundle.git",
-                "reference": "23ae42061668d0fdc999b63db55c264265e037ab"
+                "reference": "c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/23ae42061668d0fdc999b63db55c264265e037ab",
-                "reference": "23ae42061668d0fdc999b63db55c264265e037ab",
+                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b",
+                "reference": "c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/console": "~2.6|~3.0",
-                "symfony/finder": "~2.6|~3.0",
-                "symfony/form": "~2.6|~3.0",
-                "symfony/framework-bundle": "~2.6|~3.0",
-                "symfony/twig-bundle": "~2.6|~3.0",
-                "twig/twig": "~1.12|~2.0@dev"
+                "symfony/console": "~2.3",
+                "symfony/finder": "~2.3",
+                "symfony/form": "~2.3",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/twig-bundle": "~2.3"
             },
             "require-dev": {
                 "knplabs/knp-menu": "~2.0@alpha",
                 "knplabs/knp-menu-bundle": "~2.0@alpha",
                 "knplabs/knp-paginator-bundle": "dev-master",
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~3.7",
-                "symfony/assetic-bundle": "~2.6|~3.0"
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/assetic-bundle": "~2.3"
             },
             "suggest": {
                 "knplabs/knp-menu": "Required to use KnpMenuBundle.",
@@ -113,7 +112,7 @@
             "keywords": [
                 "bootstrap"
             ],
-            "time": "2016-01-23 17:44:32"
+            "time": "2015-03-06 12:14:13"
         },
         {
             "name": "campaignchain/activity-facebook",
@@ -1104,17 +1103,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "2550fd7e55066dfe208ff449fce7859ebfb042c8"
+                "reference": "c6d2126d7bd2fdd03f2f7345c96ca67afc028d99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2550fd7e55066dfe208ff449fce7859ebfb042c8",
-                "reference": "2550fd7e55066dfe208ff449fce7859ebfb042c8",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c6d2126d7bd2fdd03f2f7345c96ca67afc028d99",
+                "reference": "c6d2126d7bd2fdd03f2f7345c96ca67afc028d99",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
-                "braincrafted/bootstrap-bundle": "dev-master",
+                "braincrafted/bootstrap-bundle": "2.1.2",
                 "components/jquery": "1.11.*",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
@@ -1200,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-29 16:44:49"
+            "time": "2016-02-02 09:09:53"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -3635,12 +3634,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "6e64133f95433d4cf381d2e0ef83c948900002bd"
+                "reference": "98adac0da9a74dd1c4225b36c728f0e4638940ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/6e64133f95433d4cf381d2e0ef83c948900002bd",
-                "reference": "6e64133f95433d4cf381d2e0ef83c948900002bd",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/98adac0da9a74dd1c4225b36c728f0e4638940ae",
+                "reference": "98adac0da9a74dd1c4225b36c728f0e4638940ae",
                 "shasum": ""
             },
             "require": {
@@ -3711,7 +3710,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-01-24 21:22:41"
+            "time": "2016-02-02 08:06:30"
         },
         {
             "name": "friendsofsymfony/user-bundle",
