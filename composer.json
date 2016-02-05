@@ -50,7 +50,8 @@
         "campaignchain/dev-tools": "dev-master",
         "amariki/data-test": "dev-master",
         "amariki/data-demo": "dev-master",
-        "campaignchain/activity-ezplatform": "dev-master"
+        "campaignchain/activity-ezplatform": "dev-master",
+        "campaignchain/activity-xing": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
