@@ -2477,12 +2477,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "126eb25879d3747443f3c63b5088fbec805a57a1"
+                "reference": "43983a4d180d2af7d3d24fd16cdf859f74a2f7d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/126eb25879d3747443f3c63b5088fbec805a57a1",
-                "reference": "126eb25879d3747443f3c63b5088fbec805a57a1",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/43983a4d180d2af7d3d24fd16cdf859f74a2f7d1",
+                "reference": "43983a4d180d2af7d3d24fd16cdf859f74a2f7d1",
                 "shasum": ""
             },
             "require": {
@@ -2527,20 +2527,20 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2015-12-22 08:49:52"
+            "time": "2016-02-15 15:10:59"
         },
         {
             "name": "cocur/slugify",
-            "version": "v1.4",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cocur/slugify.git",
-                "reference": "05f00fa75f1c53edfcf4d0425e7e62e95b8888dd"
+                "reference": "16cdd7e792657d524cde931ea666436623b23301"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cocur/slugify/zipball/05f00fa75f1c53edfcf4d0425e7e62e95b8888dd",
-                "reference": "05f00fa75f1c53edfcf4d0425e7e62e95b8888dd",
+                "url": "https://api.github.com/repos/cocur/slugify/zipball/16cdd7e792657d524cde931ea666436623b23301",
+                "reference": "16cdd7e792657d524cde931ea666436623b23301",
                 "shasum": ""
             },
             "require": {
@@ -2590,7 +2590,7 @@
                 "slug",
                 "slugify"
             ],
-            "time": "2015-09-29 18:26:32"
+            "time": "2016-02-11 09:53:46"
         },
         {
             "name": "components/jquery",
@@ -2984,16 +2984,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b"
+                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
-                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/e9c2ccf573b59b7cea566390f34254fed3c20ed9",
+                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9",
                 "shasum": ""
             },
             "require": {
@@ -3009,6 +3009,7 @@
                 "doctrine/orm": "~2.3",
                 "phpunit/phpunit": "~4",
                 "satooshi/php-coveralls": "~0.6.1",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
                 "symfony/validator": "~2.2|~3.0",
                 "symfony/yaml": "~2.2|~3.0",
                 "twig/twig": "~1.10"
@@ -3058,7 +3059,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-11-16 17:11:46"
+            "time": "2016-01-10 17:21:44"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -3451,24 +3452,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
-                "reference": "d30173ee08c1b0073d000c35123fbdd227157574"
+                "reference": "25d0117093a845dee96d1dc439656cbf3714ea09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/d30173ee08c1b0073d000c35123fbdd227157574",
-                "reference": "d30173ee08c1b0073d000c35123fbdd227157574",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/25d0117093a845dee96d1dc439656cbf3714ea09",
+                "reference": "25d0117093a845dee96d1dc439656cbf3714ea09",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
-                "symfony/console": "~2.3|~3.0",
-                "symfony/framework-bundle": "~2.3|~3.0",
-                "symfony/serializer": "~2.0|~3.0",
+                "symfony/console": "~2.3||~3.0",
+                "symfony/framework-bundle": "~2.3||~3.0",
+                "symfony/serializer": "~2.0||~3.0",
                 "willdurand/jsonp-callback-validator": "~1.0"
             },
             "require-dev": {
-                "symfony/expression-language": "~2.4|~3.0",
-                "symfony/phpunit-bridge": "~2.7|~3.0"
+                "symfony/expression-language": "~2.4||~3.0",
+                "symfony/phpunit-bridge": "~2.7||~3.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -3492,7 +3493,7 @@
                 },
                 {
                     "name": "William Durand",
-                    "email": "william.durand1@gmail.com"
+                    "email": "will+git@drnd.me"
                 }
             ],
             "description": "A pretty nice way to expose your Symfony2 routing to client applications.",
@@ -3502,7 +3503,7 @@
                 "javascript",
                 "routing"
             ],
-            "time": "2015-12-16 08:01:24"
+            "time": "2016-02-06 17:33:24"
         },
         {
             "name": "friendsofsymfony/oauth-server-bundle",
@@ -3510,17 +3511,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git",
-                "reference": "fbf3107442c4f71f41806ae75954883ffddb3d3f"
+                "reference": "b7c550fe3ad910d2de112f055f86b11e4525000b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/fbf3107442c4f71f41806ae75954883ffddb3d3f",
-                "reference": "fbf3107442c4f71f41806ae75954883ffddb3d3f",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/b7c550fe3ad910d2de112f055f86b11e4525000b",
+                "reference": "b7c550fe3ad910d2de112f055f86b11e4525000b",
                 "shasum": ""
             },
             "require": {
                 "friendsofsymfony/oauth2-php": "~1.1",
-                "php": ">=5.3.3",
+                "php": "^5.3.3|^7.0",
                 "symfony/framework-bundle": "~2.2|~3.0",
                 "symfony/security-bundle": "~2.1|~3.0"
             },
@@ -3531,6 +3532,7 @@
                 "phing/phing": "~2.4",
                 "propel/propel1": "^1.6.5",
                 "symfony/class-loader": "~2.1|~3.0",
+                "symfony/form": "~2.3|~3.0",
                 "symfony/yaml": "~2.1|~3.0",
                 "willdurand/propel-typehintable-behavior": "^1.0.4"
             },
@@ -3538,6 +3540,7 @@
                 "doctrine/doctrine-bundle": "*",
                 "doctrine/mongodb-odm-bundle": "*",
                 "propel/propel-bundle": "If you want to use Propel with Symfony2, then you will have to install the PropelBundle",
+                "symfony/form": "Needed to be able to use the AuthorizeFormType",
                 "willdurand/propel-typehintable-behavior": "The Typehintable behavior is useful to add type hints on generated methods, to be compliant with interfaces"
             },
             "type": "symfony-bundle",
@@ -3572,7 +3575,7 @@
                 "oauth2",
                 "server"
             ],
-            "time": "2016-01-26 19:37:55"
+            "time": "2016-02-04 18:06:55"
         },
         {
             "name": "friendsofsymfony/oauth2-php",
@@ -3634,12 +3637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "98adac0da9a74dd1c4225b36c728f0e4638940ae"
+                "reference": "3364f440c068028f766e8707ed911f16371b4cfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/98adac0da9a74dd1c4225b36c728f0e4638940ae",
-                "reference": "98adac0da9a74dd1c4225b36c728f0e4638940ae",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/3364f440c068028f766e8707ed911f16371b4cfd",
+                "reference": "3364f440c068028f766e8707ed911f16371b4cfd",
                 "shasum": ""
             },
             "require": {
@@ -3710,7 +3713,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-02-02 08:06:30"
+            "time": "2016-02-14 13:32:34"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -3718,12 +3721,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git",
-                "reference": "8f1fc2273b37c61ddcc1620abf4500320a23763e"
+                "reference": "e770bfa2fd0fc665f55cd7cfeb34bddeffb892f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/8f1fc2273b37c61ddcc1620abf4500320a23763e",
-                "reference": "8f1fc2273b37c61ddcc1620abf4500320a23763e",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/e770bfa2fd0fc665f55cd7cfeb34bddeffb892f4",
+                "reference": "e770bfa2fd0fc665f55cd7cfeb34bddeffb892f4",
                 "shasum": ""
             },
             "require": {
@@ -3779,7 +3782,7 @@
             "keywords": [
                 "User management"
             ],
-            "time": "2016-01-27 09:36:48"
+            "time": "2016-02-11 16:30:08"
         },
         {
             "name": "fzaninotto/faker",
@@ -4854,12 +4857,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "96a6b9630e0f150f38ae167b3ef22955d8cdfab5"
+                "reference": "3cee352312736ba645759624a73be8e048cc83f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/96a6b9630e0f150f38ae167b3ef22955d8cdfab5",
-                "reference": "96a6b9630e0f150f38ae167b3ef22955d8cdfab5",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/3cee352312736ba645759624a73be8e048cc83f2",
+                "reference": "3cee352312736ba645759624a73be8e048cc83f2",
                 "shasum": ""
             },
             "require": {
@@ -4903,7 +4906,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2016-01-11 09:37:38"
+            "time": "2016-02-15 13:15:26"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -5045,16 +5048,16 @@
         },
         {
             "name": "liip/imagine-bundle",
-            "version": "1.4.3",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "22d625e92337c1c25338922dc08706182be9b02f"
+                "reference": "708785a70160280b10fb48533e49c084b2fe6da5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/22d625e92337c1c25338922dc08706182be9b02f",
-                "reference": "22d625e92337c1c25338922dc08706182be9b02f",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/708785a70160280b10fb48533e49c084b2fe6da5",
+                "reference": "708785a70160280b10fb48533e49c084b2fe6da5",
                 "shasum": ""
             },
             "require": {
@@ -5115,7 +5118,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2016-01-14 07:16:25"
+            "time": "2016-02-12 10:32:15"
         },
         {
             "name": "mailchimp/mailchimp",
@@ -5404,12 +5407,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "5d9c47bbad2e064340cabfd3f96f5057a80773c4"
+                "reference": "07545629aa99441cfec1c18619050a346ea273f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/5d9c47bbad2e064340cabfd3f96f5057a80773c4",
-                "reference": "5d9c47bbad2e064340cabfd3f96f5057a80773c4",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/07545629aa99441cfec1c18619050a346ea273f9",
+                "reference": "07545629aa99441cfec1c18619050a346ea273f9",
                 "shasum": ""
             },
             "require": {
@@ -5479,7 +5482,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-01-08 12:33:10"
+            "time": "2016-02-14 16:45:10"
         },
         {
             "name": "oneup/uploader-bundle",
@@ -5699,16 +5702,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "1.1.6",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "e6f80ab77885151908d0ec743689ca700886e8b0"
+                "reference": "b0e69d10852716b2ccbdff69c75c477637220790"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/e6f80ab77885151908d0ec743689ca700886e8b0",
-                "reference": "e6f80ab77885151908d0ec743689ca700886e8b0",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b0e69d10852716b2ccbdff69c75c477637220790",
+                "reference": "b0e69d10852716b2ccbdff69c75c477637220790",
                 "shasum": ""
             },
             "require": {
@@ -5743,7 +5746,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-01-29 16:19:52"
+            "time": "2016-02-06 03:52:05"
         },
         {
             "name": "phpcollection/phpcollection",
