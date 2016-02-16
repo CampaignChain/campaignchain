@@ -17,7 +17,7 @@ security:
     firewalls:
         # defaut login area for standard users
         main:
-            pattern: '^/(?!(install|api|oauth)).*$'
+            pattern: '^/(?!(install|api/v1|oauth)).*$'
             form_login:
                 provider:      fos_userbundle
                 csrf_provider: form.csrf_provider
