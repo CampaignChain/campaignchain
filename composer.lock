@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "fcaa6d5f692b0f2aad616e80f342a1da590b4570"
+                "reference": "85acc8c7260011b86c51046894e82755488abb07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fcaa6d5f692b0f2aad616e80f342a1da590b4570",
-                "reference": "fcaa6d5f692b0f2aad616e80f342a1da590b4570",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/85acc8c7260011b86c51046894e82755488abb07",
+                "reference": "85acc8c7260011b86c51046894e82755488abb07",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-02-16 11:26:12"
+            "time": "2016-02-17 08:32:19"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -5048,16 +5048,16 @@
         },
         {
             "name": "liip/imagine-bundle",
-            "version": "1.5.0",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "708785a70160280b10fb48533e49c084b2fe6da5"
+                "reference": "3be0322e0007b54dbffd5a96faf1c11f6f91cf46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/708785a70160280b10fb48533e49c084b2fe6da5",
-                "reference": "708785a70160280b10fb48533e49c084b2fe6da5",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/3be0322e0007b54dbffd5a96faf1c11f6f91cf46",
+                "reference": "3be0322e0007b54dbffd5a96faf1c11f6f91cf46",
                 "shasum": ""
             },
             "require": {
@@ -5118,7 +5118,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2016-02-12 10:32:15"
+            "time": "2016-02-16 19:35:14"
         },
         {
             "name": "mailchimp/mailchimp",
