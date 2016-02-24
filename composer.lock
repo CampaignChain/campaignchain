@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "85acc8c7260011b86c51046894e82755488abb07"
+                "reference": "c0e5c1acb88bc7f01ff26c2da9655ede27de87d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/85acc8c7260011b86c51046894e82755488abb07",
-                "reference": "85acc8c7260011b86c51046894e82755488abb07",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c0e5c1acb88bc7f01ff26c2da9655ede27de87d3",
+                "reference": "c0e5c1acb88bc7f01ff26c2da9655ede27de87d3",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-02-17 08:32:19"
+            "time": "2016-02-24 12:47:21"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2477,12 +2477,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "2b32d019fd8365bc6d4ad868804222387a83ccb4"
+                "reference": "e3bab179cea93f7a9fde6cb8aba8b9436845fdd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/2b32d019fd8365bc6d4ad868804222387a83ccb4",
-                "reference": "2b32d019fd8365bc6d4ad868804222387a83ccb4",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/e3bab179cea93f7a9fde6cb8aba8b9436845fdd9",
+                "reference": "e3bab179cea93f7a9fde6cb8aba8b9436845fdd9",
                 "shasum": ""
             },
             "require": {
@@ -2527,7 +2527,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2016-02-16 11:23:59"
+            "time": "2016-02-24 12:40:46"
         },
         {
             "name": "cocur/slugify",
@@ -3511,12 +3511,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git",
-                "reference": "b7c550fe3ad910d2de112f055f86b11e4525000b"
+                "reference": "0b25cdaae8983c630bb62d14b6993219b1dadb8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/b7c550fe3ad910d2de112f055f86b11e4525000b",
-                "reference": "b7c550fe3ad910d2de112f055f86b11e4525000b",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/0b25cdaae8983c630bb62d14b6993219b1dadb8d",
+                "reference": "0b25cdaae8983c630bb62d14b6993219b1dadb8d",
                 "shasum": ""
             },
             "require": {
@@ -3575,7 +3575,7 @@
                 "oauth2",
                 "server"
             ],
-            "time": "2016-02-04 18:06:55"
+            "time": "2016-02-22 13:57:55"
         },
         {
             "name": "friendsofsymfony/oauth2-php",
@@ -4857,12 +4857,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "3cee352312736ba645759624a73be8e048cc83f2"
+                "reference": "20e7a0f492c6d94a63bffc14105c5b748c00e3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/3cee352312736ba645759624a73be8e048cc83f2",
-                "reference": "3cee352312736ba645759624a73be8e048cc83f2",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/20e7a0f492c6d94a63bffc14105c5b748c00e3ae",
+                "reference": "20e7a0f492c6d94a63bffc14105c5b748c00e3ae",
                 "shasum": ""
             },
             "require": {
@@ -4906,7 +4906,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2016-02-15 13:15:26"
+            "time": "2016-02-22 09:36:52"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -6033,25 +6033,32 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.12",
+            "version": "v3.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "3e8936fe13aa4086644977d334d8fcd275f50357"
+                "reference": "bf6be511f4f66d368baeb2cab617203d73cccf4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/3e8936fe13aa4086644977d334d8fcd275f50357",
-                "reference": "3e8936fe13aa4086644977d334d8fcd275f50357",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/bf6be511f4f66d368baeb2cab617203d73cccf4e",
+                "reference": "bf6be511f4f66d368baeb2cab617203d73cccf4e",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.2",
+                "symfony/dependency-injection": "~2.3|~3.0",
                 "symfony/framework-bundle": "~2.3|~3.0"
             },
             "require-dev": {
+                "symfony/browser-kit": "~2.3|~3.0",
+                "symfony/dom-crawler": "~2.3|~3.0",
                 "symfony/expression-language": "~2.4|~3.0",
-                "symfony/security-bundle": "~2.4|~3.0"
+                "symfony/finder": "~2.3|~3.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/security-bundle": "~2.4|~3.0",
+                "symfony/twig-bundle": "~2.3|~3.0",
+                "twig/twig": "~1.11|~2.0"
             },
             "suggest": {
                 "symfony/expression-language": "",
@@ -6084,7 +6091,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2015-12-18 17:39:27"
+            "time": "2016-02-12 08:17:23"
         },
         {
             "name": "sensio/generator-bundle",
