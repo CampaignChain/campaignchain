@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "59c0951c51097e7b09e1ebb9b2271b1098fce413"
+                "reference": "2d6fb7509e7d73f44e3d3098d055f09c5dd21b29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/59c0951c51097e7b09e1ebb9b2271b1098fce413",
-                "reference": "59c0951c51097e7b09e1ebb9b2271b1098fce413",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/2d6fb7509e7d73f44e3d3098d055f09c5dd21b29",
+                "reference": "2d6fb7509e7d73f44e3d3098d055f09c5dd21b29",
                 "shasum": ""
             },
             "require": {
@@ -754,7 +754,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-01-29 12:15:40"
+            "time": "2016-02-26 09:20:24"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -5407,12 +5407,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "07545629aa99441cfec1c18619050a346ea273f9"
+                "reference": "2a0f95eac0ab2aa466545d0b21d15739636811b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/07545629aa99441cfec1c18619050a346ea273f9",
-                "reference": "07545629aa99441cfec1c18619050a346ea273f9",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/2a0f95eac0ab2aa466545d0b21d15739636811b7",
+                "reference": "2a0f95eac0ab2aa466545d0b21d15739636811b7",
                 "shasum": ""
             },
             "require": {
@@ -5482,7 +5482,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-02-14 16:45:10"
+            "time": "2016-02-24 18:00:28"
         },
         {
             "name": "oneup/uploader-bundle",
