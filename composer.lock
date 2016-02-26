@@ -532,12 +532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "edb993c3d2a3ed3de3c403cf50d05fe3c31939b9"
+                "reference": "ae8e1346ab6be5f9b10b1134ed498e3a8e428ca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/edb993c3d2a3ed3de3c403cf50d05fe3c31939b9",
-                "reference": "edb993c3d2a3ed3de3c403cf50d05fe3c31939b9",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/ae8e1346ab6be5f9b10b1134ed498e3a8e428ca7",
+                "reference": "ae8e1346ab6be5f9b10b1134ed498e3a8e428ca7",
                 "shasum": ""
             },
             "require": {
@@ -583,7 +583,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-02-26 12:46:01"
         },
         {
             "name": "campaignchain/campaign-template",
