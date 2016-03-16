@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "381e7f7295ed5978888f5138ba6e241bb03342cf"
+                "reference": "8302ec262973f5c28f02c5aff7ba3b14da6c8683"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/381e7f7295ed5978888f5138ba6e241bb03342cf",
-                "reference": "381e7f7295ed5978888f5138ba6e241bb03342cf",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/8302ec262973f5c28f02c5aff7ba3b14da6c8683",
+                "reference": "8302ec262973f5c28f02c5aff7ba3b14da6c8683",
                 "shasum": ""
             },
             "require": {
@@ -1141,7 +1141,7 @@
                 "sonata-project/admin-bundle": "~2.2",
                 "sonata-project/block-bundle": "~2.2",
                 "sp/bower-bundle": "dev-master",
-                "stephanecollot/datetimepicker-bundle": "dev-master",
+                "stephanecollot/datetimepicker-bundle": "1.0.1",
                 "symfony/assetic-bundle": "~2.3",
                 "symfony/finder": "~2.4",
                 "symfony/monolog-bundle": "~2.4",
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-03-16 17:30:07"
+            "time": "2016-03-16 20:47:09"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -6601,17 +6601,17 @@
         },
         {
             "name": "stephanecollot/datetimepicker-bundle",
-            "version": "dev-master",
+            "version": "1.0.1",
             "target-dir": "SC/DatetimepickerBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephanecollot/DatetimepickerBundle.git",
-                "reference": "66af9beb84703785592a866f54da0a5b7f5e399a"
+                "reference": "dcdc1f5ff0b93e9c7372700103ffaa459064f3f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/66af9beb84703785592a866f54da0a5b7f5e399a",
-                "reference": "66af9beb84703785592a866f54da0a5b7f5e399a",
+                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/dcdc1f5ff0b93e9c7372700103ffaa459064f3f3",
+                "reference": "dcdc1f5ff0b93e9c7372700103ffaa459064f3f3",
                 "shasum": ""
             },
             "require": {
@@ -6643,7 +6643,7 @@
                 "symfony",
                 "timepicker"
             ],
-            "time": "2016-03-07 15:33:06"
+            "time": "2015-02-27 05:46:07"
         },
         {
             "name": "swiftmailer/swiftmailer",
