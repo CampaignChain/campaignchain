@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "e474992401ce57793c26b67c272b13d65a6c7aa1"
+                "reference": "381e7f7295ed5978888f5138ba6e241bb03342cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e474992401ce57793c26b67c272b13d65a6c7aa1",
-                "reference": "e474992401ce57793c26b67c272b13d65a6c7aa1",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/381e7f7295ed5978888f5138ba6e241bb03342cf",
+                "reference": "381e7f7295ed5978888f5138ba6e241bb03342cf",
                 "shasum": ""
             },
             "require": {
@@ -1118,7 +1118,7 @@
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
                 "friendsofsymfony/jsrouting-bundle": "dev-master",
-                "friendsofsymfony/rest-bundle": "dev-master#3364f440c068028f766e8707ed911f16371b4cfd",
+                "friendsofsymfony/rest-bundle": "dev-master",
                 "friendsofsymfony/user-bundle": "dev-master",
                 "guzzle/guzzle": "~3.9",
                 "guzzlehttp/guzzle": "^5.3",
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-03-16 16:56:44"
+            "time": "2016-03-16 17:30:07"
         },
         {
             "name": "campaignchain/hook-assignee",
