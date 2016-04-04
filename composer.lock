@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "acf657532c633b81546e46c042e4f740",
-    "content-hash": "340654295cf6880429a6b69f93e56b4b",
+    "hash": "9d9ead9dc5601d1376798ff4ac8ba6f4",
+    "content-hash": "e5270eeeb06f3b81af12ba134cc92bd0",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -14,12 +14,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bmatzner/BmatznerFontAwesomeBundle.git",
-                "reference": "2ff4fc0fbcfab38428c0458f310f1b6e00cabd1e"
+                "reference": "93a080975bba1e62ec7e0b5d5172b2d71e95848f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bmatzner/BmatznerFontAwesomeBundle/zipball/2ff4fc0fbcfab38428c0458f310f1b6e00cabd1e",
-                "reference": "2ff4fc0fbcfab38428c0458f310f1b6e00cabd1e",
+                "url": "https://api.github.com/repos/bmatzner/BmatznerFontAwesomeBundle/zipball/93a080975bba1e62ec7e0b5d5172b2d71e95848f",
+                "reference": "93a080975bba1e62ec7e0b5d5172b2d71e95848f",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "typography",
                 "webfonts"
             ],
-            "time": "2015-08-11 17:29:13"
+            "time": "2016-03-26 19:47:17"
         },
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -3640,12 +3640,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "a0e671ad11228cd2000bd75a96048e95b0b57e52"
+                "reference": "df94140dc39bc591b7c2ce7cd9e791594fad7b28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/a0e671ad11228cd2000bd75a96048e95b0b57e52",
-                "reference": "a0e671ad11228cd2000bd75a96048e95b0b57e52",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/df94140dc39bc591b7c2ce7cd9e791594fad7b28",
+                "reference": "df94140dc39bc591b7c2ce7cd9e791594fad7b28",
                 "shasum": ""
             },
             "require": {
@@ -3689,7 +3689,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -3720,7 +3720,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-03-16 14:03:01"
+            "time": "2016-03-31 21:02:10"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -5226,16 +5226,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.18.1",
+            "version": "1.18.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
+                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
-                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/064b38c16790249488e7a8b987acf1c9d7383c09",
+                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09",
                 "shasum": ""
             },
             "require": {
@@ -5250,13 +5250,13 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
                 "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
                 "phpunit/phpunit": "~4.5",
                 "phpunit/phpunit-mock-objects": "2.3.0",
                 "raven/raven": "^0.13",
                 "ruflin/elastica": ">=0.90 <3.0",
-                "swiftmailer/swiftmailer": "~5.3",
-                "videlalvaro/php-amqplib": "~2.4"
+                "swiftmailer/swiftmailer": "~5.3"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -5265,11 +5265,11 @@
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
                 "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
             "extra": {
@@ -5300,7 +5300,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-03-13 16:08:35"
+            "time": "2016-04-02 13:12:58"
         },
         {
             "name": "mremi/url-shortener",
@@ -5308,12 +5308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mremi/UrlShortener.git",
-                "reference": "cbcba9afcfff08d3006f1619167497c0e7d1bb41"
+                "reference": "7a2f3159d2351d0add83c594b7f39f109235ca22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mremi/UrlShortener/zipball/cbcba9afcfff08d3006f1619167497c0e7d1bb41",
-                "reference": "cbcba9afcfff08d3006f1619167497c0e7d1bb41",
+                "url": "https://api.github.com/repos/mremi/UrlShortener/zipball/7a2f3159d2351d0add83c594b7f39f109235ca22",
+                "reference": "7a2f3159d2351d0add83c594b7f39f109235ca22",
                 "shasum": ""
             },
             "require": {
@@ -5328,8 +5328,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Mremi\\UrlShortener": "src"
+                "psr-4": {
+                    "Mremi\\UrlShortener\\": "src/Mremi/UrlShortener"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5349,7 +5349,7 @@
                 "shortener",
                 "url"
             ],
-            "time": "2015-12-03 17:41:51"
+            "time": "2016-03-20 19:46:18"
         },
         {
             "name": "nelmio/alice",
@@ -5415,12 +5415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "2a0f95eac0ab2aa466545d0b21d15739636811b7"
+                "reference": "718dfc6e9c2b37000c3dd0740ebd09cffd3bc022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/2a0f95eac0ab2aa466545d0b21d15739636811b7",
-                "reference": "2a0f95eac0ab2aa466545d0b21d15739636811b7",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/718dfc6e9c2b37000c3dd0740ebd09cffd3bc022",
+                "reference": "718dfc6e9c2b37000c3dd0740ebd09cffd3bc022",
                 "shasum": ""
             },
             "require": {
@@ -5433,6 +5433,7 @@
             "conflict": {
                 "jms/serializer": "<0.12",
                 "jms/serializer-bundle": "<0.11",
+                "symfony/symfony": "~2.7.8",
                 "twig/twig": "<1.12"
             },
             "require-dev": {
@@ -5461,7 +5462,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.11-dev"
+                    "dev-master": "2.12-dev"
                 }
             },
             "autoload": {
@@ -5490,7 +5491,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-02-24 18:00:28"
+            "time": "2016-03-22 07:28:24"
         },
         {
             "name": "oneup/uploader-bundle",
@@ -5710,16 +5711,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v1.2.2",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "b3313b618f4edd76523572531d5d7e22fe747430"
+                "reference": "c7e26a21ba357863de030f0b9e701c7d04593774"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b3313b618f4edd76523572531d5d7e22fe747430",
-                "reference": "b3313b618f4edd76523572531d5d7e22fe747430",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c7e26a21ba357863de030f0b9e701c7d04593774",
+                "reference": "c7e26a21ba357863de030f0b9e701c7d04593774",
                 "shasum": ""
             },
             "require": {
@@ -5754,7 +5755,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-03-11 19:54:08"
+            "time": "2016-03-18 20:34:03"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -5896,16 +5897,16 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.2.2",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "3aacad8bf10c7d83e6fa2089d413529888c2bedf"
+                "reference": "f942da7b505d1a294284ab343d05df42d02ad6d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/3aacad8bf10c7d83e6fa2089d413529888c2bedf",
-                "reference": "3aacad8bf10c7d83e6fa2089d413529888c2bedf",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/f942da7b505d1a294284ab343d05df42d02ad6d9",
+                "reference": "f942da7b505d1a294284ab343d05df42d02ad6d9",
                 "shasum": ""
             },
             "require": {
@@ -5936,7 +5937,7 @@
                 }
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
-            "time": "2016-02-26 19:09:02"
+            "time": "2016-03-31 13:10:33"
         },
         {
             "name": "robloach/component-installer",
@@ -6041,16 +6042,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.14",
+            "version": "v3.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "cccf975c565ccd835bddc30a8fea5cdfe3357bf1"
+                "reference": "507a15f56fa7699f6cc8c2c7de4080b19ce22546"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/cccf975c565ccd835bddc30a8fea5cdfe3357bf1",
-                "reference": "cccf975c565ccd835bddc30a8fea5cdfe3357bf1",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/507a15f56fa7699f6cc8c2c7de4080b19ce22546",
+                "reference": "507a15f56fa7699f6cc8c2c7de4080b19ce22546",
                 "shasum": ""
             },
             "require": {
@@ -6099,7 +6100,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2016-03-01 10:50:07"
+            "time": "2016-03-25 17:08:27"
         },
         {
             "name": "sensio/generator-bundle",
@@ -6196,16 +6197,16 @@
         },
         {
             "name": "sonata-project/admin-bundle",
-            "version": "2.3.7",
+            "version": "2.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "41efdd80e18abd793fe4d1d7d936b2d5f5d8d6d8"
+                "reference": "66cb40000d66c53aa9f2f4e8de80338e0ada67ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/41efdd80e18abd793fe4d1d7d936b2d5f5d8d6d8",
-                "reference": "41efdd80e18abd793fe4d1d7d936b2d5f5d8d6d8",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/66cb40000d66c53aa9f2f4e8de80338e0ada67ef",
+                "reference": "66cb40000d66c53aa9f2f4e8de80338e0ada67ef",
                 "shasum": ""
             },
             "require": {
@@ -6213,7 +6214,7 @@
                 "doctrine/inflector": "~1.0",
                 "knplabs/knp-menu": ">=1.1.0,<3.0.0",
                 "knplabs/knp-menu-bundle": ">=1.1.0,<3.0.0",
-                "sensio/generator-bundle": "~2.3",
+                "sensio/generator-bundle": "~2.3|^3.0",
                 "sonata-project/block-bundle": "~2.2,>=2.2.7,<2.3",
                 "sonata-project/core-bundle": "^2.2.1",
                 "sonata-project/exporter": "~1.0",
@@ -6225,23 +6226,26 @@
                 "symfony/http-foundation": "~2.3",
                 "symfony/property-access": "~2.3",
                 "symfony/routing": "~2.3",
+                "symfony/security-acl": "~2.4",
                 "symfony/security-bundle": "~2.3",
                 "symfony/twig-bridge": "~2.3",
+                "symfony/twig-bundle": "~2.3",
                 "symfony/validator": "~2.3",
                 "twig/extensions": "~1.0",
                 "twig/twig": "~1.15"
+            },
+            "conflict": {
+                "symfony/security": ">2.8.999"
             },
             "require-dev": {
                 "jms/translation-bundle": "~1.1",
                 "sonata-project/intl-bundle": "~2.1",
                 "symfony/phpunit-bridge": "~2.7|~3.0",
-                "symfony/security-acl": "~2.4",
                 "symfony/yaml": "~2.3"
             },
             "suggest": {
                 "jms/translation-bundle": "Extract message keys from Admins",
-                "sonata-project/intl-bundle": "Add localized date and number into the list",
-                "symfony/security-acl": "To make sonata working with Symfony >=2.8"
+                "sonata-project/intl-bundle": "Add localized date and number into the list"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -6277,7 +6281,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2015-10-27 07:29:41"
+            "time": "2016-04-01 09:31:57"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -7399,16 +7403,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.3",
+            "version": "v2.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "7a9a5fce7ce6e448e527f635463dda00761e12c2"
+                "reference": "9e14f9f4869c19188a376eab61d9a1c1f1fee347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/7a9a5fce7ce6e448e527f635463dda00761e12c2",
-                "reference": "7a9a5fce7ce6e448e527f635463dda00761e12c2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/9e14f9f4869c19188a376eab61d9a1c1f1fee347",
+                "reference": "9e14f9f4869c19188a376eab61d9a1c1f1fee347",
                 "shasum": ""
             },
             "require": {
@@ -7495,11 +7499,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Bridge\\Doctrine\\": "src/Symfony/Bridge/Doctrine/",
-                    "Symfony\\Bridge\\Monolog\\": "src/Symfony/Bridge/Monolog/",
-                    "Symfony\\Bridge\\ProxyManager\\": "src/Symfony/Bridge/ProxyManager/",
-                    "Symfony\\Bridge\\Swiftmailer\\": "src/Symfony/Bridge/Swiftmailer/",
-                    "Symfony\\Bridge\\Twig\\": "src/Symfony/Bridge/Twig/",
+                    "Symfony\\Bridge\\": "src/Symfony/Bridge/",
                     "Symfony\\Bundle\\": "src/Symfony/Bundle/",
                     "Symfony\\Component\\": "src/Symfony/Component/"
                 },
@@ -7529,7 +7529,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-02-28 21:06:29"
+            "time": "2016-03-27 12:57:53"
         },
         {
             "name": "twbs/bootstrap",
@@ -7825,12 +7825,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "bb0116e8ad63389cdf1bb70eccd65e302ee05f3d"
+                "reference": "2451ff39107a8a7830a3ed19228bf5f2071dbbc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/bb0116e8ad63389cdf1bb70eccd65e302ee05f3d",
-                "reference": "bb0116e8ad63389cdf1bb70eccd65e302ee05f3d",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/2451ff39107a8a7830a3ed19228bf5f2071dbbc5",
+                "reference": "2451ff39107a8a7830a3ed19228bf5f2071dbbc5",
                 "shasum": ""
             },
             "type": "library",
@@ -7850,7 +7850,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-29 09:28:18"
+            "time": "2016-04-04 02:50:52"
         },
         {
             "name": "campaignchain/activity-ezplatform",
@@ -7908,6 +7908,63 @@
             "time": "2015-12-22 08:49:53"
         },
         {
+            "name": "campaignchain/activity-xing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-xing.git",
+                "reference": "8b8cd7deae48ca9e83716435efd92eabe2101fb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-xing/zipball/8b8cd7deae48ca9e83716435efd92eabe2101fb8",
+                "reference": "8b8cd7deae48ca9e83716435efd92eabe2101fb8",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/hook-due": "dev-master",
+                "campaignchain/location-xing": "dev-master",
+                "campaignchain/operation-xing": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\XingBundle\\CampaignChainActivityXingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_xing",
+                            "resource": "@CampaignChainActivityXingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\XingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Xing module for CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-04 02:21:47"
+        },
+        {
             "name": "campaignchain/channel-ezplatform",
             "version": "dev-master",
             "source": {
@@ -7961,6 +8018,61 @@
                 "campaignchain"
             ],
             "time": "2015-12-22 08:49:53"
+        },
+        {
+            "name": "campaignchain/channel-xing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-xing.git",
+                "reference": "c0476515046cf1997792f9034ea51208b8ed4708"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-xing/zipball/c0476515046cf1997792f9034ea51208b8ed4708",
+                "reference": "c0476515046cf1997792f9034ea51208b8ed4708",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/security-authentication-client-oauth": "dev-master"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\XingBundle\\CampaignChainChannelXingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_xing",
+                            "resource": "@CampaignChainChannelXingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\XingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Xing module for CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-04 01:17:52"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -8060,6 +8172,60 @@
             "time": "2015-12-22 08:49:53"
         },
         {
+            "name": "campaignchain/location-xing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-xing.git",
+                "reference": "656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-xing/zipball/656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44",
+                "reference": "656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-xing": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\XingBundle\\CampaignChainLocationXingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_xing",
+                            "resource": "@CampaignChainLocationXingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\XingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Xing module for CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-04 00:23:48"
+        },
+        {
             "name": "campaignchain/operation-ezplatform",
             "version": "dev-master",
             "source": {
@@ -8104,6 +8270,60 @@
                 "campaignchain"
             ],
             "time": "2015-12-08 12:39:51"
+        },
+        {
+            "name": "campaignchain/operation-xing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-xing.git",
+                "reference": "c702355c8371dd9daacfdefddc78c57cedcaab4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/c702355c8371dd9daacfdefddc78c57cedcaab4a",
+                "reference": "c702355c8371dd9daacfdefddc78c57cedcaab4a",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/activity-linkedin": "dev-master"
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\XingBundle\\CampaignChainOperationXingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_operation_xing",
+                            "resource": "@CampaignChainOperationXingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\XingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Xing module for CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-04 00:47:52"
         }
     ],
     "aliases": [],
@@ -8128,6 +8348,7 @@
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
+        "campaignchain/activity-xing": 20,
         "campaignchain/activity-ezplatform": 20
     },
     "prefer-stable": true,
