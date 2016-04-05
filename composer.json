@@ -41,6 +41,7 @@
         "campaignchain/activity-mailchimp": "dev-master",
         "campaignchain/activity-slideshare": "dev-master",
         "campaignchain/location-website": "dev-master",
+        "campaignchain/activity-xing": "dev-master",
         "campaignchain/report-analytics-metrics-per-activity": "dev-master",
         "campaignchain/report-analytics-cta-tracking": "dev-master",
         "campaignchain/report-google-analytics": "dev-master",
@@ -50,7 +51,6 @@
         "campaignchain/dev-tools": "dev-master",
         "amariki/data-test": "dev-master",
         "amariki/data-demo": "dev-master",
-        "campaignchain/activity-xing": "dev-master",
         "campaignchain/activity-ezplatform": "dev-master"
     },
     "scripts": {
