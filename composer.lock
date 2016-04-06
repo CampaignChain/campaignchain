@@ -2196,12 +2196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "22bce2bdd3263440aa78a063f0c3a76a0f603255"
+                "reference": "81aec06745023cfbac766800ca234a8dc2b653d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/22bce2bdd3263440aa78a063f0c3a76a0f603255",
-                "reference": "22bce2bdd3263440aa78a063f0c3a76a0f603255",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/81aec06745023cfbac766800ca234a8dc2b653d9",
+                "reference": "81aec06745023cfbac766800ca234a8dc2b653d9",
                 "shasum": ""
             },
             "require": {
@@ -2241,7 +2241,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2016-01-15 14:47:52"
+            "time": "2016-04-06 14:36:11"
         },
         {
             "name": "campaignchain/report-analytics-cta-tracking",
@@ -2598,16 +2598,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
+                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
                 "shasum": ""
-            },
-            "require": {
-                "robloach/component-installer": "*"
             },
             "type": "component",
             "extra": {
@@ -2635,7 +2632,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-05-08 06:09:58"
+            "time": "2015-06-08 13:35:17"
         },
         {
             "name": "doctrine/annotations",
