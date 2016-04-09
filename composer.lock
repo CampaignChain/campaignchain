@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "8302ec262973f5c28f02c5aff7ba3b14da6c8683"
+                "reference": "1104e741242d886103f095c85cb9a4146018a002"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/8302ec262973f5c28f02c5aff7ba3b14da6c8683",
-                "reference": "8302ec262973f5c28f02c5aff7ba3b14da6c8683",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/1104e741242d886103f095c85cb9a4146018a002",
+                "reference": "1104e741242d886103f095c85cb9a4146018a002",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-03-16 20:47:09"
+            "time": "2016-04-06 14:37:58"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2196,12 +2196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "22bce2bdd3263440aa78a063f0c3a76a0f603255"
+                "reference": "81aec06745023cfbac766800ca234a8dc2b653d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/22bce2bdd3263440aa78a063f0c3a76a0f603255",
-                "reference": "22bce2bdd3263440aa78a063f0c3a76a0f603255",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/81aec06745023cfbac766800ca234a8dc2b653d9",
+                "reference": "81aec06745023cfbac766800ca234a8dc2b653d9",
                 "shasum": ""
             },
             "require": {
@@ -2241,7 +2241,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2016-01-15 14:47:52"
+            "time": "2016-04-06 14:36:11"
         },
         {
             "name": "campaignchain/report-analytics-cta-tracking",
@@ -8080,12 +8080,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "d57ca45391098060b393f784f2ec9f090ab0a7cf"
+                "reference": "e28395b3544135877d50f64d7e328c3576646e7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/d57ca45391098060b393f784f2ec9f090ab0a7cf",
-                "reference": "d57ca45391098060b393f784f2ec9f090ab0a7cf",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/e28395b3544135877d50f64d7e328c3576646e7d",
+                "reference": "e28395b3544135877d50f64d7e328c3576646e7d",
                 "shasum": ""
             },
             "require": {
@@ -8115,7 +8115,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-18 13:47:29"
+            "time": "2016-04-08 04:18:57"
         },
         {
             "name": "campaignchain/location-ezplatform",
@@ -8277,12 +8277,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-xing.git",
-                "reference": "c702355c8371dd9daacfdefddc78c57cedcaab4a"
+                "reference": "40ae7b2544163db6740d56bedf044792a753cfc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/c702355c8371dd9daacfdefddc78c57cedcaab4a",
-                "reference": "c702355c8371dd9daacfdefddc78c57cedcaab4a",
+                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/40ae7b2544163db6740d56bedf044792a753cfc5",
+                "reference": "40ae7b2544163db6740d56bedf044792a753cfc5",
                 "shasum": ""
             },
             "require": {
@@ -8323,7 +8323,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-04 00:47:52"
+            "time": "2016-04-09 20:57:41"
         }
     ],
     "aliases": [],
