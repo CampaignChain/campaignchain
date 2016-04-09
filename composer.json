@@ -51,6 +51,7 @@
         "amariki/data-test": "dev-master",
         "amariki/data-demo": "dev-master",
         "campaignchain/activity-xing": "dev-master",
+        "campaignchain/activity-social-media": "dev-master",
         "campaignchain/activity-ezplatform": "dev-master"
     },
     "scripts": {

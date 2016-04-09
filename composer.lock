@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9d9ead9dc5601d1376798ff4ac8ba6f4",
-    "content-hash": "e5270eeeb06f3b81af12ba134cc92bd0",
+    "hash": "4b7bf100d07e3b20c2cac8ffd6b76af6",
+    "content-hash": "db4f5d059d767982ddb680ac24ad15c7",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -2598,13 +2598,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
                 "shasum": ""
+            },
+            "require": {
+                "robloach/component-installer": "*"
             },
             "type": "component",
             "extra": {
@@ -2632,7 +2635,7 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-06-08 13:35:17"
+            "time": "2015-05-08 06:09:58"
         },
         {
             "name": "doctrine/annotations",
@@ -7905,6 +7908,60 @@
             "time": "2015-12-22 08:49:53"
         },
         {
+            "name": "campaignchain/activity-social-media",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-social-media.git",
+                "reference": "c83bdc7308a3adba76ae6f630efea067f624a50a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-social-media/zipball/c83bdc7308a3adba76ae6f630efea067f624a50a",
+                "reference": "c83bdc7308a3adba76ae6f630efea067f624a50a",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/operation-social-media": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\SocialMediaBundle\\CampaignChainActivitySocialMediaBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_social_media",
+                            "resource": "@CampaignChainActivitySocialMediaBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\SocialMediaBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Schedule the same content to be posted on various social media channels.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-09 21:42:47"
+        },
+        {
             "name": "campaignchain/activity-xing",
             "version": "dev-master",
             "source": {
@@ -8269,6 +8326,57 @@
             "time": "2015-12-08 12:39:51"
         },
         {
+            "name": "campaignchain/operation-social-media",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-social-media.git",
+                "reference": "854dd93de6e65bb880636d1108763cd99088f27a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-social-media/zipball/854dd93de6e65bb880636d1108763cd99088f27a",
+                "reference": "854dd93de6e65bb880636d1108763cd99088f27a",
+                "shasum": ""
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\SocialMediaBundle\\CampaignChainOperationSocialMediaBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_operation_social_media",
+                            "resource": "@CampaignChainOperationSocialMediaBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\SocialMediaBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Schedule the same content to be posted on various social media channels.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-09 21:42:47"
+        },
+        {
             "name": "campaignchain/operation-xing",
             "version": "dev-master",
             "source": {
@@ -8346,6 +8454,7 @@
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
         "campaignchain/activity-xing": 20,
+        "campaignchain/activity-social-media": 20,
         "campaignchain/activity-ezplatform": 20
     },
     "prefer-stable": true,
