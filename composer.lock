@@ -6548,12 +6548,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spea/SpBowerBundle.git",
-                "reference": "9fd50491bbfd244042fdb6e81f80ca2223b393ac"
+                "reference": "0163011a6f46e077556653dd32d6b659375bad8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spea/SpBowerBundle/zipball/9fd50491bbfd244042fdb6e81f80ca2223b393ac",
-                "reference": "9fd50491bbfd244042fdb6e81f80ca2223b393ac",
+                "url": "https://api.github.com/repos/Spea/SpBowerBundle/zipball/0163011a6f46e077556653dd32d6b659375bad8c",
+                "reference": "0163011a6f46e077556653dd32d6b659375bad8c",
                 "shasum": ""
             },
             "require": {
@@ -6561,8 +6561,8 @@
                 "doctrine/collections": "1.*",
                 "php": ">=5.3.3",
                 "symfony/assetic-bundle": "~2.1",
-                "symfony/framework-bundle": "~2.1",
-                "symfony/process": "~2.3,>=2.3.20 | ~2.4,>=2.4.10 | ~2.5,>=2.5.5"
+                "symfony/framework-bundle": "~2.1 | ~3.0",
+                "symfony/process": "~2.3,>=2.3.20 | ~2.4,>=2.4.10 | ~2.5,>=2.5.5 | ~3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.0.*",
@@ -6601,7 +6601,7 @@
                 "bower manager",
                 "dependencies"
             ],
-            "time": "2015-10-27 16:30:22"
+            "time": "2016-04-10 20:53:02"
         },
         {
             "name": "stephanecollot/datetimepicker-bundle",
@@ -7792,12 +7792,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "836fca0c3a641af11df21254d336598e37b46e1d"
+                "reference": "447c5a03d86331cb572da4e71cda655f4e9f5cc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/836fca0c3a641af11df21254d336598e37b46e1d",
-                "reference": "836fca0c3a641af11df21254d336598e37b46e1d",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/447c5a03d86331cb572da4e71cda655f4e9f5cc9",
+                "reference": "447c5a03d86331cb572da4e71cda655f4e9f5cc9",
                 "shasum": ""
             },
             "type": "library",
@@ -7817,7 +7817,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-01-26 16:42:35"
+            "time": "2016-04-10 03:23:43"
         },
         {
             "name": "amariki/data-test",
@@ -7825,12 +7825,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "2451ff39107a8a7830a3ed19228bf5f2071dbbc5"
+                "reference": "7a1925cddc23230d8784091fff878c77904b3380"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/2451ff39107a8a7830a3ed19228bf5f2071dbbc5",
-                "reference": "2451ff39107a8a7830a3ed19228bf5f2071dbbc5",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/7a1925cddc23230d8784091fff878c77904b3380",
+                "reference": "7a1925cddc23230d8784091fff878c77904b3380",
                 "shasum": ""
             },
             "type": "library",
@@ -7850,7 +7850,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-04 02:50:52"
+            "time": "2016-04-10 03:23:43"
         },
         {
             "name": "campaignchain/activity-ezplatform",
