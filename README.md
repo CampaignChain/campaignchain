@@ -11,7 +11,7 @@ Before you install CampaignChain, make sure you have the following software
 installed on the server:
 
 * PHP 5.4 or better
-* PHP’s JSON, PDO and intl extensions enabled
+* PHP JSON, PDO, curl and intl extensions enabled
 * PHP’s system() function must work
 * MySQL 5.5 or better
 * Java 1.5 or better
