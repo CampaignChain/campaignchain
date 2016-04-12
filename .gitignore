@@ -43,3 +43,8 @@ web/storage
 *.iws
 .idea_modules/
 atlassian-ide-plugin.xml
+
+# vagrant
+.vagrant/
+vagrant/
+VagrantFile
