@@ -39,10 +39,10 @@ security:
 
         # Development tools
         - { path: ^/development.*, role: CAMPAIGNCHAIN_DEV }
-
-        # URL of FOSUserBundle which need to be available to anonymous users
         - { path: ^/_wdt, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/_profiler, role: IS_AUTHENTICATED_ANONYMOUSLY }
+
+        # URL of FOSUserBundle which need to be available to anonymous users
         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/, role: ROLE_ADMIN }
 
@@ -54,9 +54,7 @@ security:
         - { path: ^/css/, role: IS_AUTHENTICATED_ANONYMOUSLY }
 
         # URL of FOSUserBundle which need to be available to anonymous users
-        - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/user/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
 
         # Secured part of the site
         - { path: ^/, role: ROLE_USER }
-        - { path: ^/, role: IS_AUTHENTICATED_ANONYMOUSLY }
