@@ -1103,12 +1103,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "f3cc534090d5076f35f98fd1319f8534ea11f095"
+                "reference": "872d8afdb45d77612b1a11023a27e77b6f883ae1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f3cc534090d5076f35f98fd1319f8534ea11f095",
-                "reference": "f3cc534090d5076f35f98fd1319f8534ea11f095",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/872d8afdb45d77612b1a11023a27e77b6f883ae1",
+                "reference": "872d8afdb45d77612b1a11023a27e77b6f883ae1",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-22 06:54:48"
+            "time": "2016-04-22 10:40:02"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2036,12 +2036,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "719596c6250d6751ae2ea1de6aa1b451065c969b"
+                "reference": "1c573bd3edd062a16f66b95dfc7ce79b04174f5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/719596c6250d6751ae2ea1de6aa1b451065c969b",
-                "reference": "719596c6250d6751ae2ea1de6aa1b451065c969b",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/1c573bd3edd062a16f66b95dfc7ce79b04174f5a",
+                "reference": "1c573bd3edd062a16f66b95dfc7ce79b04174f5a",
                 "shasum": ""
             },
             "require": {
@@ -2079,7 +2079,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-04-15 21:02:48"
+            "time": "2016-04-22 13:21:11"
         },
         {
             "name": "campaignchain/operation-mailchimp",
@@ -7790,12 +7790,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "7dae25524e46b684ca41276d3768dd2200153869"
+                "reference": "dc01616f31a580ec5ad2597b4c3f234d1cdaebcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/7dae25524e46b684ca41276d3768dd2200153869",
-                "reference": "7dae25524e46b684ca41276d3768dd2200153869",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/dc01616f31a580ec5ad2597b4c3f234d1cdaebcd",
+                "reference": "dc01616f31a580ec5ad2597b4c3f234d1cdaebcd",
                 "shasum": ""
             },
             "type": "library",
@@ -7815,7 +7815,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-12 06:40:28"
+            "time": "2016-04-22 08:25:26"
         },
         {
             "name": "amariki/data-test",
@@ -7823,12 +7823,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "cfa35028a61ea772454a3e2780a58d1ab99f28d2"
+                "reference": "6c5bbeffe1c697c5231f1b5220b6a6cd7aff5757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/cfa35028a61ea772454a3e2780a58d1ab99f28d2",
-                "reference": "cfa35028a61ea772454a3e2780a58d1ab99f28d2",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/6c5bbeffe1c697c5231f1b5220b6a6cd7aff5757",
+                "reference": "6c5bbeffe1c697c5231f1b5220b6a6cd7aff5757",
                 "shasum": ""
             },
             "type": "library",
@@ -7848,7 +7848,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-12 06:40:28"
+            "time": "2016-04-22 08:25:13"
         },
         {
             "name": "campaignchain/activity-ezplatform",
