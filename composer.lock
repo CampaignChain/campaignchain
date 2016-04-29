@@ -239,12 +239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "e7b3442a150c76dd9a6ecf7d1b140d119f329357"
+                "reference": "ba46a33e115908c4c06cca671eb1abf66fae49e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/e7b3442a150c76dd9a6ecf7d1b140d119f329357",
-                "reference": "e7b3442a150c76dd9a6ecf7d1b140d119f329357",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/ba46a33e115908c4c06cca671eb1abf66fae49e0",
+                "reference": "ba46a33e115908c4c06cca671eb1abf66fae49e0",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-04-15 21:04:07"
+            "time": "2016-04-29 12:48:02"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -2038,12 +2038,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "1c573bd3edd062a16f66b95dfc7ce79b04174f5a"
+                "reference": "5022a50f2ba7a022d7eb1e236945f6c61b34b6d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/1c573bd3edd062a16f66b95dfc7ce79b04174f5a",
-                "reference": "1c573bd3edd062a16f66b95dfc7ce79b04174f5a",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/5022a50f2ba7a022d7eb1e236945f6c61b34b6d6",
+                "reference": "5022a50f2ba7a022d7eb1e236945f6c61b34b6d6",
                 "shasum": ""
             },
             "require": {
@@ -2081,7 +2081,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-04-22 13:21:11"
+            "time": "2016-04-29 12:48:51"
         },
         {
             "name": "campaignchain/operation-mailchimp",
@@ -3796,33 +3796,29 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d0190b156bcca848d401fb80f31f504f37141c8d"
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d0190b156bcca848d401fb80f31f504f37141c8d",
-                "reference": "d0190b156bcca848d401fb80f31f504f37141c8d",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3|^7.0"
             },
             "require-dev": {
+                "ext-intl": "*",
                 "phpunit/phpunit": "~4.0",
                 "squizlabs/php_codesniffer": "~1.5"
             },
-            "suggest": {
-                "ext-intl": "*"
-            },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.5.x-dev"
-                }
+                "branch-alias": []
             },
             "autoload": {
                 "psr-4": {
@@ -3844,7 +3840,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-05-29 06:29:14"
+            "time": "2016-04-29 12:21:54"
         },
         {
             "name": "google/apiclient",
