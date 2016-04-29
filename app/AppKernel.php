@@ -49,6 +49,7 @@ class AppKernel extends Kernel
             // More vendors for campaignchain/core bundle
             new Oneup\UploaderBundle\OneupUploaderBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
+            new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
         );
 
         require 'campaignchain_bundles.php';
