@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4b7bf100d07e3b20c2cac8ffd6b76af6",
-    "content-hash": "db4f5d059d767982ddb680ac24ad15c7",
+    "hash": "777234b85b2e70cf9218ee713846f8fb",
+    "content-hash": "e14bb8dbd953338f75e71849b0b682f8",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -14,16 +14,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bmatzner/BmatznerFontAwesomeBundle.git",
-                "reference": "93a080975bba1e62ec7e0b5d5172b2d71e95848f"
+                "reference": "e52f9f684017b410041850e16dc49a197ef4edab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bmatzner/BmatznerFontAwesomeBundle/zipball/93a080975bba1e62ec7e0b5d5172b2d71e95848f",
-                "reference": "93a080975bba1e62ec7e0b5d5172b2d71e95848f",
+                "url": "https://api.github.com/repos/bmatzner/BmatznerFontAwesomeBundle/zipball/e52f9f684017b410041850e16dc49a197ef4edab",
+                "reference": "e52f9f684017b410041850e16dc49a197ef4edab",
                 "shasum": ""
             },
             "require": {
-                "symfony/framework-bundle": ">=2.1"
+                "symfony/framework-bundle": ">=2.1|~3.0"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -52,7 +52,7 @@
                 "typography",
                 "webfonts"
             ],
-            "time": "2016-03-26 19:47:17"
+            "time": "2016-05-02 14:02:07"
         },
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -468,6 +468,63 @@
                 "twitter"
             ],
             "time": "2015-12-22 08:49:53"
+        },
+        {
+            "name": "campaignchain/activity-xing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/activity-xing.git",
+                "reference": "8b8cd7deae48ca9e83716435efd92eabe2101fb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/activity-xing/zipball/8b8cd7deae48ca9e83716435efd92eabe2101fb8",
+                "reference": "8b8cd7deae48ca9e83716435efd92eabe2101fb8",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/hook-due": "dev-master",
+                "campaignchain/location-xing": "dev-master",
+                "campaignchain/operation-xing": "dev-master"
+            },
+            "type": "campaignchain-activity",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Activity\\XingBundle\\CampaignChainActivityXingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_activity_xing",
+                            "resource": "@CampaignChainActivityXingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Activity\\XingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Xing module for CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-04 02:21:47"
         },
         {
             "name": "campaignchain/campaign-repeating",
@@ -1096,6 +1153,61 @@
                 "website"
             ],
             "time": "2016-01-19 09:54:52"
+        },
+        {
+            "name": "campaignchain/channel-xing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-xing.git",
+                "reference": "c0476515046cf1997792f9034ea51208b8ed4708"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-xing/zipball/c0476515046cf1997792f9034ea51208b8ed4708",
+                "reference": "c0476515046cf1997792f9034ea51208b8ed4708",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master",
+                "campaignchain/security-authentication-client-oauth": "dev-master"
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\XingBundle\\CampaignChainChannelXingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_xing",
+                            "resource": "@CampaignChainChannelXingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\XingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Xing module for CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-04 01:17:52"
         },
         {
             "name": "campaignchain/core",
@@ -1872,6 +1984,60 @@
             "time": "2015-12-22 08:49:52"
         },
         {
+            "name": "campaignchain/location-xing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-xing.git",
+                "reference": "656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-xing/zipball/656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44",
+                "reference": "656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-xing": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\XingBundle\\CampaignChainLocationXingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_xing",
+                            "resource": "@CampaignChainLocationXingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\XingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Xing module for CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-04 00:23:48"
+        },
+        {
             "name": "campaignchain/milestone-scheduled",
             "version": "dev-master",
             "source": {
@@ -2246,6 +2412,60 @@
             "time": "2016-04-06 14:36:11"
         },
         {
+            "name": "campaignchain/operation-xing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/operation-xing.git",
+                "reference": "40ae7b2544163db6740d56bedf044792a753cfc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/40ae7b2544163db6740d56bedf044792a753cfc5",
+                "reference": "40ae7b2544163db6740d56bedf044792a753cfc5",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/activity-linkedin": "dev-master"
+            },
+            "type": "campaignchain-operation",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Operation\\XingBundle\\CampaignChainOperationXingBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_operation_xing",
+                            "resource": "@CampaignChainOperationXingBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Operation\\XingBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Xing module for CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-04-09 20:57:41"
+        },
+        {
             "name": "campaignchain/report-analytics-cta-tracking",
             "version": "dev-master",
             "source": {
@@ -2304,12 +2524,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "42cd1f49e65b86e831d4fe986713b21b7a95ad5c"
+                "reference": "75dc363690e5d99cc3b85b07dc659fb5a8c1b057"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/42cd1f49e65b86e831d4fe986713b21b7a95ad5c",
-                "reference": "42cd1f49e65b86e831d4fe986713b21b7a95ad5c",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/75dc363690e5d99cc3b85b07dc659fb5a8c1b057",
+                "reference": "75dc363690e5d99cc3b85b07dc659fb5a8c1b057",
                 "shasum": ""
             },
             "require": {
@@ -2352,7 +2572,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2015-12-22 08:49:52"
+            "time": "2016-05-02 14:06:11"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -4147,12 +4367,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/h4cc/AliceFixturesBundle.git",
-                "reference": "0c097abe510f444850ef17a4836f416d201aba88"
+                "reference": "d5ad280224cfd91231f316f71a95edd78136d9fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/h4cc/AliceFixturesBundle/zipball/0c097abe510f444850ef17a4836f416d201aba88",
-                "reference": "0c097abe510f444850ef17a4836f416d201aba88",
+                "url": "https://api.github.com/repos/h4cc/AliceFixturesBundle/zipball/d5ad280224cfd91231f316f71a95edd78136d9fb",
+                "reference": "d5ad280224cfd91231f316f71a95edd78136d9fb",
                 "shasum": ""
             },
             "require": {
@@ -4196,7 +4416,7 @@
                 "mongodb",
                 "orm"
             ],
-            "time": "2015-10-05 19:18:37"
+            "time": "2016-04-30 10:30:50"
         },
         {
             "name": "hybridauth/hybridauth",
@@ -6792,16 +7012,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.1",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421"
+                "reference": "d8db871a54619458a805229a057ea2af33c753e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0697e6aa65c83edf97bb0f23d8763f94e3f11421",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/d8db871a54619458a805229a057ea2af33c753e8",
+                "reference": "d8db871a54619458a805229a057ea2af33c753e8",
                 "shasum": ""
             },
             "require": {
@@ -6841,7 +7061,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2015-06-06 14:19:39"
+            "time": "2016-05-01 08:45:47"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -7544,16 +7764,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.4",
+            "version": "v2.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "9e14f9f4869c19188a376eab61d9a1c1f1fee347"
+                "reference": "39ddd2383f4113cf67f8b28cde2c9d3fa340c3c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/9e14f9f4869c19188a376eab61d9a1c1f1fee347",
-                "reference": "9e14f9f4869c19188a376eab61d9a1c1f1fee347",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/39ddd2383f4113cf67f8b28cde2c9d3fa340c3c2",
+                "reference": "39ddd2383f4113cf67f8b28cde2c9d3fa340c3c2",
                 "shasum": ""
             },
             "require": {
@@ -7568,7 +7788,7 @@
                 "symfony/polyfill-php56": "~1.0",
                 "symfony/polyfill-php70": "~1.0",
                 "symfony/polyfill-util": "~1.0",
-                "symfony/security-acl": "~2.7",
+                "symfony/security-acl": "~2.7|~3.0.0",
                 "twig/twig": "~1.23|~2.0"
             },
             "conflict": {
@@ -7640,7 +7860,11 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Bridge\\": "src/Symfony/Bridge/",
+                    "Symfony\\Bridge\\Doctrine\\": "src/Symfony/Bridge/Doctrine/",
+                    "Symfony\\Bridge\\Monolog\\": "src/Symfony/Bridge/Monolog/",
+                    "Symfony\\Bridge\\ProxyManager\\": "src/Symfony/Bridge/ProxyManager/",
+                    "Symfony\\Bridge\\Swiftmailer\\": "src/Symfony/Bridge/Swiftmailer/",
+                    "Symfony\\Bridge\\Twig\\": "src/Symfony/Bridge/Twig/",
                     "Symfony\\Bundle\\": "src/Symfony/Bundle/",
                     "Symfony\\Component\\": "src/Symfony/Component/"
                 },
@@ -7670,7 +7894,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-03-27 12:57:53"
+            "time": "2016-04-29 15:34:08"
         },
         {
             "name": "twbs/bootstrap",
@@ -8103,63 +8327,6 @@
             "time": "2016-04-09 21:42:47"
         },
         {
-            "name": "campaignchain/activity-xing",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/activity-xing.git",
-                "reference": "8b8cd7deae48ca9e83716435efd92eabe2101fb8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-xing/zipball/8b8cd7deae48ca9e83716435efd92eabe2101fb8",
-                "reference": "8b8cd7deae48ca9e83716435efd92eabe2101fb8",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-master",
-                "campaignchain/hook-due": "dev-master",
-                "campaignchain/location-xing": "dev-master",
-                "campaignchain/operation-xing": "dev-master"
-            },
-            "type": "campaignchain-activity",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Activity\\XingBundle\\CampaignChainActivityXingBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_activity_xing",
-                            "resource": "@CampaignChainActivityXingBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Activity\\XingBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com"
-                }
-            ],
-            "description": "Xing module for CampaignChain",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2016-04-04 02:21:47"
-        },
-        {
             "name": "campaignchain/channel-ezplatform",
             "version": "dev-master",
             "source": {
@@ -8213,61 +8380,6 @@
                 "campaignchain"
             ],
             "time": "2015-12-22 08:49:53"
-        },
-        {
-            "name": "campaignchain/channel-xing",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-xing.git",
-                "reference": "c0476515046cf1997792f9034ea51208b8ed4708"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-xing/zipball/c0476515046cf1997792f9034ea51208b8ed4708",
-                "reference": "c0476515046cf1997792f9034ea51208b8ed4708",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/core": "dev-master",
-                "campaignchain/security-authentication-client-oauth": "dev-master"
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\XingBundle\\CampaignChainChannelXingBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_xing",
-                            "resource": "@CampaignChainChannelXingBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\XingBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com"
-                }
-            ],
-            "description": "Xing module for CampaignChain",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2016-04-04 01:17:52"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -8367,60 +8479,6 @@
             "time": "2015-12-22 08:49:53"
         },
         {
-            "name": "campaignchain/location-xing",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-xing.git",
-                "reference": "656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-xing/zipball/656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44",
-                "reference": "656cc7b0774c1569b2b4eecdc9aa5c78fe28ce44",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/channel-xing": "dev-master"
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\XingBundle\\CampaignChainLocationXingBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_location_xing",
-                            "resource": "@CampaignChainLocationXingBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\XingBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com"
-                }
-            ],
-            "description": "Xing module for CampaignChain",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2016-04-04 00:23:48"
-        },
-        {
             "name": "campaignchain/operation-ezplatform",
             "version": "dev-master",
             "source": {
@@ -8516,60 +8574,6 @@
                 "campaignchain"
             ],
             "time": "2016-04-09 21:42:47"
-        },
-        {
-            "name": "campaignchain/operation-xing",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/operation-xing.git",
-                "reference": "40ae7b2544163db6740d56bedf044792a753cfc5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/40ae7b2544163db6740d56bedf044792a753cfc5",
-                "reference": "40ae7b2544163db6740d56bedf044792a753cfc5",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/activity-linkedin": "dev-master"
-            },
-            "type": "campaignchain-operation",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Operation\\XingBundle\\CampaignChainOperationXingBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_operation_xing",
-                            "resource": "@CampaignChainOperationXingBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Operation\\XingBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com"
-                }
-            ],
-            "description": "Xing module for CampaignChain",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2016-04-09 20:57:41"
         }
     ],
     "aliases": [],
@@ -8591,10 +8595,10 @@
         "campaignchain/report-analytics-cta-tracking": 20,
         "campaignchain/report-google-analytics": 20,
         "campaignchain/security-authentication-server-oauth": 20,
+        "campaignchain/activity-xing": 20,
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
-        "campaignchain/activity-xing": 20,
         "campaignchain/activity-social-media": 20,
         "campaignchain/activity-ezplatform": 20
     },
