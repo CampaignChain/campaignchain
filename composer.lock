@@ -532,12 +532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-repeating.git",
-                "reference": "e86b6d41316ff8f43d7ca2b1b1d6b4a70d5cc51a"
+                "reference": "a2b2ab8a2f3c3ac1d1f01fd2393ec65462ddfc18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/e86b6d41316ff8f43d7ca2b1b1d6b4a70d5cc51a",
-                "reference": "e86b6d41316ff8f43d7ca2b1b1d6b4a70d5cc51a",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/a2b2ab8a2f3c3ac1d1f01fd2393ec65462ddfc18",
+                "reference": "a2b2ab8a2f3c3ac1d1f01fd2393ec65462ddfc18",
                 "shasum": ""
             },
             "require": {
@@ -581,7 +581,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-05-05 02:54:32"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -589,12 +589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "eb9b98a3c9d90f2985d106e52f455982cd44423b"
+                "reference": "ef9a5b1d2fcbd3a8499d8f50eaa3c563484ef9e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/eb9b98a3c9d90f2985d106e52f455982cd44423b",
-                "reference": "eb9b98a3c9d90f2985d106e52f455982cd44423b",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/ef9a5b1d2fcbd3a8499d8f50eaa3c563484ef9e7",
+                "reference": "ef9a5b1d2fcbd3a8499d8f50eaa3c563484ef9e7",
                 "shasum": ""
             },
             "require": {
@@ -640,7 +640,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-03-16 16:45:17"
+            "time": "2016-05-05 02:55:01"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -648,12 +648,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "1d4442ef8274c9c37678c677151518c9f6c452ce"
+                "reference": "815c0e54ad7154d1da5999b223abfd03317029e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/1d4442ef8274c9c37678c677151518c9f6c452ce",
-                "reference": "1d4442ef8274c9c37678c677151518c9f6c452ce",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/815c0e54ad7154d1da5999b223abfd03317029e5",
+                "reference": "815c0e54ad7154d1da5999b223abfd03317029e5",
                 "shasum": ""
             },
             "require": {
@@ -697,7 +697,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-05-05 02:54:17"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -1215,12 +1215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "2957d15ef26415e2bca1504e0b2f2fcb6b1acc3a"
+                "reference": "05e1397dfd6a85a181fd4ae47d019b28f06e1965"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/2957d15ef26415e2bca1504e0b2f2fcb6b1acc3a",
-                "reference": "2957d15ef26415e2bca1504e0b2f2fcb6b1acc3a",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/05e1397dfd6a85a181fd4ae47d019b28f06e1965",
+                "reference": "05e1397dfd6a85a181fd4ae47d019b28f06e1965",
                 "shasum": ""
             },
             "require": {
@@ -1313,7 +1313,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-29 09:46:47"
+            "time": "2016-05-05 02:55:25"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -3865,12 +3865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "a422c7a230f1e88e0e57a70dbe7eb7571b2abf35"
+                "reference": "41ba820efd30d44e651c8318618d5c6a32ac901b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/a422c7a230f1e88e0e57a70dbe7eb7571b2abf35",
-                "reference": "a422c7a230f1e88e0e57a70dbe7eb7571b2abf35",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/41ba820efd30d44e651c8318618d5c6a32ac901b",
+                "reference": "41ba820efd30d44e651c8318618d5c6a32ac901b",
                 "shasum": ""
             },
             "require": {
@@ -3898,7 +3898,7 @@
                 "symfony/form": "^2.7|^3.0",
                 "symfony/phpunit-bridge": "~2.7|^3.0",
                 "symfony/security-bundle": "^2.7|^3.0",
-                "symfony/serializer": "^2.7|^3.0",
+                "symfony/serializer": "^2.7.11|^3.0.4",
                 "symfony/twig-bundle": "^2.7|^3.0",
                 "symfony/validator": "^2.7|^3.0",
                 "symfony/web-profiler-bundle": "^2.7|^3.0",
@@ -3945,7 +3945,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-04-27 17:07:23"
+            "time": "2016-05-04 11:04:31"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -5856,17 +5856,17 @@
         },
         {
             "name": "oneup/uploader-bundle",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "target-dir": "Oneup/UploaderBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1up-lab/OneupUploaderBundle.git",
-                "reference": "f5acda92ea3d6aa482408d1ef65a69f46efb3802"
+                "reference": "70fdfdbdf72642d382ce62d966d2079cc3a39061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1up-lab/OneupUploaderBundle/zipball/f5acda92ea3d6aa482408d1ef65a69f46efb3802",
-                "reference": "f5acda92ea3d6aa482408d1ef65a69f46efb3802",
+                "url": "https://api.github.com/repos/1up-lab/OneupUploaderBundle/zipball/70fdfdbdf72642d382ce62d966d2079cc3a39061",
+                "reference": "70fdfdbdf72642d382ce62d966d2079cc3a39061",
                 "shasum": ""
             },
             "require": {
@@ -5921,7 +5921,7 @@
                 "plupload",
                 "upload"
             ],
-            "time": "2016-01-28 15:06:49"
+            "time": "2016-05-04 09:09:49"
         },
         {
             "name": "oyejorge/less.php",
@@ -6258,16 +6258,16 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.4.0",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "f942da7b505d1a294284ab343d05df42d02ad6d9"
+                "reference": "8025426794f1944de806618671d4fa476dc7626f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/f942da7b505d1a294284ab343d05df42d02ad6d9",
-                "reference": "f942da7b505d1a294284ab343d05df42d02ad6d9",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/8025426794f1944de806618671d4fa476dc7626f",
+                "reference": "8025426794f1944de806618671d4fa476dc7626f",
                 "shasum": ""
             },
             "require": {
@@ -6298,7 +6298,7 @@
                 }
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
-            "time": "2016-03-31 13:10:33"
+            "time": "2016-05-03 17:50:52"
         },
         {
             "name": "robloach/component-installer",
