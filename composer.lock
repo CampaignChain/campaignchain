@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "777234b85b2e70cf9218ee713846f8fb",
-    "content-hash": "e14bb8dbd953338f75e71849b0b682f8",
+    "hash": "4777bd7e96c079845a37d5749c1db42d",
+    "content-hash": "781ffd23bc6e3c74ec7265dce85c86cd",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1215,12 +1215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "687190dd7db798411a88e871e198caee442904a7"
+                "reference": "334743c71ffc919b27a39e1399bc440d5201c45a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/687190dd7db798411a88e871e198caee442904a7",
-                "reference": "687190dd7db798411a88e871e198caee442904a7",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/334743c71ffc919b27a39e1399bc440d5201c45a",
+                "reference": "334743c71ffc919b27a39e1399bc440d5201c45a",
                 "shasum": ""
             },
             "require": {
@@ -1313,7 +1313,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-13 18:52:38"
+            "time": "2016-05-14 19:52:37"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -8430,6 +8430,54 @@
             "time": "2016-04-08 04:18:57"
         },
         {
+            "name": "campaignchain/hook-image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/hook-image.git",
+                "reference": "c65ddf1148314f5344fe029aebe5fc3a1ae5aa92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/c65ddf1148314f5344fe029aebe5fc3a1ae5aa92",
+                "reference": "c65ddf1148314f5344fe029aebe5fc3a1ae5aa92",
+                "shasum": ""
+            },
+            "type": "campaignchain-hook",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Hook\\ImageBundle\\CampaignChainHookImageBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Hook\\ImageBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Upload one or more Images for an Activity.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "HOOK",
+                "campaignchain"
+            ],
+            "time": "2016-05-10 09:43:54"
+        },
+        {
             "name": "campaignchain/location-ezplatform",
             "version": "dev-master",
             "source": {
@@ -8605,7 +8653,8 @@
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
         "campaignchain/activity-social-media": 20,
-        "campaignchain/activity-ezplatform": 20
+        "campaignchain/activity-ezplatform": 20,
+        "campaignchain/hook-image": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
