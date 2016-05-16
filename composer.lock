@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4777bd7e96c079845a37d5749c1db42d",
-    "content-hash": "781ffd23bc6e3c74ec7265dce85c86cd",
+    "hash": "777234b85b2e70cf9218ee713846f8fb",
+    "content-hash": "e14bb8dbd953338f75e71849b0b682f8",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -120,18 +120,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-facebook.git",
-                "reference": "98656dd605e51e17d70c618eda262fbde1f0dfef"
+                "reference": "eebfa788fbd3124698dd0044ff5ba36a596f56f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/98656dd605e51e17d70c618eda262fbde1f0dfef",
-                "reference": "98656dd605e51e17d70c618eda262fbde1f0dfef",
+                "url": "https://api.github.com/repos/CampaignChain/activity-facebook/zipball/eebfa788fbd3124698dd0044ff5ba36a596f56f9",
+                "reference": "eebfa788fbd3124698dd0044ff5ba36a596f56f9",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/core": "dev-master",
                 "campaignchain/hook-assignee": "dev-master",
                 "campaignchain/hook-due": "dev-master",
+                "campaignchain/hook-image": "dev-master",
                 "campaignchain/location-facebook": "dev-master",
                 "campaignchain/operation-facebook": "dev-master"
             },
@@ -172,7 +173,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-05-16 12:21:11"
         },
         {
             "name": "campaignchain/activity-gotowebinar",
@@ -239,17 +240,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "c8ef9da26c2659753da1e4ed94b9762f1ae62a4f"
+                "reference": "af8fc07c8066acf6a40975330367baa29b9f7ed5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/c8ef9da26c2659753da1e4ed94b9762f1ae62a4f",
-                "reference": "c8ef9da26c2659753da1e4ed94b9762f1ae62a4f",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/af8fc07c8066acf6a40975330367baa29b9f7ed5",
+                "reference": "af8fc07c8066acf6a40975330367baa29b9f7ed5",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/core": "dev-master",
+                "campaignchain/hook-assignee": "dev-master",
                 "campaignchain/hook-due": "dev-master",
+                "campaignchain/hook-image": "dev-master",
                 "campaignchain/location-linkedin": "dev-master",
                 "campaignchain/operation-linkedin": "dev-master"
             },
@@ -290,7 +293,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-04-29 14:24:54"
+            "time": "2016-05-16 12:21:11"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -415,18 +418,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-twitter.git",
-                "reference": "730e209496539ad6a2dbdead061ed615e9009243"
+                "reference": "254db11c6202ffa025c41190b492f71105f18e6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/730e209496539ad6a2dbdead061ed615e9009243",
-                "reference": "730e209496539ad6a2dbdead061ed615e9009243",
+                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/254db11c6202ffa025c41190b492f71105f18e6b",
+                "reference": "254db11c6202ffa025c41190b492f71105f18e6b",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/core": "dev-master",
                 "campaignchain/hook-assignee": "dev-master",
                 "campaignchain/hook-due": "dev-master",
+                "campaignchain/hook-image": "dev-master",
                 "campaignchain/location-twitter": "dev-master",
                 "campaignchain/operation-twitter": "dev-master"
             },
@@ -467,7 +471,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2015-12-22 08:49:53"
+            "time": "2016-05-16 12:21:11"
         },
         {
             "name": "campaignchain/activity-xing",
@@ -1215,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "5556cc2d76ddba0512054994f14fbcdf316cc142"
+                "reference": "e0d89e7d95cff926d1e0ae5e835614997038a27b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/5556cc2d76ddba0512054994f14fbcdf316cc142",
-                "reference": "5556cc2d76ddba0512054994f14fbcdf316cc142",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e0d89e7d95cff926d1e0ae5e835614997038a27b",
+                "reference": "e0d89e7d95cff926d1e0ae5e835614997038a27b",
                 "shasum": ""
             },
             "require": {
@@ -1313,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-14 20:15:13"
+            "time": "2016-05-16 11:53:56"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1506,6 +1510,54 @@
                 "campaignchain"
             ],
             "time": "2016-02-26 13:37:28"
+        },
+        {
+            "name": "campaignchain/hook-image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/hook-image.git",
+                "reference": "317bb75f5d147394d214257053872ad14f2bfbc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/317bb75f5d147394d214257053872ad14f2bfbc9",
+                "reference": "317bb75f5d147394d214257053872ad14f2bfbc9",
+                "shasum": ""
+            },
+            "type": "campaignchain-hook",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Hook\\ImageBundle\\CampaignChainHookImageBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Hook\\ImageBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Upload one or more Images for an Activity.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "HOOK",
+                "campaignchain"
+            ],
+            "time": "2016-05-16 11:58:30"
         },
         {
             "name": "campaignchain/hook-timespan",
@@ -2101,12 +2153,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "6dd7c266830b71ead4f1386970e8dee9097475d8"
+                "reference": "3e0b76fd40e23f1573b4ad2b0cd3c0950b5e6e52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/6dd7c266830b71ead4f1386970e8dee9097475d8",
-                "reference": "6dd7c266830b71ead4f1386970e8dee9097475d8",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/3e0b76fd40e23f1573b4ad2b0cd3c0950b5e6e52",
+                "reference": "3e0b76fd40e23f1573b4ad2b0cd3c0950b5e6e52",
                 "shasum": ""
             },
             "require": {
@@ -2144,7 +2196,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-01-15 14:45:34"
+            "time": "2016-05-16 11:53:35"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -2204,12 +2256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "a309f1578d0ebaf3665954e2c8f8f808a2164855"
+                "reference": "be7167e46f54dcfabe6af602bb421c433cbd5fd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/a309f1578d0ebaf3665954e2c8f8f808a2164855",
-                "reference": "a309f1578d0ebaf3665954e2c8f8f808a2164855",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/be7167e46f54dcfabe6af602bb421c433cbd5fd8",
+                "reference": "be7167e46f54dcfabe6af602bb421c433cbd5fd8",
                 "shasum": ""
             },
             "require": {
@@ -2247,7 +2299,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-05-09 02:30:41"
+            "time": "2016-05-16 11:53:20"
         },
         {
             "name": "campaignchain/operation-mailchimp",
@@ -2364,12 +2416,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "81aec06745023cfbac766800ca234a8dc2b653d9"
+                "reference": "d5551217ddbe8cdba37582e9599182f45b977be3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/81aec06745023cfbac766800ca234a8dc2b653d9",
-                "reference": "81aec06745023cfbac766800ca234a8dc2b653d9",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/d5551217ddbe8cdba37582e9599182f45b977be3",
+                "reference": "d5551217ddbe8cdba37582e9599182f45b977be3",
                 "shasum": ""
             },
             "require": {
@@ -2409,7 +2461,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2016-04-06 14:36:11"
+            "time": "2016-05-16 11:53:08"
         },
         {
             "name": "campaignchain/operation-xing",
@@ -8162,12 +8214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "fd2e90b79b55f9c13178da99b038b77955c406a4"
+                "reference": "49c8e76b19fa0dd7f43615a8e0952d9123b92722"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/fd2e90b79b55f9c13178da99b038b77955c406a4",
-                "reference": "fd2e90b79b55f9c13178da99b038b77955c406a4",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/49c8e76b19fa0dd7f43615a8e0952d9123b92722",
+                "reference": "49c8e76b19fa0dd7f43615a8e0952d9123b92722",
                 "shasum": ""
             },
             "type": "library",
@@ -8187,7 +8239,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-22 15:46:16"
+            "time": "2016-05-16 11:58:30"
         },
         {
             "name": "amariki/data-test",
@@ -8195,12 +8247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "dfe3b0b2300f28dbb55108f1f756db857839a3a8"
+                "reference": "c757c7d4efd7e21ea52b0d6769d97621af5f9280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/dfe3b0b2300f28dbb55108f1f756db857839a3a8",
-                "reference": "dfe3b0b2300f28dbb55108f1f756db857839a3a8",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/c757c7d4efd7e21ea52b0d6769d97621af5f9280",
+                "reference": "c757c7d4efd7e21ea52b0d6769d97621af5f9280",
                 "shasum": ""
             },
             "type": "library",
@@ -8220,7 +8272,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-22 15:46:16"
+            "time": "2016-05-16 11:58:30"
         },
         {
             "name": "campaignchain/activity-ezplatform",
@@ -8430,54 +8482,6 @@
             "time": "2016-04-08 04:18:57"
         },
         {
-            "name": "campaignchain/hook-image",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/hook-image.git",
-                "reference": "c65ddf1148314f5344fe029aebe5fc3a1ae5aa92"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/c65ddf1148314f5344fe029aebe5fc3a1ae5aa92",
-                "reference": "c65ddf1148314f5344fe029aebe5fc3a1ae5aa92",
-                "shasum": ""
-            },
-            "type": "campaignchain-hook",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Hook\\ImageBundle\\CampaignChainHookImageBundle"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Hook\\ImageBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com",
-                    "homepage": "http://www.campaignchain.com"
-                }
-            ],
-            "description": "Upload one or more Images for an Activity.",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "HOOK",
-                "campaignchain"
-            ],
-            "time": "2016-05-10 09:43:54"
-        },
-        {
             "name": "campaignchain/location-ezplatform",
             "version": "dev-master",
             "source": {
@@ -8653,8 +8657,7 @@
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
         "campaignchain/activity-social-media": 20,
-        "campaignchain/activity-ezplatform": 20,
-        "campaignchain/hook-image": 20
+        "campaignchain/activity-ezplatform": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
