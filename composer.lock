@@ -882,12 +882,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-linkedin.git",
-                "reference": "80fdb94a8a80445563e2ea4c2497f993b41439e4"
+                "reference": "e4cfb4392e2ebee006c5e3d82f64e2a15653e8a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/80fdb94a8a80445563e2ea4c2497f993b41439e4",
-                "reference": "80fdb94a8a80445563e2ea4c2497f993b41439e4",
+                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/e4cfb4392e2ebee006c5e3d82f64e2a15653e8a9",
+                "reference": "e4cfb4392e2ebee006c5e3d82f64e2a15653e8a9",
                 "shasum": ""
             },
             "require": {
@@ -931,7 +931,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-05-13 16:38:25"
+            "time": "2016-05-16 13:15:33"
         },
         {
             "name": "campaignchain/channel-mailchimp",
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "e0d89e7d95cff926d1e0ae5e835614997038a27b"
+                "reference": "609f887b7d9a3403461b7809535ccff21b3d68eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e0d89e7d95cff926d1e0ae5e835614997038a27b",
-                "reference": "e0d89e7d95cff926d1e0ae5e835614997038a27b",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/609f887b7d9a3403461b7809535ccff21b3d68eb",
+                "reference": "609f887b7d9a3403461b7809535ccff21b3d68eb",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-16 11:53:56"
+            "time": "2016-05-16 19:31:51"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1421,12 +1421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "a4e691c345b1d06fd55485e90c95c98a8d31ec62"
+                "reference": "afd38a6788183d4ba0a2f0b3fe8f9176adc3f565"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/a4e691c345b1d06fd55485e90c95c98a8d31ec62",
-                "reference": "a4e691c345b1d06fd55485e90c95c98a8d31ec62",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/afd38a6788183d4ba0a2f0b3fe8f9176adc3f565",
+                "reference": "afd38a6788183d4ba0a2f0b3fe8f9176adc3f565",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1461,7 +1461,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-04-12 06:40:28"
+            "time": "2016-05-16 19:31:51"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -1517,12 +1517,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-image.git",
-                "reference": "317bb75f5d147394d214257053872ad14f2bfbc9"
+                "reference": "75b25a075a205d4b7c3c69cc35987bf68e13a90c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/317bb75f5d147394d214257053872ad14f2bfbc9",
-                "reference": "317bb75f5d147394d214257053872ad14f2bfbc9",
+                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/75b25a075a205d4b7c3c69cc35987bf68e13a90c",
+                "reference": "75b25a075a205d4b7c3c69cc35987bf68e13a90c",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1557,7 +1557,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-05-16 11:58:30"
+            "time": "2016-05-16 19:31:51"
         },
         {
             "name": "campaignchain/hook-timespan",
@@ -5831,12 +5831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "b494d8e1ab4f95c64e0b99e8c81d7fc4804eeb9e"
+                "reference": "a7ad7ff1446f8f5cdc598610b89fa788f58c201d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/b494d8e1ab4f95c64e0b99e8c81d7fc4804eeb9e",
-                "reference": "b494d8e1ab4f95c64e0b99e8c81d7fc4804eeb9e",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/a7ad7ff1446f8f5cdc598610b89fa788f58c201d",
+                "reference": "a7ad7ff1446f8f5cdc598610b89fa788f58c201d",
                 "shasum": ""
             },
             "require": {
@@ -5907,7 +5907,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-05-11 15:32:04"
+            "time": "2016-05-16 19:08:35"
         },
         {
             "name": "oneup/uploader-bundle",
