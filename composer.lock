@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "609f887b7d9a3403461b7809535ccff21b3d68eb"
+                "reference": "65b2e45172ad19ebbc9a4a0f34d86420def36f81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/609f887b7d9a3403461b7809535ccff21b3d68eb",
-                "reference": "609f887b7d9a3403461b7809535ccff21b3d68eb",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/65b2e45172ad19ebbc9a4a0f34d86420def36f81",
+                "reference": "65b2e45172ad19ebbc9a4a0f34d86420def36f81",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-16 19:31:51"
+            "time": "2016-05-18 10:26:53"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2872,12 +2872,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "e7c492908a9746439e20b19a671c5001e8832732"
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jquery/zipball/e7c492908a9746439e20b19a671c5001e8832732",
-                "reference": "e7c492908a9746439e20b19a671c5001e8832732",
+                "reference": "b29a6cdaacadf0f1e136f36b8f492e0a061c1caf",
                 "shasum": ""
             },
             "require": {
