@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "65b2e45172ad19ebbc9a4a0f34d86420def36f81"
+                "reference": "95e848ed45094e5c8aa6e7c0d508185140d13859"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/65b2e45172ad19ebbc9a4a0f34d86420def36f81",
-                "reference": "65b2e45172ad19ebbc9a4a0f34d86420def36f81",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/95e848ed45094e5c8aa6e7c0d508185140d13859",
+                "reference": "95e848ed45094e5c8aa6e7c0d508185140d13859",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-18 10:26:53"
+            "time": "2016-05-18 21:04:29"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -3917,12 +3917,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "665986f912f832c6ab08521624baf7baf6657377"
+                "reference": "bf39f0f902a99169f5f5d42d1db9740e5fc4d2f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/665986f912f832c6ab08521624baf7baf6657377",
-                "reference": "665986f912f832c6ab08521624baf7baf6657377",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/bf39f0f902a99169f5f5d42d1db9740e5fc4d2f6",
+                "reference": "bf39f0f902a99169f5f5d42d1db9740e5fc4d2f6",
                 "shasum": ""
             },
             "require": {
@@ -3997,7 +3997,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-05-06 07:08:45"
+            "time": "2016-05-18 19:53:18"
         },
         {
             "name": "friendsofsymfony/user-bundle",
