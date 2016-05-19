@@ -1373,12 +1373,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-data-repeat.git",
-                "reference": "a9c65cd7bbcac56a8ccd876f8cb5288901d5c485"
+                "reference": "51196ad3aeda26cb8345e245728a23b26d342e7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/a9c65cd7bbcac56a8ccd876f8cb5288901d5c485",
-                "reference": "a9c65cd7bbcac56a8ccd876f8cb5288901d5c485",
+                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/51196ad3aeda26cb8345e245728a23b26d342e7b",
+                "reference": "51196ad3aeda26cb8345e245728a23b26d342e7b",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1413,7 +1413,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-12-22 08:49:51"
+            "time": "2016-05-19 17:04:49"
         },
         {
             "name": "campaignchain/hook-due",
