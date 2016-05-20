@@ -1,7 +1,7 @@
 {
     "name": "campaignchain/campaignchain-ce",
     "description": "CampaignChain Community Edition",
-    "version": "1.0.0-beta.3",
+    "version": "dev-master",
     "type": "project",
     "license": [
         "Apache-2.0",
@@ -16,7 +16,7 @@
     },
     "authors": [
         {
-            "name": "CampaignChain Inc.",
+            "name": "CampaignChain, Inc.",
             "email": "info@campaignchain.com",
             "homepage": "http://www.campaignchain.com"
         }
