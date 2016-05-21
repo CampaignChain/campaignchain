@@ -1517,12 +1517,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-image.git",
-                "reference": "75b25a075a205d4b7c3c69cc35987bf68e13a90c"
+                "reference": "efa58faed499fd9743e8b95c43a396eedb0f1de0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/75b25a075a205d4b7c3c69cc35987bf68e13a90c",
-                "reference": "75b25a075a205d4b7c3c69cc35987bf68e13a90c",
+                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/efa58faed499fd9743e8b95c43a396eedb0f1de0",
+                "reference": "efa58faed499fd9743e8b95c43a396eedb0f1de0",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1557,7 +1557,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-05-16 19:31:51"
+            "time": "2016-05-21 18:07:06"
         },
         {
             "name": "campaignchain/hook-timespan",
