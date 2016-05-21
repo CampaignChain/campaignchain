@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "777234b85b2e70cf9218ee713846f8fb",
-    "content-hash": "e14bb8dbd953338f75e71849b0b682f8",
+    "hash": "2635b34c3ae8bb583f7da8aea47c00e9",
+    "content-hash": "6ba453a5a162db54c038d0526363367d",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "36eaa0ceab4a61ffe534ba97948c7ad559f85538"
+                "reference": "9837c68641d510b0298188eec0107cc3d15068ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/36eaa0ceab4a61ffe534ba97948c7ad559f85538",
-                "reference": "36eaa0ceab4a61ffe534ba97948c7ad559f85538",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9837c68641d510b0298188eec0107cc3d15068ff",
+                "reference": "9837c68641d510b0298188eec0107cc3d15068ff",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-18 22:09:39"
+            "time": "2016-05-21 18:00:55"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -5831,12 +5831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "a7ad7ff1446f8f5cdc598610b89fa788f58c201d"
+                "reference": "7288ccad079b381e11ad261d1a8374902a27e385"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/a7ad7ff1446f8f5cdc598610b89fa788f58c201d",
-                "reference": "a7ad7ff1446f8f5cdc598610b89fa788f58c201d",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/7288ccad079b381e11ad261d1a8374902a27e385",
+                "reference": "7288ccad079b381e11ad261d1a8374902a27e385",
                 "shasum": ""
             },
             "require": {
@@ -5907,7 +5907,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-05-16 19:08:35"
+            "time": "2016-05-19 19:43:45"
         },
         {
             "name": "oneup/uploader-bundle",
