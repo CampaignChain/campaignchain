@@ -418,12 +418,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-twitter.git",
-                "reference": "254db11c6202ffa025c41190b492f71105f18e6b"
+                "reference": "91ed35a4744a075941b5b67e969be369468fc31e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/254db11c6202ffa025c41190b492f71105f18e6b",
-                "reference": "254db11c6202ffa025c41190b492f71105f18e6b",
+                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/91ed35a4744a075941b5b67e969be369468fc31e",
+                "reference": "91ed35a4744a075941b5b67e969be369468fc31e",
                 "shasum": ""
             },
             "require": {
@@ -471,7 +471,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-05-16 12:21:11"
+            "time": "2016-05-21 20:08:54"
         },
         {
             "name": "campaignchain/activity-xing",
