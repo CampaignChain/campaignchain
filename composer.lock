@@ -418,12 +418,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-twitter.git",
-                "reference": "254db11c6202ffa025c41190b492f71105f18e6b"
+                "reference": "91ed35a4744a075941b5b67e969be369468fc31e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/254db11c6202ffa025c41190b492f71105f18e6b",
-                "reference": "254db11c6202ffa025c41190b492f71105f18e6b",
+                "url": "https://api.github.com/repos/CampaignChain/activity-twitter/zipball/91ed35a4744a075941b5b67e969be369468fc31e",
+                "reference": "91ed35a4744a075941b5b67e969be369468fc31e",
                 "shasum": ""
             },
             "require": {
@@ -471,7 +471,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-05-16 12:21:11"
+            "time": "2016-05-21 20:08:54"
         },
         {
             "name": "campaignchain/activity-xing",
@@ -1517,12 +1517,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-image.git",
-                "reference": "efa58faed499fd9743e8b95c43a396eedb0f1de0"
+                "reference": "d84f4f7413b744e9fc4c936ea2acbca41ee6bb88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/efa58faed499fd9743e8b95c43a396eedb0f1de0",
-                "reference": "efa58faed499fd9743e8b95c43a396eedb0f1de0",
+                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/d84f4f7413b744e9fc4c936ea2acbca41ee6bb88",
+                "reference": "d84f4f7413b744e9fc4c936ea2acbca41ee6bb88",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1557,7 +1557,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-05-21 18:07:06"
+            "time": "2016-05-21 21:41:36"
         },
         {
             "name": "campaignchain/hook-timespan",
