@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "9837c68641d510b0298188eec0107cc3d15068ff"
+                "reference": "ef496987a42508aaadd42da79963bf63676f50c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9837c68641d510b0298188eec0107cc3d15068ff",
-                "reference": "9837c68641d510b0298188eec0107cc3d15068ff",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ef496987a42508aaadd42da79963bf63676f50c6",
+                "reference": "ef496987a42508aaadd42da79963bf63676f50c6",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-21 18:00:55"
+            "time": "2016-06-01 17:23:07"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -5280,12 +5280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "8b68a6710392f82b007648c6aba4fdfd19b4bf9f"
+                "reference": "fc737a34ede1a0f8f9d1625fbbaa6c0474db19e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/8b68a6710392f82b007648c6aba4fdfd19b4bf9f",
-                "reference": "8b68a6710392f82b007648c6aba4fdfd19b4bf9f",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/fc737a34ede1a0f8f9d1625fbbaa6c0474db19e1",
+                "reference": "fc737a34ede1a0f8f9d1625fbbaa6c0474db19e1",
                 "shasum": ""
             },
             "require": {
@@ -5329,7 +5329,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2016-04-25 22:07:03"
+            "time": "2016-06-01 15:37:36"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -8058,16 +8058,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.0",
+            "version": "v1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8"
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
                 "shasum": ""
             },
             "require": {
@@ -8115,7 +8115,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-01-25 21:22:18"
+            "time": "2016-05-30 09:11:59"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
