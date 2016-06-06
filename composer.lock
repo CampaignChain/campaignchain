@@ -765,12 +765,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "08a558f6456d4539a2874bbd5c9dfa121019b419"
+                "reference": "5044bab06a493b4c23505fc4f277e07ac422bd03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/08a558f6456d4539a2874bbd5c9dfa121019b419",
-                "reference": "08a558f6456d4539a2874bbd5c9dfa121019b419",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/5044bab06a493b4c23505fc4f277e07ac422bd03",
+                "reference": "5044bab06a493b4c23505fc4f277e07ac422bd03",
                 "shasum": ""
             },
             "require": {
@@ -815,7 +815,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-05-08 22:47:56"
+            "time": "2016-06-03 18:36:01"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -3261,16 +3261,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9"
+                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/e9c2ccf573b59b7cea566390f34254fed3c20ed9",
-                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/fd51907c6c76acaa8a5234822a4f901c1500afc1",
+                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1",
                 "shasum": ""
             },
             "require": {
@@ -3287,13 +3287,14 @@
                 "phpunit/phpunit": "~4",
                 "satooshi/php-coveralls": "~0.6.1",
                 "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/property-info": "~2.8|~3.0",
                 "symfony/validator": "~2.2|~3.0",
                 "symfony/yaml": "~2.2|~3.0",
                 "twig/twig": "~1.10"
             },
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle.",
-                "symfony/web-profiler-bundle": "to use the data collector"
+                "symfony/web-profiler-bundle": "To use the data collector."
             },
             "type": "symfony-bundle",
             "extra": {
@@ -3336,7 +3337,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2016-01-10 17:21:44"
+            "time": "2016-04-21 19:55:56"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -5831,12 +5832,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "7288ccad079b381e11ad261d1a8374902a27e385"
+                "reference": "d0eaafadcbaa671953e554c3074c57384745386f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/7288ccad079b381e11ad261d1a8374902a27e385",
-                "reference": "7288ccad079b381e11ad261d1a8374902a27e385",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/d0eaafadcbaa671953e554c3074c57384745386f",
+                "reference": "d0eaafadcbaa671953e554c3074c57384745386f",
                 "shasum": ""
             },
             "require": {
@@ -5907,7 +5908,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-05-19 19:43:45"
+            "time": "2016-06-03 15:50:40"
         },
         {
             "name": "oneup/uploader-bundle",
