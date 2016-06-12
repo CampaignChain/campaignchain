@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "ae4a2df541dcd065a8c0ccf5de07e30ef7454044"
+                "reference": "ecd9e700a229ddd6d4f80ade09fcc5b25e42ef67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ae4a2df541dcd065a8c0ccf5de07e30ef7454044",
-                "reference": "ae4a2df541dcd065a8c0ccf5de07e30ef7454044",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ecd9e700a229ddd6d4f80ade09fcc5b25e42ef67",
+                "reference": "ecd9e700a229ddd6d4f80ade09fcc5b25e42ef67",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-06-12 16:24:56"
+            "time": "2016-06-12 18:23:50"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2751,12 +2751,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "edbe8340e3b6040ccfd3e23fb5d7596c9f1773ba"
+                "reference": "9358141ad6fd0564619ea3a12abf19397610d1e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/edbe8340e3b6040ccfd3e23fb5d7596c9f1773ba",
-                "reference": "edbe8340e3b6040ccfd3e23fb5d7596c9f1773ba",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/9358141ad6fd0564619ea3a12abf19397610d1e5",
+                "reference": "9358141ad6fd0564619ea3a12abf19397610d1e5",
                 "shasum": ""
             },
             "require": {
@@ -2801,7 +2801,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2016-04-22 04:56:48"
+            "time": "2016-06-12 18:20:57"
         },
         {
             "name": "cocur/slugify",
