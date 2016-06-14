@@ -240,12 +240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "af8fc07c8066acf6a40975330367baa29b9f7ed5"
+                "reference": "d7f82901132f42eb30ec99fd9479c750e7243149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/af8fc07c8066acf6a40975330367baa29b9f7ed5",
-                "reference": "af8fc07c8066acf6a40975330367baa29b9f7ed5",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/d7f82901132f42eb30ec99fd9479c750e7243149",
+                "reference": "d7f82901132f42eb30ec99fd9479c750e7243149",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-05-16 12:21:11"
+            "time": "2016-06-14 09:55:11"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -5832,12 +5832,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "a009e973827bde21ef44d13ce7a1827215818589"
+                "reference": "a3a9bb3b700f3ebaed95390292dad23f8141afa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/a009e973827bde21ef44d13ce7a1827215818589",
-                "reference": "a009e973827bde21ef44d13ce7a1827215818589",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/a3a9bb3b700f3ebaed95390292dad23f8141afa0",
+                "reference": "a3a9bb3b700f3ebaed95390292dad23f8141afa0",
                 "shasum": ""
             },
             "require": {
@@ -5879,7 +5879,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.12-dev"
+                    "dev-master": "2.13-dev"
                 }
             },
             "autoload": {
@@ -5908,7 +5908,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-06-10 11:30:55"
+            "time": "2016-06-13 09:12:09"
         },
         {
             "name": "oneup/uploader-bundle",
