@@ -240,12 +240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "af8fc07c8066acf6a40975330367baa29b9f7ed5"
+                "reference": "d7f82901132f42eb30ec99fd9479c750e7243149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/af8fc07c8066acf6a40975330367baa29b9f7ed5",
-                "reference": "af8fc07c8066acf6a40975330367baa29b9f7ed5",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/d7f82901132f42eb30ec99fd9479c750e7243149",
+                "reference": "d7f82901132f42eb30ec99fd9479c750e7243149",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-05-16 12:21:11"
+            "time": "2016-06-14 09:55:11"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -536,12 +536,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-repeating.git",
-                "reference": "b267679a32c3109a503e29610f0635853e261dfa"
+                "reference": "77cc2a6660a84e925d3deb4a6ae13d4d1256a254"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/b267679a32c3109a503e29610f0635853e261dfa",
-                "reference": "b267679a32c3109a503e29610f0635853e261dfa",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/77cc2a6660a84e925d3deb4a6ae13d4d1256a254",
+                "reference": "77cc2a6660a84e925d3deb4a6ae13d4d1256a254",
                 "shasum": ""
             },
             "require": {
@@ -585,7 +585,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-05-08 23:39:42"
+            "time": "2016-06-16 18:18:23"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -593,12 +593,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "236b2e84a26e5128b33f8677f47bb7dbdaa77152"
+                "reference": "0b64f2d6d999acdf9cc9e2e68884ffffca63cecc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/236b2e84a26e5128b33f8677f47bb7dbdaa77152",
-                "reference": "236b2e84a26e5128b33f8677f47bb7dbdaa77152",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/0b64f2d6d999acdf9cc9e2e68884ffffca63cecc",
+                "reference": "0b64f2d6d999acdf9cc9e2e68884ffffca63cecc",
                 "shasum": ""
             },
             "require": {
@@ -644,7 +644,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-05-08 22:44:44"
+            "time": "2016-06-16 18:18:22"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "ecd9e700a229ddd6d4f80ade09fcc5b25e42ef67"
+                "reference": "5430bd171f85b6afa68b7b0f2690f2f4049f30b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ecd9e700a229ddd6d4f80ade09fcc5b25e42ef67",
-                "reference": "ecd9e700a229ddd6d4f80ade09fcc5b25e42ef67",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/5430bd171f85b6afa68b7b0f2690f2f4049f30b9",
+                "reference": "5430bd171f85b6afa68b7b0f2690f2f4049f30b9",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-06-12 18:23:50"
+            "time": "2016-06-16 18:18:22"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1421,12 +1421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "afd38a6788183d4ba0a2f0b3fe8f9176adc3f565"
+                "reference": "da358524867fb05eba58369d2b4f1e59ed919eba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/afd38a6788183d4ba0a2f0b3fe8f9176adc3f565",
-                "reference": "afd38a6788183d4ba0a2f0b3fe8f9176adc3f565",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/da358524867fb05eba58369d2b4f1e59ed919eba",
+                "reference": "da358524867fb05eba58369d2b4f1e59ed919eba",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1461,7 +1461,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-05-16 19:31:51"
+            "time": "2016-06-16 20:36:48"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -5215,12 +5215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "9917b999a3c3d3901386d60c4888b07679291031"
+                "reference": "8ba1539b11030e615480b09a582decb33a68f091"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/9917b999a3c3d3901386d60c4888b07679291031",
-                "reference": "9917b999a3c3d3901386d60c4888b07679291031",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/8ba1539b11030e615480b09a582decb33a68f091",
+                "reference": "8ba1539b11030e615480b09a582decb33a68f091",
                 "shasum": ""
             },
             "require": {
@@ -5273,7 +5273,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2016-01-08 15:42:54"
+            "time": "2016-06-17 07:57:11"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -5832,12 +5832,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "a009e973827bde21ef44d13ce7a1827215818589"
+                "reference": "463dea9af6bc182a3958df5d62f4592c8724ce06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/a009e973827bde21ef44d13ce7a1827215818589",
-                "reference": "a009e973827bde21ef44d13ce7a1827215818589",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/463dea9af6bc182a3958df5d62f4592c8724ce06",
+                "reference": "463dea9af6bc182a3958df5d62f4592c8724ce06",
                 "shasum": ""
             },
             "require": {
@@ -5879,7 +5879,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.12-dev"
+                    "dev-master": "2.13-dev"
                 }
             },
             "autoload": {
@@ -5908,7 +5908,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-06-10 11:30:55"
+            "time": "2016-06-16 15:04:18"
         },
         {
             "name": "oneup/uploader-bundle",
@@ -6900,43 +6900,45 @@
         },
         {
             "name": "sonata-project/exporter",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/exporter.git",
-                "reference": "474be8b9dbb8ca1c378aa24e701df940a89ec124"
+                "reference": "157e2e67df0ee4f1a0074d22039dd482af0a1550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/474be8b9dbb8ca1c378aa24e701df940a89ec124",
-                "reference": "474be8b9dbb8ca1c378aa24e701df940a89ec124",
+                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/157e2e67df0ee4f1a0074d22039dd482af0a1550",
+                "reference": "157e2e67df0ee4f1a0074d22039dd482af0a1550",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^5.3 || ^7.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "~0.1|~1.0",
-                "propel/propel1": "~1.6",
-                "symfony/phpunit-bridge": "~2.7|~3.0",
-                "symfony/property-access": "~2.3|~3.0",
-                "symfony/routing": "~2.3|~3.0"
+                "doctrine/dbal": "^2.2",
+                "doctrine/orm": "^2.2",
+                "propel/propel1": "^1.6",
+                "sllh/php-cs-fixer-styleci-bridge": "^2.0",
+                "symfony/phpunit-bridge": "^2.7 || ^3.0",
+                "symfony/property-access": "^2.3 || ^3.0",
+                "symfony/routing": "^2.3 || ^3.0"
             },
             "suggest": {
                 "ext-curl": "*",
-                "propel/propel1": "~1.6",
-                "symfony/property-access": "~2.3|~3.0",
-                "symfony/routing": "~2.3|~3.0"
+                "propel/propel1": "^1.6",
+                "symfony/property-access": "^2.3 || ^3.0",
+                "symfony/routing": "^2.3 || ^3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Exporter": "lib/"
+                "psr-4": {
+                    "Exporter\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6959,7 +6961,7 @@
                 "export",
                 "xls"
             ],
-            "time": "2015-11-25 09:33:45"
+            "time": "2016-06-16 10:27:09"
         },
         {
             "name": "sp/bower-bundle",
@@ -8445,12 +8447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "e28395b3544135877d50f64d7e328c3576646e7d"
+                "reference": "5a91d06442962bda9f1a3e6d7ddbac90fb0f616e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/e28395b3544135877d50f64d7e328c3576646e7d",
-                "reference": "e28395b3544135877d50f64d7e328c3576646e7d",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/5a91d06442962bda9f1a3e6d7ddbac90fb0f616e",
+                "reference": "5a91d06442962bda9f1a3e6d7ddbac90fb0f616e",
                 "shasum": ""
             },
             "require": {
@@ -8480,7 +8482,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-04-08 04:18:57"
+            "time": "2016-06-16 18:18:22"
         },
         {
             "name": "campaignchain/location-ezplatform",
