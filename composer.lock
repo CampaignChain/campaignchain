@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "de625cfc9496a62b8b90ed0bc013a73aaf304ba5"
+                "reference": "19e0a595d953c7292e935b7ff503ff29e43e8d0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/de625cfc9496a62b8b90ed0bc013a73aaf304ba5",
-                "reference": "de625cfc9496a62b8b90ed0bc013a73aaf304ba5",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/19e0a595d953c7292e935b7ff503ff29e43e8d0d",
+                "reference": "19e0a595d953c7292e935b7ff503ff29e43e8d0d",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-06-19 17:31:47"
+            "time": "2016-06-19 22:39:09"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1469,12 +1469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-duration.git",
-                "reference": "5e24cff880348e387646643b65aaebb871adb3e9"
+                "reference": "51d721a0c6f4972cdb806431c992591062b301a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/5e24cff880348e387646643b65aaebb871adb3e9",
-                "reference": "5e24cff880348e387646643b65aaebb871adb3e9",
+                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/51d721a0c6f4972cdb806431c992591062b301a8",
+                "reference": "51d721a0c6f4972cdb806431c992591062b301a8",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1509,7 +1509,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-06-17 22:52:30"
+            "time": "2016-06-19 18:08:25"
         },
         {
             "name": "campaignchain/hook-image",
@@ -2204,12 +2204,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-gotowebinar.git",
-                "reference": "2e854731a15bc7ea3caaf9da2388306bcd367ab9"
+                "reference": "304f1418ce315d8cc2fafed000a30d5b6d9e947f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/2e854731a15bc7ea3caaf9da2388306bcd367ab9",
-                "reference": "2e854731a15bc7ea3caaf9da2388306bcd367ab9",
+                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/304f1418ce315d8cc2fafed000a30d5b6d9e947f",
+                "reference": "304f1418ce315d8cc2fafed000a30d5b6d9e947f",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -2248,7 +2248,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2016-01-15 14:46:43"
+            "time": "2016-06-19 22:37:02"
         },
         {
             "name": "campaignchain/operation-linkedin",
@@ -2576,12 +2576,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "15c75e18227657f3a0f517c651664d89b7ff5508"
+                "reference": "cf23a2faa0c1007b434aefdd09887cf495ae33f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/15c75e18227657f3a0f517c651664d89b7ff5508",
-                "reference": "15c75e18227657f3a0f517c651664d89b7ff5508",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/cf23a2faa0c1007b434aefdd09887cf495ae33f5",
+                "reference": "cf23a2faa0c1007b434aefdd09887cf495ae33f5",
                 "shasum": ""
             },
             "require": {
@@ -2624,7 +2624,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-05-08 22:50:48"
+            "time": "2016-06-19 22:37:02"
         },
         {
             "name": "campaignchain/report-google-analytics",
