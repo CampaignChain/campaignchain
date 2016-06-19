@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "19e0a595d953c7292e935b7ff503ff29e43e8d0d"
+                "reference": "b53da08e0532c0882b307ea51bdaf77e0b40ea4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/19e0a595d953c7292e935b7ff503ff29e43e8d0d",
-                "reference": "19e0a595d953c7292e935b7ff503ff29e43e8d0d",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b53da08e0532c0882b307ea51bdaf77e0b40ea4b",
+                "reference": "b53da08e0532c0882b307ea51bdaf77e0b40ea4b",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-06-19 22:39:09"
+            "time": "2016-06-19 22:58:39"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -8447,12 +8447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "5a91d06442962bda9f1a3e6d7ddbac90fb0f616e"
+                "reference": "dccfcb54a99a2225019601fda8208d69aa9291dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/5a91d06442962bda9f1a3e6d7ddbac90fb0f616e",
-                "reference": "5a91d06442962bda9f1a3e6d7ddbac90fb0f616e",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/dccfcb54a99a2225019601fda8208d69aa9291dc",
+                "reference": "dccfcb54a99a2225019601fda8208d69aa9291dc",
                 "shasum": ""
             },
             "require": {
@@ -8482,7 +8482,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-06-16 18:18:22"
+            "time": "2016-06-19 22:58:39"
         },
         {
             "name": "campaignchain/location-ezplatform",
