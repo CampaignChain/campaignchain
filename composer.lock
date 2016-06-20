@@ -8447,12 +8447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "dccfcb54a99a2225019601fda8208d69aa9291dc"
+                "reference": "fc1c3b4172237d87263bd4961b56287675a1c13d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/dccfcb54a99a2225019601fda8208d69aa9291dc",
-                "reference": "dccfcb54a99a2225019601fda8208d69aa9291dc",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/fc1c3b4172237d87263bd4961b56287675a1c13d",
+                "reference": "fc1c3b4172237d87263bd4961b56287675a1c13d",
                 "shasum": ""
             },
             "require": {
@@ -8482,7 +8482,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-06-19 22:58:39"
+            "time": "2016-06-20 01:46:05"
         },
         {
             "name": "campaignchain/location-ezplatform",
