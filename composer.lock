@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "b53da08e0532c0882b307ea51bdaf77e0b40ea4b"
+                "reference": "b45cbe4dd04604b4cd3f5aaa64dd51c1f29a4aac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b53da08e0532c0882b307ea51bdaf77e0b40ea4b",
-                "reference": "b53da08e0532c0882b307ea51bdaf77e0b40ea4b",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b45cbe4dd04604b4cd3f5aaa64dd51c1f29a4aac",
+                "reference": "b45cbe4dd04604b4cd3f5aaa64dd51c1f29a4aac",
                 "shasum": ""
             },
             "require": {
@@ -1317,7 +1317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-06-19 22:58:39"
+            "time": "2016-06-20 18:37:16"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -5912,17 +5912,17 @@
         },
         {
             "name": "oneup/uploader-bundle",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "target-dir": "Oneup/UploaderBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1up-lab/OneupUploaderBundle.git",
-                "reference": "70fdfdbdf72642d382ce62d966d2079cc3a39061"
+                "reference": "eb609baf31012cf67fb776953bdee2bd484e58eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1up-lab/OneupUploaderBundle/zipball/70fdfdbdf72642d382ce62d966d2079cc3a39061",
-                "reference": "70fdfdbdf72642d382ce62d966d2079cc3a39061",
+                "url": "https://api.github.com/repos/1up-lab/OneupUploaderBundle/zipball/eb609baf31012cf67fb776953bdee2bd484e58eb",
+                "reference": "eb609baf31012cf67fb776953bdee2bd484e58eb",
                 "shasum": ""
             },
             "require": {
@@ -5977,7 +5977,7 @@
                 "plupload",
                 "upload"
             ],
-            "time": "2016-05-04 09:09:49"
+            "time": "2016-06-20 07:58:42"
         },
         {
             "name": "oyejorge/less.php",
