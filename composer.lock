@@ -1421,12 +1421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "77b7a891cd0f8061fa68a9e6ee3cf14d41d567c1"
+                "reference": "e8b2fbac8316f249159a2924fac40065dab5e8b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/77b7a891cd0f8061fa68a9e6ee3cf14d41d567c1",
-                "reference": "77b7a891cd0f8061fa68a9e6ee3cf14d41d567c1",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/e8b2fbac8316f249159a2924fac40065dab5e8b7",
+                "reference": "e8b2fbac8316f249159a2924fac40065dab5e8b7",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1461,7 +1461,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-06-17 22:52:30"
+            "time": "2016-06-29 03:43:41"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -2307,12 +2307,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-mailchimp.git",
-                "reference": "3717d245264a895b976e74a76f047297acdbe651"
+                "reference": "1ffb634166bf502c92a324470cc785b751f2ea05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/3717d245264a895b976e74a76f047297acdbe651",
-                "reference": "3717d245264a895b976e74a76f047297acdbe651",
+                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/1ffb634166bf502c92a324470cc785b751f2ea05",
+                "reference": "1ffb634166bf502c92a324470cc785b751f2ea05",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -2352,7 +2352,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-06-21 13:11:04"
+            "time": "2016-06-28 02:35:18"
         },
         {
             "name": "campaignchain/operation-slideshare",
@@ -5215,12 +5215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "8ba1539b11030e615480b09a582decb33a68f091"
+                "reference": "a6fc4b0e8951124eb4abb652f23b576d6c8fb403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/8ba1539b11030e615480b09a582decb33a68f091",
-                "reference": "8ba1539b11030e615480b09a582decb33a68f091",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/a6fc4b0e8951124eb4abb652f23b576d6c8fb403",
+                "reference": "a6fc4b0e8951124eb4abb652f23b576d6c8fb403",
                 "shasum": ""
             },
             "require": {
@@ -5273,7 +5273,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2016-06-17 07:57:11"
+            "time": "2016-06-24 14:57:19"
         },
         {
             "name": "knplabs/knp-menu-bundle",
