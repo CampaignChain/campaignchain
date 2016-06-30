@@ -34,5 +34,5 @@ foreach ($relationships['database'] as $endpoint) {
     $container->setParameter('database_path', '');
 }
 
-# Store session into /tmp.
-ini_set('session.save_path', '/tmp/sessions');
+# Store session on file system.
+ini_set('session.save_path', __DIR__.'/../app/sessions' );
