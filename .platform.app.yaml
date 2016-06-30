@@ -33,6 +33,7 @@ mounts:
     "/app/cache": "shared:files/cache"
     "/app/logs": "shared:files/logs"
     "/app/sessions": "shared:files/sessions"
+    "/app/config": "shared:files/config"
 
 # The hooks that will be performed when the package is deployed.
 hooks:
@@ -40,3 +41,8 @@ hooks:
       rm web/app_dev.php
     deploy: |
       app/console --env=prod cache:clear
+# The processes that are triggered on a schedule.
+crons:
+    campaignchain:
+        spec: "*/1 * * * *"
+        cmd: "cd web && php app/console campaignchain:scheduler --env=prod 1>/dev/null 2>/dev/null"
