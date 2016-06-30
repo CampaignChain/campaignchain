@@ -45,8 +45,6 @@ mounts:
 # The hooks that will be performed when the package is deployed.
 hooks:
     build: |
-      echo 'imports:' >> app/config/parameters.yml.dist
-      echo '    - { resource: parameters_platformsh.php }' >> app/config/parameters.yml.dist
       rm web/app_dev.php
       app/console --env=prod assetic:dump --no-debug
     deploy: |
