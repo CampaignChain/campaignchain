@@ -1,8 +1,15 @@
+# This file is part of the CampaignChain package.
+#
+# (c) CampaignChain, Inc. <info@campaignchain.com>
+#
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this source code.
+
 # This file describes an application. You can have multiple applications
 # in the same project.
 
 # The name of this app. Must be unique within a project.
-name: myphpproject
+name: campaignchain
 
 # The type of the application to build.
 type: php:7.0
@@ -38,7 +45,10 @@ mounts:
 # The hooks that will be performed when the package is deployed.
 hooks:
     build: |
+      echo 'imports:' >> app/config/parameters.yml
+      echo '    - { resource: parameters_platformsh.php }' >> app/config/parameters.yml
       rm web/app_dev.php
+      app/console --env=prod assetic:dump --no-debug
     deploy: |
       app/console --env=prod cache:clear
 # The processes that are triggered on a schedule.
