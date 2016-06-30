@@ -14,6 +14,7 @@
  */
 
 $relationships = getenv("PLATFORM_RELATIONSHIPS");
+print_r($relationships);
 if (!$relationships) {
     return;
 }
