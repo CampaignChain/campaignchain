@@ -41,14 +41,15 @@ mounts:
     "/app/logs": "shared:files/logs"
     "/app/sessions": "shared:files/sessions"
     "/app/config": "shared:files/config"
+    "/web": "shared:files/web"
 
 # The hooks that will be performed when the package is deployed.
 hooks:
     build: |
       rm web/app_dev.php
-#      app/console h4cc_alice_fixtures:load:files --manager=default --type=yaml --seed=42 --drop vendor/amariki/data-test/Resources/data/campaignchain/data.yml
     deploy: |
       app/console --env=prod cache:clear
+#      app/console h4cc_alice_fixtures:load:files --manager=default --type=yaml --seed=42 --drop vendor/amariki/data-test/Resources/data/campaignchain/data.yml
 # The processes that are triggered on a schedule.
 crons:
     campaignchain:
