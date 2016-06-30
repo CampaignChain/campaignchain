@@ -46,7 +46,6 @@ mounts:
 hooks:
     build: |
       rm web/app_dev.php
-      app/console --env=prod assetic:dump --no-debug
 #      app/console h4cc_alice_fixtures:load:files --manager=default --type=yaml --seed=42 --drop vendor/amariki/data-test/Resources/data/campaignchain/data.yml
     deploy: |
       app/console --env=prod cache:clear
