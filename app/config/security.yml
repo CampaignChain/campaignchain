@@ -1,2 +1,2 @@
 imports:
-    - { resource: campaignchain/security.yml }
+    - { resource: ../campaignchain/config/security.yml }

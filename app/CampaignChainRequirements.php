@@ -23,11 +23,18 @@ class CampaignChainRequirements extends SymfonyRequirements
             'Please enable the PHP function <strong>system()</strong>.'
         );
 
-        // /app must be writable.
+        $this->addRecommendation(
+            class_exists('IntlDateFormatter '),
+            'Internationalization Functions should be installed',
+            'Install and enable the <strong>PHP-INTL</strong> module: http://php.net/manual/en/intl.setup.php.'
+        );
+
+        // /app/campaignchain must be writable.
+        $campaignchainAppDir = __DIR__.DIRECTORY_SEPARATOR.'campaignchain';
         $this->addRequirement(
-            is_writable(__DIR__),
-            realpath(__DIR__).' must be writable',
-            'Change the permissions of "'.realpath(__DIR__).'" directory so that the web server can write into it.'
+            is_writable($campaignchainAppDir),
+            realpath($campaignchainAppDir).' must be writable',
+            'Change the permissions of "'.realpath($campaignchainAppDir).'" directory so that the web server can write into it.'
         );
 
         // /composer.json must be writable
@@ -36,6 +43,14 @@ class CampaignChainRequirements extends SymfonyRequirements
             is_writable($composerJson),
             realpath($composerJson).' must be writable',
             'Change the permissions of "'.realpath($composerJson).'" file so that the web server can write into it.'
+        );
+
+        // /app/sessions must be writable.
+        $campaignchainSessionsDir = __DIR__.DIRECTORY_SEPARATOR.'sessions';
+        $this->addRequirement(
+            is_writable($campaignchainSessionsDir),
+            realpath($campaignchainSessionsDir).' must be writable',
+            'Change the permissions of "'.realpath($campaignchainSessionsDir).'" directory so that the web server can write into it.'
         );
     }
 }
