@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "9d0b8ae854839c4fd13ba68f58a456a25b23fea9"
+                "reference": "fc9cd1b4303405e0f9da8c56e53aedc6bf908c84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9d0b8ae854839c4fd13ba68f58a456a25b23fea9",
-                "reference": "9d0b8ae854839c4fd13ba68f58a456a25b23fea9",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fc9cd1b4303405e0f9da8c56e53aedc6bf908c84",
+                "reference": "fc9cd1b4303405e0f9da8c56e53aedc6bf908c84",
                 "shasum": ""
             },
             "require": {
@@ -1233,6 +1233,7 @@
                 "components/jquery": "1.11.*",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
+                "ext-intl": "*",
                 "friendsofsymfony/jsrouting-bundle": "dev-master",
                 "friendsofsymfony/rest-bundle": "dev-master",
                 "friendsofsymfony/user-bundle": "~2.0@dev",
@@ -1317,7 +1318,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-06-29 22:46:45"
+            "time": "2016-06-30 22:57:11"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -4253,6 +4254,7 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2015-03-18 18:23:50"
         },
         {
@@ -5215,12 +5217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "a6fc4b0e8951124eb4abb652f23b576d6c8fb403"
+                "reference": "e849f8480dba566b8c0189d3ad963afce7a64ee9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/a6fc4b0e8951124eb4abb652f23b576d6c8fb403",
-                "reference": "a6fc4b0e8951124eb4abb652f23b576d6c8fb403",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/e849f8480dba566b8c0189d3ad963afce7a64ee9",
+                "reference": "e849f8480dba566b8c0189d3ad963afce7a64ee9",
                 "shasum": ""
             },
             "require": {
@@ -5273,7 +5275,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2016-06-24 14:57:19"
+            "time": "2016-07-01 13:28:15"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -7824,16 +7826,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.7",
+            "version": "v2.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "663b2d6202c3149515b39cfe50a174a130acb8e2"
+                "reference": "038d13264f732f9bba850c423e374dc72874d1a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/663b2d6202c3149515b39cfe50a174a130acb8e2",
-                "reference": "663b2d6202c3149515b39cfe50a174a130acb8e2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/038d13264f732f9bba850c423e374dc72874d1a6",
+                "reference": "038d13264f732f9bba850c423e374dc72874d1a6",
                 "shasum": ""
             },
             "require": {
@@ -7907,7 +7909,7 @@
                 "doctrine/dbal": "~2.4",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "~2.4,>=2.4.5",
-                "egulias/email-validator": "~1.2",
+                "egulias/email-validator": "~1.2,>=1.2.1",
                 "monolog/monolog": "~1.11",
                 "ocramius/proxy-manager": "~0.4|~1.0|~2.0",
                 "phpdocumentor/reflection": "^1.0.7"
@@ -7954,7 +7956,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-06-06 16:05:37"
+            "time": "2016-06-30 15:42:24"
         },
         {
             "name": "twbs/bootstrap",
