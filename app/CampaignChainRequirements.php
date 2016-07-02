@@ -39,10 +39,10 @@ class CampaignChainRequirements extends SymfonyRequirements
 
         // /composer.json must be writable
         $composerJson = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'composer.json';
-        $this->addRequirement(
+        $this->addRecommendation(
             is_writable($composerJson),
-            realpath($composerJson).' must be writable',
-            'Change the permissions of "'.realpath($composerJson).'" file so that the web server can write into it.'
+            realpath($composerJson).' should be writable',
+            'Change the permissions of "'.realpath($composerJson).'" file if you would like to have the built-in modules dashboard work for users.'
         );
 
         // /app/sessions must be writable.
