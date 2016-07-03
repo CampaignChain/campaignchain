@@ -8,7 +8,7 @@ It is a highly modular system that enables you to integrate various online
 channels, marketing tools and devices to plan, execute and monitor marketing
 campaigns.
 
-CampaignChain is based on [Symfony](), a PHP framework.
+CampaignChain is based on [Symfony](http://symfony.com), a PHP framework.
 
 ## Installation
 
@@ -94,7 +94,7 @@ every minute:
 On Windows, you could use the task scheduler or AT command to achieve the same:
 http://technet.microsoft.com/en-us/library/bb726974.aspx
 
-### Write Permissions for PHP
+### Write Permissions
 
 Please ensure that the following directories are writable by PHP, relative to
 the CampaignChain root:
@@ -107,7 +107,7 @@ the CampaignChain root:
 * web/bundles
 
 If you'd like to use the built-in modules manager, then you should also make
-the `composer.json`file in the root directory writable by PHP.
+the `composer.json` file in the root directory writable by PHP.
 
 ### Start Server
 
