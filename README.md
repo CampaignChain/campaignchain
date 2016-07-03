@@ -1,9 +1,18 @@
 # CampaignChain
 
-The CampaignChain Community Edition has all basic modules included and you can
-easily add more of them inside the application.
+## Introduction
 
-## Requirements
+CampaignChain is an open-source platform for marketing integration.
+
+It is a highly modular system that enables you to integrate various online
+channels, marketing tools and devices to plan, execute and monitor marketing
+campaigns.
+
+CampaignChain is based on [Symfony](), a PHP framework.
+
+## Installation
+
+### Requirements
 
 Before you install CampaignChain, make sure you have the following software
 installed on the server:
@@ -14,19 +23,19 @@ installed on the server:
 * MySQL 5.5 or better
 * Java 1.5 or better
 
-## Set up Database
+### Set up Database
 
 Launch your MySQL client of choice and create a new MySQL database for the
 application.
 
-## Install Composer
+### Install Composer
 
 CampaignChain utilizes https://getcomposer.org/download/ for its package and
 modules management. Install it with this command:
 
     $ curl -sS https://getcomposer.org/installer | php
 
-## Install Bower
+### Install Bower
 
 For JavaScript components, CampaignChain makes use of Bower, which - you guessed
 it - is a package manager for JavaScript code.
@@ -38,7 +47,7 @@ Now install Bower through npm:
 
     $ npm install -g bower
 
-## Install Base System
+### Install Base System
 
 In a folder of your choice, execute Composer to download all files of the
 CampaignChain base system. Please note that this might take a while.
@@ -49,7 +58,7 @@ https://github.com/CampaignChain/campaignchain-ce/releases
 
     $ composer create-project --stability=dev campaignchain/campaignchain-ce campaignchain [version]
 
-## Configure Base System
+### Configure Base System
 
 During the process, Composer will ask in the command line to provide some
 configuration parameters. Please make sure you check/provide at least the
@@ -63,7 +72,7 @@ following (default values in brackets):
     database_password (null):
     java_path (/usr/bin/java):
 
-## Clear Cache and Dump Assets
+### Clear Cache and Dump Assets
 
 Once Composer is done, execute the following commands, still inside the
 CampaignChain root folder:
@@ -72,7 +81,7 @@ CampaignChain root folder:
 
     $ php app/console assetic:dump --env=prod --no-debug
 
-## Configure CampaignChain Scheduler
+### Configure CampaignChain Scheduler
 
 The CampaignChain scheduler is a PHP script that executes scheduled Operations.
 
@@ -85,7 +94,7 @@ every minute:
 On Windows, you could use the task scheduler or AT command to achieve the same:
 http://technet.microsoft.com/en-us/library/bb726974.aspx
 
-## Write Permissions for PHP
+### Write Permissions for PHP
 
 Please ensure that the following directories are writable by PHP, relative to
 the CampaignChain root:
@@ -100,7 +109,7 @@ the CampaignChain root:
 If you'd like to use the built-in modules manager, then you should also make
 the `composer.json`file in the root directory writable by PHP.
 
-## Start Server
+### Start Server
 
 Use PHP's built-in Web server to run CampaignChain.
 
@@ -113,22 +122,29 @@ runs the Web server on port 80 of IP address 192.168.1.1:
 
     $ php app/console server:start 192.168.1.1:80
     
-## Installation Wizard
+### Installation Wizard
 
 Hop over to http://localhost:8000/campaignchain/install.php and follow the
 instructions.
 
-## Sample Data
+### Sample Data
 
 If you'd like to load sample data to play with CampaignChain, read
 http://docs.campaignchain.com/en/master/developer/book/sample_data.html to
 learn how to get it.
 
-## Success!
+### Success!
 
 CampaignChain is now installed, configured and ready for use!
 
-To make full use of CampaignChain’s capabilities, you could now
+## Usage
+
+To make full use of CampaignChain’s end user capabilities, you could now
 
 1. [Configure Call to Action (CTA) tracking](http://docs.campaignchain.com/en/master/administrator/configuration/cta.html)
 2. [Learn how to create your first campaign and activity](http://docs.campaignchain.com/en/master/user/get_started.html)
+
+## Customization
+
+* [Learn how to integrate additional online channels](http://doc.campaignchain.com/en/master/developer/cookbook/connect_a_new_online_channel.html)
+
