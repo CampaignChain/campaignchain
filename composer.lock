@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "90495c67ce6535668222c5a360f38ef833ba80b1"
+                "reference": "7455783ec836f63d72939ec1be7d52aaa07d4704"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/90495c67ce6535668222c5a360f38ef833ba80b1",
-                "reference": "90495c67ce6535668222c5a360f38ef833ba80b1",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7455783ec836f63d72939ec1be7d52aaa07d4704",
+                "reference": "7455783ec836f63d72939ec1be7d52aaa07d4704",
                 "shasum": ""
             },
             "require": {
@@ -1318,7 +1318,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-02 00:00:19"
+            "time": "2016-07-02 02:33:43"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1422,12 +1422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "e8b2fbac8316f249159a2924fac40065dab5e8b7"
+                "reference": "1b9174e84510ab477c9640a72118cd79a62147e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/e8b2fbac8316f249159a2924fac40065dab5e8b7",
-                "reference": "e8b2fbac8316f249159a2924fac40065dab5e8b7",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/1b9174e84510ab477c9640a72118cd79a62147e0",
+                "reference": "1b9174e84510ab477c9640a72118cd79a62147e0",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1462,7 +1462,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-06-29 03:43:41"
+            "time": "2016-07-02 02:33:04"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -2524,12 +2524,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
-                "reference": "65b5f2bcdcb23a70b429febda411e8172e9628db"
+                "reference": "55c7c3b9379e926b705b6576155db36ea3252681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/65b5f2bcdcb23a70b429febda411e8172e9628db",
-                "reference": "65b5f2bcdcb23a70b429febda411e8172e9628db",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/55c7c3b9379e926b705b6576155db36ea3252681",
+                "reference": "55c7c3b9379e926b705b6576155db36ea3252681",
                 "shasum": ""
             },
             "type": "campaignchain-report-analytics",
@@ -2569,7 +2569,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-05-08 22:39:03"
+            "time": "2016-07-02 02:26:51"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
