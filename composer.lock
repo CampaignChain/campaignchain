@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "7455783ec836f63d72939ec1be7d52aaa07d4704"
+                "reference": "f9348b8f042121a2d94c7462b9875540065f14c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7455783ec836f63d72939ec1be7d52aaa07d4704",
-                "reference": "7455783ec836f63d72939ec1be7d52aaa07d4704",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f9348b8f042121a2d94c7462b9875540065f14c6",
+                "reference": "f9348b8f042121a2d94c7462b9875540065f14c6",
                 "shasum": ""
             },
             "require": {
@@ -1318,7 +1318,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-02 02:33:43"
+            "time": "2016-07-03 23:20:43"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1422,12 +1422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "1b9174e84510ab477c9640a72118cd79a62147e0"
+                "reference": "2864a35b3a09952d8f86b54320b32b6a8f758d49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/1b9174e84510ab477c9640a72118cd79a62147e0",
-                "reference": "1b9174e84510ab477c9640a72118cd79a62147e0",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/2864a35b3a09952d8f86b54320b32b6a8f758d49",
+                "reference": "2864a35b3a09952d8f86b54320b32b6a8f758d49",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1462,7 +1462,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-07-02 02:33:04"
+            "time": "2016-07-03 23:20:43"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -5645,16 +5645,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.19.0",
+            "version": "1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf"
+                "reference": "55841909e2bcde01b5318c35f2b74f8ecc86e037"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5f56ed5212dc509c8dc8caeba2715732abb32dbf",
-                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/55841909e2bcde01b5318c35f2b74f8ecc86e037",
+                "reference": "55841909e2bcde01b5318c35f2b74f8ecc86e037",
                 "shasum": ""
             },
             "require": {
@@ -5673,8 +5673,8 @@
                 "php-console/php-console": "^3.1.3",
                 "phpunit/phpunit": "~4.5",
                 "phpunit/phpunit-mock-objects": "2.3.0",
-                "raven/raven": "^0.13",
                 "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
                 "swiftmailer/swiftmailer": "~5.3"
             },
             "suggest": {
@@ -5686,9 +5686,9 @@
                 "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
                 "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
-                "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
             "type": "library",
             "extra": {
@@ -5719,7 +5719,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-04-12 18:29:35"
+            "time": "2016-07-02 14:02:10"
         },
         {
             "name": "mremi/url-shortener",
