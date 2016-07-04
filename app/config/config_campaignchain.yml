@@ -67,3 +67,7 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# SpBower Configuration
+sp_bower:
+    keep_bowerrc: false # Optional
