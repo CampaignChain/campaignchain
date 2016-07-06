@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "7c7cedfb65fb9f1e0a322ee6fe7b7128b1ac04d9"
+                "reference": "c686827423a917b55b93199324ec7c4ccf846eaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7c7cedfb65fb9f1e0a322ee6fe7b7128b1ac04d9",
-                "reference": "7c7cedfb65fb9f1e0a322ee6fe7b7128b1ac04d9",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c686827423a917b55b93199324ec7c4ccf846eaf",
+                "reference": "c686827423a917b55b93199324ec7c4ccf846eaf",
                 "shasum": ""
             },
             "require": {
@@ -1318,7 +1318,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-04 04:08:53"
+            "time": "2016-07-06 22:20:52"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1422,12 +1422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "2864a35b3a09952d8f86b54320b32b6a8f758d49"
+                "reference": "56cd9191db05950ad1aa52a5f12bea2cffe34629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/2864a35b3a09952d8f86b54320b32b6a8f758d49",
-                "reference": "2864a35b3a09952d8f86b54320b32b6a8f758d49",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/56cd9191db05950ad1aa52a5f12bea2cffe34629",
+                "reference": "56cd9191db05950ad1aa52a5f12bea2cffe34629",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1462,7 +1462,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-07-03 23:20:43"
+            "time": "2016-07-06 22:13:46"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -3919,12 +3919,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "c1b87d933dfc9b59fc603f8e44f8064e4530a2b1"
+                "reference": "e34a26ce039ad0938bc5469347a01d74a48d3c19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/c1b87d933dfc9b59fc603f8e44f8064e4530a2b1",
-                "reference": "c1b87d933dfc9b59fc603f8e44f8064e4530a2b1",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/e34a26ce039ad0938bc5469347a01d74a48d3c19",
+                "reference": "e34a26ce039ad0938bc5469347a01d74a48d3c19",
                 "shasum": ""
             },
             "require": {
@@ -3999,7 +3999,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-06-19 14:22:34"
+            "time": "2016-07-06 16:23:57"
         },
         {
             "name": "friendsofsymfony/user-bundle",
