@@ -26,5 +26,4 @@ parameters:
     router.request_context.host: localhost
     router.request_context.scheme: http
 
-    campaignchain.bower.asset_dir: %kernel.root_dir%/../components/bower
     campaignchain.bower.cache_dir: %kernel.root_dir%/../app/cache/bower
