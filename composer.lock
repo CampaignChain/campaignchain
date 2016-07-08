@@ -765,12 +765,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "5044bab06a493b4c23505fc4f277e07ac422bd03"
+                "reference": "671eddd48eb5b7f514e422fc0f1dc321d01c3cbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/5044bab06a493b4c23505fc4f277e07ac422bd03",
-                "reference": "5044bab06a493b4c23505fc4f277e07ac422bd03",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/671eddd48eb5b7f514e422fc0f1dc321d01c3cbf",
+                "reference": "671eddd48eb5b7f514e422fc0f1dc321d01c3cbf",
                 "shasum": ""
             },
             "require": {
@@ -815,7 +815,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-06-03 18:36:01"
+            "time": "2016-07-07 22:55:58"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -823,12 +823,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-google-analytics.git",
-                "reference": "380a8b48ad2e200d445fb68b90fb368d84531f8f"
+                "reference": "e53245211cf1a2d69659d210db1db7e88a10c1dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/380a8b48ad2e200d445fb68b90fb368d84531f8f",
-                "reference": "380a8b48ad2e200d445fb68b90fb368d84531f8f",
+                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/e53245211cf1a2d69659d210db1db7e88a10c1dd",
+                "reference": "e53245211cf1a2d69659d210db1db7e88a10c1dd",
                 "shasum": ""
             },
             "require": {
@@ -874,7 +874,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2015-12-02 11:08:39"
+            "time": "2016-07-07 23:09:40"
         },
         {
             "name": "campaignchain/channel-linkedin",
@@ -1049,12 +1049,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "728d33bfc86423d76c66b659a99db5d8718ff3dc"
+                "reference": "a4b475839d6cdf95a5b430c45390628c23eba86b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/728d33bfc86423d76c66b659a99db5d8718ff3dc",
-                "reference": "728d33bfc86423d76c66b659a99db5d8718ff3dc",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/a4b475839d6cdf95a5b430c45390628c23eba86b",
+                "reference": "a4b475839d6cdf95a5b430c45390628c23eba86b",
                 "shasum": ""
             },
             "require": {
@@ -1099,7 +1099,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-05-08 22:49:38"
+            "time": "2016-07-07 22:54:46"
         },
         {
             "name": "campaignchain/channel-website",
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "9a197906164f55755c02a467b43bb1f64a859ce7"
+                "reference": "70b602972ca3ff42f6ab967cc8d6497a6569201a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9a197906164f55755c02a467b43bb1f64a859ce7",
-                "reference": "9a197906164f55755c02a467b43bb1f64a859ce7",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/70b602972ca3ff42f6ab967cc8d6497a6569201a",
+                "reference": "70b602972ca3ff42f6ab967cc8d6497a6569201a",
                 "shasum": ""
             },
             "require": {
@@ -1318,7 +1318,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-06 23:10:10"
+            "time": "2016-07-08 01:02:40"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1720,12 +1720,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-google-analytics.git",
-                "reference": "20d34643f36714c1866be6713fa36437c9b7c9d1"
+                "reference": "e04b70c3348bd2f3fd6385939d77ebae6a2ee553"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-google-analytics/zipball/20d34643f36714c1866be6713fa36437c9b7c9d1",
-                "reference": "20d34643f36714c1866be6713fa36437c9b7c9d1",
+                "url": "https://api.github.com/repos/CampaignChain/location-google-analytics/zipball/e04b70c3348bd2f3fd6385939d77ebae6a2ee553",
+                "reference": "e04b70c3348bd2f3fd6385939d77ebae6a2ee553",
                 "shasum": ""
             },
             "require": {
@@ -1769,7 +1769,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2016-06-21 13:08:35"
+            "time": "2016-07-07 23:08:56"
         },
         {
             "name": "campaignchain/location-linkedin",
@@ -2577,12 +2577,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "cf23a2faa0c1007b434aefdd09887cf495ae33f5"
+                "reference": "9a824990f3abc7158298be978c1bca7135055adf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/cf23a2faa0c1007b434aefdd09887cf495ae33f5",
-                "reference": "cf23a2faa0c1007b434aefdd09887cf495ae33f5",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/9a824990f3abc7158298be978c1bca7135055adf",
+                "reference": "9a824990f3abc7158298be978c1bca7135055adf",
                 "shasum": ""
             },
             "require": {
@@ -2625,7 +2625,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-06-19 22:37:02"
+            "time": "2016-07-07 22:58:20"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -2633,12 +2633,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-google-analytics.git",
-                "reference": "35917531ab854d6a438595b662c1c47237387983"
+                "reference": "cbaac71d6624f6238bd7d863d96852554bb1e5cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/35917531ab854d6a438595b662c1c47237387983",
-                "reference": "35917531ab854d6a438595b662c1c47237387983",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/cbaac71d6624f6238bd7d863d96852554bb1e5cd",
+                "reference": "cbaac71d6624f6238bd7d863d96852554bb1e5cd",
                 "shasum": ""
             },
             "require": {
@@ -2684,7 +2684,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2016-01-20 08:31:36"
+            "time": "2016-07-07 23:08:11"
         },
         {
             "name": "campaignchain/security-authentication-client-oauth",
@@ -8219,12 +8219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "49c8e76b19fa0dd7f43615a8e0952d9123b92722"
+                "reference": "99bd2dd706d5a0ffc5b69552cfd328d25627ef2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/49c8e76b19fa0dd7f43615a8e0952d9123b92722",
-                "reference": "49c8e76b19fa0dd7f43615a8e0952d9123b92722",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/99bd2dd706d5a0ffc5b69552cfd328d25627ef2e",
+                "reference": "99bd2dd706d5a0ffc5b69552cfd328d25627ef2e",
                 "shasum": ""
             },
             "type": "library",
@@ -8244,7 +8244,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-16 11:58:30"
+            "time": "2016-07-07 22:59:16"
         },
         {
             "name": "amariki/data-test",
@@ -8252,12 +8252,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "c757c7d4efd7e21ea52b0d6769d97621af5f9280"
+                "reference": "5d514f6ee6658ce05132eda3fbbb9925ebf78eb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/c757c7d4efd7e21ea52b0d6769d97621af5f9280",
-                "reference": "c757c7d4efd7e21ea52b0d6769d97621af5f9280",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/5d514f6ee6658ce05132eda3fbbb9925ebf78eb3",
+                "reference": "5d514f6ee6658ce05132eda3fbbb9925ebf78eb3",
                 "shasum": ""
             },
             "type": "library",
@@ -8277,7 +8277,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-05-16 11:58:30"
+            "time": "2016-07-07 22:59:37"
         },
         {
             "name": "campaignchain/activity-ezplatform",
