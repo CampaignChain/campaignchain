@@ -46,8 +46,7 @@
         "campaignchain/report-analytics-cta-tracking": "dev-master",
         "campaignchain/report-google-analytics": "dev-master",
         "campaignchain/security-authentication-server-oauth": "dev-master",
-        "campaignchain/activity-xing": "dev-master",
-        "tholu/php-packer": "dev-master"
+        "campaignchain/activity-xing": "dev-master"
     },
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
