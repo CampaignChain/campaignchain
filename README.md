@@ -54,9 +54,9 @@ CampaignChain base system. Please note that this might take a while.
 
 In below command, replace the **[version]** placeholder with a release or branch
 (e.g. 1.0.0-beta.2 or dev-master). Find a list of releases here: 
-https://github.com/CampaignChain/campaignchain-ce/releases
+https://github.com/CampaignChain/campaignchain/releases
 
-    $ composer create-project --stability=dev campaignchain/campaignchain-ce campaignchain [version]
+    $ composer create-project --stability=dev campaignchain/campaignchain campaignchain [version]
 
 ### Configure Base System
 
@@ -103,8 +103,14 @@ the CampaignChain root:
 * app/cache
 * app/logs
 * app/sessions
-* components/bower
+* web/assetic
 * web/bundles
+* web/css
+* web/fonts
+* web/images
+* web/js
+* web/media
+* web/storage
 
 If you'd like to use the built-in modules manager, then you should also make
 the `composer.json` file in the root directory writable by PHP.

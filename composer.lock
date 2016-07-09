@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46f0bf5a68c81ad06bc58fa1ea024828",
-    "content-hash": "2b46d0bd6b5918eca3cfcef2c1d78370",
+    "hash": "437de130dceae279fc43c70679564970",
+    "content-hash": "e3b43fad1de6e7131d314e67348c25a4",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -8015,6 +8015,57 @@
             "time": "2016-06-30 15:42:24"
         },
         {
+            "name": "tholu/php-packer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tholu/php-packer.git",
+                "reference": "b6f63a6e1112a27db048353fbab50539a4a75764"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tholu/php-packer/zipball/b6f63a6e1112a27db048353fbab50539a4a75764",
+                "reference": "b6f63a6e1112a27db048353fbab50539a4a75764",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tholu\\Packer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Lutz",
+                    "email": "thomaslutz.de@gmail.com"
+                },
+                {
+                    "name": "Dean Edwards"
+                },
+                {
+                    "name": "Nicolas Martin"
+                }
+            ],
+            "description": "A PHP version of Packer, JavaScript obfuscation library originally created by Dean Edwards",
+            "homepage": "https://github.com/tholu/php-packer",
+            "keywords": [
+                "JS",
+                "javascript",
+                "minification",
+                "minify",
+                "obfuscate",
+                "uglify"
+            ],
+            "time": "2016-04-19 10:33:55"
+        },
+        {
             "name": "twbs/bootstrap",
             "version": "v3.3.6",
             "source": {
@@ -8715,6 +8766,7 @@
         "campaignchain/report-google-analytics": 20,
         "campaignchain/security-authentication-server-oauth": 20,
         "campaignchain/activity-xing": 20,
+        "tholu/php-packer": 20,
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
