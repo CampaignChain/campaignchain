@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "57a2f65679c90fdd5db122cd5f47b08fc08cd4c3"
+                "reference": "c193510f714c4c695ff02498f3fd50d7d9740fbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/57a2f65679c90fdd5db122cd5f47b08fc08cd4c3",
-                "reference": "57a2f65679c90fdd5db122cd5f47b08fc08cd4c3",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c193510f714c4c695ff02498f3fd50d7d9740fbc",
+                "reference": "c193510f714c4c695ff02498f3fd50d7d9740fbc",
                 "shasum": ""
             },
             "require": {
@@ -1318,7 +1318,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-09 00:36:34"
+            "time": "2016-07-09 06:42:53"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1326,12 +1326,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-assignee.git",
-                "reference": "7cb67b7130a9b1ccaf0076d13bc5f885afc8b42d"
+                "reference": "2949685e55a5113715d0ad18cd2917b4eabe2373"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/7cb67b7130a9b1ccaf0076d13bc5f885afc8b42d",
-                "reference": "7cb67b7130a9b1ccaf0076d13bc5f885afc8b42d",
+                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/2949685e55a5113715d0ad18cd2917b4eabe2373",
+                "reference": "2949685e55a5113715d0ad18cd2917b4eabe2373",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1366,7 +1366,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2015-12-22 08:49:51"
+            "time": "2016-07-09 01:20:00"
         },
         {
             "name": "campaignchain/hook-date-repeat",
@@ -1422,12 +1422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "92795cf101605ac62286ccaff7ab21d40d02c262"
+                "reference": "da8db005a643de6bb022bdfbd568cccf5d2dfd70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/92795cf101605ac62286ccaff7ab21d40d02c262",
-                "reference": "92795cf101605ac62286ccaff7ab21d40d02c262",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/da8db005a643de6bb022bdfbd568cccf5d2dfd70",
+                "reference": "da8db005a643de6bb022bdfbd568cccf5d2dfd70",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1462,7 +1462,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-07-06 23:10:10"
+            "time": "2016-07-09 01:19:43"
         },
         {
             "name": "campaignchain/hook-duration",
