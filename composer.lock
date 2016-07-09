@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3fc4dea759823e69d6ff1af408a5e66f",
-    "content-hash": "6ba453a5a162db54c038d0526363367d",
+    "hash": "46f0bf5a68c81ad06bc58fa1ea024828",
+    "content-hash": "2b46d0bd6b5918eca3cfcef2c1d78370",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1669,12 +1669,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-facebook.git",
-                "reference": "c5a0ffab9a7e4eca5587268aa4daea1911717504"
+                "reference": "a20c682df17e97dcc12167360719f2197fdc3db2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/c5a0ffab9a7e4eca5587268aa4daea1911717504",
-                "reference": "c5a0ffab9a7e4eca5587268aa4daea1911717504",
+                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/a20c682df17e97dcc12167360719f2197fdc3db2",
+                "reference": "a20c682df17e97dcc12167360719f2197fdc3db2",
                 "shasum": ""
             },
             "require": {
@@ -1712,7 +1712,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-07-01 23:52:29"
+            "time": "2016-07-09 01:02:22"
         },
         {
             "name": "campaignchain/location-google-analytics",
@@ -1940,12 +1940,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-twitter.git",
-                "reference": "0fffecc36b9178fe004d9da11725300cac188c44"
+                "reference": "41865e324c27d3bb552afc6a140ad118cc239cc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-twitter/zipball/0fffecc36b9178fe004d9da11725300cac188c44",
-                "reference": "0fffecc36b9178fe004d9da11725300cac188c44",
+                "url": "https://api.github.com/repos/CampaignChain/location-twitter/zipball/41865e324c27d3bb552afc6a140ad118cc239cc8",
+                "reference": "41865e324c27d3bb552afc6a140ad118cc239cc8",
                 "shasum": ""
             },
             "require": {
@@ -1983,7 +1983,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-07-01 23:52:28"
+            "time": "2016-07-09 01:01:22"
         },
         {
             "name": "campaignchain/location-website",
@@ -2626,6 +2626,62 @@
                 "report"
             ],
             "time": "2016-07-07 22:58:20"
+        },
+        {
+            "name": "campaignchain/report-analytics-metrics-per-location",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/report-analytics-metrics-per-location.git",
+                "reference": "a525ff8520d4ca5875d362f40a0f2794628b083f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-location/zipball/a525ff8520d4ca5875d362f40a0f2794628b083f",
+                "reference": "a525ff8520d4ca5875d362f40a0f2794628b083f",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/core": "dev-master"
+            },
+            "type": "campaignchain-report-analytics",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Report\\Analytics\\MetricsPerLocationBundle\\CampaignChainReportAnalyticsMetricsPerLocationBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_report_analytics_metrics_per_location",
+                            "resource": "@CampaignChainReportAnalyticsMetricsPerLocationBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Report\\Analytics\\MetricsPerLocationBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Graphs that display the metrics per location of a specific campaign.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain",
+                "report"
+            ],
+            "time": "2016-07-07 22:52:48"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -8654,6 +8710,7 @@
         "campaignchain/activity-slideshare": 20,
         "campaignchain/location-website": 20,
         "campaignchain/report-analytics-metrics-per-activity": 20,
+        "campaignchain/report-analytics-metrics-per-location": 20,
         "campaignchain/report-analytics-cta-tracking": 20,
         "campaignchain/report-google-analytics": 20,
         "campaignchain/security-authentication-server-oauth": 20,
