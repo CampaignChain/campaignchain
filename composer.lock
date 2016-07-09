@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "437de130dceae279fc43c70679564970",
-    "content-hash": "e3b43fad1de6e7131d314e67348c25a4",
+    "hash": "46f0bf5a68c81ad06bc58fa1ea024828",
+    "content-hash": "2b46d0bd6b5918eca3cfcef2c1d78370",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "4dbc8f1889d597300daea967c60ad9c7e725ff07"
+                "reference": "d3ec25f0253a35d4626b95aa2fd3338823d6d09e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/4dbc8f1889d597300daea967c60ad9c7e725ff07",
-                "reference": "4dbc8f1889d597300daea967c60ad9c7e725ff07",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/d3ec25f0253a35d4626b95aa2fd3338823d6d09e",
+                "reference": "d3ec25f0253a35d4626b95aa2fd3338823d6d09e",
                 "shasum": ""
             },
             "require": {
@@ -1268,6 +1268,7 @@
                 "symfony/stopwatch": "~2.5",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "~2.5",
+                "tholu/php-packer": "dev-master",
                 "twbs/bootstrap": "3.3.*",
                 "twig/extensions": "~1.0"
             },
@@ -1318,7 +1319,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-09 18:41:39"
+            "time": "2016-07-09 21:26:52"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -8766,7 +8767,6 @@
         "campaignchain/report-google-analytics": 20,
         "campaignchain/security-authentication-server-oauth": 20,
         "campaignchain/activity-xing": 20,
-        "tholu/php-packer": 20,
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
