@@ -27,7 +27,7 @@ parameters:
 
     campaignchain.env: prod
     campaignchain.tracking.id_name: 'cctid'
-    campaignchain.tracking.js_route: 'tracking.js'
+    campaignchain.tracking.js_route: '/tracking.js'
     campaignchain.tracking.js_mode: 'prod'
     campaignchain.tracking.js_class: 'CCTracking'
     campaignchain.tracking.js_init: 'cc'
