@@ -25,5 +25,9 @@ parameters:
     router.request_context.host: localhost
     router.request_context.scheme: http
 
-    campaignchain.env:  'prod'
-    campaignchain.bower.cache_dir: %kernel.root_dir%/../app/cache/bower
+    campaignchain.env: prod
+    campaignchain.tracking.id_name: 'cctid'
+    campaignchain.tracking.js_route: 'tracking.js'
+    campaignchain.tracking.js_mode: 'prod'
+    campaignchain.tracking.js_class: 'CCTracking'
+    campaignchain.tracking.js_init: 'cc'

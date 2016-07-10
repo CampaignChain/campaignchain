@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46f0bf5a68c81ad06bc58fa1ea024828",
-    "content-hash": "2b46d0bd6b5918eca3cfcef2c1d78370",
+    "hash": "3a5a8784d7e5e3dcaa3467ca6e3dcdcf",
+    "content-hash": "e929a88f12688bb1d8ea03919e964231",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "d3ec25f0253a35d4626b95aa2fd3338823d6d09e"
+                "reference": "bb2116b87eb0c4bb819e73a680b662b4e7b6aa78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/d3ec25f0253a35d4626b95aa2fd3338823d6d09e",
-                "reference": "d3ec25f0253a35d4626b95aa2fd3338823d6d09e",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/bb2116b87eb0c4bb819e73a680b662b4e7b6aa78",
+                "reference": "bb2116b87eb0c4bb819e73a680b662b4e7b6aa78",
                 "shasum": ""
             },
             "require": {
@@ -1268,7 +1268,6 @@
                 "symfony/stopwatch": "~2.5",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "~2.5",
-                "tholu/php-packer": "dev-master",
                 "twbs/bootstrap": "3.3.*",
                 "twig/extensions": "~1.0"
             },
@@ -1319,7 +1318,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-09 21:26:52"
+            "time": "2016-07-10 00:48:52"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -4172,6 +4171,39 @@
                 "fixtures"
             ],
             "time": "2016-04-29 12:21:54"
+        },
+        {
+            "name": "gkralik/php-uglifyjs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gkralik/php-uglifyjs.git",
+                "reference": "c76667a3adaed9efd54ef5ba90576308ed88c291"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gkralik/php-uglifyjs/zipball/c76667a3adaed9efd54ef5ba90576308ed88c291",
+                "reference": "c76667a3adaed9efd54ef5ba90576308ed88c291",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GK\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL 2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Gregor Kralik",
+                    "email": "g.kralik@gmail.com"
+                }
+            ],
+            "description": "PHP Javascript packer",
+            "time": "2015-10-10 12:58:30"
         },
         {
             "name": "google/apiclient",
@@ -8016,57 +8048,6 @@
             "time": "2016-06-30 15:42:24"
         },
         {
-            "name": "tholu/php-packer",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tholu/php-packer.git",
-                "reference": "b6f63a6e1112a27db048353fbab50539a4a75764"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tholu/php-packer/zipball/b6f63a6e1112a27db048353fbab50539a4a75764",
-                "reference": "b6f63a6e1112a27db048353fbab50539a4a75764",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Tholu\\Packer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Lutz",
-                    "email": "thomaslutz.de@gmail.com"
-                },
-                {
-                    "name": "Dean Edwards"
-                },
-                {
-                    "name": "Nicolas Martin"
-                }
-            ],
-            "description": "A PHP version of Packer, JavaScript obfuscation library originally created by Dean Edwards",
-            "homepage": "https://github.com/tholu/php-packer",
-            "keywords": [
-                "JS",
-                "javascript",
-                "minification",
-                "minify",
-                "obfuscate",
-                "uglify"
-            ],
-            "time": "2016-04-19 10:33:55"
-        },
-        {
             "name": "twbs/bootstrap",
             "version": "v3.3.6",
             "source": {
@@ -8767,6 +8748,7 @@
         "campaignchain/report-google-analytics": 20,
         "campaignchain/security-authentication-server-oauth": 20,
         "campaignchain/activity-xing": 20,
+        "gkralik/php-uglifyjs": 20,
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
