@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46f0bf5a68c81ad06bc58fa1ea024828",
-    "content-hash": "2b46d0bd6b5918eca3cfcef2c1d78370",
+    "hash": "46537b8cbce3eac875aa2417e60edae5",
+    "content-hash": "e256fa42a166d9576b59434b7959d5b9",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1215,21 +1215,22 @@
         },
         {
             "name": "campaignchain/core",
-            "version": "dev-master",
+            "version": "dev-campaignchain-148",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "d9099d35267ade340e0a4efd04c656d84e4b8ad1"
+                "reference": "5961b3e70dc4750e7fe3ebee98846fc3abc3b96d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/d9099d35267ade340e0a4efd04c656d84e4b8ad1",
-                "reference": "d9099d35267ade340e0a4efd04c656d84e4b8ad1",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/5961b3e70dc4750e7fe3ebee98846fc3abc3b96d",
+                "reference": "5961b3e70dc4750e7fe3ebee98846fc3abc3b96d",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
                 "braincrafted/bootstrap-bundle": "2.1.2",
+                "campaignchain/location-website": "dev-campaignchain-148",
                 "components/jquery": "1.11.*",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
@@ -1319,7 +1320,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-10 19:45:38"
+            "time": "2016-07-11 22:51:45"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1988,16 +1989,16 @@
         },
         {
             "name": "campaignchain/location-website",
-            "version": "dev-master",
+            "version": "dev-campaignchain-148",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-website.git",
-                "reference": "540cfe4011e03b0ed890d590fea483fc3731151a"
+                "reference": "90ba0f405aba13dd670c83c04ae665416b96f9ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/540cfe4011e03b0ed890d590fea483fc3731151a",
-                "reference": "540cfe4011e03b0ed890d590fea483fc3731151a",
+                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/90ba0f405aba13dd670c83c04ae665416b96f9ee",
+                "reference": "90ba0f405aba13dd670c83c04ae665416b96f9ee",
                 "shasum": ""
             },
             "require": {
@@ -2035,7 +2036,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2015-12-22 08:49:52"
+            "time": "2016-07-11 19:10:00"
         },
         {
             "name": "campaignchain/location-xing",
@@ -8729,7 +8730,20 @@
             "time": "2016-07-01 23:52:28"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "dev-campaignchain-148",
+            "package": "campaignchain/core"
+        },
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "dev-campaignchain-148",
+            "package": "campaignchain/location-website"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/core": 20,
@@ -8743,7 +8757,6 @@
         "campaignchain/activity-gotowebinar": 20,
         "campaignchain/activity-mailchimp": 20,
         "campaignchain/activity-slideshare": 20,
-        "campaignchain/location-website": 20,
         "campaignchain/report-analytics-metrics-per-activity": 20,
         "campaignchain/report-analytics-metrics-per-location": 20,
         "campaignchain/report-analytics-cta-tracking": 20,
@@ -8754,7 +8767,8 @@
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
         "campaignchain/activity-social-media": 20,
-        "campaignchain/activity-ezplatform": 20
+        "campaignchain/activity-ezplatform": 20,
+        "campaignchain/location-website": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
