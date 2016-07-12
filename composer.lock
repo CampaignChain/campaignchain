@@ -1219,18 +1219,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "5961b3e70dc4750e7fe3ebee98846fc3abc3b96d"
+                "reference": "929304ce10f1bc0138d4bab6dfab670ef031f56b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/5961b3e70dc4750e7fe3ebee98846fc3abc3b96d",
-                "reference": "5961b3e70dc4750e7fe3ebee98846fc3abc3b96d",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/929304ce10f1bc0138d4bab6dfab670ef031f56b",
+                "reference": "929304ce10f1bc0138d4bab6dfab670ef031f56b",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
                 "braincrafted/bootstrap-bundle": "2.1.2",
-                "campaignchain/location-website": "dev-campaignchain-148",
+                "campaignchain/location-website": "dev-master",
                 "components/jquery": "1.11.*",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
@@ -1320,7 +1320,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-11 22:51:45"
+            "time": "2016-07-11 22:53:19"
         },
         {
             "name": "campaignchain/hook-assignee",
