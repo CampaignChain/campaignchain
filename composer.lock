@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46537b8cbce3eac875aa2417e60edae5",
-    "content-hash": "e256fa42a166d9576b59434b7959d5b9",
+    "hash": "dff2b8f62117c2247f724b6b58f91426",
+    "content-hash": "849b0e310c7200c974185916114cfb84",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "929304ce10f1bc0138d4bab6dfab670ef031f56b"
+                "reference": "386c968a08306f62b06adedea1dda7f5954bc001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/929304ce10f1bc0138d4bab6dfab670ef031f56b",
-                "reference": "929304ce10f1bc0138d4bab6dfab670ef031f56b",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/386c968a08306f62b06adedea1dda7f5954bc001",
+                "reference": "386c968a08306f62b06adedea1dda7f5954bc001",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-11 22:53:19"
+            "time": "2016-07-12 05:59:37"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1993,12 +1993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-website.git",
-                "reference": "90ba0f405aba13dd670c83c04ae665416b96f9ee"
+                "reference": "177da6b40df49e09dc3a9417e97ad5dd42b83b69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/90ba0f405aba13dd670c83c04ae665416b96f9ee",
-                "reference": "90ba0f405aba13dd670c83c04ae665416b96f9ee",
+                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/177da6b40df49e09dc3a9417e97ad5dd42b83b69",
+                "reference": "177da6b40df49e09dc3a9417e97ad5dd42b83b69",
                 "shasum": ""
             },
             "require": {
@@ -2036,7 +2036,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2016-07-11 19:10:00"
+            "time": "2016-07-12 05:59:37"
         },
         {
             "name": "campaignchain/location-xing",
@@ -8307,16 +8307,16 @@
     "packages-dev": [
         {
             "name": "amariki/data-demo",
-            "version": "dev-master",
+            "version": "dev-campaignchain-148",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "99bd2dd706d5a0ffc5b69552cfd328d25627ef2e"
+                "reference": "92dbc597be5abe7adcfcc4c67bfbb55e136b22e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/99bd2dd706d5a0ffc5b69552cfd328d25627ef2e",
-                "reference": "99bd2dd706d5a0ffc5b69552cfd328d25627ef2e",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/92dbc597be5abe7adcfcc4c67bfbb55e136b22e5",
+                "reference": "92dbc597be5abe7adcfcc4c67bfbb55e136b22e5",
                 "shasum": ""
             },
             "type": "library",
@@ -8336,20 +8336,20 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-07 22:59:16"
+            "time": "2016-07-12 05:59:37"
         },
         {
             "name": "amariki/data-test",
-            "version": "dev-master",
+            "version": "dev-campaignchain-148",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "5d514f6ee6658ce05132eda3fbbb9925ebf78eb3"
+                "reference": "fb0d56733572d2bfb9be2e6b230ecdcdb459f56b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/5d514f6ee6658ce05132eda3fbbb9925ebf78eb3",
-                "reference": "5d514f6ee6658ce05132eda3fbbb9925ebf78eb3",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/fb0d56733572d2bfb9be2e6b230ecdcdb459f56b",
+                "reference": "fb0d56733572d2bfb9be2e6b230ecdcdb459f56b",
                 "shasum": ""
             },
             "type": "library",
@@ -8369,7 +8369,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-07 22:59:37"
+            "time": "2016-07-12 05:59:37"
         },
         {
             "name": "campaignchain/activity-ezplatform",
@@ -8736,6 +8736,18 @@
             "alias_normalized": "9999999-dev",
             "version": "dev-campaignchain-148",
             "package": "campaignchain/core"
+        },
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "dev-campaignchain-148",
+            "package": "amariki/data-test"
+        },
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "dev-campaignchain-148",
+            "package": "amariki/data-demo"
         },
         {
             "alias": "dev-master",

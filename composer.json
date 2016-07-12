@@ -49,8 +49,8 @@
     },
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
-        "amariki/data-test": "dev-master",
-        "amariki/data-demo": "dev-master",
+        "amariki/data-test": "dev-campaignchain-148 as dev-master",
+        "amariki/data-demo": "dev-campaignchain-148 as dev-master",
         "campaignchain/activity-social-media": "dev-master",
         "campaignchain/activity-ezplatform": "dev-master",
         "campaignchain/location-website": "dev-campaignchain-148 as dev-master"
