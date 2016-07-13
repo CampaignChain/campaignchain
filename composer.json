@@ -57,7 +57,6 @@
         "campaignchain/location-citrix": "dev-campaignchain-148 as dev-master",
         "campaignchain/location-ezplatform": "dev-campaignchain-148 as dev-master",
         "campaignchain/location-facebook": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-google-analytics": "dev-campaignchain-148 as dev-master",
         "campaignchain/location-linkedin": "dev-campaignchain-148 as dev-master",
         "campaignchain/location-mailchimp": "dev-campaignchain-148 as dev-master",
         "campaignchain/location-slideshare": "dev-campaignchain-148 as dev-master",
