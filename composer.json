@@ -53,7 +53,17 @@
         "amariki/data-demo": "dev-campaignchain-148 as dev-master",
         "campaignchain/activity-social-media": "dev-master",
         "campaignchain/activity-ezplatform": "dev-master",
-        "campaignchain/location-website": "dev-campaignchain-148 as dev-master"
+        "campaignchain/channel-citrix": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-citrix": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-ezplatform": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-facebook": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-google-analytics": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-linkedin": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-mailchimp": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-slideshare": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-twitter": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-website": "dev-campaignchain-148 as dev-master",
+        "campaignchain/location-xing": "dev-campaignchain-148 as dev-master"
     },
     "scripts": {
         "post-root-package-install": [
