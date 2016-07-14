@@ -29,7 +29,7 @@
     "require": {
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
-        "campaignchain/core": "dev-campaignchain-148 as dev-master",
+        "campaignchain/core": "dev-master",
         "campaignchain/campaign-scheduled": "dev-master",
         "campaignchain/campaign-template": "dev-master",
         "campaignchain/campaign-repeating": "dev-master",
@@ -49,20 +49,10 @@
     },
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
-        "amariki/data-test": "dev-campaignchain-148 as dev-master",
-        "amariki/data-demo": "dev-campaignchain-148 as dev-master",
+        "amariki/data-test": "dev-master",
+        "amariki/data-demo": "dev-master",
         "campaignchain/activity-social-media": "dev-master",
-        "campaignchain/activity-ezplatform": "dev-master",
-        "campaignchain/channel-citrix": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-citrix": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-ezplatform": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-facebook": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-linkedin": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-mailchimp": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-slideshare": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-twitter": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-website": "dev-campaignchain-148 as dev-master",
-        "campaignchain/location-xing": "dev-campaignchain-148 as dev-master"
+        "campaignchain/activity-ezplatform": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
