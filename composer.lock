@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "6be551069bf9d779884f2c2fb43c8badb72e3d07"
+                "reference": "77de658b72e9dc4c3a0b05955bbbdf911b51a3c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6be551069bf9d779884f2c2fb43c8badb72e3d07",
-                "reference": "6be551069bf9d779884f2c2fb43c8badb72e3d07",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/77de658b72e9dc4c3a0b05955bbbdf911b51a3c9",
+                "reference": "77de658b72e9dc4c3a0b05955bbbdf911b51a3c9",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-13 02:46:34"
+            "time": "2016-07-14 06:27:50"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1993,12 +1993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-website.git",
-                "reference": "cf1dad4e8b186d7486b5beeb61d9ada85b2f9b00"
+                "reference": "16a7f95c4f419e0b542377ac869339318f0f09d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/cf1dad4e8b186d7486b5beeb61d9ada85b2f9b00",
-                "reference": "cf1dad4e8b186d7486b5beeb61d9ada85b2f9b00",
+                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/16a7f95c4f419e0b542377ac869339318f0f09d0",
+                "reference": "16a7f95c4f419e0b542377ac869339318f0f09d0",
                 "shasum": ""
             },
             "require": {
@@ -2036,7 +2036,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2016-07-12 06:43:14"
+            "time": "2016-07-14 05:02:05"
         },
         {
             "name": "campaignchain/location-xing",
