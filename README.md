@@ -15,6 +15,10 @@ Our goal is to help everyone make innovative marketing ideas come true. That's
 why we made CampaignChain the first open-source platform for marketing
 integration.
 
+## Features
+
+Check out our Website for [screenshots and feature descriptions](http://www.campaignchain.com/features/).
+
 ## Technology
 
 CampaignChain is based on [Symfony](http://symfony.com), a PHP framework.
