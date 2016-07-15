@@ -15,17 +15,18 @@ Our goal is to help everyone make innovative marketing ideas come true. That's
 why we made CampaignChain the first open-source platform for marketing
 integration.
 
-## Features
+## Features & Architecture
 
 Check out our Website for [screenshots and feature descriptions](http://www.campaignchain.com/features/).
+
+This is a high-level overview of the features and the software architecture of 
+CampaignChain:
+
+![High-level overview of CampaignChain architecture](https://github.com/CampaignChain/campaignchain-docs/raw/master/images/architecture_800px.png)
 
 ## Technology
 
 CampaignChain is based on [Symfony](http://symfony.com), a PHP framework.
-
-## Architecture
-
-![High-level overview of CampaignChain architecture](https://github.com/CampaignChain/campaignchain-docs/raw/master/images/architecture_800px.png)
 
 ## Installation
 
