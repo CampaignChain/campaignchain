@@ -2,16 +2,26 @@
 
 ## Introduction
 
-CampaignChain is the first and only open-source platform for marketing
-integration.
+With CampaignChain, marketers can plan, execute, monitor and optimize campaigns
+in a holistic overview. Programmers can integrate communication channels, tools 
+and devices with our open-source platform.
 
-It is a highly modular system that enables you to integrate various online
-channels, marketing tools and devices to plan, execute, monitor and optimize
-marketing campaigns.
+Today, marketers face an increasing amount of online channels, tools and devices 
+(IoT, beacons). As the opportunities for highly targeted marketing grow, so 
+does fragmentation of workflows. CampaignChain is the only marketing technology 
+that allows for a comprehensive real-time access to all marketing activities.
+
+Our goal is to help everyone make innovative marketing ideas come true. That's
+why we made CampaignChain the first open-source platform for marketing
+integration.
 
 ## Technology
 
 CampaignChain is based on [Symfony](http://symfony.com), a PHP framework.
+
+## Architecture
+
+See this [diagram with a high-level overview of the architecture](https://github.com/CampaignChain/campaignchain-docs/master/images/architecture.png).
 
 ## Installation
 
