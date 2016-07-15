@@ -157,6 +157,6 @@ To make full use of CampaignChain’s end user capabilities, you could now
 
 * [Learn how to integrate additional online channels](http://doc.campaignchain.com/en/master/developer/cookbook/connect_a_new_online_channel.html)
 
-# Documentation
+## Documentation
 
 Our documentation provides information to users, developers and administrators: http://docs.campaignchain.com/
