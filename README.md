@@ -21,7 +21,7 @@ CampaignChain is based on [Symfony](http://symfony.com), a PHP framework.
 
 ## Architecture
 
-See this [diagram with a high-level overview of the architecture](https://github.com/CampaignChain/campaignchain-docs/master/images/architecture.png).
+![High-level overview of CampaignChain architecture](https://github.com/CampaignChain/campaignchain-docs/raw/master/images/architecture_800px.png)
 
 ## Installation
 
