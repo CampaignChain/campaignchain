@@ -30,7 +30,7 @@ CampaignChain is based on [Symfony](http://symfony.com), a PHP framework.
 
 ## Installation
 
-In general, CampaignChain is being installed through [Comoser](https://getcomposer.org/download/)
+In general, CampaignChain is being installed through [Composer](https://getcomposer.org/download/)
 just like the Symfony Standard Framework.
 
 ### Requirements
@@ -51,7 +51,7 @@ application.
 
 ### Install Composer
 
-CampaignChain utilizes [Comoser](https://getcomposer.org/download/) for its package and
+CampaignChain utilizes [Composer](https://getcomposer.org/download/) for its package and
 modules management. Install it with this command:
 
     $ curl -sS https://getcomposer.org/installer | php
