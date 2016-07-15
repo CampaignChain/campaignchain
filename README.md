@@ -25,6 +25,9 @@ CampaignChain is based on [Symfony](http://symfony.com), a PHP framework.
 
 ## Installation
 
+In general, CampaignChain is being installed through [Comoser](https://getcomposer.org/download/)
+just like the Symfony Standard Framework.
+
 ### Requirements
 
 Before you install CampaignChain, make sure you have the following software
@@ -43,7 +46,7 @@ application.
 
 ### Install Composer
 
-CampaignChain utilizes https://getcomposer.org/download/ for its package and
+CampaignChain utilizes [Comoser](https://getcomposer.org/download/) for its package and
 modules management. Install it with this command:
 
     $ curl -sS https://getcomposer.org/installer | php
@@ -53,8 +56,8 @@ modules management. Install it with this command:
 For JavaScript components, CampaignChain makes use of Bower, which - you guessed
 it - is a package manager for JavaScript code.
 
-Before you can install Bower, you must first install npm which ships with
-node.js: http://nodejs.org/download/
+Before you can install Bower, you must first install npm, which ships with
+[Node.js](http://nodejs.org/download/):
 
 Now install Bower through npm:
 
