@@ -56,13 +56,13 @@ modules management. Install it with this command:
 
     $ curl -sS https://getcomposer.org/installer | php
 
-### Install Bower
+### Install Node.js & Bower
 
 For JavaScript components, CampaignChain makes use of Bower, which - you guessed
 it - is a package manager for JavaScript code.
 
 Before you can install Bower, you must first install npm, which ships with
-[Node.js](http://nodejs.org/download/):
+Node.js: http://nodejs.org/download/
 
 Now install Bower through npm:
 
