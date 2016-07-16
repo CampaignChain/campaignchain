@@ -3,4 +3,5 @@ imports:
     - { resource: security.yml }
     - { resource: assetic.yml }
     - { resource: config_campaignchain.yml }
-    - { resource: ../campaignchain/config/bundles.yml }
+    - { resource: ../campaignchain/config/imports.yml }
+    - { resource: config_campaignchain_bundles.yml }

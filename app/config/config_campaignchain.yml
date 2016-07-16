@@ -1,3 +1,6 @@
+parameters:
+    campaignchain.bower.cache_dir: %kernel.root_dir%/../app/cache/bower
+
 framework:
     #esi:             ~
     translator: ~

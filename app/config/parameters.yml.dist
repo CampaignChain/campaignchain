@@ -26,15 +26,3 @@ parameters:
     router.request_context.scheme: http
 
     campaignchain.tracking.js_route: /tracking.js
-    campaignchain.bower.cache_dir: %kernel.root_dir%/../app/cache/bower
-
-campaignchain_core:
-    env: prod
-    tracking:
-        id_name: cctid
-        js_mode: prod
-        js_class: CCTracking
-        js_init: cc
-    upload_storage:
-        path: '%kernel.root_dir%/../web/storage'
-        url_prefix: /storage

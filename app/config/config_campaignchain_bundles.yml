@@ -1,0 +1,10 @@
+campaignchain_core:
+    env: prod
+    tracking:
+        id_name: cctid
+        js_mode: prod
+        js_class: CCTracking
+        js_init: cc
+    upload_storage:
+        path: '%kernel.root_dir%/../web/storage'
+        url_prefix: /storage
