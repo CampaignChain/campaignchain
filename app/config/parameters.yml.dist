@@ -25,4 +25,5 @@ parameters:
     router.request_context.host: localhost
     router.request_context.scheme: http
 
+    campaignchain.env: dev
     campaignchain.tracking.js_route: /tracking.js

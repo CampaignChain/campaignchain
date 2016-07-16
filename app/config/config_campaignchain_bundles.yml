@@ -1,5 +1,4 @@
 campaignchain_core:
-    env: prod
     tracking:
         id_name: cctid
         js_mode: prod
