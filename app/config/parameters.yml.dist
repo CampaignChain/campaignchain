@@ -25,9 +25,14 @@ parameters:
     router.request_context.host: localhost
     router.request_context.scheme: http
 
-    campaignchain.env: prod
-    campaignchain.tracking.id_name: 'cctid'
-    campaignchain.tracking.js_route: '/tracking.js'
-    campaignchain.tracking.js_mode: 'prod'
-    campaignchain.tracking.js_class: 'CCTracking'
-    campaignchain.tracking.js_init: 'cc'
+campaignchain_core:
+    env: prod
+    tracking:
+        id_name: cctid
+        js_route: /tracking.js
+        js_mode: prod
+        js_class: CCTracking
+        js_init: cc
+    upload_storage:
+        path: '%kernel.root_dir%/../web/storage'
+        url_prefix: /storage

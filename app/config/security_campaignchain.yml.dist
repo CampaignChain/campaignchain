@@ -47,7 +47,7 @@ security:
         - { path: ^/admin/, role: ROLE_ADMIN }
 
         # CTA tracking must be enabled
-        - { path: %campaignchain.tracking.js_route%, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: %campaignchain_core.tracking.js_route%, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/v1/report/.*, role: IS_AUTHENTICATED_ANONYMOUSLY }
 
         # LiipImagineBundle uses this to create a cached image
