@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "12210598296e828e00c7bfbf812e534e0449353a"
+                "reference": "7477bc717d4eec997092000248a1c52cb0ec2f52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/12210598296e828e00c7bfbf812e534e0449353a",
-                "reference": "12210598296e828e00c7bfbf812e534e0449353a",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7477bc717d4eec997092000248a1c52cb0ec2f52",
+                "reference": "7477bc717d4eec997092000248a1c52cb0ec2f52",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-16 23:14:10"
+            "time": "2016-07-17 01:21:46"
         },
         {
             "name": "campaignchain/hook-assignee",
