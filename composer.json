@@ -52,8 +52,7 @@
         "amariki/data-test": "dev-master",
         "amariki/data-demo": "dev-master",
         "campaignchain/activity-social-media": "dev-master",
-        "campaignchain/activity-ezplatform": "dev-master",
-        "campaignchain/operation-facebook": "dev-campaignchain-122 as dev-master"
+        "campaignchain/activity-ezplatform": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
