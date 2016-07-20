@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7c082fbeda9a2300b07431a11315d30b",
-    "content-hash": "f778ff7ae8d0f8387023ea4d35818635",
+    "hash": "af731349cf5a082820b40803af901863",
+    "content-hash": "2668562fecf11eb4fabefc1e84ff9f48",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -2152,7 +2152,7 @@
         },
         {
             "name": "campaignchain/operation-facebook",
-            "version": "dev-campaignchain-122",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
@@ -8724,14 +8724,7 @@
             "time": "2016-07-16 21:14:52"
         }
     ],
-    "aliases": [
-        {
-            "alias": "dev-master",
-            "alias_normalized": "9999999-dev",
-            "version": "dev-campaignchain-122",
-            "package": "campaignchain/operation-facebook"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/core": 20,
@@ -8755,8 +8748,7 @@
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
         "campaignchain/activity-social-media": 20,
-        "campaignchain/activity-ezplatform": 20,
-        "campaignchain/operation-facebook": 20
+        "campaignchain/activity-ezplatform": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
