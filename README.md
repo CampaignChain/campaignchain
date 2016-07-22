@@ -157,7 +157,7 @@ instructions.
 ### Sample Data
 
 If you'd like to load sample data to play with CampaignChain, read
-http://docs.campaignchain.com/en/master/open/developer/book/sample_data.html to
+http://docs.campaignchain.com/en/master/ce/developer/book/sample_data.html to
 learn how to get it.
 
 ### Success!
@@ -168,12 +168,12 @@ CampaignChain is now installed, configured and ready for use!
 
 To make full use of CampaignChain’s end user capabilities, you could now
 
-1. [Configure Call to Action (CTA) tracking](http://docs.campaignchain.com/en/master/open/administrator/configuration/cta.html)
+1. [Configure Call to Action (CTA) tracking](http://docs.campaignchain.com/en/master/ce/administrator/configuration/cta.html)
 2. [Learn how to create your first campaign and activity](http://docs.campaignchain.com/en/master/user/get_started.html)
 
 ## Customization
 
-* [Learn how to integrate additional online channels](http://doc.campaignchain.com/en/master/open/developer/cookbook/connect_a_new_online_channel.html)
+* [Learn how to integrate additional online channels](http://doc.campaignchain.com/en/master/ce/developer/cookbook/connect_a_new_online_channel.html)
 
 ## Documentation
 
