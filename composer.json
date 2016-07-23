@@ -67,7 +67,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::removeSymfonyStandardFiles",
-            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::registerModules",
+            "app/console campaignchain:kernel:update",
             "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::enableInstallMode",
             "Sp\\BowerBundle\\Composer\\ScriptHandler::bowerInstall"
         ],
@@ -79,6 +79,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::removeSymfonyStandardFiles",
+            "app/console campaignchain:kernel:update",
             "Sp\\BowerBundle\\Composer\\ScriptHandler::bowerInstall"
         ]
     },
