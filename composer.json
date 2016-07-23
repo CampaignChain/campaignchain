@@ -30,6 +30,7 @@
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
         "campaignchain/core": "dev-master",
+        "campaignchain/update": "dev-master",
         "campaignchain/campaign-scheduled": "dev-master",
         "campaignchain/campaign-template": "dev-master",
         "campaignchain/campaign-repeating": "dev-master",
