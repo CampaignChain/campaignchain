@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "850db51ddd920666f31016223ff58b20",
+    "hash": "d9e62c9a81b4df73d45e4b62b23d2b8e",
     "content-hash": "ea0b6684b89705852260ed18e96e62f9",
     "packages": [
         {
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "fc866f9ab17977257a28a96fa8d9e43483c002ee"
+                "reference": "e71186dc75be940fa38290cdafbc9a1588b6df96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/fc866f9ab17977257a28a96fa8d9e43483c002ee",
-                "reference": "fc866f9ab17977257a28a96fa8d9e43483c002ee",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e71186dc75be940fa38290cdafbc9a1588b6df96",
+                "reference": "e71186dc75be940fa38290cdafbc9a1588b6df96",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-23 18:50:46"
+            "time": "2016-07-23 22:46:47"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2635,12 +2635,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-location.git",
-                "reference": "e55e3b8f4996fb871a2685c659bd3e21612a585c"
+                "reference": "bfd4d0c109467c144189310b83f4f347d677a316"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-location/zipball/e55e3b8f4996fb871a2685c659bd3e21612a585c",
-                "reference": "e55e3b8f4996fb871a2685c659bd3e21612a585c",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-location/zipball/bfd4d0c109467c144189310b83f4f347d677a316",
+                "reference": "bfd4d0c109467c144189310b83f4f347d677a316",
                 "shasum": ""
             },
             "require": {
@@ -2683,7 +2683,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-07-23 18:47:16"
+            "time": "2016-07-23 22:46:48"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -2691,12 +2691,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-google-analytics.git",
-                "reference": "2360b090e4c3b87e2537c8acb12d6764a2d76f0b"
+                "reference": "2cf35621e9689dfbacf1e65816f74509c4cd3229"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/2360b090e4c3b87e2537c8acb12d6764a2d76f0b",
-                "reference": "2360b090e4c3b87e2537c8acb12d6764a2d76f0b",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/2cf35621e9689dfbacf1e65816f74509c4cd3229",
+                "reference": "2cf35621e9689dfbacf1e65816f74509c4cd3229",
                 "shasum": ""
             },
             "require": {
@@ -2742,7 +2742,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2016-07-23 18:47:16"
+            "time": "2016-07-23 22:46:48"
         },
         {
             "name": "campaignchain/security-authentication-client-oauth",
@@ -2868,12 +2868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/update.git",
-                "reference": "7d8680c158547a27c6d3a6883138338c87e954d4"
+                "reference": "5bfcfed544f449de74e51d128dcd9221283779d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/update/zipball/7d8680c158547a27c6d3a6883138338c87e954d4",
-                "reference": "7d8680c158547a27c6d3a6883138338c87e954d4",
+                "url": "https://api.github.com/repos/CampaignChain/update/zipball/5bfcfed544f449de74e51d128dcd9221283779d5",
+                "reference": "5bfcfed544f449de74e51d128dcd9221283779d5",
                 "shasum": ""
             },
             "require": {
@@ -2911,7 +2911,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-23 18:40:24"
+            "time": "2016-07-23 22:46:48"
         },
         {
             "name": "cocur/slugify",
