@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "e71186dc75be940fa38290cdafbc9a1588b6df96"
+                "reference": "784e619fdc36136954f63666b557c4ad44d51c5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e71186dc75be940fa38290cdafbc9a1588b6df96",
-                "reference": "e71186dc75be940fa38290cdafbc9a1588b6df96",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/784e619fdc36136954f63666b557c4ad44d51c5d",
+                "reference": "784e619fdc36136954f63666b557c4ad44d51c5d",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-23 22:46:47"
+            "time": "2016-07-24 21:28:48"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2868,12 +2868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/update.git",
-                "reference": "5bfcfed544f449de74e51d128dcd9221283779d5"
+                "reference": "bc78ef93e742b27d8897644eafd4312e105132e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/update/zipball/5bfcfed544f449de74e51d128dcd9221283779d5",
-                "reference": "5bfcfed544f449de74e51d128dcd9221283779d5",
+                "url": "https://api.github.com/repos/CampaignChain/update/zipball/bc78ef93e742b27d8897644eafd4312e105132e5",
+                "reference": "bc78ef93e742b27d8897644eafd4312e105132e5",
                 "shasum": ""
             },
             "require": {
@@ -2911,7 +2911,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-23 22:46:48"
+            "time": "2016-07-25 04:59:50"
         },
         {
             "name": "cocur/slugify",
