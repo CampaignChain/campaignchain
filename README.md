@@ -49,13 +49,6 @@ installed on the server:
 Launch your MySQL client of choice and create a new MySQL database for the
 application.
 
-### Install Composer
-
-CampaignChain utilizes [Composer](https://getcomposer.org/download/) for its package and
-modules management. Install it with this command:
-
-    $ curl -sS https://getcomposer.org/installer | php
-
 ### Install Node.js & Bower
 
 For JavaScript components, CampaignChain makes use of Bower, which - you guessed
@@ -68,6 +61,13 @@ Now install Bower through npm:
 
     $ npm install -g bower
 
+### Install Composer
+
+CampaignChain utilizes [Composer](https://getcomposer.org/download/) for its package and
+modules management. Install it with this command:
+
+    $ curl -sS https://getcomposer.org/installer | php
+    
 ### Install Base System
 
 In a folder of your choice, execute Composer to download all files of the
@@ -79,7 +79,7 @@ https://github.com/CampaignChain/campaignchain/releases
 
     $ composer create-project --stability=dev campaignchain/campaignchain campaignchain [version]
 
-### Configure Base System
+### Configure CampaignChain System
 
 During the process, Composer will ask in the command line to provide some
 configuration parameters. Please make sure you check/provide at least the
@@ -102,19 +102,6 @@ CampaignChain root folder:
 
     $ php app/console assetic:dump --env=prod --no-debug
 
-### Configure CampaignChain Scheduler
-
-The CampaignChain scheduler is a PHP script that executes scheduled Operations.
-
-On Linux or Mac OS X, configure it as a cron job so that it runs automatically
-every minute:
-
-    $ crontab -e -u <username>
-    */1 * * * * cd /path/to/campaignchain && php app/console campaignchain:scheduler --env=prod 1>/dev/null 2>/dev/null
-
-On Windows, you could use the task scheduler or AT command to achieve the same:
-http://technet.microsoft.com/en-us/library/bb726974.aspx
-
 ### Write Permissions
 
 Please ensure that the following directories are writable by PHP, relative to
@@ -135,6 +122,19 @@ the CampaignChain root:
 
 If you'd like to use the built-in modules manager, then you should also make
 the `composer.json` file in the root directory writable by PHP.
+
+### Configure CampaignChain Scheduler
+
+The CampaignChain scheduler is a PHP script that executes scheduled Operations.
+
+On Linux or Mac OS X, configure it as a cron job so that it runs automatically
+every minute:
+
+    $ crontab -e -u <username>
+    */1 * * * * cd /path/to/campaignchain && php app/console campaignchain:scheduler --env=prod 1>/dev/null 2>/dev/null
+
+On Windows, you could use the task scheduler or AT command to achieve the same:
+http://technet.microsoft.com/en-us/library/bb726974.aspx
 
 ### Start Server
 
@@ -164,6 +164,16 @@ learn how to get it.
 
 CampaignChain is now installed, configured and ready for use!
 
+## Update
+
+The Community Edition includes routines to automatically update an instance.
+Updates include foremost the database schema and changes to the data itself.
+
+To run an update of your CampaignChain installation, execute this command in
+the root of your CampaignChain installation:
+    
+    $ composer update
+    
 ## Usage
 
 To make full use of CampaignChain’s end user capabilities, you could now
