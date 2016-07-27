@@ -2868,12 +2868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/update.git",
-                "reference": "bc78ef93e742b27d8897644eafd4312e105132e5"
+                "reference": "56119a066c99bde89e0ca7d3933b918828de1180"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/update/zipball/bc78ef93e742b27d8897644eafd4312e105132e5",
-                "reference": "bc78ef93e742b27d8897644eafd4312e105132e5",
+                "url": "https://api.github.com/repos/CampaignChain/update/zipball/56119a066c99bde89e0ca7d3933b918828de1180",
+                "reference": "56119a066c99bde89e0ca7d3933b918828de1180",
                 "shasum": ""
             },
             "require": {
@@ -2911,7 +2911,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-25 04:59:50"
+            "time": "2016-07-26 23:07:09"
         },
         {
             "name": "cocur/slugify",
@@ -8292,16 +8292,16 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v3.3.6",
+            "version": "v3.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a"
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/81df608a40bf0629a1dc08e584849bb1e43e0b7a",
-                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
                 "shasum": ""
             },
             "replace": {
@@ -8339,7 +8339,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2015-11-24 19:37:05"
+            "time": "2016-07-25 15:51:55"
         },
         {
             "name": "twig/extensions",
