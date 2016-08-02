@@ -652,12 +652,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "2286bdab348ac693ac8287d1832749a63fb011bb"
+                "reference": "aa0a4ae4bf7d031c7247d2632c2ca62dd62f727f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/2286bdab348ac693ac8287d1832749a63fb011bb",
-                "reference": "2286bdab348ac693ac8287d1832749a63fb011bb",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/aa0a4ae4bf7d031c7247d2632c2ca62dd62f727f",
+                "reference": "aa0a4ae4bf7d031c7247d2632c2ca62dd62f727f",
                 "shasum": ""
             },
             "require": {
@@ -701,7 +701,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-07-16 02:50:45"
+            "time": "2016-07-16 19:32:20"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "784e619fdc36136954f63666b557c4ad44d51c5d"
+                "reference": "c965f0175aa3b7ddbfd0f4f37510caeccb8feaf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/784e619fdc36136954f63666b557c4ad44d51c5d",
-                "reference": "784e619fdc36136954f63666b557c4ad44d51c5d",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c965f0175aa3b7ddbfd0f4f37510caeccb8feaf0",
+                "reference": "c965f0175aa3b7ddbfd0f4f37510caeccb8feaf0",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-24 21:28:48"
+            "time": "2016-08-02 00:07:49"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -4160,12 +4160,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "5bd68a76b2957eb009b1d7d95e9573b11e710d8b"
+                "reference": "3e5bb11bdb7e114a079a049da82c7e9498080e2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/5bd68a76b2957eb009b1d7d95e9573b11e710d8b",
-                "reference": "5bd68a76b2957eb009b1d7d95e9573b11e710d8b",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/3e5bb11bdb7e114a079a049da82c7e9498080e2a",
+                "reference": "3e5bb11bdb7e114a079a049da82c7e9498080e2a",
                 "shasum": ""
             },
             "require": {
@@ -4185,7 +4185,6 @@
                 "jms/serializer-bundle": "^1.0",
                 "phpoption/phpoption": "^1.1",
                 "sensio/framework-extra-bundle": "^3.0.13",
-                "sllh/php-cs-fixer-styleci-bridge": "^1.3",
                 "symfony/browser-kit": "^2.7|^3.0",
                 "symfony/css-selector": "^2.7|^3.0",
                 "symfony/dependency-injection": "^2.7|^3.0",
@@ -4240,7 +4239,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-07-15 08:58:07"
+            "time": "2016-07-31 18:18:46"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -5914,16 +5913,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.20.0",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "55841909e2bcde01b5318c35f2b74f8ecc86e037"
+                "reference": "f42fbdfd53e306bda545845e4dbfd3e72edb4952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/55841909e2bcde01b5318c35f2b74f8ecc86e037",
-                "reference": "55841909e2bcde01b5318c35f2b74f8ecc86e037",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f42fbdfd53e306bda545845e4dbfd3e72edb4952",
+                "reference": "f42fbdfd53e306bda545845e4dbfd3e72edb4952",
                 "shasum": ""
             },
             "require": {
@@ -5988,7 +5987,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-07-02 14:02:10"
+            "time": "2016-07-29 03:23:52"
         },
         {
             "name": "mremi/url-shortener",
@@ -7234,16 +7233,16 @@
         },
         {
             "name": "sonata-project/exporter",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/exporter.git",
-                "reference": "157e2e67df0ee4f1a0074d22039dd482af0a1550"
+                "reference": "48905105792aa2bfbea234b6a9d6a168ff8c19fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/157e2e67df0ee4f1a0074d22039dd482af0a1550",
-                "reference": "157e2e67df0ee4f1a0074d22039dd482af0a1550",
+                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/48905105792aa2bfbea234b6a9d6a168ff8c19fd",
+                "reference": "48905105792aa2bfbea234b6a9d6a168ff8c19fd",
                 "shasum": ""
             },
             "require": {
@@ -7251,9 +7250,13 @@
             },
             "require-dev": {
                 "doctrine/dbal": "^2.2",
-                "doctrine/orm": "^2.2",
+                "matthiasnoback/symfony-config-test": "^1.2.1 || ^2.0",
+                "matthiasnoback/symfony-dependency-injection-test": "^0.7.6 || ^1.0",
                 "propel/propel1": "^1.6",
                 "sllh/php-cs-fixer-styleci-bridge": "^2.0",
+                "symfony/dependency-injection": "^2.3 || ^3.0",
+                "symfony/http-foundation": "^2.3 || ^3.0",
+                "symfony/http-kernel": "^2.3 || ^3.0",
                 "symfony/phpunit-bridge": "^2.7 || ^3.0",
                 "symfony/property-access": "^2.3 || ^3.0",
                 "symfony/routing": "^2.3 || ^3.0"
@@ -7295,7 +7298,7 @@
                 "export",
                 "xls"
             ],
-            "time": "2016-06-16 10:27:09"
+            "time": "2016-08-01 08:13:04"
         },
         {
             "name": "sp/bower-bundle",
@@ -8158,16 +8161,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.8",
+            "version": "v2.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "038d13264f732f9bba850c423e374dc72874d1a6"
+                "reference": "df02dd5d3f7decb3a05c6d0f31054b4263625dcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/038d13264f732f9bba850c423e374dc72874d1a6",
-                "reference": "038d13264f732f9bba850c423e374dc72874d1a6",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/df02dd5d3f7decb3a05c6d0f31054b4263625dcb",
+                "reference": "df02dd5d3f7decb3a05c6d0f31054b4263625dcb",
                 "shasum": ""
             },
             "require": {
@@ -8288,7 +8291,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-06-30 15:42:24"
+            "time": "2016-07-30 08:48:52"
         },
         {
             "name": "twbs/bootstrap",
