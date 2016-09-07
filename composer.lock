@@ -536,12 +536,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-repeating.git",
-                "reference": "e969a682d69c00754350e18bf1c29112ef5eefcc"
+                "reference": "aaab8d91ef444f7b1031899876614fe84ad21897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/e969a682d69c00754350e18bf1c29112ef5eefcc",
-                "reference": "e969a682d69c00754350e18bf1c29112ef5eefcc",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/aaab8d91ef444f7b1031899876614fe84ad21897",
+                "reference": "aaab8d91ef444f7b1031899876614fe84ad21897",
                 "shasum": ""
             },
             "require": {
@@ -585,7 +585,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-07-23 18:47:16"
+            "time": "2016-09-07 07:41:22"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -593,12 +593,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "cc0e1472a0476990a50157c86919dec8a6e64ad0"
+                "reference": "5ec53fe63f8f39258fbb333a99d125dbfd52ebb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/cc0e1472a0476990a50157c86919dec8a6e64ad0",
-                "reference": "cc0e1472a0476990a50157c86919dec8a6e64ad0",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/5ec53fe63f8f39258fbb333a99d125dbfd52ebb5",
+                "reference": "5ec53fe63f8f39258fbb333a99d125dbfd52ebb5",
                 "shasum": ""
             },
             "require": {
@@ -644,7 +644,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-07-16 19:32:20"
+            "time": "2016-09-07 07:41:09"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -652,12 +652,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "aa0a4ae4bf7d031c7247d2632c2ca62dd62f727f"
+                "reference": "7b99ec1581958b955b1f522ea097ce1e26060f37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/aa0a4ae4bf7d031c7247d2632c2ca62dd62f727f",
-                "reference": "aa0a4ae4bf7d031c7247d2632c2ca62dd62f727f",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/7b99ec1581958b955b1f522ea097ce1e26060f37",
+                "reference": "7b99ec1581958b955b1f522ea097ce1e26060f37",
                 "shasum": ""
             },
             "require": {
@@ -701,7 +701,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-07-16 19:32:20"
+            "time": "2016-09-07 07:40:53"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -1219,18 +1219,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "c965f0175aa3b7ddbfd0f4f37510caeccb8feaf0"
+                "reference": "ba5b8ad153c5070ffd3417afe8c2896c497af8b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/c965f0175aa3b7ddbfd0f4f37510caeccb8feaf0",
-                "reference": "c965f0175aa3b7ddbfd0f4f37510caeccb8feaf0",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ba5b8ad153c5070ffd3417afe8c2896c497af8b6",
+                "reference": "ba5b8ad153c5070ffd3417afe8c2896c497af8b6",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
                 "braincrafted/bootstrap-bundle": "2.1.2",
                 "campaignchain/location-website": "dev-master",
+                "cnerta/breadcrumb-bundle": "2.1.*",
                 "components/jquery": "1.11.*",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
@@ -1282,6 +1283,7 @@
                             "Braincrafted\\Bundle\\BootstrapBundle\\BraincraftedBootstrapBundle",
                             "Knp\\Bundle\\MenuBundle\\KnpMenuBundle",
                             "Knp\\Bundle\\PaginatorBundle\\KnpPaginatorBundle",
+                            "Cnerta\\BreadcrumbBundle\\CnertaBreadcrumbBundle",
                             "SC\\DatetimepickerBundle\\SCDatetimepickerBundle",
                             "FOS\\UserBundle\\FOSUserBundle",
                             "Bmatzner\\FontAwesomeBundle\\BmatznerFontAwesomeBundle",
@@ -1320,7 +1322,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-08-02 00:07:49"
+            "time": "2016-09-07 07:39:47"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1376,12 +1378,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-data-repeat.git",
-                "reference": "744b2a528342f82343793c15dc8255d6e4b46dbc"
+                "reference": "94299393cb9e059dbd58df0930ede1a1be3be635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/744b2a528342f82343793c15dc8255d6e4b46dbc",
-                "reference": "744b2a528342f82343793c15dc8255d6e4b46dbc",
+                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/94299393cb9e059dbd58df0930ede1a1be3be635",
+                "reference": "94299393cb9e059dbd58df0930ede1a1be3be635",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1416,7 +1418,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-07-16 19:32:20"
+            "time": "2016-09-07 07:41:33"
         },
         {
             "name": "campaignchain/hook-due",
@@ -2914,6 +2916,56 @@
             "time": "2016-07-26 23:07:09"
         },
         {
+            "name": "cnerta/breadcrumb-bundle",
+            "version": "2.1.1",
+            "target-dir": "Cnerta/BreadcrumbBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AgrosupDijon-Eduter/BreadcrumbBundle.git",
+                "reference": "794f782c1a9cc344905a8c56412f17535241c3f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AgrosupDijon-Eduter/BreadcrumbBundle/zipball/794f782c1a9cc344905a8c56412f17535241c3f6",
+                "reference": "794f782c1a9cc344905a8c56412f17535241c3f6",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/knp-menu-bundle": "~2.0",
+                "symfony/framework-bundle": ">2.1"
+            },
+            "require-dev": {
+                "knplabs/knp-menu-bundle": "~2.0",
+                "phpunit/phpunit": "~4.8",
+                "symfony/symfony": "2.7.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Cnerta\\BreadcrumbBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valérian Girard",
+                    "email": "valerian.girard@educagri.fr",
+                    "homepage": "http://www.cnerta.educagri.fr/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The CnertaBreadcrumbBundle, for Symfony2, provide an easy way to create a breadcrumb with KnpMenuBundle",
+            "keywords": [
+                "Symfony2",
+                "breadcrumbs",
+                "knpmenu"
+            ],
+            "time": "2015-10-21 15:36:21"
+        },
+        {
             "name": "cocur/slugify",
             "version": "v2.3",
             "source": {
@@ -3541,23 +3593,26 @@
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
-            "version": "1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineMigrationsBundle.git",
-                "reference": "303a576e2124efb07ec215e34ea2480b841cf5e4"
+                "reference": "0b89ee55bceb53c60bc4ba32924ac5053e377abb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineMigrationsBundle/zipball/303a576e2124efb07ec215e34ea2480b841cf5e4",
-                "reference": "303a576e2124efb07ec215e34ea2480b841cf5e4",
+                "url": "https://api.github.com/repos/doctrine/DoctrineMigrationsBundle/zipball/0b89ee55bceb53c60bc4ba32924ac5053e377abb",
+                "reference": "0b89ee55bceb53c60bc4ba32924ac5053e377abb",
                 "shasum": ""
             },
             "require": {
                 "doctrine/doctrine-bundle": "~1.0",
-                "doctrine/migrations": "~1.0",
-                "php": ">=5.3.2",
+                "doctrine/migrations": "^1.1",
+                "php": ">=5.4.0",
                 "symfony/framework-bundle": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -3595,7 +3650,7 @@
                 "migrations",
                 "schema"
             ],
-            "time": "2015-11-04 13:45:30"
+            "time": "2016-06-30 19:26:35"
         },
         {
             "name": "doctrine/inflector",
@@ -3923,12 +3978,12 @@
             "version": "4.0.23",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
+                "url": "https://github.com/facebook/php-graph-sdk.git",
                 "reference": "c82611e05596622c9bd7abfa1cea1512d885c95e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/c82611e05596622c9bd7abfa1cea1512d885c95e",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/c82611e05596622c9bd7abfa1cea1512d885c95e",
                 "reference": "c82611e05596622c9bd7abfa1cea1512d885c95e",
                 "shasum": ""
             },
@@ -3965,6 +4020,7 @@
                 "facebook",
                 "sdk"
             ],
+            "abandoned": "facebook/graph-sdk",
             "time": "2015-04-03 20:31:47"
         },
         {
@@ -4161,12 +4217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "5d0f28334970d2601c16c82bd4c6183df2f639a6"
+                "reference": "0558ba1cf456d51e623eb60d99f1183c6875db8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/5d0f28334970d2601c16c82bd4c6183df2f639a6",
-                "reference": "5d0f28334970d2601c16c82bd4c6183df2f639a6",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/0558ba1cf456d51e623eb60d99f1183c6875db8e",
+                "reference": "0558ba1cf456d51e623eb60d99f1183c6875db8e",
                 "shasum": ""
             },
             "require": {
@@ -4180,6 +4236,7 @@
                 "willdurand/negotiation": "^2.0"
             },
             "conflict": {
+                "jms/serializer": "1.3.0",
                 "sensio/framework-extra-bundle": "<3.0.13"
             },
             "require-dev": {
@@ -4240,7 +4297,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-08-09 20:01:20"
+            "time": "2016-09-06 16:37:54"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -4743,16 +4800,16 @@
         },
         {
             "name": "hybridauth/hybridauth",
-            "version": "v2.6.0",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "45e52d12dccc00d4de25dc534961ab46204a15cf"
+                "reference": "d4e5bc34008e8c187c302eb4e94200ee4a208c63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/45e52d12dccc00d4de25dc534961ab46204a15cf",
-                "reference": "45e52d12dccc00d4de25dc534961ab46204a15cf",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/d4e5bc34008e8c187c302eb4e94200ee4a208c63",
+                "reference": "d4e5bc34008e8c187c302eb4e94200ee4a208c63",
                 "shasum": ""
             },
             "require": {
@@ -4791,7 +4848,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2016-01-12 12:19:25"
+            "time": "2016-09-05 03:02:22"
         },
         {
             "name": "imagine/imagine",
@@ -5125,16 +5182,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "1.2.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "ef0bfc44272a6439da7355f67904b9678c603e0a"
+                "reference": "705d0b4633b9c44e6253aa18306b3972282cd3a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/ef0bfc44272a6439da7355f67904b9678c603e0a",
-                "reference": "ef0bfc44272a6439da7355f67904b9678c603e0a",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/705d0b4633b9c44e6253aa18306b3972282cd3a3",
+                "reference": "705d0b4633b9c44e6253aa18306b3972282cd3a3",
                 "shasum": ""
             },
             "require": {
@@ -5151,7 +5208,7 @@
             },
             "require-dev": {
                 "doctrine/orm": "~2.1",
-                "doctrine/phpcr-odm": "^1.3",
+                "doctrine/phpcr-odm": "^1.3|^2.0",
                 "jackalope/jackalope-doctrine-dbal": "^1.1.5",
                 "phpunit/phpunit": "^4.8|^5.0",
                 "propel/propel1": "~1.7",
@@ -5168,7 +5225,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -5195,7 +5252,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2016-08-03 12:52:48"
+            "time": "2016-08-23 17:20:24"
         },
         {
             "name": "jms/serializer-bundle",
@@ -8161,16 +8218,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.9",
+            "version": "v2.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "df02dd5d3f7decb3a05c6d0f31054b4263625dcb"
+                "reference": "f588c92c3e263b2eaa2f96a7b1359199eb209b3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/df02dd5d3f7decb3a05c6d0f31054b4263625dcb",
-                "reference": "df02dd5d3f7decb3a05c6d0f31054b4263625dcb",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/f588c92c3e263b2eaa2f96a7b1359199eb209b3d",
+                "reference": "f588c92c3e263b2eaa2f96a7b1359199eb209b3d",
                 "shasum": ""
             },
             "require": {
@@ -8291,7 +8348,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-07-30 08:48:52"
+            "time": "2016-09-07 02:04:25"
         },
         {
             "name": "twbs/bootstrap",
@@ -8398,16 +8455,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.1",
+            "version": "v1.24.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
+                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
-                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
+                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
                 "shasum": ""
             },
             "require": {
@@ -8455,7 +8512,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-05-30 09:11:59"
+            "time": "2016-09-01 17:50:53"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
@@ -8499,20 +8556,23 @@
         },
         {
             "name": "willdurand/negotiation",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "a8ce6da7acdf07351ccd6a9359c571ebc0725a21"
+                "reference": "1ebc51dd6d47f4037b0d2493335304e5aea50ab6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/a8ce6da7acdf07351ccd6a9359c571ebc0725a21",
-                "reference": "a8ce6da7acdf07351ccd6a9359c571ebc0725a21",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/1ebc51dd6d47f4037b0d2493335304e5aea50ab6",
+                "reference": "1ebc51dd6d47f4037b0d2493335304e5aea50ab6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5"
             },
             "type": "library",
             "extra": {
@@ -8544,7 +8604,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2015-11-21 14:23:02"
+            "time": "2016-08-30 11:08:41"
         },
         {
             "name": "zendframework/zend-code",
@@ -8890,12 +8950,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/dev-tools.git",
-                "reference": "4fa8945d8c40b347295af027fa22c9896c675b1e"
+                "reference": "a1294c11e9a9b1b97f4e12a71d01dbdcc96ee558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/4fa8945d8c40b347295af027fa22c9896c675b1e",
-                "reference": "4fa8945d8c40b347295af027fa22c9896c675b1e",
+                "url": "https://api.github.com/repos/CampaignChain/dev-tools/zipball/a1294c11e9a9b1b97f4e12a71d01dbdcc96ee558",
+                "reference": "a1294c11e9a9b1b97f4e12a71d01dbdcc96ee558",
                 "shasum": ""
             },
             "require": {
@@ -8925,7 +8985,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-16 02:50:45"
+            "time": "2016-09-07 07:39:59"
         },
         {
             "name": "campaignchain/location-ezplatform",
