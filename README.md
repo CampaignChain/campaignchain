@@ -95,10 +95,10 @@ following (default values in brackets):
     router.request_context.host: localhost
     router.request_context.scheme: http
 
-Especially the two **router.request_context.*** parameters are important.
-They must reflect the domain and protocol of your CampaignChain
-installation. Otherwise, automated background processes such as scheduled
-posts on Twitter will not work properly.
+The two **router.request_context.*** parameters must reflect the domain
+and protocol of your CampaignChain installation. Otherwise, automated
+background processes such as scheduled posts on Twitter will not work
+properly.
 
 ### Clear Cache and Dump Assets
 
