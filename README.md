@@ -185,8 +185,9 @@ the root of your CampaignChain installation:
 
 To make full use of CampaignChain’s end user capabilities, you could now
 
-1. [Configure Call to Action (CTA) tracking](http://docs.campaignchain.com/en/master/ce/administrator/configuration/cta.html)
-2. [Learn how to create your first campaign and activity](http://docs.campaignchain.com/en/master/user/get_started.html)
+1. [Create OAuth apps to use Twitter, Facebook, etc.](http://docs.campaignchain.com/en/master/ce/administrator/configuration/oauth_apps.html#create-new-oauth-apps)
+2. [Configure Call to Action (CTA) tracking](http://docs.campaignchain.com/en/master/ce/administrator/configuration/cta.html)
+3. [Learn how to create your first campaign and activity](http://docs.campaignchain.com/en/master/user/get_started.html)
 
 ## Customization
 
