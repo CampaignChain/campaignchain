@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "ba5b8ad153c5070ffd3417afe8c2896c497af8b6"
+                "reference": "8e3327a4f5f98213dcde150a0307786214e5c988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ba5b8ad153c5070ffd3417afe8c2896c497af8b6",
-                "reference": "ba5b8ad153c5070ffd3417afe8c2896c497af8b6",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/8e3327a4f5f98213dcde150a0307786214e5c988",
+                "reference": "8e3327a4f5f98213dcde150a0307786214e5c988",
                 "shasum": ""
             },
             "require": {
@@ -1322,7 +1322,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-09-07 07:39:47"
+            "time": "2016-09-20 09:00:19"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -4217,12 +4217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "e7d987b310ec77376a85eabdc84a8df98892dd09"
+                "reference": "e39a06df44fc2daf62f83bc89563634c3a64ca77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/e7d987b310ec77376a85eabdc84a8df98892dd09",
-                "reference": "e7d987b310ec77376a85eabdc84a8df98892dd09",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/e39a06df44fc2daf62f83bc89563634c3a64ca77",
+                "reference": "e39a06df44fc2daf62f83bc89563634c3a64ca77",
                 "shasum": ""
             },
             "require": {
@@ -4297,7 +4297,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-09-08 16:46:26"
+            "time": "2016-09-18 18:00:28"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -6666,22 +6666,30 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=5.3.0"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6695,12 +6703,13 @@
                 }
             ],
             "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
             "keywords": [
                 "log",
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2016-09-19 16:02:08"
         },
         {
             "name": "react/promise",
