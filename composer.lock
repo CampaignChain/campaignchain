@@ -1673,12 +1673,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-facebook.git",
-                "reference": "f4d6a53493ab1e5d6775392dbbf6f86e907ddd9f"
+                "reference": "6883da51ec2a91e63c78f89330a53554476c3184"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/f4d6a53493ab1e5d6775392dbbf6f86e907ddd9f",
-                "reference": "f4d6a53493ab1e5d6775392dbbf6f86e907ddd9f",
+                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/6883da51ec2a91e63c78f89330a53554476c3184",
+                "reference": "6883da51ec2a91e63c78f89330a53554476c3184",
                 "shasum": ""
             },
             "require": {
@@ -1716,7 +1716,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-09-11 16:04:48"
+            "time": "2016-09-21 11:13:29"
         },
         {
             "name": "campaignchain/location-google-analytics",
