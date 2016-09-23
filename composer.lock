@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "8e3327a4f5f98213dcde150a0307786214e5c988"
+                "reference": "5482fd641bb620b318e5d734973aeb194649c03e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/8e3327a4f5f98213dcde150a0307786214e5c988",
-                "reference": "8e3327a4f5f98213dcde150a0307786214e5c988",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/5482fd641bb620b318e5d734973aeb194649c03e",
+                "reference": "5482fd641bb620b318e5d734973aeb194649c03e",
                 "shasum": ""
             },
             "require": {
@@ -1322,7 +1322,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-09-20 09:00:19"
+            "time": "2016-09-22 13:20:34"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -5543,12 +5543,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "a74c02bbc892aba64d05ff0098f00a6d1b601892"
+                "reference": "964b5b3ca7fd23019147991f4f75f361d061eb20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/a74c02bbc892aba64d05ff0098f00a6d1b601892",
-                "reference": "a74c02bbc892aba64d05ff0098f00a6d1b601892",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/964b5b3ca7fd23019147991f4f75f361d061eb20",
+                "reference": "964b5b3ca7fd23019147991f4f75f361d061eb20",
                 "shasum": ""
             },
             "require": {
@@ -5601,7 +5601,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2016-08-03 15:45:48"
+            "time": "2016-09-22 07:36:19"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -5609,16 +5609,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "42ff1953c3a79d0b31aba2ece8c03fbd70e7f1ca"
+                "reference": "0e4af7209dc03e39c51ec70b68ab2ba3177c25de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/42ff1953c3a79d0b31aba2ece8c03fbd70e7f1ca",
-                "reference": "42ff1953c3a79d0b31aba2ece8c03fbd70e7f1ca",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/0e4af7209dc03e39c51ec70b68ab2ba3177c25de",
+                "reference": "0e4af7209dc03e39c51ec70b68ab2ba3177c25de",
                 "shasum": ""
             },
             "require": {
-                "knplabs/knp-menu": "~2.1",
+                "knplabs/knp-menu": "~2.2",
                 "symfony/framework-bundle": "~2.3|~3.0"
             },
             "require-dev": {
@@ -5628,7 +5628,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1.x-dev"
+                    "dev-master": "2.2.x-dev"
                 }
             },
             "autoload": {
@@ -5658,7 +5658,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2016-06-21 06:53:03"
+            "time": "2016-09-22 12:24:40"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -8464,16 +8464,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.2",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7"
+                "reference": "f16a634ab08d87e520da5671ec52153d627f10f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
-                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/f16a634ab08d87e520da5671ec52153d627f10f6",
+                "reference": "f16a634ab08d87e520da5671ec52153d627f10f6",
                 "shasum": ""
             },
             "require": {
@@ -8486,7 +8486,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.24-dev"
+                    "dev-master": "1.25-dev"
                 }
             },
             "autoload": {
@@ -8521,7 +8521,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-09-01 17:50:53"
+            "time": "2016-09-21 23:05:12"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
@@ -8565,16 +8565,16 @@
         },
         {
             "name": "willdurand/negotiation",
-            "version": "v2.0.3",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "1ebc51dd6d47f4037b0d2493335304e5aea50ab6"
+                "reference": "bc814293b153f543c99c89d94c8cc07b3259eef9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/1ebc51dd6d47f4037b0d2493335304e5aea50ab6",
-                "reference": "1ebc51dd6d47f4037b0d2493335304e5aea50ab6",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/bc814293b153f543c99c89d94c8cc07b3259eef9",
+                "reference": "bc814293b153f543c99c89d94c8cc07b3259eef9",
                 "shasum": ""
             },
             "require": {
@@ -8586,7 +8586,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -8613,7 +8613,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2016-08-30 11:08:41"
+            "time": "2016-09-21 11:26:55"
         },
         {
             "name": "zendframework/zend-code",
