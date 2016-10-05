@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5bd9ef7456f8d216e9381bc3c07f7cb0",
-    "content-hash": "6c7c067ec19d053a28eddb8071642ead",
+    "hash": "ee7deec4be75beed613353b62d21b7e2",
+    "content-hash": "b3b2101d3190efa25f5a265278df28c1",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -56,34 +56,35 @@
         },
         {
             "name": "braincrafted/bootstrap-bundle",
-            "version": "v2.1.2",
+            "version": "v2.2.0",
             "target-dir": "Braincrafted/Bundle/BootstrapBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/braincrafted/bootstrap-bundle.git",
-                "reference": "c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b"
+                "reference": "23ae42061668d0fdc999b63db55c264265e037ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b",
-                "reference": "c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b",
+                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/23ae42061668d0fdc999b63db55c264265e037ab",
+                "reference": "23ae42061668d0fdc999b63db55c264265e037ab",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/console": "~2.3",
-                "symfony/finder": "~2.3",
-                "symfony/form": "~2.3",
-                "symfony/framework-bundle": "~2.3",
-                "symfony/twig-bundle": "~2.3"
+                "symfony/console": "~2.6|~3.0",
+                "symfony/finder": "~2.6|~3.0",
+                "symfony/form": "~2.6|~3.0",
+                "symfony/framework-bundle": "~2.6|~3.0",
+                "symfony/twig-bundle": "~2.6|~3.0",
+                "twig/twig": "~1.12|~2.0@dev"
             },
             "require-dev": {
                 "knplabs/knp-menu": "~2.0@alpha",
                 "knplabs/knp-menu-bundle": "~2.0@alpha",
                 "knplabs/knp-paginator-bundle": "dev-master",
-                "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "3.7.*",
-                "symfony/assetic-bundle": "~2.3"
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~3.7",
+                "symfony/assetic-bundle": "~2.6|~3.0"
             },
             "suggest": {
                 "knplabs/knp-menu": "Required to use KnpMenuBundle.",
@@ -112,7 +113,7 @@
             "keywords": [
                 "bootstrap"
             ],
-            "time": "2015-03-06 12:14:13"
+            "time": "2016-01-23 17:44:32"
         },
         {
             "name": "campaignchain/activity-facebook",
@@ -1215,21 +1216,21 @@
         },
         {
             "name": "campaignchain/core",
-            "version": "dev-master",
+            "version": "dev-campaignchain-240",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "7d22b3bed083f5130a1b44714b05bb61b30a2762"
+                "reference": "8badd6f5e343251594db652bcf862a9e48b9bfeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7d22b3bed083f5130a1b44714b05bb61b30a2762",
-                "reference": "7d22b3bed083f5130a1b44714b05bb61b30a2762",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/8badd6f5e343251594db652bcf862a9e48b9bfeb",
+                "reference": "8badd6f5e343251594db652bcf862a9e48b9bfeb",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
-                "braincrafted/bootstrap-bundle": "2.1.2",
+                "braincrafted/bootstrap-bundle": "2.2.*",
                 "campaignchain/location-website": "dev-master",
                 "cnerta/breadcrumb-bundle": "2.1.*",
                 "components/jquery": "1.11.*",
@@ -1322,7 +1323,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-03 16:45:56"
+            "time": "2016-10-05 20:36:56"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -8465,16 +8466,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.26.0",
+            "version": "v1.26.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "81c2b5fd36581370c7731387f05dcdb577050513"
+                "reference": "a09d8ee17ac1cfea29ed60c83960ad685c6a898d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/81c2b5fd36581370c7731387f05dcdb577050513",
-                "reference": "81c2b5fd36581370c7731387f05dcdb577050513",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a09d8ee17ac1cfea29ed60c83960ad685c6a898d",
+                "reference": "a09d8ee17ac1cfea29ed60c83960ad685c6a898d",
                 "shasum": ""
             },
             "require": {
@@ -8522,7 +8523,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-10-02 16:19:13"
+            "time": "2016-10-05 18:57:41"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
@@ -9235,7 +9236,14 @@
             "time": "2016-09-16 14:16:15"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "dev-campaignchain-240",
+            "package": "campaignchain/core"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/core": 20,
