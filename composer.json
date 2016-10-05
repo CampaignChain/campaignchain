@@ -29,7 +29,7 @@
     "require": {
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
-        "campaignchain/core": "campaignchain-240 as dev-master",
+        "campaignchain/core": "dev-master",
         "campaignchain/update": "dev-master",
         "campaignchain/campaign-scheduled": "dev-master",
         "campaignchain/campaign-template": "dev-master",
@@ -54,7 +54,8 @@
         "amariki/data-demo": "dev-master",
         "campaignchain/activity-social-media": "dev-master",
         "campaignchain/activity-ezplatform": "dev-master",
-        "avanzu/admin-theme-bundle": "~2.0"
+        "avanzu/admin-theme-bundle": "~2.0",
+        "campaignchain/core": "dev-campaignchain-240 as dev-master",
     },
     "scripts": {
         "post-root-package-install": [
