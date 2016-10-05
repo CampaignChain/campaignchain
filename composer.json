@@ -55,7 +55,7 @@
         "campaignchain/activity-social-media": "dev-master",
         "campaignchain/activity-ezplatform": "dev-master",
         "avanzu/admin-theme-bundle": "~2.0",
-        "campaignchain/core": "dev-campaignchain-240 as dev-master",
+        "campaignchain/core": "dev-campaignchain-240 as dev-master"
     },
     "scripts": {
         "post-root-package-install": [
