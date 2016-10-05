@@ -14,3 +14,6 @@
 
 campaignchain:
     resource: '../campaignchain/config/routing.yml'
+welcome:
+    pattern:  /
+    defaults: { _controller: CampaignChainCoreBundle:About:index }

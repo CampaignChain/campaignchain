@@ -61,6 +61,7 @@ class AppKernel extends Kernel
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
             // CampaignChain
             $bundles[] = new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle();
+            $bundles[] = new Avanzu\AdminThemeBundle\AvanzuAdminThemeBundle();
         }
 
         return $bundles;

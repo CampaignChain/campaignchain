@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9e62c9a81b4df73d45e4b62b23d2b8e",
-    "content-hash": "ea0b6684b89705852260ed18e96e62f9",
+    "hash": "5bd9ef7456f8d216e9381bc3c07f7cb0",
+    "content-hash": "6c7c067ec19d053a28eddb8071642ead",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -6161,12 +6161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "73d4db51e1f16cda1802e3e0e3977d506971d32d"
+                "reference": "958e697981ca958a8bf9dc2be890cf23d316367c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/73d4db51e1f16cda1802e3e0e3977d506971d32d",
-                "reference": "73d4db51e1f16cda1802e3e0e3977d506971d32d",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/958e697981ca958a8bf9dc2be890cf23d316367c",
+                "reference": "958e697981ca958a8bf9dc2be890cf23d316367c",
                 "shasum": ""
             },
             "require": {
@@ -6237,7 +6237,7 @@
                 "documentation",
                 "rest"
             ],
-            "time": "2016-09-10 06:38:33"
+            "time": "2016-10-03 19:10:35"
         },
         {
             "name": "ocramius/proxy-manager",
@@ -8227,16 +8227,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.11",
+            "version": "v2.8.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "f588c92c3e263b2eaa2f96a7b1359199eb209b3d"
+                "reference": "6a5bc3257b60098c28fc1bbcacd52000dd2801d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/f588c92c3e263b2eaa2f96a7b1359199eb209b3d",
-                "reference": "f588c92c3e263b2eaa2f96a7b1359199eb209b3d",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/6a5bc3257b60098c28fc1bbcacd52000dd2801d1",
+                "reference": "6a5bc3257b60098c28fc1bbcacd52000dd2801d1",
                 "shasum": ""
             },
             "require": {
@@ -8252,7 +8252,7 @@
                 "symfony/polyfill-php70": "~1.0",
                 "symfony/polyfill-util": "~1.0",
                 "symfony/security-acl": "~2.7|~3.0.0",
-                "twig/twig": "~1.23|~2.0"
+                "twig/twig": "~1.26|~2.0"
             },
             "conflict": {
                 "phpdocumentor/reflection": "<1.0.7"
@@ -8313,7 +8313,8 @@
                 "egulias/email-validator": "~1.2,>=1.2.1",
                 "monolog/monolog": "~1.11",
                 "ocramius/proxy-manager": "~0.4|~1.0|~2.0",
-                "phpdocumentor/reflection": "^1.0.7"
+                "phpdocumentor/reflection": "^1.0.7",
+                "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
@@ -8357,7 +8358,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-09-07 02:04:25"
+            "time": "2016-10-03 18:44:12"
         },
         {
             "name": "twbs/bootstrap",
@@ -8724,6 +8725,46 @@
     ],
     "packages-dev": [
         {
+            "name": "almasaeed2010/adminlte",
+            "version": "v2.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdullah Almsaeed",
+                    "email": "abdullah@almsaeedstudio.com"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
+            "homepage": "http://almsaeedstudio.com/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "time": "2016-08-04 23:22:06"
+        },
+        {
             "name": "amariki/data-demo",
             "version": "dev-master",
             "source": {
@@ -8788,6 +8829,52 @@
                 "campaignchain"
             ],
             "time": "2016-07-16 03:08:34"
+        },
+        {
+            "name": "avanzu/admin-theme-bundle",
+            "version": "2.0.0-beta.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avanzu/AdminThemeBundle.git",
+                "reference": "96f9341622fbbba60287f20803ebf916a56b397d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avanzu/AdminThemeBundle/zipball/96f9341622fbbba60287f20803ebf916a56b397d",
+                "reference": "96f9341622fbbba60287f20803ebf916a56b397d",
+                "shasum": ""
+            },
+            "require": {
+                "almasaeed2010/adminlte": "^2.3",
+                "php": ">=5.5.9",
+                "symfony/event-dispatcher": ">=2.3",
+                "symfony/http-foundation": ">=2.3",
+                "symfony/http-kernel": ">=2.3"
+            },
+            "require-dev": {
+                "phpspec/prophecy": "^1.6"
+            },
+            "suggest": {
+                "knplabs/knp-menu-bundle": "Allows easy menu integration."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Avanzu\\AdminThemeBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Bach",
+                    "email": "mail@avanzu.de"
+                }
+            ],
+            "description": "Admin Theme based on the AdminLTE Template for easy integration into symfony",
+            "time": "2016-07-23 07:54:15"
         },
         {
             "name": "campaignchain/activity-ezplatform",
