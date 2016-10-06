@@ -42,6 +42,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+            new Avanzu\AdminThemeBundle\AvanzuAdminThemeBundle(),
 
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),
@@ -61,7 +62,6 @@ class AppKernel extends Kernel
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
             // CampaignChain
             $bundles[] = new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle();
-            $bundles[] = new Avanzu\AdminThemeBundle\AvanzuAdminThemeBundle();
         }
 
         return $bundles;
