@@ -42,6 +42,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+            new Avanzu\AdminThemeBundle\AvanzuAdminThemeBundle(),
 
             // CampaignChain
             new CampaignChain\CoreBundle\CampaignChainCoreBundle(),

@@ -42,3 +42,4 @@ parameters:
     campaignchain.env: dev
     campaignchain.tracking.js_route: /tracking.js
     campaignchain.max_date_interval: '+2 years'
+    campaignchain.theme.skin: skin-black
