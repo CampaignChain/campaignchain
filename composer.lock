@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "251a71f8113344ebf95b9012677e5b9d",
-    "content-hash": "67704217e7968abe679c3929ce6fcd58",
+    "hash": "df44901f76d16e23267e6af962910e62",
+    "content-hash": "224950f7557cb6450f11e1a5021a84b7",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -1301,16 +1301,16 @@
         },
         {
             "name": "campaignchain/core",
-            "version": "dev-campaignchain-240",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "9e94d6dc057ba6b9b57d807b37f580efa4fb41e8"
+                "reference": "37e1109d5ff58c0a981c291952a563321ec2c5b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9e94d6dc057ba6b9b57d807b37f580efa4fb41e8",
-                "reference": "9e94d6dc057ba6b9b57d807b37f580efa4fb41e8",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/37e1109d5ff58c0a981c291952a563321ec2c5b6",
+                "reference": "37e1109d5ff58c0a981c291952a563321ec2c5b6",
                 "shasum": ""
             },
             "require": {
@@ -1408,7 +1408,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-07 11:22:24"
+            "time": "2016-10-07 11:39:11"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -9235,14 +9235,7 @@
             "time": "2016-09-16 14:16:15"
         }
     ],
-    "aliases": [
-        {
-            "alias": "dev-master",
-            "alias_normalized": "9999999-dev",
-            "version": "dev-campaignchain-240",
-            "package": "campaignchain/core"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "campaignchain/core": 20,
