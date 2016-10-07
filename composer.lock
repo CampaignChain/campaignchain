@@ -4,9 +4,95 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ee7deec4be75beed613353b62d21b7e2",
-    "content-hash": "b3b2101d3190efa25f5a265278df28c1",
+    "hash": "251a71f8113344ebf95b9012677e5b9d",
+    "content-hash": "67704217e7968abe679c3929ce6fcd58",
     "packages": [
+        {
+            "name": "almasaeed2010/adminlte",
+            "version": "v2.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdullah Almsaeed",
+                    "email": "abdullah@almsaeedstudio.com"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
+            "homepage": "http://almsaeedstudio.com/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "time": "2016-08-04 23:22:06"
+        },
+        {
+            "name": "avanzu/admin-theme-bundle",
+            "version": "2.0.0-beta.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avanzu/AdminThemeBundle.git",
+                "reference": "96f9341622fbbba60287f20803ebf916a56b397d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avanzu/AdminThemeBundle/zipball/96f9341622fbbba60287f20803ebf916a56b397d",
+                "reference": "96f9341622fbbba60287f20803ebf916a56b397d",
+                "shasum": ""
+            },
+            "require": {
+                "almasaeed2010/adminlte": "^2.3",
+                "php": ">=5.5.9",
+                "symfony/event-dispatcher": ">=2.3",
+                "symfony/http-foundation": ">=2.3",
+                "symfony/http-kernel": ">=2.3"
+            },
+            "require-dev": {
+                "phpspec/prophecy": "^1.6"
+            },
+            "suggest": {
+                "knplabs/knp-menu-bundle": "Allows easy menu integration."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Avanzu\\AdminThemeBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Bach",
+                    "email": "mail@avanzu.de"
+                }
+            ],
+            "description": "Admin Theme based on the AdminLTE Template for easy integration into symfony",
+            "time": "2016-07-23 07:54:15"
+        },
         {
             "name": "bmatzner/fontawesome-bundle",
             "version": "dev-master",
@@ -1219,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "1399eb10bfc8586b367fdadfc701a93b9bdb8399"
+                "reference": "9e94d6dc057ba6b9b57d807b37f580efa4fb41e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/1399eb10bfc8586b367fdadfc701a93b9bdb8399",
-                "reference": "1399eb10bfc8586b367fdadfc701a93b9bdb8399",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9e94d6dc057ba6b9b57d807b37f580efa4fb41e8",
+                "reference": "9e94d6dc057ba6b9b57d807b37f580efa4fb41e8",
                 "shasum": ""
             },
             "require": {
@@ -1322,7 +1408,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-06 14:41:45"
+            "time": "2016-10-07 11:22:24"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -8725,46 +8811,6 @@
     ],
     "packages-dev": [
         {
-            "name": "almasaeed2010/adminlte",
-            "version": "v2.3.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/almasaeed2010/AdminLTE.git",
-                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
-                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Abdullah Almsaeed",
-                    "email": "abdullah@almsaeedstudio.com"
-                }
-            ],
-            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
-            "homepage": "http://almsaeedstudio.com/",
-            "keywords": [
-                "JS",
-                "admin",
-                "back-end",
-                "css",
-                "less",
-                "responsive",
-                "template",
-                "theme",
-                "web"
-            ],
-            "time": "2016-08-04 23:22:06"
-        },
-        {
             "name": "amariki/data-demo",
             "version": "dev-master",
             "source": {
@@ -8829,52 +8875,6 @@
                 "campaignchain"
             ],
             "time": "2016-07-16 03:08:34"
-        },
-        {
-            "name": "avanzu/admin-theme-bundle",
-            "version": "2.0.0-beta.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/avanzu/AdminThemeBundle.git",
-                "reference": "96f9341622fbbba60287f20803ebf916a56b397d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/avanzu/AdminThemeBundle/zipball/96f9341622fbbba60287f20803ebf916a56b397d",
-                "reference": "96f9341622fbbba60287f20803ebf916a56b397d",
-                "shasum": ""
-            },
-            "require": {
-                "almasaeed2010/adminlte": "^2.3",
-                "php": ">=5.5.9",
-                "symfony/event-dispatcher": ">=2.3",
-                "symfony/http-foundation": ">=2.3",
-                "symfony/http-kernel": ">=2.3"
-            },
-            "require-dev": {
-                "phpspec/prophecy": "^1.6"
-            },
-            "suggest": {
-                "knplabs/knp-menu-bundle": "Allows easy menu integration."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Avanzu\\AdminThemeBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marc Bach",
-                    "email": "mail@avanzu.de"
-                }
-            ],
-            "description": "Admin Theme based on the AdminLTE Template for easy integration into symfony",
-            "time": "2016-07-23 07:54:15"
         },
         {
             "name": "campaignchain/activity-ezplatform",
