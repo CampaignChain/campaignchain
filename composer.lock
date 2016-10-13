@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "df44901f76d16e23267e6af962910e62",
+    "hash": "54f26e19bffcb8580776eb3145f6015d",
     "content-hash": "224950f7557cb6450f11e1a5021a84b7",
     "packages": [
         {
@@ -622,12 +622,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-repeating.git",
-                "reference": "aaab8d91ef444f7b1031899876614fe84ad21897"
+                "reference": "be5a22d02046f1c7c84fee30dba9d83c44c3079a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/aaab8d91ef444f7b1031899876614fe84ad21897",
-                "reference": "aaab8d91ef444f7b1031899876614fe84ad21897",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/be5a22d02046f1c7c84fee30dba9d83c44c3079a",
+                "reference": "be5a22d02046f1c7c84fee30dba9d83c44c3079a",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +671,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-09-07 07:41:22"
+            "time": "2016-10-10 19:09:21"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "5ec53fe63f8f39258fbb333a99d125dbfd52ebb5"
+                "reference": "91f0dcae173603d8e7984548311800590fa3c7a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/5ec53fe63f8f39258fbb333a99d125dbfd52ebb5",
-                "reference": "5ec53fe63f8f39258fbb333a99d125dbfd52ebb5",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/91f0dcae173603d8e7984548311800590fa3c7a5",
+                "reference": "91f0dcae173603d8e7984548311800590fa3c7a5",
                 "shasum": ""
             },
             "require": {
@@ -730,7 +730,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-09-07 07:41:09"
+            "time": "2016-10-10 19:05:09"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -738,12 +738,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "e5efde72a08b016c2edfccfed4915ae72bda9519"
+                "reference": "00ee31e0c9c7430c8d838233c890834c1fc050a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/e5efde72a08b016c2edfccfed4915ae72bda9519",
-                "reference": "e5efde72a08b016c2edfccfed4915ae72bda9519",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/00ee31e0c9c7430c8d838233c890834c1fc050a1",
+                "reference": "00ee31e0c9c7430c8d838233c890834c1fc050a1",
                 "shasum": ""
             },
             "require": {
@@ -787,7 +787,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-10-01 12:42:16"
+            "time": "2016-10-10 19:09:21"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "bb6bd1e8d7761a0119da8f37914df69a3cfc4530"
+                "reference": "f61e3ff913a954344c5e0f8805bef098d82c033c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/bb6bd1e8d7761a0119da8f37914df69a3cfc4530",
-                "reference": "bb6bd1e8d7761a0119da8f37914df69a3cfc4530",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f61e3ff913a954344c5e0f8805bef098d82c033c",
+                "reference": "f61e3ff913a954344c5e0f8805bef098d82c033c",
                 "shasum": ""
             },
             "require": {
@@ -1408,7 +1408,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-07 12:03:41"
+            "time": "2016-10-10 19:05:09"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -4303,12 +4303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "e39a06df44fc2daf62f83bc89563634c3a64ca77"
+                "reference": "bb017f8e07671bd5638fa753cc3f5a78a1a336eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/e39a06df44fc2daf62f83bc89563634c3a64ca77",
-                "reference": "e39a06df44fc2daf62f83bc89563634c3a64ca77",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/bb017f8e07671bd5638fa753cc3f5a78a1a336eb",
+                "reference": "bb017f8e07671bd5638fa753cc3f5a78a1a336eb",
                 "shasum": ""
             },
             "require": {
@@ -4383,7 +4383,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-09-18 18:00:28"
+            "time": "2016-10-09 06:58:44"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -6390,17 +6390,17 @@
         },
         {
             "name": "oneup/uploader-bundle",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "target-dir": "Oneup/UploaderBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1up-lab/OneupUploaderBundle.git",
-                "reference": "7920b4393d57e76038fbdb0e7152552ac52fd715"
+                "reference": "5ec3508c5a8ddcbd9a4d96b77e5b415a15599806"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1up-lab/OneupUploaderBundle/zipball/7920b4393d57e76038fbdb0e7152552ac52fd715",
-                "reference": "7920b4393d57e76038fbdb0e7152552ac52fd715",
+                "url": "https://api.github.com/repos/1up-lab/OneupUploaderBundle/zipball/5ec3508c5a8ddcbd9a4d96b77e5b415a15599806",
+                "reference": "5ec3508c5a8ddcbd9a4d96b77e5b415a15599806",
                 "shasum": ""
             },
             "require": {
@@ -6455,7 +6455,7 @@
                 "plupload",
                 "upload"
             ],
-            "time": "2016-07-15 11:50:32"
+            "time": "2016-10-08 14:29:52"
         },
         {
             "name": "oyejorge/less.php",
@@ -6752,16 +6752,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
-                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": ""
             },
             "require": {
@@ -6795,7 +6795,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-09-19 16:02:08"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "react/promise",

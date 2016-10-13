@@ -60,7 +60,7 @@
         "post-root-package-install": [
             "SymfonyStandard\\Composer::hookRootPackageInstall"
         ],
-        "post-install-cmd": [
+        "campaignchain-setup": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initKernel",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
@@ -74,22 +74,15 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sp\\BowerBundle\\Composer\\ScriptHandler::bowerInstall",
+            "app/console --env=prod assetic:dump --no-debug",
+            "app/console avanzu:admin:initialize"
+        ],
+        "post-install-cmd": [
+            "composer run-script campaignchain-setup",
             "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::enableInstallMode"
         ],
         "post-update-cmd": [
-            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initKernel",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::removeSymfonyStandardFiles",
-            "app/console campaignchain:update:kernel",
-            "app/console campaignchain:update:schema",
-            "app/console campaignchain:update:module",
-            "app/console campaignchain:update:schema",
-            "app/console campaignchain:update:data",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sp\\BowerBundle\\Composer\\ScriptHandler::bowerInstall"
+            "composer run-script campaignchain-setup"
         ]
     },
     "config": {
