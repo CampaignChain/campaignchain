@@ -1305,19 +1305,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "701d6d0d714a98a5388a68e59244a8a3ab7b5da1"
+                "reference": "ad5d6246e21e756a00f050688ff1e4008d1d8e31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/701d6d0d714a98a5388a68e59244a8a3ab7b5da1",
-                "reference": "701d6d0d714a98a5388a68e59244a8a3ab7b5da1",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ad5d6246e21e756a00f050688ff1e4008d1d8e31",
+                "reference": "ad5d6246e21e756a00f050688ff1e4008d1d8e31",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
                 "braincrafted/bootstrap-bundle": "2.1.2",
                 "campaignchain/location-website": "dev-master",
-                "cnerta/breadcrumb-bundle": "2.1.*",
                 "components/jquery": "1.11.*",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
@@ -1369,7 +1368,6 @@
                             "Braincrafted\\Bundle\\BootstrapBundle\\BraincraftedBootstrapBundle",
                             "Knp\\Bundle\\MenuBundle\\KnpMenuBundle",
                             "Knp\\Bundle\\PaginatorBundle\\KnpPaginatorBundle",
-                            "Cnerta\\BreadcrumbBundle\\CnertaBreadcrumbBundle",
                             "SC\\DatetimepickerBundle\\SCDatetimepickerBundle",
                             "FOS\\UserBundle\\FOSUserBundle",
                             "Bmatzner\\FontAwesomeBundle\\BmatznerFontAwesomeBundle",
@@ -1408,7 +1406,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-13 13:56:46"
+            "time": "2016-10-17 11:39:56"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -3000,56 +2998,6 @@
                 "campaignchain"
             ],
             "time": "2016-07-26 23:07:09"
-        },
-        {
-            "name": "cnerta/breadcrumb-bundle",
-            "version": "2.1.1",
-            "target-dir": "Cnerta/BreadcrumbBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/AgrosupDijon-Eduter/BreadcrumbBundle.git",
-                "reference": "794f782c1a9cc344905a8c56412f17535241c3f6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/AgrosupDijon-Eduter/BreadcrumbBundle/zipball/794f782c1a9cc344905a8c56412f17535241c3f6",
-                "reference": "794f782c1a9cc344905a8c56412f17535241c3f6",
-                "shasum": ""
-            },
-            "require": {
-                "knplabs/knp-menu-bundle": "~2.0",
-                "symfony/framework-bundle": ">2.1"
-            },
-            "require-dev": {
-                "knplabs/knp-menu-bundle": "~2.0",
-                "phpunit/phpunit": "~4.8",
-                "symfony/symfony": "2.7.*"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Cnerta\\BreadcrumbBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Valérian Girard",
-                    "email": "valerian.girard@educagri.fr",
-                    "homepage": "http://www.cnerta.educagri.fr/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "The CnertaBreadcrumbBundle, for Symfony2, provide an easy way to create a breadcrumb with KnpMenuBundle",
-            "keywords": [
-                "Symfony2",
-                "breadcrumbs",
-                "knpmenu"
-            ],
-            "time": "2015-10-21 15:36:21"
         },
         {
             "name": "cocur/slugify",
@@ -8652,16 +8600,16 @@
         },
         {
             "name": "willdurand/negotiation",
-            "version": "v2.1.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "bc814293b153f543c99c89d94c8cc07b3259eef9"
+                "reference": "1f210db45723b21edd69f39794662b8d64656b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/bc814293b153f543c99c89d94c8cc07b3259eef9",
-                "reference": "bc814293b153f543c99c89d94c8cc07b3259eef9",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/1f210db45723b21edd69f39794662b8d64656b93",
+                "reference": "1f210db45723b21edd69f39794662b8d64656b93",
                 "shasum": ""
             },
             "require": {
@@ -8673,7 +8621,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -8700,7 +8648,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2016-09-21 11:26:55"
+            "time": "2016-10-14 09:17:47"
         },
         {
             "name": "zendframework/zend-code",
