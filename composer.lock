@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "ad5d6246e21e756a00f050688ff1e4008d1d8e31"
+                "reference": "99f6f9d5d6031093e3ce617c5cbc00316fb28bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/ad5d6246e21e756a00f050688ff1e4008d1d8e31",
-                "reference": "ad5d6246e21e756a00f050688ff1e4008d1d8e31",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/99f6f9d5d6031093e3ce617c5cbc00316fb28bee",
+                "reference": "99f6f9d5d6031093e3ce617c5cbc00316fb28bee",
                 "shasum": ""
             },
             "require": {
@@ -1406,7 +1406,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-17 11:39:56"
+            "time": "2016-10-18 13:19:22"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -6554,16 +6554,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+                "reference": "c0125896dbb151380ab47e96c621741e79623beb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
+                "reference": "c0125896dbb151380ab47e96c621741e79623beb",
                 "shasum": ""
             },
             "require": {
@@ -6598,7 +6598,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-04-03 06:00:07"
+            "time": "2016-10-17 15:23:22"
         },
         {
             "name": "phpcollection/phpcollection",
