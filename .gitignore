@@ -27,6 +27,7 @@ web/css
 web/js
 web/media
 web/storage
+web/theme
 
 ## Mac OS X
 .DS_Store
