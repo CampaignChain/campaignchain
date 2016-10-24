@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
-            "version": "v2.3.6",
+            "version": "v2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/almasaeed2010/AdminLTE.git",
-                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
+                "reference": "797b65b3ca90525a4e048de5b8d02ba6878ea239"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
-                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/797b65b3ca90525a4e048de5b8d02ba6878ea239",
+                "reference": "797b65b3ca90525a4e048de5b8d02ba6878ea239",
                 "shasum": ""
             },
             "type": "library",
@@ -45,7 +45,7 @@
                 "theme",
                 "web"
             ],
-            "time": "2016-08-04 23:22:06"
+            "time": "2016-10-19 15:34:25"
         },
         {
             "name": "avanzu/admin-theme-bundle",
@@ -1135,12 +1135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "21db43f383d38f1aa56568d870043d0e89c23e8f"
+                "reference": "e5a46075dafe0f9e0444616d06f87658844cb528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/21db43f383d38f1aa56568d870043d0e89c23e8f",
-                "reference": "21db43f383d38f1aa56568d870043d0e89c23e8f",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/e5a46075dafe0f9e0444616d06f87658844cb528",
+                "reference": "e5a46075dafe0f9e0444616d06f87658844cb528",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1185,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-09-27 13:45:36"
+            "time": "2016-10-24 13:20:19"
         },
         {
             "name": "campaignchain/channel-website",
@@ -1305,17 +1305,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "99f6f9d5d6031093e3ce617c5cbc00316fb28bee"
+                "reference": "55f4cf841a9e459972b23d303cecfb415bb61b68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/99f6f9d5d6031093e3ce617c5cbc00316fb28bee",
-                "reference": "99f6f9d5d6031093e3ce617c5cbc00316fb28bee",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/55f4cf841a9e459972b23d303cecfb415bb61b68",
+                "reference": "55f4cf841a9e459972b23d303cecfb415bb61b68",
                 "shasum": ""
             },
             "require": {
                 "bmatzner/fontawesome-bundle": "dev-master",
                 "braincrafted/bootstrap-bundle": "2.1.2",
+                "campaignchain/form-type-textarea-count": "dev-master",
                 "campaignchain/location-website": "dev-master",
                 "components/jquery": "1.11.*",
                 "doctrine/doctrine-bundle": "~1.2",
@@ -1406,7 +1407,104 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-18 13:19:22"
+            "time": "2016-10-24 13:19:43"
+        },
+        {
+            "name": "campaignchain/form-type-autocomplete",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/form-type-autocomplete.git",
+                "reference": "973ec550b6b75c4d273b91df96ed6c8a18f70bea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/form-type-autocomplete/zipball/973ec550b6b75c4d273b91df96ed6c8a18f70bea",
+                "reference": "973ec550b6b75c4d273b91df96ed6c8a18f70bea",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/form-type-textarea-count": "dev-master"
+            },
+            "type": "campaignchain-symfony",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\AutocompleteFormTypeBundle\\CampaignChainAutocompleteFormTypeBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\AutocompleteFormTypeBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "An autocomplete textarea form field based on At.js plus character count.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-10-21 07:13:13"
+        },
+        {
+            "name": "campaignchain/form-type-textarea-count",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/form-type-textarea-count.git",
+                "reference": "73010ed8a1d2dbcd29b4ea1bd7e487de9db0741a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/form-type-textarea-count/zipball/73010ed8a1d2dbcd29b4ea1bd7e487de9db0741a",
+                "reference": "73010ed8a1d2dbcd29b4ea1bd7e487de9db0741a",
+                "shasum": ""
+            },
+            "type": "campaignchain-symfony",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\TextareaCountFormTypeBundle\\CampaignChainTextareaCountFormTypeBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\TextareaCountFormTypeBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "A textarea with character counter for max chars.",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2016-10-20 09:17:56"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2505,16 +2603,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "6c748737d102bf5dfff37538b8fc2b848ef14066"
+                "reference": "28916173320cc7b9199a69f5ac7f487311efd298"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/6c748737d102bf5dfff37538b8fc2b848ef14066",
-                "reference": "6c748737d102bf5dfff37538b8fc2b848ef14066",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/28916173320cc7b9199a69f5ac7f487311efd298",
+                "reference": "28916173320cc7b9199a69f5ac7f487311efd298",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/activity-twitter": "dev-master",
+                "campaignchain/form-type-autocomplete": "dev-master",
                 "guzzle/guzzle": "~3.9"
             },
             "type": "campaignchain-operation",
@@ -2550,7 +2649,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2016-10-02 18:00:54"
+            "time": "2016-10-24 13:19:04"
         },
         {
             "name": "campaignchain/operation-xing",
@@ -2558,12 +2657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-xing.git",
-                "reference": "02fb4293e451e62c4bb16d52a1c163160b0b94d9"
+                "reference": "08fd1ce2c6ed33a0c954b52d45de0b89ff89e254"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/02fb4293e451e62c4bb16d52a1c163160b0b94d9",
-                "reference": "02fb4293e451e62c4bb16d52a1c163160b0b94d9",
+                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/08fd1ce2c6ed33a0c954b52d45de0b89ff89e254",
+                "reference": "08fd1ce2c6ed33a0c954b52d45de0b89ff89e254",
                 "shasum": ""
             },
             "require": {
@@ -2604,7 +2703,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-02 18:00:54"
+            "time": "2016-10-24 13:17:54"
         },
         {
             "name": "campaignchain/report-analytics-cta-tracking",
@@ -2896,12 +2995,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "f6df3e7d57488d4ca3d97b74c13f5e7d9bdc2fc0"
+                "reference": "ecac66c9b1c971fdd41eeaf3fe15b7b1adf0101a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/f6df3e7d57488d4ca3d97b74c13f5e7d9bdc2fc0",
-                "reference": "f6df3e7d57488d4ca3d97b74c13f5e7d9bdc2fc0",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/ecac66c9b1c971fdd41eeaf3fe15b7b1adf0101a",
+                "reference": "ecac66c9b1c971fdd41eeaf3fe15b7b1adf0101a",
                 "shasum": ""
             },
             "require": {
@@ -2946,7 +3045,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2016-07-23 18:47:16"
+            "time": "2016-10-20 11:50:03"
         },
         {
             "name": "campaignchain/update",
@@ -8764,12 +8863,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "420a05b57b2333a57811906315ecbf411e985428"
+                "reference": "abd0dd7b32c3e9f6d934b1923b12dbdf3b848904"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/420a05b57b2333a57811906315ecbf411e985428",
-                "reference": "420a05b57b2333a57811906315ecbf411e985428",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/abd0dd7b32c3e9f6d934b1923b12dbdf3b848904",
+                "reference": "abd0dd7b32c3e9f6d934b1923b12dbdf3b848904",
                 "shasum": ""
             },
             "type": "library",
@@ -8789,7 +8888,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-16 03:08:34"
+            "time": "2016-10-21 08:43:34"
         },
         {
             "name": "amariki/data-test",
@@ -8797,12 +8896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "cdcb42ccbefcc8f1b7abeff1c17df1270770bd2f"
+                "reference": "d9b7dfd6202f4b2d0ec73e114400bb0f8132feaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/cdcb42ccbefcc8f1b7abeff1c17df1270770bd2f",
-                "reference": "cdcb42ccbefcc8f1b7abeff1c17df1270770bd2f",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/d9b7dfd6202f4b2d0ec73e114400bb0f8132feaf",
+                "reference": "d9b7dfd6202f4b2d0ec73e114400bb0f8132feaf",
                 "shasum": ""
             },
             "type": "library",
@@ -8822,7 +8921,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-16 03:08:34"
+            "time": "2016-10-21 08:43:34"
         },
         {
             "name": "campaignchain/activity-ezplatform",
