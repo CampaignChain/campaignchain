@@ -622,12 +622,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-repeating.git",
-                "reference": "be5a22d02046f1c7c84fee30dba9d83c44c3079a"
+                "reference": "ad8be01637af5e855fb2d3ca1a6b5db0a0d55e0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/be5a22d02046f1c7c84fee30dba9d83c44c3079a",
-                "reference": "be5a22d02046f1c7c84fee30dba9d83c44c3079a",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/ad8be01637af5e855fb2d3ca1a6b5db0a0d55e0b",
+                "reference": "ad8be01637af5e855fb2d3ca1a6b5db0a0d55e0b",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +671,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-10-10 19:09:21"
+            "time": "2016-10-27 21:31:11"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "91f0dcae173603d8e7984548311800590fa3c7a5"
+                "reference": "7202b45b6bfcd40b0f806d174aac82dceb3ed6da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/91f0dcae173603d8e7984548311800590fa3c7a5",
-                "reference": "91f0dcae173603d8e7984548311800590fa3c7a5",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/7202b45b6bfcd40b0f806d174aac82dceb3ed6da",
+                "reference": "7202b45b6bfcd40b0f806d174aac82dceb3ed6da",
                 "shasum": ""
             },
             "require": {
@@ -730,7 +730,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-10-10 19:05:09"
+            "time": "2016-10-27 21:31:11"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -738,12 +738,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "00ee31e0c9c7430c8d838233c890834c1fc050a1"
+                "reference": "4a7b560bb420ae13206491c2063475d7a7dbc1c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/00ee31e0c9c7430c8d838233c890834c1fc050a1",
-                "reference": "00ee31e0c9c7430c8d838233c890834c1fc050a1",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/4a7b560bb420ae13206491c2063475d7a7dbc1c9",
+                "reference": "4a7b560bb420ae13206491c2063475d7a7dbc1c9",
                 "shasum": ""
             },
             "require": {
@@ -787,7 +787,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-10-10 19:09:21"
+            "time": "2016-10-27 21:31:12"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "99ffe41a12a51b4e2a5e0bfbf0943ebc6535d19a"
+                "reference": "cd14406f4aac2cb357338e11803bb1b18714d1f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/99ffe41a12a51b4e2a5e0bfbf0943ebc6535d19a",
-                "reference": "99ffe41a12a51b4e2a5e0bfbf0943ebc6535d19a",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/cd14406f4aac2cb357338e11803bb1b18714d1f2",
+                "reference": "cd14406f4aac2cb357338e11803bb1b18714d1f2",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-27 14:51:42"
+            "time": "2016-10-27 21:50:33"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -8303,28 +8303,30 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.3.11",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "5e1a90f28213231ceee19c953bbebc5b5b95c690"
+                "reference": "d7b7bd6bb6e9b32ebc5f9778f94d4b4e4af5d069"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/5e1a90f28213231ceee19c953bbebc5b5b95c690",
-                "reference": "5e1a90f28213231ceee19c953bbebc5b5b95c690",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/d7b7bd6bb6e9b32ebc5f9778f94d4b4e4af5d069",
+                "reference": "d7b7bd6bb6e9b32ebc5f9778f94d4b4e4af5d069",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "swiftmailer/swiftmailer": ">=4.2.0,~5.0",
-                "symfony/config": "~2.3|~3.0",
-                "symfony/dependency-injection": "~2.3|~3.0",
-                "symfony/http-kernel": "~2.3|~3.0",
-                "symfony/yaml": "~2.3|~3.0"
+                "symfony/config": "~2.7|~3.0",
+                "symfony/dependency-injection": "~2.7|~3.0",
+                "symfony/http-kernel": "~2.7|~3.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "~2.7|~3.0"
+                "symfony/console": "~2.7|~3.0",
+                "symfony/framework-bundle": "~2.7|~3.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/yaml": "~2.7|~3.0"
             },
             "suggest": {
                 "psr/log": "Allows logging"
@@ -8332,7 +8334,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -8356,7 +8358,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2016-01-15 16:41:20"
+            "time": "2016-10-27 17:59:30"
         },
         {
             "name": "symfony/symfony",
@@ -9038,12 +9040,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-ezplatform.git",
-                "reference": "8811fadf8535c3f40857ceddec2d92641b82ae2d"
+                "reference": "d373195466156c40392c1dfcc6e5d23b3b193b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-ezplatform/zipball/8811fadf8535c3f40857ceddec2d92641b82ae2d",
-                "reference": "8811fadf8535c3f40857ceddec2d92641b82ae2d",
+                "url": "https://api.github.com/repos/CampaignChain/channel-ezplatform/zipball/d373195466156c40392c1dfcc6e5d23b3b193b30",
+                "reference": "d373195466156c40392c1dfcc6e5d23b3b193b30",
                 "shasum": ""
             },
             "require": {
@@ -9085,7 +9087,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-16 19:32:19"
+            "time": "2016-10-27 21:31:12"
         },
         {
             "name": "campaignchain/dev-tools",
