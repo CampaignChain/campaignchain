@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "4d7facbd9e62aa91026557878a32971d3410e607"
+                "reference": "68f3495157547994a8fe7aa612bf39f735d60d7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/4d7facbd9e62aa91026557878a32971d3410e607",
-                "reference": "4d7facbd9e62aa91026557878a32971d3410e607",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/68f3495157547994a8fe7aa612bf39f735d60d7f",
+                "reference": "68f3495157547994a8fe7aa612bf39f735d60d7f",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-27 08:16:47"
+            "time": "2016-10-27 13:57:42"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -2935,12 +2935,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "b6623aa480b212fbb5d2e05dc416ae9f958eebb2"
+                "reference": "7f96918cfb93ca57d1d0ed991de41eab14ca36cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/b6623aa480b212fbb5d2e05dc416ae9f958eebb2",
-                "reference": "b6623aa480b212fbb5d2e05dc416ae9f958eebb2",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/7f96918cfb93ca57d1d0ed991de41eab14ca36cf",
+                "reference": "7f96918cfb93ca57d1d0ed991de41eab14ca36cf",
                 "shasum": ""
             },
             "require": {
@@ -2987,7 +2987,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2016-07-23 18:47:17"
+            "time": "2016-10-27 13:57:42"
         },
         {
             "name": "campaignchain/security-authentication-server-oauth",
@@ -2995,12 +2995,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "ecac66c9b1c971fdd41eeaf3fe15b7b1adf0101a"
+                "reference": "3ec1ae71b64f55ea0c4d9a0cd8b23e08c017a54c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/ecac66c9b1c971fdd41eeaf3fe15b7b1adf0101a",
-                "reference": "ecac66c9b1c971fdd41eeaf3fe15b7b1adf0101a",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/3ec1ae71b64f55ea0c4d9a0cd8b23e08c017a54c",
+                "reference": "3ec1ae71b64f55ea0c4d9a0cd8b23e08c017a54c",
                 "shasum": ""
             },
             "require": {
@@ -3045,7 +3045,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2016-10-20 11:50:03"
+            "time": "2016-10-27 13:57:42"
         },
         {
             "name": "campaignchain/update",
