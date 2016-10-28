@@ -74,7 +74,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sp\\BowerBundle\\Composer\\ScriptHandler::bowerInstall",
-            "app/console --env=prod assetic:dump --no-debug",
+            "app/console cache:clear --env=prod --no-debug",
+            "app/console assetic:dump --env=prod --no-debug",
             "app/console avanzu:admin:initialize"
         ],
         "post-install-cmd": [
