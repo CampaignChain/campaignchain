@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "cd14406f4aac2cb357338e11803bb1b18714d1f2"
+                "reference": "65cd165be3ffd061a6b507832eea3fd3f3e72b7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/cd14406f4aac2cb357338e11803bb1b18714d1f2",
-                "reference": "cd14406f4aac2cb357338e11803bb1b18714d1f2",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/65cd165be3ffd061a6b507832eea3fd3f3e72b7b",
+                "reference": "65cd165be3ffd061a6b507832eea3fd3f3e72b7b",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-27 21:50:33"
+            "time": "2016-10-28 14:21:54"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -2995,12 +2995,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "3ec1ae71b64f55ea0c4d9a0cd8b23e08c017a54c"
+                "reference": "01586d169c28ea1435f22a68263461974556029b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/3ec1ae71b64f55ea0c4d9a0cd8b23e08c017a54c",
-                "reference": "3ec1ae71b64f55ea0c4d9a0cd8b23e08c017a54c",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/01586d169c28ea1435f22a68263461974556029b",
+                "reference": "01586d169c28ea1435f22a68263461974556029b",
                 "shasum": ""
             },
             "require": {
@@ -3045,7 +3045,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2016-10-27 13:57:42"
+            "time": "2016-10-28 10:17:04"
         },
         {
             "name": "campaignchain/update",
