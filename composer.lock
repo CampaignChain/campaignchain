@@ -622,12 +622,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-repeating.git",
-                "reference": "fc33c426a44d0670a5cdea0d8e954891c3bad62f"
+                "reference": "4468f41bd14c9b0bb71370be8800651addf702f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/fc33c426a44d0670a5cdea0d8e954891c3bad62f",
-                "reference": "fc33c426a44d0670a5cdea0d8e954891c3bad62f",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-repeating/zipball/4468f41bd14c9b0bb71370be8800651addf702f2",
+                "reference": "4468f41bd14c9b0bb71370be8800651addf702f2",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +671,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-10-29 09:24:02"
+            "time": "2016-10-29 10:46:23"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -851,12 +851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "97133cf030b01da0eb69a731defe58b7ce95d8ae"
+                "reference": "eab04d6413b100038694169fc3e2fa4d8081a360"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/97133cf030b01da0eb69a731defe58b7ce95d8ae",
-                "reference": "97133cf030b01da0eb69a731defe58b7ce95d8ae",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/eab04d6413b100038694169fc3e2fa4d8081a360",
+                "reference": "eab04d6413b100038694169fc3e2fa4d8081a360",
                 "shasum": ""
             },
             "require": {
@@ -901,7 +901,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-09-27 13:45:36"
+            "time": "2016-10-29 10:46:23"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -1135,12 +1135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "df38176d272f63344616716457f4081dcb98b7b2"
+                "reference": "92f8c3a6405c18bcd733afa521c64dce22f35a81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/df38176d272f63344616716457f4081dcb98b7b2",
-                "reference": "df38176d272f63344616716457f4081dcb98b7b2",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/92f8c3a6405c18bcd733afa521c64dce22f35a81",
+                "reference": "92f8c3a6405c18bcd733afa521c64dce22f35a81",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1185,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-10-28 17:09:38"
+            "time": "2016-10-29 10:46:23"
         },
         {
             "name": "campaignchain/channel-website",
@@ -1415,12 +1415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/form-type-autocomplete.git",
-                "reference": "973ec550b6b75c4d273b91df96ed6c8a18f70bea"
+                "reference": "d2683f1492cc2e998347fbe84b93998c1a70925a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/form-type-autocomplete/zipball/973ec550b6b75c4d273b91df96ed6c8a18f70bea",
-                "reference": "973ec550b6b75c4d273b91df96ed6c8a18f70bea",
+                "url": "https://api.github.com/repos/CampaignChain/form-type-autocomplete/zipball/d2683f1492cc2e998347fbe84b93998c1a70925a",
+                "reference": "d2683f1492cc2e998347fbe84b93998c1a70925a",
                 "shasum": ""
             },
             "require": {
@@ -1457,7 +1457,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-21 07:13:13"
+            "time": "2016-10-29 10:46:23"
         },
         {
             "name": "campaignchain/form-type-textarea-count",
@@ -1465,12 +1465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/form-type-textarea-count.git",
-                "reference": "73010ed8a1d2dbcd29b4ea1bd7e487de9db0741a"
+                "reference": "3152543d92a51a6deeba7042e0ed22f6c0025ce8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/form-type-textarea-count/zipball/73010ed8a1d2dbcd29b4ea1bd7e487de9db0741a",
-                "reference": "73010ed8a1d2dbcd29b4ea1bd7e487de9db0741a",
+                "url": "https://api.github.com/repos/CampaignChain/form-type-textarea-count/zipball/3152543d92a51a6deeba7042e0ed22f6c0025ce8",
+                "reference": "3152543d92a51a6deeba7042e0ed22f6c0025ce8",
                 "shasum": ""
             },
             "type": "campaignchain-symfony",
@@ -1504,7 +1504,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-20 09:17:56"
+            "time": "2016-10-29 10:46:23"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -2177,12 +2177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-website.git",
-                "reference": "1f3431ec0b0aa83da18e5c22af40c230ec83cbf6"
+                "reference": "12774026c791c2831f258c3f73600bd09d192833"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/1f3431ec0b0aa83da18e5c22af40c230ec83cbf6",
-                "reference": "1f3431ec0b0aa83da18e5c22af40c230ec83cbf6",
+                "url": "https://api.github.com/repos/CampaignChain/location-website/zipball/12774026c791c2831f258c3f73600bd09d192833",
+                "reference": "12774026c791c2831f258c3f73600bd09d192833",
                 "shasum": ""
             },
             "require": {
@@ -2220,7 +2220,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2016-07-16 19:32:21"
+            "time": "2016-10-29 10:46:23"
         },
         {
             "name": "campaignchain/location-xing",
@@ -3053,12 +3053,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/update.git",
-                "reference": "c2c7a12842ce9f3e54bdf21c13760f442e2c8053"
+                "reference": "d5c65d2f76a5c3215db18c66a42bcf0f56f27583"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/update/zipball/c2c7a12842ce9f3e54bdf21c13760f442e2c8053",
-                "reference": "c2c7a12842ce9f3e54bdf21c13760f442e2c8053",
+                "url": "https://api.github.com/repos/CampaignChain/update/zipball/d5c65d2f76a5c3215db18c66a42bcf0f56f27583",
+                "reference": "d5c65d2f76a5c3215db18c66a42bcf0f56f27583",
                 "shasum": ""
             },
             "require": {
@@ -3096,7 +3096,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-29 09:24:03"
+            "time": "2016-10-29 10:46:23"
         },
         {
             "name": "cocur/slugify",
