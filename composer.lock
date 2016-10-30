@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "aed4ff86874d8733aaa04e522360d9583c5ea58c"
+                "reference": "cd3282227773475fa27a1a884a155fe0737ccf30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/aed4ff86874d8733aaa04e522360d9583c5ea58c",
-                "reference": "aed4ff86874d8733aaa04e522360d9583c5ea58c",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/cd3282227773475fa27a1a884a155fe0737ccf30",
+                "reference": "cd3282227773475fa27a1a884a155fe0737ccf30",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-30 09:34:04"
+            "time": "2016-10-30 18:30:44"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -8931,12 +8931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-ezplatform.git",
-                "reference": "e2b47aebf4535278dfc6c40263305393afbafdf9"
+                "reference": "5587820acab08efe9567980ea58503fad7c10fa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-ezplatform/zipball/e2b47aebf4535278dfc6c40263305393afbafdf9",
-                "reference": "e2b47aebf4535278dfc6c40263305393afbafdf9",
+                "url": "https://api.github.com/repos/CampaignChain/activity-ezplatform/zipball/5587820acab08efe9567980ea58503fad7c10fa9",
+                "reference": "5587820acab08efe9567980ea58503fad7c10fa9",
                 "shasum": ""
             },
             "require": {
@@ -8978,7 +8978,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-29 09:24:02"
+            "time": "2016-10-30 18:15:04"
         },
         {
             "name": "campaignchain/activity-social-media",
