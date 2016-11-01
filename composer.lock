@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "49ce76dca7a4b6120c5057d0c28194be53f44bf8"
+                "reference": "e477b30715fb6be00a8389be3cec0433201df7f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/49ce76dca7a4b6120c5057d0c28194be53f44bf8",
-                "reference": "49ce76dca7a4b6120c5057d0c28194be53f44bf8",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e477b30715fb6be00a8389be3cec0433201df7f6",
+                "reference": "e477b30715fb6be00a8389be3cec0433201df7f6",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-31 21:23:08"
+            "time": "2016-11-01 10:51:33"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -1656,12 +1656,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-duration.git",
-                "reference": "e9c655086ba55dba0acb7a5f0411746d462a501c"
+                "reference": "42218e3ea6fb0e2af3ec30ffadb57712e1e6ecfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/e9c655086ba55dba0acb7a5f0411746d462a501c",
-                "reference": "e9c655086ba55dba0acb7a5f0411746d462a501c",
+                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/42218e3ea6fb0e2af3ec30ffadb57712e1e6ecfd",
+                "reference": "42218e3ea6fb0e2af3ec30ffadb57712e1e6ecfd",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1696,7 +1696,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-10-29 09:24:02"
+            "time": "2016-11-01 10:51:32"
         },
         {
             "name": "campaignchain/hook-image",
@@ -2282,12 +2282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/milestone-scheduled.git",
-                "reference": "3e3645ce6deec10133f1a85e5998d9112ebbcff5"
+                "reference": "8634538f4ebf529c22fe151c5505c3bc527e1c08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/3e3645ce6deec10133f1a85e5998d9112ebbcff5",
-                "reference": "3e3645ce6deec10133f1a85e5998d9112ebbcff5",
+                "url": "https://api.github.com/repos/CampaignChain/milestone-scheduled/zipball/8634538f4ebf529c22fe151c5505c3bc527e1c08",
+                "reference": "8634538f4ebf529c22fe151c5505c3bc527e1c08",
                 "shasum": ""
             },
             "require": {
@@ -2332,7 +2332,7 @@
                 "campaignchain",
                 "milestone"
             ],
-            "time": "2016-07-16 19:32:21"
+            "time": "2016-11-01 10:51:32"
         },
         {
             "name": "campaignchain/operation-facebook",
@@ -2603,12 +2603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "473fec862caa7653462f905103c30e8b39ea41b3"
+                "reference": "ff3acbe217f6e8fa421124adc3adabb8541ef2f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/473fec862caa7653462f905103c30e8b39ea41b3",
-                "reference": "473fec862caa7653462f905103c30e8b39ea41b3",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/ff3acbe217f6e8fa421124adc3adabb8541ef2f2",
+                "reference": "ff3acbe217f6e8fa421124adc3adabb8541ef2f2",
                 "shasum": ""
             },
             "require": {
@@ -2649,7 +2649,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2016-10-29 09:24:03"
+            "time": "2016-11-01 10:51:33"
         },
         {
             "name": "campaignchain/operation-xing",
