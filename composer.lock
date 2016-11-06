@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "b0bd0d676656617c0b25843e0c3d45d3108b7fe8"
+                "reference": "6465a22891e622e590ea42d5dc81771f3bab90a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b0bd0d676656617c0b25843e0c3d45d3108b7fe8",
-                "reference": "b0bd0d676656617c0b25843e0c3d45d3108b7fe8",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6465a22891e622e590ea42d5dc81771f3bab90a2",
+                "reference": "6465a22891e622e590ea42d5dc81771f3bab90a2",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-05 15:48:39"
+            "time": "2016-11-06 20:21:27"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -2711,12 +2711,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
-                "reference": "c37a38a6c77baf3e1fdf8858bf1af9de50df9153"
+                "reference": "32ad80a93138e4801d18faae90db752d2e9cc866"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/c37a38a6c77baf3e1fdf8858bf1af9de50df9153",
-                "reference": "c37a38a6c77baf3e1fdf8858bf1af9de50df9153",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/32ad80a93138e4801d18faae90db752d2e9cc866",
+                "reference": "32ad80a93138e4801d18faae90db752d2e9cc866",
                 "shasum": ""
             },
             "type": "campaignchain-report-analytics",
@@ -2756,7 +2756,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-07-16 19:32:22"
+            "time": "2016-11-06 20:21:27"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
@@ -2764,12 +2764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "70bb22350055335edacfb78f2744a31274cd4b5f"
+                "reference": "34fb77dc8947a7365ae17a962b7112888e379124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/70bb22350055335edacfb78f2744a31274cd4b5f",
-                "reference": "70bb22350055335edacfb78f2744a31274cd4b5f",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/34fb77dc8947a7365ae17a962b7112888e379124",
+                "reference": "34fb77dc8947a7365ae17a962b7112888e379124",
                 "shasum": ""
             },
             "require": {
@@ -2812,7 +2812,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-10-29 21:36:25"
+            "time": "2016-11-06 20:21:27"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-location",
@@ -2820,12 +2820,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-location.git",
-                "reference": "00d5d23917b110e031c22a288dc0c24abd892f92"
+                "reference": "e72232f23d5a4d57d712144614302d52a4d0df51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-location/zipball/00d5d23917b110e031c22a288dc0c24abd892f92",
-                "reference": "00d5d23917b110e031c22a288dc0c24abd892f92",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-location/zipball/e72232f23d5a4d57d712144614302d52a4d0df51",
+                "reference": "e72232f23d5a4d57d712144614302d52a4d0df51",
                 "shasum": ""
             },
             "require": {
@@ -2868,7 +2868,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-10-29 21:36:25"
+            "time": "2016-11-06 20:21:27"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -7732,16 +7732,16 @@
         },
         {
             "name": "symfony/monolog-bundle",
-            "version": "2.11.1",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/monolog-bundle.git",
-                "reference": "e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00"
+                "reference": "6acef3bd201c4f35e42e52dedf1fe088f30e07e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00",
-                "reference": "e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/6acef3bd201c4f35e42e52dedf1fe088f30e07e8",
+                "reference": "6acef3bd201c4f35e42e52dedf1fe088f30e07e8",
                 "shasum": ""
             },
             "require": {
@@ -7788,7 +7788,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2016-04-13 16:21:01"
+            "time": "2016-11-06 18:54:50"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -8866,12 +8866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "4bc2fdf42e5f23ad5469ecd8b1c139d3bf491e08"
+                "reference": "fca5548f9577a64f8be5580acf6bbc2bba24744d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/4bc2fdf42e5f23ad5469ecd8b1c139d3bf491e08",
-                "reference": "4bc2fdf42e5f23ad5469ecd8b1c139d3bf491e08",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/fca5548f9577a64f8be5580acf6bbc2bba24744d",
+                "reference": "fca5548f9577a64f8be5580acf6bbc2bba24744d",
                 "shasum": ""
             },
             "type": "library",
@@ -8891,7 +8891,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-05 15:48:39"
+            "time": "2016-11-06 20:21:27"
         },
         {
             "name": "amariki/data-test",
@@ -8899,12 +8899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "9fe4ce898fe6b7de0e23d9aa1b478a57ad63908c"
+                "reference": "830fc8f432d176b33c9163ca324d92db79abbd50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/9fe4ce898fe6b7de0e23d9aa1b478a57ad63908c",
-                "reference": "9fe4ce898fe6b7de0e23d9aa1b478a57ad63908c",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/830fc8f432d176b33c9163ca324d92db79abbd50",
+                "reference": "830fc8f432d176b33c9163ca324d92db79abbd50",
                 "shasum": ""
             },
             "type": "library",
@@ -8924,7 +8924,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-05 15:48:39"
+            "time": "2016-11-06 20:21:27"
         },
         {
             "name": "campaignchain/activity-ezplatform",
