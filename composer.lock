@@ -909,12 +909,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-google-analytics.git",
-                "reference": "1c17fc807fde61379ca0b00450616039eb0441e4"
+                "reference": "2c5851e968a13eb544453525393268e2152bbf90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/1c17fc807fde61379ca0b00450616039eb0441e4",
-                "reference": "1c17fc807fde61379ca0b00450616039eb0441e4",
+                "url": "https://api.github.com/repos/CampaignChain/channel-google-analytics/zipball/2c5851e968a13eb544453525393268e2152bbf90",
+                "reference": "2c5851e968a13eb544453525393268e2152bbf90",
                 "shasum": ""
             },
             "require": {
@@ -960,7 +960,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2016-07-16 19:32:21"
+            "time": "2016-11-07 21:08:06"
         },
         {
             "name": "campaignchain/channel-linkedin",
@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "324f08349465d511f87ff85a948c3c6a01818497"
+                "reference": "3197297a0bd052264cab7c86d95ca4ccbb120464"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/324f08349465d511f87ff85a948c3c6a01818497",
-                "reference": "324f08349465d511f87ff85a948c3c6a01818497",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/3197297a0bd052264cab7c86d95ca4ccbb120464",
+                "reference": "3197297a0bd052264cab7c86d95ca4ccbb120464",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-07 14:32:43"
+            "time": "2016-11-07 21:08:06"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -2876,12 +2876,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-google-analytics.git",
-                "reference": "3a9fb275356f339211575b0fc05c31cb5cc2a889"
+                "reference": "ce1705f25b2c110016b3e182c8ea3b8b8cba315f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/3a9fb275356f339211575b0fc05c31cb5cc2a889",
-                "reference": "3a9fb275356f339211575b0fc05c31cb5cc2a889",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/ce1705f25b2c110016b3e182c8ea3b8b8cba315f",
+                "reference": "ce1705f25b2c110016b3e182c8ea3b8b8cba315f",
                 "shasum": ""
             },
             "require": {
@@ -2927,7 +2927,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2016-10-29 09:24:03"
+            "time": "2016-11-07 21:08:06"
         },
         {
             "name": "campaignchain/security-authentication-client-oauth",
@@ -8866,12 +8866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "fca5548f9577a64f8be5580acf6bbc2bba24744d"
+                "reference": "fbdcdc8c0ad61e2006481dfbff4830babbb7fd5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/fca5548f9577a64f8be5580acf6bbc2bba24744d",
-                "reference": "fca5548f9577a64f8be5580acf6bbc2bba24744d",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/fbdcdc8c0ad61e2006481dfbff4830babbb7fd5d",
+                "reference": "fbdcdc8c0ad61e2006481dfbff4830babbb7fd5d",
                 "shasum": ""
             },
             "type": "library",
@@ -8891,7 +8891,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-06 20:21:27"
+            "time": "2016-11-07 21:08:06"
         },
         {
             "name": "amariki/data-test",
@@ -8899,12 +8899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "830fc8f432d176b33c9163ca324d92db79abbd50"
+                "reference": "d6b05454a74604c70afb97f8a05acefdfbb4fc55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/830fc8f432d176b33c9163ca324d92db79abbd50",
-                "reference": "830fc8f432d176b33c9163ca324d92db79abbd50",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/d6b05454a74604c70afb97f8a05acefdfbb4fc55",
+                "reference": "d6b05454a74604c70afb97f8a05acefdfbb4fc55",
                 "shasum": ""
             },
             "type": "library",
@@ -8924,7 +8924,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-06 20:21:27"
+            "time": "2016-11-07 21:08:06"
         },
         {
             "name": "campaignchain/activity-ezplatform",
