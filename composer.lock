@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "6465a22891e622e590ea42d5dc81771f3bab90a2"
+                "reference": "7c20fe50ce8c860c3a8e49e651f155d166c13ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/6465a22891e622e590ea42d5dc81771f3bab90a2",
-                "reference": "6465a22891e622e590ea42d5dc81771f3bab90a2",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7c20fe50ce8c860c3a8e49e651f155d166c13ea4",
+                "reference": "7c20fe50ce8c860c3a8e49e651f155d166c13ea4",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-06 20:21:27"
+            "time": "2016-11-07 09:16:44"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
