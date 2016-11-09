@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "639317d5f179f86cd440983491ff44f2b16d4f9a"
+                "reference": "dd505fdf8d08f4e6234d8983927739b6fc23066c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/639317d5f179f86cd440983491ff44f2b16d4f9a",
-                "reference": "639317d5f179f86cd440983491ff44f2b16d4f9a",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/dd505fdf8d08f4e6234d8983927739b6fc23066c",
+                "reference": "dd505fdf8d08f4e6234d8983927739b6fc23066c",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-08 18:40:21"
+            "time": "2016-11-09 17:35:00"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -1415,12 +1415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/form-type-autocomplete.git",
-                "reference": "d2683f1492cc2e998347fbe84b93998c1a70925a"
+                "reference": "936eacd41531bcdda4d397d01dd4e3b150b5feaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/form-type-autocomplete/zipball/d2683f1492cc2e998347fbe84b93998c1a70925a",
-                "reference": "d2683f1492cc2e998347fbe84b93998c1a70925a",
+                "url": "https://api.github.com/repos/CampaignChain/form-type-autocomplete/zipball/936eacd41531bcdda4d397d01dd4e3b150b5feaf",
+                "reference": "936eacd41531bcdda4d397d01dd4e3b150b5feaf",
                 "shasum": ""
             },
             "require": {
@@ -1457,7 +1457,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-29 10:46:23"
+            "time": "2016-11-08 19:04:26"
         },
         {
             "name": "campaignchain/form-type-textarea-count",
