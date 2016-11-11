@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "93846a0a4517852b5555f0c0bb599ef3",
+    "hash": "3ec554aaa4c413cb42cf587391df7898",
     "content-hash": "224950f7557cb6450f11e1a5021a84b7",
     "packages": [
         {
@@ -4350,21 +4350,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "bb017f8e07671bd5638fa753cc3f5a78a1a336eb"
+                "reference": "79816b7e1faf93c11cb36689ce8d9541f85c710c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/bb017f8e07671bd5638fa753cc3f5a78a1a336eb",
-                "reference": "bb017f8e07671bd5638fa753cc3f5a78a1a336eb",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/79816b7e1faf93c11cb36689ce8d9541f85c710c",
+                "reference": "79816b7e1faf93c11cb36689ce8d9541f85c710c",
                 "shasum": ""
             },
             "require": {
                 "doctrine/inflector": "^1.0",
                 "php": "^5.5.9|~7.0",
                 "psr/log": "^1.0",
+                "symfony/config": "^2.7|^3.0",
+                "symfony/debug": "^2.7|^3.0",
+                "symfony/dependency-injection": "^2.7|^3.0",
+                "symfony/event-dispatcher": "^2.7|^3.0",
                 "symfony/finder": "^2.7|^3.0",
                 "symfony/framework-bundle": "^2.7|^3.0",
+                "symfony/http-foundation": "^2.7|^3.0",
+                "symfony/http-kernel": "^2.7|^3.0",
                 "symfony/routing": "^2.7|^3.0",
+                "symfony/security-core": "^2.7|^3.0",
+                "symfony/templating": "^2.7|^3.0",
                 "willdurand/jsonp-callback-validator": "^1.0",
                 "willdurand/negotiation": "^2.0"
             },
@@ -4375,6 +4383,7 @@
             "require-dev": {
                 "jms/serializer-bundle": "^1.0",
                 "phpoption/phpoption": "^1.1",
+                "psr/http-message": "^1.0",
                 "sensio/framework-extra-bundle": "^3.0.13",
                 "symfony/browser-kit": "^2.7|^3.0",
                 "symfony/css-selector": "^2.7|^3.0",
@@ -4430,7 +4439,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-10-09 06:58:44"
+            "time": "2016-11-11 11:52:09"
         },
         {
             "name": "friendsofsymfony/user-bundle",
