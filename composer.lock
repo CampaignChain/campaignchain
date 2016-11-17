@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "8cf1f013117da247d0746547368a9728f8f72644"
+                "reference": "e3a7eab221fa8481f2861465e01911ecbc2e2ca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/8cf1f013117da247d0746547368a9728f8f72644",
-                "reference": "8cf1f013117da247d0746547368a9728f8f72644",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e3a7eab221fa8481f2861465e01911ecbc2e2ca8",
+                "reference": "e3a7eab221fa8481f2861465e01911ecbc2e2ca8",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-17 17:36:38"
+            "time": "2016-11-17 18:59:22"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -8610,16 +8610,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.27.0",
+            "version": "v1.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97"
+                "reference": "60ae30368f7ac50a95de032f16c1e882b0f69813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97",
-                "reference": "3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/60ae30368f7ac50a95de032f16c1e882b0f69813",
+                "reference": "60ae30368f7ac50a95de032f16c1e882b0f69813",
                 "shasum": ""
             },
             "require": {
@@ -8632,7 +8632,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.27-dev"
+                    "dev-master": "1.28-dev"
                 }
             },
             "autoload": {
@@ -8667,7 +8667,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-10-25 19:17:17"
+            "time": "2016-11-17 17:46:53"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
