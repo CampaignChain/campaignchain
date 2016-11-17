@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "e663ebb195fa0baefa8718d985e8a546049892b4"
+                "reference": "60a8d49003bf1bdf7b31e70abd9da9620bd95b66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e663ebb195fa0baefa8718d985e8a546049892b4",
-                "reference": "e663ebb195fa0baefa8718d985e8a546049892b4",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/60a8d49003bf1bdf7b31e70abd9da9620bd95b66",
+                "reference": "60a8d49003bf1bdf7b31e70abd9da9620bd95b66",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-15 07:57:57"
+            "time": "2016-11-17 08:32:19"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -8875,12 +8875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "fbdcdc8c0ad61e2006481dfbff4830babbb7fd5d"
+                "reference": "20d3ebbf70f7b61517d5be1c7a651295a1f23de8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/fbdcdc8c0ad61e2006481dfbff4830babbb7fd5d",
-                "reference": "fbdcdc8c0ad61e2006481dfbff4830babbb7fd5d",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/20d3ebbf70f7b61517d5be1c7a651295a1f23de8",
+                "reference": "20d3ebbf70f7b61517d5be1c7a651295a1f23de8",
                 "shasum": ""
             },
             "type": "library",
@@ -8900,7 +8900,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-07 21:08:06"
+            "time": "2016-11-16 19:45:16"
         },
         {
             "name": "amariki/data-test",
