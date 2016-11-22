@@ -27,6 +27,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "php": ">=5.5",
+        "ext-intl": "*",
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
         "avanzu/admin-theme-bundle": "~2.0",
