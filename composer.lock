@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "8647a437c568315f4d2caa4c1f29e93bfa77d099"
+                "reference": "c7d2ff30122527bcb56c6b12ee847eeb5c9876e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/8647a437c568315f4d2caa4c1f29e93bfa77d099",
-                "reference": "8647a437c568315f4d2caa4c1f29e93bfa77d099",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/c7d2ff30122527bcb56c6b12ee847eeb5c9876e1",
+                "reference": "c7d2ff30122527bcb56c6b12ee847eeb5c9876e1",
                 "shasum": ""
             },
             "require": {
@@ -730,7 +730,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-11-05 15:48:39"
+            "time": "2016-11-22 10:41:13"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "15aed5f75adffb7cbbfecdbf1375da5ced472f9b"
+                "reference": "9b167b55210089c3a2e1fa7ab34c12029dfcca4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/15aed5f75adffb7cbbfecdbf1375da5ced472f9b",
-                "reference": "15aed5f75adffb7cbbfecdbf1375da5ced472f9b",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9b167b55210089c3a2e1fa7ab34c12029dfcca4a",
+                "reference": "9b167b55210089c3a2e1fa7ab34c12029dfcca4a",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-17 19:55:16"
+            "time": "2016-11-22 10:41:13"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -1656,12 +1656,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-duration.git",
-                "reference": "6ba01dd4f0faff2c46b5b2c078591734eae7fe35"
+                "reference": "fb8b2f9a4209fed25c1aab96d8af9ac6014ce5b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/6ba01dd4f0faff2c46b5b2c078591734eae7fe35",
-                "reference": "6ba01dd4f0faff2c46b5b2c078591734eae7fe35",
+                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/fb8b2f9a4209fed25c1aab96d8af9ac6014ce5b1",
+                "reference": "fb8b2f9a4209fed25c1aab96d8af9ac6014ce5b1",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1696,7 +1696,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-11-12 17:34:45"
+            "time": "2016-11-22 10:41:13"
         },
         {
             "name": "campaignchain/hook-image",
@@ -8372,16 +8372,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.13",
+            "version": "v2.8.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "d04e2eb13ae63068fc8862530b403756e3702896"
+                "reference": "6ceca5b4154c80839270c38aa65373de76127df7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/d04e2eb13ae63068fc8862530b403756e3702896",
-                "reference": "d04e2eb13ae63068fc8862530b403756e3702896",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/6ceca5b4154c80839270c38aa65373de76127df7",
+                "reference": "6ceca5b4154c80839270c38aa65373de76127df7",
                 "shasum": ""
             },
             "require": {
@@ -8397,7 +8397,7 @@
                 "symfony/polyfill-php70": "~1.0",
                 "symfony/polyfill-util": "~1.0",
                 "symfony/security-acl": "~2.7|~3.0.0",
-                "twig/twig": "~1.27|~2.0"
+                "twig/twig": "~1.28|~2.0"
             },
             "conflict": {
                 "phpdocumentor/reflection": "<1.0.7"
@@ -8503,7 +8503,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-10-27 02:18:45"
+            "time": "2016-11-21 02:24:51"
         },
         {
             "name": "twbs/bootstrap",
@@ -8610,16 +8610,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.28.0",
+            "version": "v1.28.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "60ae30368f7ac50a95de032f16c1e882b0f69813"
+                "reference": "fff80c4a7ae1d47a81dfec10c76cbcb939170b45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/60ae30368f7ac50a95de032f16c1e882b0f69813",
-                "reference": "60ae30368f7ac50a95de032f16c1e882b0f69813",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/fff80c4a7ae1d47a81dfec10c76cbcb939170b45",
+                "reference": "fff80c4a7ae1d47a81dfec10c76cbcb939170b45",
                 "shasum": ""
             },
             "require": {
@@ -8667,7 +8667,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-11-17 17:46:53"
+            "time": "2016-11-19 05:52:49"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
