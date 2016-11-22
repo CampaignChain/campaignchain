@@ -38,7 +38,7 @@ just like the Symfony Standard Framework.
 Before you install CampaignChain, make sure you have the following software
 installed on the server:
 
-* PHP 5.4 or better
+* PHP 5.5 or better
 * PHP JSON, PDO, curl, GD and intl extensions enabled
 * PHP’s system() function must work
 * MySQL 5.5 or better
