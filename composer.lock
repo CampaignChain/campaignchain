@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3ec554aaa4c413cb42cf587391df7898",
-    "content-hash": "224950f7557cb6450f11e1a5021a84b7",
+    "hash": "0e98de1342c4d4b07af37984d9811a91",
+    "content-hash": "f67dcc51deece2c639555dbd148580c7",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -326,12 +326,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-linkedin.git",
-                "reference": "5666b20c1c875b7d20874256b3e0cb4746de8c48"
+                "reference": "7f1148a025763be882d80332091a1f2bfb3f7799"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/5666b20c1c875b7d20874256b3e0cb4746de8c48",
-                "reference": "5666b20c1c875b7d20874256b3e0cb4746de8c48",
+                "url": "https://api.github.com/repos/CampaignChain/activity-linkedin/zipball/7f1148a025763be882d80332091a1f2bfb3f7799",
+                "reference": "7f1148a025763be882d80332091a1f2bfb3f7799",
                 "shasum": ""
             },
             "require": {
@@ -379,7 +379,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-10-29 09:24:03"
+            "time": "2016-11-23 12:40:39"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "9b167b55210089c3a2e1fa7ab34c12029dfcca4a"
+                "reference": "557b767fb7ad916335c89b96403e2a9f881184b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/9b167b55210089c3a2e1fa7ab34c12029dfcca4a",
-                "reference": "9b167b55210089c3a2e1fa7ab34c12029dfcca4a",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/557b767fb7ad916335c89b96403e2a9f881184b1",
+                "reference": "557b767fb7ad916335c89b96403e2a9f881184b1",
                 "shasum": ""
             },
             "require": {
@@ -1321,7 +1321,6 @@
                 "components/jquery": "1.11.*",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "2.4.*@dev",
-                "ext-intl": "*",
                 "friendsofsymfony/jsrouting-bundle": "dev-master",
                 "friendsofsymfony/rest-bundle": "dev-master",
                 "friendsofsymfony/user-bundle": "~2.0@dev",
@@ -1341,7 +1340,6 @@
                 "nelmio/api-doc-bundle": "dev-master",
                 "oneup/uploader-bundle": "^1.3.1",
                 "oyejorge/less.php": "~1.5",
-                "php": ">=5.4",
                 "sensio/distribution-bundle": "3.0.13",
                 "sensio/framework-extra-bundle": "~3.0",
                 "sensio/generator-bundle": "~2.5",
@@ -1407,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-22 10:41:13"
+            "time": "2016-11-22 10:55:39"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -4350,12 +4348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "79816b7e1faf93c11cb36689ce8d9541f85c710c"
+                "reference": "11bee8aaa2317e73c9792ba4dcbf200334f8960f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/79816b7e1faf93c11cb36689ce8d9541f85c710c",
-                "reference": "79816b7e1faf93c11cb36689ce8d9541f85c710c",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/11bee8aaa2317e73c9792ba4dcbf200334f8960f",
+                "reference": "11bee8aaa2317e73c9792ba4dcbf200334f8960f",
                 "shasum": ""
             },
             "require": {
@@ -4408,7 +4406,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -4439,7 +4437,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-11-11 11:52:09"
+            "time": "2016-11-23 12:14:19"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -7671,20 +7669,20 @@
         },
         {
             "name": "symfony/assetic-bundle",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/assetic-bundle.git",
-                "reference": "aa5b4f8b712f38745928fa845ddb73300bb2af6d"
+                "reference": "0241b135ff64c6031048c6425cd833a8300da46b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/assetic-bundle/zipball/aa5b4f8b712f38745928fa845ddb73300bb2af6d",
-                "reference": "aa5b4f8b712f38745928fa845ddb73300bb2af6d",
+                "url": "https://api.github.com/repos/symfony/assetic-bundle/zipball/0241b135ff64c6031048c6425cd833a8300da46b",
+                "reference": "0241b135ff64c6031048c6425cd833a8300da46b",
                 "shasum": ""
             },
             "require": {
-                "kriswallsmith/assetic": "~1.3",
+                "kriswallsmith/assetic": "~1.4",
                 "php": ">=5.3.0",
                 "symfony/console": "~2.3|~3.0",
                 "symfony/dependency-injection": "~2.3|~3.0",
@@ -7693,7 +7691,7 @@
             },
             "conflict": {
                 "kriswallsmith/spork": "<=0.2",
-                "twig/twig": "<1.20"
+                "twig/twig": "<1.27"
             },
             "require-dev": {
                 "kriswallsmith/spork": "~0.3",
@@ -7711,7 +7709,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -7737,7 +7735,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2015-12-28 13:12:39"
+            "time": "2016-11-22 11:42:57"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -9323,6 +9321,9 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.5",
+        "ext-intl": "*"
+    },
     "platform-dev": []
 }
