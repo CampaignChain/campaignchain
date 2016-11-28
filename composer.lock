@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e98de1342c4d4b07af37984d9811a91",
-    "content-hash": "f67dcc51deece2c639555dbd148580c7",
+    "hash": "8f865ae47ee15508709c7c5a373b6e17",
+    "content-hash": "2a64d3e42e20561f2fed36aeedeee4bb",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "557b767fb7ad916335c89b96403e2a9f881184b1"
+                "reference": "a8a2bf6192a7a049d97b9a7efb25c6cbf2b2f942"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/557b767fb7ad916335c89b96403e2a9f881184b1",
-                "reference": "557b767fb7ad916335c89b96403e2a9f881184b1",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/a8a2bf6192a7a049d97b9a7efb25c6cbf2b2f942",
+                "reference": "a8a2bf6192a7a049d97b9a7efb25c6cbf2b2f942",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-22 10:55:39"
+            "time": "2016-11-28 16:11:41"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -9322,7 +9322,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5",
+        "php": ">=5.5.9",
         "ext-intl": "*"
     },
     "platform-dev": []
