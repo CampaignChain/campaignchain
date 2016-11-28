@@ -968,12 +968,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-linkedin.git",
-                "reference": "285d0fa3f9b58b27b54f5c19709f96acbc490f44"
+                "reference": "db5adbd1f07a8bf253880eaa49cac2f1270eabe6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/285d0fa3f9b58b27b54f5c19709f96acbc490f44",
-                "reference": "285d0fa3f9b58b27b54f5c19709f96acbc490f44",
+                "url": "https://api.github.com/repos/CampaignChain/channel-linkedin/zipball/db5adbd1f07a8bf253880eaa49cac2f1270eabe6",
+                "reference": "db5adbd1f07a8bf253880eaa49cac2f1270eabe6",
                 "shasum": ""
             },
             "require": {
@@ -1017,7 +1017,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-11-23 15:28:41"
         },
         {
             "name": "campaignchain/channel-mailchimp",
@@ -1702,12 +1702,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-image.git",
-                "reference": "66154a4c87998c5c79efc0e445d1b8ad2db80693"
+                "reference": "5bfa14a1b4000e75968a5fcafa272d8cdea255c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/66154a4c87998c5c79efc0e445d1b8ad2db80693",
-                "reference": "66154a4c87998c5c79efc0e445d1b8ad2db80693",
+                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/5bfa14a1b4000e75968a5fcafa272d8cdea255c4",
+                "reference": "5bfa14a1b4000e75968a5fcafa272d8cdea255c4",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1742,7 +1742,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-10-29 09:24:02"
+            "time": "2016-11-28 05:46:18"
         },
         {
             "name": "campaignchain/hook-timespan",
@@ -2441,12 +2441,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "4fd446abeb32eefdefbbb7bd3b05f9c493468e18"
+                "reference": "571619cda766c7676c30faf9f7604c3e0191abac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/4fd446abeb32eefdefbbb7bd3b05f9c493468e18",
-                "reference": "4fd446abeb32eefdefbbb7bd3b05f9c493468e18",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/571619cda766c7676c30faf9f7604c3e0191abac",
+                "reference": "571619cda766c7676c30faf9f7604c3e0191abac",
                 "shasum": ""
             },
             "require": {
@@ -2484,7 +2484,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-10-29 09:24:02"
+            "time": "2016-11-28 05:46:18"
         },
         {
             "name": "campaignchain/operation-mailchimp",
@@ -4160,12 +4160,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
-                "reference": "4a3f3ea8298775f06a01e2c85c9c0e5d5d22d797"
+                "reference": "31462ad469c275dd9994622ba46155566c4dd6eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/4a3f3ea8298775f06a01e2c85c9c0e5d5d22d797",
-                "reference": "4a3f3ea8298775f06a01e2c85c9c0e5d5d22d797",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/31462ad469c275dd9994622ba46155566c4dd6eb",
+                "reference": "31462ad469c275dd9994622ba46155566c4dd6eb",
                 "shasum": ""
             },
             "require": {
@@ -4211,7 +4211,7 @@
                 "javascript",
                 "routing"
             ],
-            "time": "2016-05-11 15:04:31"
+            "time": "2016-11-26 12:01:27"
         },
         {
             "name": "friendsofsymfony/oauth-server-bundle",
@@ -4348,12 +4348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "11bee8aaa2317e73c9792ba4dcbf200334f8960f"
+                "reference": "4008820bf6a3474e088cd3c41a90e4f143e54b6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/11bee8aaa2317e73c9792ba4dcbf200334f8960f",
-                "reference": "11bee8aaa2317e73c9792ba4dcbf200334f8960f",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/4008820bf6a3474e088cd3c41a90e4f143e54b6f",
+                "reference": "4008820bf6a3474e088cd3c41a90e4f143e54b6f",
                 "shasum": ""
             },
             "require": {
@@ -4437,7 +4437,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-11-23 12:14:19"
+            "time": "2016-11-25 16:40:44"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -5750,12 +5750,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "0e4af7209dc03e39c51ec70b68ab2ba3177c25de"
+                "reference": "850824d1218d5e6fdef2bcfc18dd1c423b6553a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/0e4af7209dc03e39c51ec70b68ab2ba3177c25de",
-                "reference": "0e4af7209dc03e39c51ec70b68ab2ba3177c25de",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/850824d1218d5e6fdef2bcfc18dd1c423b6553a9",
+                "reference": "850824d1218d5e6fdef2bcfc18dd1c423b6553a9",
                 "shasum": ""
             },
             "require": {
@@ -5799,7 +5799,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2016-09-22 12:24:40"
+            "time": "2016-11-28 00:01:40"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -6113,16 +6113,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.21.0",
+            "version": "1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "f42fbdfd53e306bda545845e4dbfd3e72edb4952"
+                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f42fbdfd53e306bda545845e4dbfd3e72edb4952",
-                "reference": "f42fbdfd53e306bda545845e4dbfd3e72edb4952",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bad29cb8d18ab0315e6c477751418a82c850d558",
+                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558",
                 "shasum": ""
             },
             "require": {
@@ -6133,7 +6133,7 @@
                 "psr/log-implementation": "1.0.0"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "^2.4.9",
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
                 "jakub-onderka/php-parallel-lint": "0.9",
@@ -6187,7 +6187,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-07-29 03:23:52"
+            "time": "2016-11-26 00:15:39"
         },
         {
             "name": "mremi/url-shortener",
@@ -7616,16 +7616,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.3",
+            "version": "v5.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
+                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
-                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/545ce9136690cea74f98f86fbb9c92dd9ab1a756",
+                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756",
                 "shasum": ""
             },
             "require": {
@@ -7665,7 +7665,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-07-08 11:51:25"
+            "time": "2016-11-24 01:01:23"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -8608,16 +8608,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.28.1",
+            "version": "v1.28.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "fff80c4a7ae1d47a81dfec10c76cbcb939170b45"
+                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/fff80c4a7ae1d47a81dfec10c76cbcb939170b45",
-                "reference": "fff80c4a7ae1d47a81dfec10c76cbcb939170b45",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b22ce0eb070e41f7cba65d78fe216de29726459c",
+                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c",
                 "shasum": ""
             },
             "require": {
@@ -8625,7 +8625,7 @@
             },
             "require-dev": {
                 "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~2.7"
+                "symfony/phpunit-bridge": "~3.2@dev"
             },
             "type": "library",
             "extra": {
@@ -8665,7 +8665,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-11-19 05:52:49"
+            "time": "2016-11-23 18:41:40"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
