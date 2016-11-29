@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "aef25b1d44c7e23a00ddade44849ba2390ca1893"
+                "reference": "3e280d0a8f7abee50ea27408b5e6935b06b4b8a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/aef25b1d44c7e23a00ddade44849ba2390ca1893",
-                "reference": "aef25b1d44c7e23a00ddade44849ba2390ca1893",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/3e280d0a8f7abee50ea27408b5e6935b06b4b8a5",
+                "reference": "3e280d0a8f7abee50ea27408b5e6935b06b4b8a5",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-29 12:05:22"
+            "time": "2016-11-29 13:59:00"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -2338,12 +2338,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "4383a4dcea468ca78a2c22003b3c9a8456b183ba"
+                "reference": "cf44ca9b558bd589c47f4d4bde6c9501b44d96af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/4383a4dcea468ca78a2c22003b3c9a8456b183ba",
-                "reference": "4383a4dcea468ca78a2c22003b3c9a8456b183ba",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/cf44ca9b558bd589c47f4d4bde6c9501b44d96af",
+                "reference": "cf44ca9b558bd589c47f4d4bde6c9501b44d96af",
                 "shasum": ""
             },
             "require": {
@@ -2381,7 +2381,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-11-29 10:08:33"
+            "time": "2016-11-29 14:04:46"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
