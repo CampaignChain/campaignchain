@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "7eb5de7209ada942ac9ddad63d1481a9e05f8efe"
+                "reference": "0acfe2079f651648be68c28707d02ac990cee54c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/7eb5de7209ada942ac9ddad63d1481a9e05f8efe",
-                "reference": "7eb5de7209ada942ac9ddad63d1481a9e05f8efe",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/0acfe2079f651648be68c28707d02ac990cee54c",
+                "reference": "0acfe2079f651648be68c28707d02ac990cee54c",
                 "shasum": ""
             },
             "require": {
@@ -1323,7 +1323,7 @@
                 "doctrine/orm": "2.4.*@dev",
                 "friendsofsymfony/jsrouting-bundle": "dev-master",
                 "friendsofsymfony/rest-bundle": "dev-master",
-                "friendsofsymfony/user-bundle": "~2.0@dev",
+                "friendsofsymfony/user-bundle": "2.0.0-alpha3",
                 "gkralik/php-uglifyjs": "dev-master",
                 "guzzle/guzzle": "~3.9",
                 "guzzlehttp/guzzle": "^5.3",
@@ -1405,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-29 14:04:46"
+            "time": "2016-11-30 09:32:45"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -1702,12 +1702,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-image.git",
-                "reference": "5bfa14a1b4000e75968a5fcafa272d8cdea255c4"
+                "reference": "c7af46ee918267fce22e51bc5f3310ad9e1d2c6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/5bfa14a1b4000e75968a5fcafa272d8cdea255c4",
-                "reference": "5bfa14a1b4000e75968a5fcafa272d8cdea255c4",
+                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/c7af46ee918267fce22e51bc5f3310ad9e1d2c6d",
+                "reference": "c7af46ee918267fce22e51bc5f3310ad9e1d2c6d",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1742,7 +1742,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-11-28 05:46:18"
+            "time": "2016-11-30 09:01:01"
         },
         {
             "name": "campaignchain/hook-timespan",
@@ -2441,12 +2441,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "571619cda766c7676c30faf9f7604c3e0191abac"
+                "reference": "a87ade416d43e612789e8d1871bd3fe46462bbf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/571619cda766c7676c30faf9f7604c3e0191abac",
-                "reference": "571619cda766c7676c30faf9f7604c3e0191abac",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/a87ade416d43e612789e8d1871bd3fe46462bbf1",
+                "reference": "a87ade416d43e612789e8d1871bd3fe46462bbf1",
                 "shasum": ""
             },
             "require": {
@@ -2484,7 +2484,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-11-28 05:46:18"
+            "time": "2016-11-30 10:09:13"
         },
         {
             "name": "campaignchain/operation-mailchimp",
