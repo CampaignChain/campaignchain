@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "0acfe2079f651648be68c28707d02ac990cee54c"
+                "reference": "f2de359ce75ddd7cb6cc5909f7bbf2b7f82ba205"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/0acfe2079f651648be68c28707d02ac990cee54c",
-                "reference": "0acfe2079f651648be68c28707d02ac990cee54c",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f2de359ce75ddd7cb6cc5909f7bbf2b7f82ba205",
+                "reference": "f2de359ce75ddd7cb6cc5909f7bbf2b7f82ba205",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-30 09:32:45"
+            "time": "2016-11-30 11:06:17"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -1413,12 +1413,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/form-type-autocomplete.git",
-                "reference": "936eacd41531bcdda4d397d01dd4e3b150b5feaf"
+                "reference": "261486bdf3e2e2f4a5cae7e71a50445273581481"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/form-type-autocomplete/zipball/936eacd41531bcdda4d397d01dd4e3b150b5feaf",
-                "reference": "936eacd41531bcdda4d397d01dd4e3b150b5feaf",
+                "url": "https://api.github.com/repos/CampaignChain/form-type-autocomplete/zipball/261486bdf3e2e2f4a5cae7e71a50445273581481",
+                "reference": "261486bdf3e2e2f4a5cae7e71a50445273581481",
                 "shasum": ""
             },
             "require": {
@@ -1455,7 +1455,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-08 19:04:26"
+            "time": "2016-11-30 11:06:17"
         },
         {
             "name": "campaignchain/form-type-textarea-count",
@@ -1463,12 +1463,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/form-type-textarea-count.git",
-                "reference": "3152543d92a51a6deeba7042e0ed22f6c0025ce8"
+                "reference": "848f3ed1d38ce3c7671ffcbfe4bf9290b762dfd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/form-type-textarea-count/zipball/3152543d92a51a6deeba7042e0ed22f6c0025ce8",
-                "reference": "3152543d92a51a6deeba7042e0ed22f6c0025ce8",
+                "url": "https://api.github.com/repos/CampaignChain/form-type-textarea-count/zipball/848f3ed1d38ce3c7671ffcbfe4bf9290b762dfd3",
+                "reference": "848f3ed1d38ce3c7671ffcbfe4bf9290b762dfd3",
                 "shasum": ""
             },
             "type": "campaignchain-symfony",
@@ -1502,7 +1502,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-29 10:46:23"
+            "time": "2016-11-30 11:06:17"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1606,12 +1606,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "2074ee2cfb5ee920eee7f609b9e5a4c522750460"
+                "reference": "e46003ddbd67fcc78779e1ac7e6d9ed0dd2f2bdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/2074ee2cfb5ee920eee7f609b9e5a4c522750460",
-                "reference": "2074ee2cfb5ee920eee7f609b9e5a4c522750460",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/e46003ddbd67fcc78779e1ac7e6d9ed0dd2f2bdf",
+                "reference": "e46003ddbd67fcc78779e1ac7e6d9ed0dd2f2bdf",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1646,7 +1646,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2016-10-29 09:24:03"
+            "time": "2016-11-30 11:06:16"
         },
         {
             "name": "campaignchain/hook-duration",
