@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "3180ed0591b643c8d3fe155d36df6d6c4cf8061b"
+                "reference": "13c13c351310c848095ce60d1b28280564ca488d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/3180ed0591b643c8d3fe155d36df6d6c4cf8061b",
-                "reference": "3180ed0591b643c8d3fe155d36df6d6c4cf8061b",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/13c13c351310c848095ce60d1b28280564ca488d",
+                "reference": "13c13c351310c848095ce60d1b28280564ca488d",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-30 17:03:32"
+            "time": "2016-12-02 11:16:52"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -1463,12 +1463,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/form-type-textarea-count.git",
-                "reference": "848f3ed1d38ce3c7671ffcbfe4bf9290b762dfd3"
+                "reference": "7eb9dce2f0214f7167ae33f9b373a334ac511aee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/form-type-textarea-count/zipball/848f3ed1d38ce3c7671ffcbfe4bf9290b762dfd3",
-                "reference": "848f3ed1d38ce3c7671ffcbfe4bf9290b762dfd3",
+                "url": "https://api.github.com/repos/CampaignChain/form-type-textarea-count/zipball/7eb9dce2f0214f7167ae33f9b373a334ac511aee",
+                "reference": "7eb9dce2f0214f7167ae33f9b373a334ac511aee",
                 "shasum": ""
             },
             "type": "campaignchain-symfony",
@@ -1502,7 +1502,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-30 11:06:17"
+            "time": "2016-12-01 18:53:41"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -3411,16 +3411,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.6.1",
+            "version": "v2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "a579557bc689580c19fee4e27487a67fe60defc0"
+                "reference": "7bce00698899aa2c06fe7365c76e4d78ddb15fa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/a579557bc689580c19fee4e27487a67fe60defc0",
-                "reference": "a579557bc689580c19fee4e27487a67fe60defc0",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/7bce00698899aa2c06fe7365c76e4d78ddb15fa3",
+                "reference": "7bce00698899aa2c06fe7365c76e4d78ddb15fa3",
                 "shasum": ""
             },
             "require": {
@@ -3480,7 +3480,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-12-25 13:18:31"
+            "time": "2016-11-30 16:50:46"
         },
         {
             "name": "doctrine/dbal",
@@ -8873,12 +8873,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-demo.git",
-                "reference": "20d3ebbf70f7b61517d5be1c7a651295a1f23de8"
+                "reference": "59cc31cdc41d22995d409d0db39884fe3999ca55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/20d3ebbf70f7b61517d5be1c7a651295a1f23de8",
-                "reference": "20d3ebbf70f7b61517d5be1c7a651295a1f23de8",
+                "url": "https://api.github.com/repos/Amariki/data-demo/zipball/59cc31cdc41d22995d409d0db39884fe3999ca55",
+                "reference": "59cc31cdc41d22995d409d0db39884fe3999ca55",
                 "shasum": ""
             },
             "type": "library",
@@ -8898,7 +8898,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-16 19:45:16"
+            "time": "2016-12-02 11:08:20"
         },
         {
             "name": "amariki/data-test",
@@ -8906,12 +8906,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Amariki/data-test.git",
-                "reference": "d6b05454a74604c70afb97f8a05acefdfbb4fc55"
+                "reference": "17eabae46e12d017ed363d3a8ca1ff9a3868c326"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Amariki/data-test/zipball/d6b05454a74604c70afb97f8a05acefdfbb4fc55",
-                "reference": "d6b05454a74604c70afb97f8a05acefdfbb4fc55",
+                "url": "https://api.github.com/repos/Amariki/data-test/zipball/17eabae46e12d017ed363d3a8ca1ff9a3868c326",
+                "reference": "17eabae46e12d017ed363d3a8ca1ff9a3868c326",
                 "shasum": ""
             },
             "type": "library",
@@ -8931,7 +8931,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-07 21:08:06"
+            "time": "2016-12-02 11:08:20"
         },
         {
             "name": "campaignchain/activity-ezplatform",
