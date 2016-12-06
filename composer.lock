@@ -1135,12 +1135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-twitter.git",
-                "reference": "9cf03e1b159d41708a6e62a16227ed1e8a2f8f3e"
+                "reference": "4a474b57d7c1bc51adaa2460669c38c27128127a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/9cf03e1b159d41708a6e62a16227ed1e8a2f8f3e",
-                "reference": "9cf03e1b159d41708a6e62a16227ed1e8a2f8f3e",
+                "url": "https://api.github.com/repos/CampaignChain/channel-twitter/zipball/4a474b57d7c1bc51adaa2460669c38c27128127a",
+                "reference": "4a474b57d7c1bc51adaa2460669c38c27128127a",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1185,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-12-06 16:24:41"
         },
         {
             "name": "campaignchain/channel-website",
@@ -2601,12 +2601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "42e26b01984a5d0ba36d596f68085b8b4f5e6e0c"
+                "reference": "26db749fd6dd124c3635d2c0d27edccd670f7f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/42e26b01984a5d0ba36d596f68085b8b4f5e6e0c",
-                "reference": "42e26b01984a5d0ba36d596f68085b8b4f5e6e0c",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/26db749fd6dd124c3635d2c0d27edccd670f7f75",
+                "reference": "26db749fd6dd124c3635d2c0d27edccd670f7f75",
                 "shasum": ""
             },
             "require": {
@@ -2647,7 +2647,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-06 16:24:41"
         },
         {
             "name": "campaignchain/operation-xing",
