@@ -267,12 +267,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-gotowebinar.git",
-                "reference": "93d93235c901bce740f8c4cd486a2e57c56d9939"
+                "reference": "ce08c23de028db6da494960e4d35aaf0ceb422eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/93d93235c901bce740f8c4cd486a2e57c56d9939",
-                "reference": "93d93235c901bce740f8c4cd486a2e57c56d9939",
+                "url": "https://api.github.com/repos/CampaignChain/activity-gotowebinar/zipball/ce08c23de028db6da494960e4d35aaf0ceb422eb",
+                "reference": "ce08c23de028db6da494960e4d35aaf0ceb422eb",
                 "shasum": ""
             },
             "require": {
@@ -318,7 +318,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-06 12:48:48"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -795,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-citrix.git",
-                "reference": "0abafa20ffa07ead7dd8592d2ce788525ba6a7a2"
+                "reference": "5eafe76603a0b1f8601808f530da350b00592fcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/0abafa20ffa07ead7dd8592d2ce788525ba6a7a2",
-                "reference": "0abafa20ffa07ead7dd8592d2ce788525ba6a7a2",
+                "url": "https://api.github.com/repos/CampaignChain/channel-citrix/zipball/5eafe76603a0b1f8601808f530da350b00592fcc",
+                "reference": "5eafe76603a0b1f8601808f530da350b00592fcc",
                 "shasum": ""
             },
             "require": {
@@ -843,7 +843,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-12-06 12:48:48"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "f054b37dcc44e6a67aae53d5ed911af192aa0183"
+                "reference": "5c7835f71ec36fe8d5fbc314e146f3421a373649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/f054b37dcc44e6a67aae53d5ed911af192aa0183",
-                "reference": "f054b37dcc44e6a67aae53d5ed911af192aa0183",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/5c7835f71ec36fe8d5fbc314e146f3421a373649",
+                "reference": "5c7835f71ec36fe8d5fbc314e146f3421a373649",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-06 08:27:14"
+            "time": "2016-12-06 12:48:48"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -2492,12 +2492,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-mailchimp.git",
-                "reference": "606f3b10a284b9dde4dae1ef544ea83b7d976070"
+                "reference": "4415f0123350298c80f2a2bc39e1950c4e183250"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/606f3b10a284b9dde4dae1ef544ea83b7d976070",
-                "reference": "606f3b10a284b9dde4dae1ef544ea83b7d976070",
+                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/4415f0123350298c80f2a2bc39e1950c4e183250",
+                "reference": "4415f0123350298c80f2a2bc39e1950c4e183250",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -2537,7 +2537,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-06 08:43:16"
         },
         {
             "name": "campaignchain/operation-slideshare",
