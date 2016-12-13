@@ -387,12 +387,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/activity-mailchimp.git",
-                "reference": "8cf05dd1bd2ab834eadce90a228ec3e959e7817c"
+                "reference": "d5751d7a288c445ea67b2b53663db3a3a163b14b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/8cf05dd1bd2ab834eadce90a228ec3e959e7817c",
-                "reference": "8cf05dd1bd2ab834eadce90a228ec3e959e7817c",
+                "url": "https://api.github.com/repos/CampaignChain/activity-mailchimp/zipball/d5751d7a288c445ea67b2b53663db3a3a163b14b",
+                "reference": "d5751d7a288c445ea67b2b53663db3a3a163b14b",
                 "shasum": ""
             },
             "require": {
@@ -438,7 +438,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-12-07 15:26:07"
+            "time": "2016-12-13 10:38:55"
         },
         {
             "name": "campaignchain/activity-slideshare",
@@ -1025,16 +1025,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-mailchimp.git",
-                "reference": "d769d0bacbd5d9a5fb48a094400b3ddd198a8718"
+                "reference": "325ab7cf86a3e3fa2bebbaa50625b2b3954c908d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/d769d0bacbd5d9a5fb48a094400b3ddd198a8718",
-                "reference": "d769d0bacbd5d9a5fb48a094400b3ddd198a8718",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/325ab7cf86a3e3fa2bebbaa50625b2b3954c908d",
+                "reference": "325ab7cf86a3e3fa2bebbaa50625b2b3954c908d",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/core": "dev-master",
+                "drewm/mailchimp-api": "2.*",
                 "mailchimp/mailchimp": "2.0.*"
             },
             "type": "campaignchain-channel",
@@ -1074,7 +1075,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-12-13 10:39:23"
         },
         {
             "name": "campaignchain/channel-slideshare",
@@ -2492,12 +2493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-mailchimp.git",
-                "reference": "4415f0123350298c80f2a2bc39e1950c4e183250"
+                "reference": "5e406c3077bc76668d5bd49806808296e3464cc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/4415f0123350298c80f2a2bc39e1950c4e183250",
-                "reference": "4415f0123350298c80f2a2bc39e1950c4e183250",
+                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/5e406c3077bc76668d5bd49806808296e3464cc4",
+                "reference": "5e406c3077bc76668d5bd49806808296e3464cc4",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -2537,7 +2538,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-12-06 08:43:16"
+            "time": "2016-12-13 10:38:37"
         },
         {
             "name": "campaignchain/operation-slideshare",
@@ -4105,6 +4106,49 @@
             "time": "2015-08-31 13:19:01"
         },
         {
+            "name": "drewm/mailchimp-api",
+            "version": "v2.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drewm/mailchimp-api.git",
+                "reference": "89b7dbc54b7ba8c2e249d6e63f66d22ecb8070f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drewm/mailchimp-api/zipball/89b7dbc54b7ba8c2e249d6e63f66d22ecb8070f8",
+                "reference": "89b7dbc54b7ba8c2e249d6e63f66d22ecb8070f8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*",
+                "vlucas/phpdotenv": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DrewM\\MailChimp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Drew McLellan",
+                    "email": "drew.mclellan@gmail.com",
+                    "homepage": "http://allinthehead.com/"
+                }
+            ],
+            "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
+            "homepage": "https://github.com/drewm/mailchimp-api",
+            "time": "2016-07-01 15:53:33"
+        },
+        {
             "name": "facebook/php-sdk-v4",
             "version": "4.0.23",
             "source": {
@@ -4348,12 +4392,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "6731a0603043ae251eeec9dde0be3abe6de68a9d"
+                "reference": "cd45f7fe68921a2c8d994db4a577b90c6fe94397"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/6731a0603043ae251eeec9dde0be3abe6de68a9d",
-                "reference": "6731a0603043ae251eeec9dde0be3abe6de68a9d",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/cd45f7fe68921a2c8d994db4a577b90c6fe94397",
+                "reference": "cd45f7fe68921a2c8d994db4a577b90c6fe94397",
                 "shasum": ""
             },
             "require": {
@@ -4438,7 +4482,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2016-12-02 20:54:12"
+            "time": "2016-12-12 22:54:07"
         },
         {
             "name": "friendsofsymfony/user-bundle",
