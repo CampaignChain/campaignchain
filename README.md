@@ -73,11 +73,7 @@ modules management. Install it with this command:
 In a folder of your choice, execute Composer to download all files of the
 CampaignChain base system. Please note that this might take a while.
 
-In below command, replace the **[version]** placeholder with a release or branch
-(e.g. 1.0.0-beta.2 or dev-master). Find a list of releases here: 
-https://github.com/CampaignChain/campaignchain/releases
-
-    $ composer create-project --stability=dev campaignchain/campaignchain campaignchain [version]
+    $ composer create-project --stability=dev campaignchain/campaignchain campaignchain dev-master
 
 ### Configure CampaignChain System
 
