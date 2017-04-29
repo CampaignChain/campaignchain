@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "cc6e77edee8ee280f06a8dcaac0da137cdad8850"
+                "reference": "53d81d393ba424653dd375f849546aff6f7109e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/cc6e77edee8ee280f06a8dcaac0da137cdad8850",
-                "reference": "cc6e77edee8ee280f06a8dcaac0da137cdad8850",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/53d81d393ba424653dd375f849546aff6f7109e3",
+                "reference": "53d81d393ba424653dd375f849546aff6f7109e3",
                 "shasum": ""
             },
             "require": {
@@ -1336,11 +1336,11 @@
                 "knplabs/knp-menu-bundle": "dev-master",
                 "knplabs/knp-paginator-bundle": "dev-master",
                 "liip/imagine-bundle": "^1.3.1",
-                "mremi/url-shortener": "dev-master",
+                "mremi/url-shortener": "dev-master#e4e7745796064104a568c01883d350d20994553e",
                 "nelmio/api-doc-bundle": "dev-master",
                 "oneup/uploader-bundle": "^1.3.1",
                 "oyejorge/less.php": "~1.5",
-                "sensio/distribution-bundle": "3.0.13",
+                "sensio/distribution-bundle": "3.0.*",
                 "sensio/framework-extra-bundle": "~3.0",
                 "sensio/generator-bundle": "~2.5",
                 "sonata-project/admin-bundle": "~2.2",
@@ -1405,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-17 10:43:38"
+            "time": "2017-04-29 15:53:49"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
