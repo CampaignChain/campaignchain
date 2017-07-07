@@ -62,7 +62,6 @@ class AppKernel extends Kernel
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
             // CampaignChain
             $bundles[] = new CampaignChain\GeneratorBundle\CampaignChainGeneratorBundle();
-            $bundles[] = new CampaignChain\Core\ESPBundle\CampaignChainCoreESPBundle();
         }
 
         return $bundles;

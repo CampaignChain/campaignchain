@@ -2337,12 +2337,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "0f63fc6b0b6fa6aa0886127f88a01625e2e45a88"
+                "reference": "a8a7aad35c9f6d4b48069526d26203bede7b8bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/0f63fc6b0b6fa6aa0886127f88a01625e2e45a88",
-                "reference": "0f63fc6b0b6fa6aa0886127f88a01625e2e45a88",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/a8a7aad35c9f6d4b48069526d26203bede7b8bf6",
+                "reference": "a8a7aad35c9f6d4b48069526d26203bede7b8bf6",
                 "shasum": ""
             },
             "require": {
@@ -2380,7 +2380,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-12-03 12:07:18"
+            "time": "2017-07-06 08:01:28"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -8523,16 +8523,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.23",
+            "version": "v2.8.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "bca31e4e3b6cfd8cef39ec04a253966cecf8f2ca"
+                "reference": "0ab3693b1154b1b166e98981ab3755636a5ae0e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/bca31e4e3b6cfd8cef39ec04a253966cecf8f2ca",
-                "reference": "bca31e4e3b6cfd8cef39ec04a253966cecf8f2ca",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/0ab3693b1154b1b166e98981ab3755636a5ae0e3",
+                "reference": "0ab3693b1154b1b166e98981ab3755636a5ae0e3",
                 "shasum": ""
             },
             "require": {
@@ -8656,7 +8656,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-07-04T05:31:17+00:00"
+            "time": "2017-07-05T08:53:15+00:00"
         },
         {
             "name": "twbs/bootstrap",
@@ -9267,16 +9267,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core-esp.git",
-                "reference": "26d41d134682ed20b7251bf16ed659c9680f3c1f"
+                "reference": "895e597418d30a58bb6b4697ff80c90e1dc18741"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/26d41d134682ed20b7251bf16ed659c9680f3c1f",
-                "reference": "26d41d134682ed20b7251bf16ed659c9680f3c1f",
+                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/895e597418d30a58bb6b4697ff80c90e1dc18741",
+                "reference": "895e597418d30a58bb6b4697ff80c90e1dc18741",
                 "shasum": ""
             },
             "require": {
-                "google/protobuf": "dev-master"
+                "campaignchain/protobuf": "dev-master"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -9300,7 +9300,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-05T07:13:49+00:00"
+            "time": "2017-07-05 08:24:54"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -9497,17 +9497,67 @@
             "time": "2016-12-03 12:07:19"
         },
         {
+            "name": "campaignchain/protobuf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/protobuf.git",
+                "reference": "40edb2179c2be84ebd2211433dc7759e51260885"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/protobuf/zipball/40edb2179c2be84ebd2211433dc7759e51260885",
+                "reference": "40edb2179c2be84ebd2211433dc7759e51260885",
+                "shasum": ""
+            },
+            "require": {
+                "google/protobuf": "dev-master"
+            },
+            "type": "campaignchain-symfony",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\ProtobufBundle\\CampaignChainProtobufBundle"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\ProtobufBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com",
+                    "homepage": "http://www.campaignchain.com"
+                }
+            ],
+            "description": "Tools for using Google Protocol Buffers with CampaignChain",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2017-07-07T09:02:51+00:00"
+        },
+        {
             "name": "google/protobuf",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "cdd524a0bdfc16853271cca7b8fa95577b75085d"
+                "reference": "bd5ab154dad4b4e2bf673a44aa32f7264a208e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/cdd524a0bdfc16853271cca7b8fa95577b75085d",
-                "reference": "cdd524a0bdfc16853271cca7b8fa95577b75085d",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/bd5ab154dad4b4e2bf673a44aa32f7264a208e18",
+                "reference": "bd5ab154dad4b4e2bf673a44aa32f7264a208e18",
                 "shasum": ""
             },
             "require": {
@@ -9532,7 +9582,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-07-04T05:42:45+00:00"
+            "time": "2017-07-06T15:11:50+00:00"
         }
     ],
     "aliases": [],
