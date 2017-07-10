@@ -9267,24 +9267,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core-esp.git",
-                "reference": "51edc77a697f551b132bf15f8b00be6c09f98202"
+                "reference": "2b4b2dd7791cdbd0ee397845add67ab9f42af528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/51edc77a697f551b132bf15f8b00be6c09f98202",
-                "reference": "51edc77a697f551b132bf15f8b00be6c09f98202",
+                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/2b4b2dd7791cdbd0ee397845add67ab9f42af528",
+                "reference": "2b4b2dd7791cdbd0ee397845add67ab9f42af528",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/protobuf": "dev-master",
                 "elasticsearch/elasticsearch": "~5.0",
-                "friendsofsymfony/elastica-bundle": "dev-master"
+                "friendsofsymfony/elastica-bundle": "~4.0"
             },
             "type": "campaignchain-symfony",
             "extra": {
                 "campaignchain": {
                     "kernel": {
                         "classes": [
+                            "FOS\\ElasticaBundle\\FOSElasticaBundle",
                             "CampaignChain\\Core\\ESPBundle\\CampaignChainCoreESPBundle"
                         ],
                         "routing": {
@@ -9316,7 +9317,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-07T17:09:36+00:00"
+            "time": "2017-07-10T07:53:53+00:00"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -9619,54 +9620,52 @@
         },
         {
             "name": "friendsofsymfony/elastica-bundle",
-            "version": "dev-master",
+            "version": "v4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSElasticaBundle.git",
-                "reference": "9d55dc256dc424ce936b4a725c2e1fd1d0da5972"
+                "reference": "a11e71d835456c536ba449f14ee5ad387e105919"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSElasticaBundle/zipball/9d55dc256dc424ce936b4a725c2e1fd1d0da5972",
-                "reference": "9d55dc256dc424ce936b4a725c2e1fd1d0da5972",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSElasticaBundle/zipball/a11e71d835456c536ba449f14ee5ad387e105919",
+                "reference": "a11e71d835456c536ba449f14ee5ad387e105919",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6.0",
-                "psr/log": "^1.0",
-                "ruflin/elastica": "^5.2.1",
-                "symfony/asset": "^2.7 || ^3.1",
-                "symfony/console": "^2.7 || ^3.1",
-                "symfony/form": "^2.7 || ^3.1",
-                "symfony/framework-bundle": "^2.7 || ^3.1",
-                "symfony/property-access": "^2.7 || ^3.1",
-                "symfony/templating": "^2.7 || ^3.1",
-                "symfony/translation": "^2.7 || ^3.1"
+                "php": ">=5.5.0",
+                "psr/log": "~1.0",
+                "ruflin/elastica": "3.2.*",
+                "symfony/asset": "~2.7|~3.0",
+                "symfony/console": "~2.7|~3.0",
+                "symfony/form": "~2.7|~3.0",
+                "symfony/framework-bundle": "~2.7|~3.0",
+                "symfony/property-access": "~2.7|~3.0",
+                "symfony/templating": "~2.7|~3.0",
+                "symfony/translation": "~2.7|~3.0"
             },
             "require-dev": {
-                "doctrine/doctrine-bundle": "^1.6",
-                "doctrine/orm": "^2.4",
-                "doctrine/phpcr-bundle": "^1.2",
-                "friendsofphp/php-cs-fixer": "^1.11",
-                "jackalope/jackalope-doctrine-dbal": "^1.1",
-                "jms/serializer-bundle": "^2.0",
-                "knplabs/knp-components": "^1.2",
-                "knplabs/knp-paginator-bundle": "^2.4",
-                "pagerfanta/pagerfanta": "^1.0",
-                "phpunit/phpunit": "^4.8 || ^5.0",
+                "doctrine/doctrine-bundle": "~1.6",
+                "doctrine/orm": "~2.4",
+                "doctrine/phpcr-bundle": "~1.2",
+                "jackalope/jackalope-doctrine-dbal": "~1.1",
+                "jms/serializer-bundle": "~1.1",
+                "knplabs/knp-components": "~1.2",
+                "knplabs/knp-paginator-bundle": "~2.4",
+                "pagerfanta/pagerfanta": "~1.0",
+                "phpunit/phpunit": "~4.8|~5.0",
                 "propel/propel1": "1.6.*",
-                "symfony/browser-kit": "^2.7 || ^3.1",
-                "symfony/dependency-injection": "^2.7 || ^3.1",
-                "symfony/expression-language": "^2.7 || ^3.1",
-                "symfony/serializer": "^2.7 || ^3.1",
-                "symfony/twig-bundle": "^2.7 || ^3.1",
-                "symfony/validator": "^2.7 || ^3.1",
-                "symfony/yaml": "^2.7 || ^3.1"
+                "symfony/browser-kit": "~2.7|~3.0",
+                "symfony/dependency-injection": "~2.7|~3.0",
+                "symfony/expression-language": "~2.7|~3.0",
+                "symfony/serializer": "~2.7|~3.0",
+                "symfony/twig-bundle": "~2.7|~3.0",
+                "symfony/yaml": "~2.7|~3.0"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0.x-dev"
+                    "dev-master": "4.0.x-dev"
                 }
             },
             "autoload": {
@@ -9706,7 +9705,7 @@
                 "propel",
                 "search"
             ],
-            "time": "2017-06-15T07:39:15+00:00"
+            "time": "2017-03-30T10:46:20+00:00"
         },
         {
             "name": "google/protobuf",
@@ -9714,12 +9713,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "bd5ab154dad4b4e2bf673a44aa32f7264a208e18"
+                "reference": "126082c371d2320255ac8ff7d68bef25a919572d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/bd5ab154dad4b4e2bf673a44aa32f7264a208e18",
-                "reference": "bd5ab154dad4b4e2bf673a44aa32f7264a208e18",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/126082c371d2320255ac8ff7d68bef25a919572d",
+                "reference": "126082c371d2320255ac8ff7d68bef25a919572d",
                 "shasum": ""
             },
             "require": {
@@ -9744,7 +9743,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-07-06 15:11:50"
+            "time": "2017-07-10T03:31:50+00:00"
         },
         {
             "name": "guzzlehttp/ringphp",
@@ -9895,21 +9894,20 @@
         },
         {
             "name": "ruflin/elastica",
-            "version": "5.2.1",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ruflin/Elastica.git",
-                "reference": "d3150a73bd29d0aede92b62568504246974ae107"
+                "reference": "02bf2fbb8ad6b679869af145eed89436a1c50229"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/d3150a73bd29d0aede92b62568504246974ae107",
-                "reference": "d3150a73bd29d0aede92b62568504246974ae107",
+                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/02bf2fbb8ad6b679869af145eed89436a1c50229",
+                "reference": "02bf2fbb8ad6b679869af145eed89436a1c50229",
                 "shasum": ""
             },
             "require": {
-                "elasticsearch/elasticsearch": "5.2.0",
-                "php": ">=5.6.0",
+                "php": ">=5.4.0",
                 "psr/log": "~1.0"
             },
             "require-dev": {
@@ -9919,13 +9917,13 @@
             "suggest": {
                 "aws/aws-sdk-php": "Allow using IAM authentication with Amazon ElasticSearch Service",
                 "egeloen/http-adapter": "Allow using httpadapter transport",
-                "guzzlehttp/guzzle": "Allow using guzzle 6 as the http transport",
+                "guzzlehttp/guzzle": "Allow using guzzle 6 as the http transport (Requires php 5.5)",
                 "monolog/monolog": "Logging request"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2.x-dev"
+                    "dev-master": "3.2.x-dev"
                 }
             },
             "autoload": {
@@ -9949,7 +9947,7 @@
                 "client",
                 "search"
             ],
-            "time": "2017-06-07T13:27:06+00:00"
+            "time": "2016-09-23T10:24:25+00:00"
         }
     ],
     "aliases": [],
