@@ -2337,12 +2337,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "a8a7aad35c9f6d4b48069526d26203bede7b8bf6"
+                "reference": "1d97de4bbeda9bf0173367e21d4af7354c4e2e57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/a8a7aad35c9f6d4b48069526d26203bede7b8bf6",
-                "reference": "a8a7aad35c9f6d4b48069526d26203bede7b8bf6",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/1d97de4bbeda9bf0173367e21d4af7354c4e2e57",
+                "reference": "1d97de4bbeda9bf0173367e21d4af7354c4e2e57",
                 "shasum": ""
             },
             "require": {
@@ -2380,7 +2380,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2017-07-06 08:01:28"
+            "time": "2017-07-07 11:47:50"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -9267,18 +9267,34 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core-esp.git",
-                "reference": "895e597418d30a58bb6b4697ff80c90e1dc18741"
+                "reference": "51edc77a697f551b132bf15f8b00be6c09f98202"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/895e597418d30a58bb6b4697ff80c90e1dc18741",
-                "reference": "895e597418d30a58bb6b4697ff80c90e1dc18741",
+                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/51edc77a697f551b132bf15f8b00be6c09f98202",
+                "reference": "51edc77a697f551b132bf15f8b00be6c09f98202",
                 "shasum": ""
             },
             "require": {
-                "campaignchain/protobuf": "dev-master"
+                "campaignchain/protobuf": "dev-master",
+                "elasticsearch/elasticsearch": "~5.0",
+                "friendsofsymfony/elastica-bundle": "dev-master"
             },
-            "type": "symfony-bundle",
+            "type": "campaignchain-symfony",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Core\\ESPBundle\\CampaignChainCoreESPBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_core_esp",
+                            "resource": "@CampaignChainCoreESPBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "CampaignChain\\Core\\ESPBundle\\": ""
@@ -9300,7 +9316,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-05 08:24:54"
+            "time": "2017-07-07T17:09:36+00:00"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -9544,7 +9560,153 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-07T09:02:51+00:00"
+            "time": "2017-07-07 09:02:51"
+        },
+        {
+            "name": "elasticsearch/elasticsearch",
+            "version": "v5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elastic/elasticsearch-php.git",
+                "reference": "dc57bbcd4be2c9061ebe5be59058ea8bdebc904e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/dc57bbcd4be2c9061ebe5be59058ea8bdebc904e",
+                "reference": "dc57bbcd4be2c9061ebe5be59058ea8bdebc904e",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/ringphp": "~1.0",
+                "php": "^5.6|^7.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "cpliakas/git-wrapper": "~1.0",
+                "doctrine/inflector": "^1.1",
+                "mockery/mockery": "0.9.4",
+                "phpunit/phpunit": "^4.7|^5.4",
+                "sami/sami": "~3.2",
+                "symfony/finder": "^2.8",
+                "symfony/yaml": "^2.8"
+            },
+            "suggest": {
+                "ext-curl": "*",
+                "monolog/monolog": "Allows for client-level logging and tracing"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Elasticsearch\\": "src/Elasticsearch/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Zachary Tong"
+                }
+            ],
+            "description": "PHP Client for Elasticsearch",
+            "keywords": [
+                "client",
+                "elasticsearch",
+                "search"
+            ],
+            "time": "2017-04-12T20:40:50+00:00"
+        },
+        {
+            "name": "friendsofsymfony/elastica-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSElasticaBundle.git",
+                "reference": "9d55dc256dc424ce936b4a725c2e1fd1d0da5972"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSElasticaBundle/zipball/9d55dc256dc424ce936b4a725c2e1fd1d0da5972",
+                "reference": "9d55dc256dc424ce936b4a725c2e1fd1d0da5972",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "psr/log": "^1.0",
+                "ruflin/elastica": "^5.2.1",
+                "symfony/asset": "^2.7 || ^3.1",
+                "symfony/console": "^2.7 || ^3.1",
+                "symfony/form": "^2.7 || ^3.1",
+                "symfony/framework-bundle": "^2.7 || ^3.1",
+                "symfony/property-access": "^2.7 || ^3.1",
+                "symfony/templating": "^2.7 || ^3.1",
+                "symfony/translation": "^2.7 || ^3.1"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "^1.6",
+                "doctrine/orm": "^2.4",
+                "doctrine/phpcr-bundle": "^1.2",
+                "friendsofphp/php-cs-fixer": "^1.11",
+                "jackalope/jackalope-doctrine-dbal": "^1.1",
+                "jms/serializer-bundle": "^2.0",
+                "knplabs/knp-components": "^1.2",
+                "knplabs/knp-paginator-bundle": "^2.4",
+                "pagerfanta/pagerfanta": "^1.0",
+                "phpunit/phpunit": "^4.8 || ^5.0",
+                "propel/propel1": "1.6.*",
+                "symfony/browser-kit": "^2.7 || ^3.1",
+                "symfony/dependency-injection": "^2.7 || ^3.1",
+                "symfony/expression-language": "^2.7 || ^3.1",
+                "symfony/serializer": "^2.7 || ^3.1",
+                "symfony/twig-bundle": "^2.7 || ^3.1",
+                "symfony/validator": "^2.7 || ^3.1",
+                "symfony/yaml": "^2.7 || ^3.1"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FOS\\ElasticaBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Nagel",
+                    "email": "tim@nagel.com.au"
+                },
+                {
+                    "name": "Richard Miller",
+                    "email": "richard.miller@limethinking.co.uk"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/FOSElasticaBundle/contributors"
+                },
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com"
+                }
+            ],
+            "description": "Elasticsearch PHP integration for your Symfony2 project using Elastica",
+            "homepage": "https://github.com/FriendsOfSymfony/FOSElasticaBundle",
+            "keywords": [
+                "doctrine2",
+                "elastica",
+                "elasticsearch",
+                "mongodb",
+                "propel",
+                "search"
+            ],
+            "time": "2017-06-15T07:39:15+00:00"
         },
         {
             "name": "google/protobuf",
@@ -9582,7 +9744,212 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-07-06T15:11:50+00:00"
+            "time": "2017-07-06 15:11:50"
+        },
+        {
+            "name": "guzzlehttp/ringphp",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/RingPHP.git",
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/streams": "~3.0",
+                "php": ">=5.4.0",
+                "react/promise": "~2.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "ext-curl": "Guzzle will use specific adapters if cURL is present"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Ring\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "time": "2015-05-20T03:37:09+00:00"
+        },
+        {
+            "name": "guzzlehttp/streams",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/streams.git",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Stream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple abstraction over streams of data",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "stream"
+            ],
+            "time": "2014-10-12T19:18:40+00:00"
+        },
+        {
+            "name": "react/promise",
+            "version": "v2.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/promise.git",
+                "reference": "62785ae604c8d69725d693eb370e1d67e94c4053"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/62785ae604c8d69725d693eb370e1d67e94c4053",
+                "reference": "62785ae604c8d69725d693eb370e1d67e94c4053",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com"
+                }
+            ],
+            "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+            "keywords": [
+                "promise",
+                "promises"
+            ],
+            "time": "2017-03-25T12:08:31+00:00"
+        },
+        {
+            "name": "ruflin/elastica",
+            "version": "5.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ruflin/Elastica.git",
+                "reference": "d3150a73bd29d0aede92b62568504246974ae107"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/d3150a73bd29d0aede92b62568504246974ae107",
+                "reference": "d3150a73bd29d0aede92b62568504246974ae107",
+                "shasum": ""
+            },
+            "require": {
+                "elasticsearch/elasticsearch": "5.2.0",
+                "php": ">=5.6.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "~3.0",
+                "guzzlehttp/guzzle": "~6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow using IAM authentication with Amazon ElasticSearch Service",
+                "egeloen/http-adapter": "Allow using httpadapter transport",
+                "guzzlehttp/guzzle": "Allow using guzzle 6 as the http transport",
+                "monolog/monolog": "Logging request"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Elastica\\": "lib/Elastica/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Ruflin",
+                    "homepage": "http://ruflin.com/"
+                }
+            ],
+            "description": "Elasticsearch Client",
+            "homepage": "http://elastica.io/",
+            "keywords": [
+                "client",
+                "search"
+            ],
+            "time": "2017-06-07T13:27:06+00:00"
         }
     ],
     "aliases": [],
