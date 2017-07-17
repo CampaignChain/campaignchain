@@ -20,9 +20,10 @@ parameters:
     database_user:     root
     database_password: ~
 
-    elasticsearch_host:  localhost
-    elasticsearch_port:  9200
-    elasticsearch_index: campaignchain
+    elasticsearch_host:   localhost
+    elasticsearch_port:   9200
+    elasticsearch_scheme: http
+    elasticsearch_index:  campaignchain
 
     java_path: /usr/bin/java
 
