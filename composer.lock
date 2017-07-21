@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4624932d9afecf3109cba921d3585883",
+    "content-hash": "ab63c8a58f7789445a8f4add61b27ba6",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -1304,12 +1304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "dc7eeda744085afcb4d3d04147d1041d3c51ebb4"
+                "reference": "62a6d41dbbf2581ff4a3c9d739b5554bbd03d90a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/dc7eeda744085afcb4d3d04147d1041d3c51ebb4",
-                "reference": "dc7eeda744085afcb4d3d04147d1041d3c51ebb4",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/62a6d41dbbf2581ff4a3c9d739b5554bbd03d90a",
+                "reference": "62a6d41dbbf2581ff4a3c9d739b5554bbd03d90a",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-17 07:57:23"
+            "time": "2017-07-21 07:45:06"
         },
         {
             "name": "campaignchain/core-esp",
@@ -1413,12 +1413,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core-esp.git",
-                "reference": "514176086b1b5738fd28d5042aa642cbdff6af1f"
+                "reference": "0e9063f925f159b78ab11d7772c6baf3dace241d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/514176086b1b5738fd28d5042aa642cbdff6af1f",
-                "reference": "514176086b1b5738fd28d5042aa642cbdff6af1f",
+                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/0e9063f925f159b78ab11d7772c6baf3dace241d",
+                "reference": "0e9063f925f159b78ab11d7772c6baf3dace241d",
                 "shasum": ""
             },
             "require": {
@@ -1463,7 +1463,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-10 08:42:24"
+            "time": "2017-07-17 09:44:23"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -2396,12 +2396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "1d97de4bbeda9bf0173367e21d4af7354c4e2e57"
+                "reference": "f321f7c878d914c95018ddaafecea35f93c07810"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/1d97de4bbeda9bf0173367e21d4af7354c4e2e57",
-                "reference": "1d97de4bbeda9bf0173367e21d4af7354c4e2e57",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/f321f7c878d914c95018ddaafecea35f93c07810",
+                "reference": "f321f7c878d914c95018ddaafecea35f93c07810",
                 "shasum": ""
             },
             "require": {
@@ -2439,7 +2439,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2017-07-07 11:47:50"
+            "time": "2017-07-21 07:45:05"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -2767,12 +2767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/protobuf.git",
-                "reference": "40edb2179c2be84ebd2211433dc7759e51260885"
+                "reference": "c0e588c3f4ef228ef6413b67420ab5956fccea05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/protobuf/zipball/40edb2179c2be84ebd2211433dc7759e51260885",
-                "reference": "40edb2179c2be84ebd2211433dc7759e51260885",
+                "url": "https://api.github.com/repos/CampaignChain/protobuf/zipball/c0e588c3f4ef228ef6413b67420ab5956fccea05",
+                "reference": "c0e588c3f4ef228ef6413b67420ab5956fccea05",
                 "shasum": ""
             },
             "require": {
@@ -2809,7 +2809,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-07 09:02:51"
+            "time": "2017-07-18 07:42:46"
         },
         {
             "name": "campaignchain/report-analytics-cta-tracking",
@@ -4259,16 +4259,16 @@
         },
         {
             "name": "elasticsearch/elasticsearch",
-            "version": "v5.2.0",
+            "version": "v5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elastic/elasticsearch-php.git",
-                "reference": "dc57bbcd4be2c9061ebe5be59058ea8bdebc904e"
+                "reference": "50e5b1c63db68839b8acc1f4766769570a27a448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/dc57bbcd4be2c9061ebe5be59058ea8bdebc904e",
-                "reference": "dc57bbcd4be2c9061ebe5be59058ea8bdebc904e",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/50e5b1c63db68839b8acc1f4766769570a27a448",
+                "reference": "50e5b1c63db68839b8acc1f4766769570a27a448",
                 "shasum": ""
             },
             "require": {
@@ -4310,7 +4310,7 @@
                 "elasticsearch",
                 "search"
             ],
-            "time": "2017-04-12T20:40:50+00:00"
+            "time": "2017-07-19T18:44:30+00:00"
         },
         {
             "name": "facebook/php-sdk-v4",
@@ -4943,12 +4943,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "c78dbd7c895b8c80cd2f2401d73acf890edf82c6"
+                "reference": "062df3d0724d9ae5e3c65d481dc1d3aca811152e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/c78dbd7c895b8c80cd2f2401d73acf890edf82c6",
-                "reference": "c78dbd7c895b8c80cd2f2401d73acf890edf82c6",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/062df3d0724d9ae5e3c65d481dc1d3aca811152e",
+                "reference": "062df3d0724d9ae5e3c65d481dc1d3aca811152e",
                 "shasum": ""
             },
             "require": {
@@ -4973,7 +4973,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-07-14 21:48:48"
+            "time": "2017-07-20 20:01:04"
         },
         {
             "name": "guzzle/guzzle",
@@ -5880,12 +5880,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
-                "reference": "067ff257c1e185464314a2c5fab3f908c64fbc10"
+                "reference": "4748036bd73711fdb9d21eac38939ba8d59b5c75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/067ff257c1e185464314a2c5fab3f908c64fbc10",
-                "reference": "067ff257c1e185464314a2c5fab3f908c64fbc10",
+                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/4748036bd73711fdb9d21eac38939ba8d59b5c75",
+                "reference": "4748036bd73711fdb9d21eac38939ba8d59b5c75",
                 "shasum": ""
             },
             "require": {
@@ -5950,7 +5950,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2017-07-11 06:59:26"
+            "time": "2017-07-20 09:37:01"
         },
         {
             "name": "knplabs/gaufrette",
@@ -9022,20 +9022,21 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.24",
+            "version": "v2.8.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "0ab3693b1154b1b166e98981ab3755636a5ae0e3"
+                "reference": "c2452af5659d0492a43268c389bb211295c5e4c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/0ab3693b1154b1b166e98981ab3755636a5ae0e3",
-                "reference": "0ab3693b1154b1b166e98981ab3755636a5ae0e3",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/c2452af5659d0492a43268c389bb211295c5e4c9",
+                "reference": "c2452af5659d0492a43268c389bb211295c5e4c9",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.4",
+                "ext-xml": "*",
                 "php": ">=5.3.9",
                 "psr/log": "~1.0",
                 "symfony/polyfill-apcu": "~1.1",
@@ -9155,7 +9156,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-07-05T08:53:15+00:00"
+            "time": "2017-07-17T18:00:19+00:00"
         },
         {
             "name": "twbs/bootstrap",
@@ -9980,8 +9981,7 @@
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
         "campaignchain/activity-social-media": 20,
-        "campaignchain/activity-ezplatform": 20,
-        "campaignchain/core-esp": 20
+        "campaignchain/activity-ezplatform": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
