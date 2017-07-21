@@ -9712,12 +9712,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-clearbit.git",
-                "reference": "db0fb7444c965d97849244d0ccdbe4db32f7d07c"
+                "reference": "ab7184fd9d68b0db01eca747be2c95502f3b9b7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/db0fb7444c965d97849244d0ccdbe4db32f7d07c",
-                "reference": "db0fb7444c965d97849244d0ccdbe4db32f7d07c",
+                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/ab7184fd9d68b0db01eca747be2c95502f3b9b7d",
+                "reference": "ab7184fd9d68b0db01eca747be2c95502f3b9b7d",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -9755,7 +9755,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-21T19:13:05+00:00"
+            "time": "2017-07-21T19:41:44+00:00"
         },
         {
             "name": "campaignchain/channel-ezplatform",
@@ -9907,7 +9907,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-21T19:13:05+00:00"
+            "time": "2017-07-21 19:13:05"
         },
         {
             "name": "campaignchain/location-ezplatform",
