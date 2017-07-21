@@ -9712,12 +9712,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-clearbit.git",
-                "reference": "ccbf63a96edaafda10db132f94eb795ea98de8b8"
+                "reference": "db0fb7444c965d97849244d0ccdbe4db32f7d07c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/ccbf63a96edaafda10db132f94eb795ea98de8b8",
-                "reference": "ccbf63a96edaafda10db132f94eb795ea98de8b8",
+                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/db0fb7444c965d97849244d0ccdbe4db32f7d07c",
+                "reference": "db0fb7444c965d97849244d0ccdbe4db32f7d07c",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -9755,7 +9755,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-21 18:02:59"
+            "time": "2017-07-21T19:13:05+00:00"
         },
         {
             "name": "campaignchain/channel-ezplatform",
@@ -9861,12 +9861,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-clearbit.git",
-                "reference": "8fe5b7de1779345538058c2b093548f37905ef34"
+                "reference": "7ad39022c64a74a16e0782a01645155bcaf1dc73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-clearbit/zipball/8fe5b7de1779345538058c2b093548f37905ef34",
-                "reference": "8fe5b7de1779345538058c2b093548f37905ef34",
+                "url": "https://api.github.com/repos/CampaignChain/location-clearbit/zipball/7ad39022c64a74a16e0782a01645155bcaf1dc73",
+                "reference": "7ad39022c64a74a16e0782a01645155bcaf1dc73",
                 "shasum": ""
             },
             "require": {
@@ -9907,7 +9907,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-21 18:07:18"
+            "time": "2017-07-21T19:13:05+00:00"
         },
         {
             "name": "campaignchain/location-ezplatform",
