@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab63c8a58f7789445a8f4add61b27ba6",
+    "content-hash": "91b1da439754a681ba9cc92cb800f36a",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -4943,12 +4943,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "062df3d0724d9ae5e3c65d481dc1d3aca811152e"
+                "reference": "e8a32d07ffc665695b7532b97f96970cdeff977e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/062df3d0724d9ae5e3c65d481dc1d3aca811152e",
-                "reference": "062df3d0724d9ae5e3c65d481dc1d3aca811152e",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/e8a32d07ffc665695b7532b97f96970cdeff977e",
+                "reference": "e8a32d07ffc665695b7532b97f96970cdeff977e",
                 "shasum": ""
             },
             "require": {
@@ -4973,7 +4973,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-07-20 20:01:04"
+            "time": "2017-07-21 14:55:07"
         },
         {
             "name": "guzzle/guzzle",
@@ -9707,6 +9707,57 @@
             "time": "2016-12-03 12:07:19"
         },
         {
+            "name": "campaignchain/channel-clearbit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-clearbit.git",
+                "reference": "ccbf63a96edaafda10db132f94eb795ea98de8b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/ccbf63a96edaafda10db132f94eb795ea98de8b8",
+                "reference": "ccbf63a96edaafda10db132f94eb795ea98de8b8",
+                "shasum": ""
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\ClearbitBundle\\CampaignChainChannelClearbitBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_clearbit",
+                            "resource": "@CampaignChainChannelClearbitBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\ClearbitBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Connect with Clearbit",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2017-07-21 18:02:59"
+        },
+        {
             "name": "campaignchain/channel-ezplatform",
             "version": "dev-master",
             "source": {
@@ -9803,6 +9854,60 @@
                 "campaignchain"
             ],
             "time": "2016-12-03 12:07:20"
+        },
+        {
+            "name": "campaignchain/location-clearbit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-clearbit.git",
+                "reference": "8fe5b7de1779345538058c2b093548f37905ef34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-clearbit/zipball/8fe5b7de1779345538058c2b093548f37905ef34",
+                "reference": "8fe5b7de1779345538058c2b093548f37905ef34",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-clearbit": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\ClearbitBundle\\CampaignChainLocationClearbitBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_clearbit",
+                            "resource": "@CampaignChainLocationClearbitBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\ClearbitBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Clearbit Location",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2017-07-21 18:07:18"
         },
         {
             "name": "campaignchain/location-ezplatform",
@@ -9981,7 +10086,8 @@
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
         "campaignchain/activity-social-media": 20,
-        "campaignchain/activity-ezplatform": 20
+        "campaignchain/activity-ezplatform": 20,
+        "campaignchain/location-clearbit": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

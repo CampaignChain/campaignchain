@@ -60,7 +60,8 @@
         "amariki/data-test": "dev-master",
         "amariki/data-demo": "dev-master",
         "campaignchain/activity-social-media": "dev-master",
-        "campaignchain/activity-ezplatform": "dev-master"
+        "campaignchain/activity-ezplatform": "dev-master",
+        "campaignchain/location-clearbit": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
