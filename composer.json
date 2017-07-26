@@ -53,15 +53,16 @@
         "campaignchain/report-analytics-cta-tracking": "dev-master",
         "campaignchain/report-google-analytics": "dev-master",
         "campaignchain/security-authentication-server-oauth": "dev-master",
-        "campaignchain/activity-xing": "dev-master"
+        "campaignchain/activity-xing": "dev-master",
+        "campaignchain/location-clearbit": "dev-master",
+        "campaignchain/location-salesforce": "dev-master"
     },
     "require-dev": {
         "campaignchain/dev-tools": "dev-master",
         "amariki/data-test": "dev-master",
         "amariki/data-demo": "dev-master",
         "campaignchain/activity-social-media": "dev-master",
-        "campaignchain/activity-ezplatform": "dev-master",
-        "campaignchain/location-clearbit": "dev-master"
+        "campaignchain/activity-ezplatform": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [

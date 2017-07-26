@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "91b1da439754a681ba9cc92cb800f36a",
+    "content-hash": "a17e12ce17bbf9d35fc82a8c3d4a7023",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -845,6 +845,57 @@
             "time": "2016-12-06 12:48:48"
         },
         {
+            "name": "campaignchain/channel-clearbit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-clearbit.git",
+                "reference": "6b8a28a9cdde7cb070814057bfb9b8aa136a627c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/6b8a28a9cdde7cb070814057bfb9b8aa136a627c",
+                "reference": "6b8a28a9cdde7cb070814057bfb9b8aa136a627c",
+                "shasum": ""
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\ClearbitBundle\\CampaignChainChannelClearbitBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_clearbit",
+                            "resource": "@CampaignChainChannelClearbitBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\ClearbitBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Connect with Clearbit",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2017-07-23 18:54:26"
+        },
+        {
             "name": "campaignchain/channel-facebook",
             "version": "dev-master",
             "source": {
@@ -1074,6 +1125,57 @@
                 "mailchimp"
             ],
             "time": "2016-12-13 19:30:46"
+        },
+        {
+            "name": "campaignchain/channel-salesforce",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/channel-salesforce.git",
+                "reference": "69ba6b8c353fc05ea3ae022420893cde2a2a8192"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/channel-salesforce/zipball/69ba6b8c353fc05ea3ae022420893cde2a2a8192",
+                "reference": "69ba6b8c353fc05ea3ae022420893cde2a2a8192",
+                "shasum": ""
+            },
+            "type": "campaignchain-channel",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Channel\\SalesforceBundle\\CampaignChainChannelSalesforceBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_channel_salesforce",
+                            "resource": "@CampaignChainChannelSalesforceBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Channel\\SalesforceBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Connect to Salesforce",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2017-07-26 12:41:26"
         },
         {
             "name": "campaignchain/channel-slideshare",
@@ -1906,6 +2008,60 @@
             "time": "2016-07-23 18:47:16"
         },
         {
+            "name": "campaignchain/location-clearbit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-clearbit.git",
+                "reference": "7ad39022c64a74a16e0782a01645155bcaf1dc73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-clearbit/zipball/7ad39022c64a74a16e0782a01645155bcaf1dc73",
+                "reference": "7ad39022c64a74a16e0782a01645155bcaf1dc73",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-clearbit": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\ClearbitBundle\\CampaignChainLocationClearbitBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_clearbit",
+                            "resource": "@CampaignChainLocationClearbitBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\ClearbitBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Clearbit Location",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2017-07-21 19:13:05"
+        },
+        {
             "name": "campaignchain/location-facebook",
             "version": "dev-master",
             "source": {
@@ -2119,6 +2275,60 @@
                 "mailchimp"
             ],
             "time": "2016-07-23 18:47:16"
+        },
+        {
+            "name": "campaignchain/location-salesforce",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CampaignChain/location-salesforce.git",
+                "reference": "2831ac843814c546a19967ac296fd953ecabf38c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CampaignChain/location-salesforce/zipball/2831ac843814c546a19967ac296fd953ecabf38c",
+                "reference": "2831ac843814c546a19967ac296fd953ecabf38c",
+                "shasum": ""
+            },
+            "require": {
+                "campaignchain/channel-salesforce": "dev-master"
+            },
+            "type": "campaignchain-location",
+            "extra": {
+                "campaignchain": {
+                    "kernel": {
+                        "classes": [
+                            "CampaignChain\\Location\\SalesforceBundle\\CampaignChainLocationSalesforceBundle"
+                        ],
+                        "routing": {
+                            "name": "campaignchain_location_salesforce",
+                            "resource": "@CampaignChainLocationSalesforceBundle/Resources/config/routing.yml",
+                            "prefix": "/"
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CampaignChain\\Location\\SalesforceBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "CampaignChain, Inc.",
+                    "email": "info@campaignchain.com"
+                }
+            ],
+            "description": "Salesforce locations",
+            "homepage": "http://www.campaignchain.com",
+            "keywords": [
+                "campaignchain"
+            ],
+            "time": "2017-07-25 07:15:17"
         },
         {
             "name": "campaignchain/location-slideshare",
@@ -4654,12 +4864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "32d73743fc9693aa2c6fffb17d524ec0da9fc74c"
+                "reference": "6fed261f4e41f7dfbe05dda65ce9f3e038ed809f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/32d73743fc9693aa2c6fffb17d524ec0da9fc74c",
-                "reference": "32d73743fc9693aa2c6fffb17d524ec0da9fc74c",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/6fed261f4e41f7dfbe05dda65ce9f3e038ed809f",
+                "reference": "6fed261f4e41f7dfbe05dda65ce9f3e038ed809f",
                 "shasum": ""
             },
             "require": {
@@ -4748,7 +4958,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2017-07-10 15:53:27"
+            "time": "2017-07-25 07:52:10"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -4949,12 +5159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "e8a32d07ffc665695b7532b97f96970cdeff977e"
+                "reference": "8d5f2c57e81af62d414f00204dff3a1e4885c761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/e8a32d07ffc665695b7532b97f96970cdeff977e",
-                "reference": "e8a32d07ffc665695b7532b97f96970cdeff977e",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/8d5f2c57e81af62d414f00204dff3a1e4885c761",
+                "reference": "8d5f2c57e81af62d414f00204dff3a1e4885c761",
                 "shasum": ""
             },
             "require": {
@@ -4962,6 +5172,9 @@
             },
             "require-dev": {
                 "phpunit/phpunit": ">=4.8.0"
+            },
+            "suggest": {
+                "ext-bcmath": "Need to support JSON deserialization"
             },
             "type": "library",
             "autoload": {
@@ -4979,7 +5192,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-07-21 14:55:07"
+            "time": "2017-07-25 22:52:25"
         },
         {
             "name": "guzzle/guzzle",
@@ -9713,57 +9926,6 @@
             "time": "2016-12-03 12:07:19"
         },
         {
-            "name": "campaignchain/channel-clearbit",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/channel-clearbit.git",
-                "reference": "6b8a28a9cdde7cb070814057bfb9b8aa136a627c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/6b8a28a9cdde7cb070814057bfb9b8aa136a627c",
-                "reference": "6b8a28a9cdde7cb070814057bfb9b8aa136a627c",
-                "shasum": ""
-            },
-            "type": "campaignchain-channel",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Channel\\ClearbitBundle\\CampaignChainChannelClearbitBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_channel_clearbit",
-                            "resource": "@CampaignChainChannelClearbitBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Channel\\ClearbitBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com"
-                }
-            ],
-            "description": "Connect with Clearbit",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2017-07-23T18:54:26+00:00"
-        },
-        {
             "name": "campaignchain/channel-ezplatform",
             "version": "dev-master",
             "source": {
@@ -9860,60 +10022,6 @@
                 "campaignchain"
             ],
             "time": "2016-12-03 12:07:20"
-        },
-        {
-            "name": "campaignchain/location-clearbit",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CampaignChain/location-clearbit.git",
-                "reference": "7ad39022c64a74a16e0782a01645155bcaf1dc73"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-clearbit/zipball/7ad39022c64a74a16e0782a01645155bcaf1dc73",
-                "reference": "7ad39022c64a74a16e0782a01645155bcaf1dc73",
-                "shasum": ""
-            },
-            "require": {
-                "campaignchain/channel-clearbit": "dev-master"
-            },
-            "type": "campaignchain-location",
-            "extra": {
-                "campaignchain": {
-                    "kernel": {
-                        "classes": [
-                            "CampaignChain\\Location\\ClearbitBundle\\CampaignChainLocationClearbitBundle"
-                        ],
-                        "routing": {
-                            "name": "campaignchain_location_clearbit",
-                            "resource": "@CampaignChainLocationClearbitBundle/Resources/config/routing.yml",
-                            "prefix": "/"
-                        }
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "CampaignChain\\Location\\ClearbitBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "CampaignChain, Inc.",
-                    "email": "info@campaignchain.com"
-                }
-            ],
-            "description": "Clearbit Location",
-            "homepage": "http://www.campaignchain.com",
-            "keywords": [
-                "campaignchain"
-            ],
-            "time": "2017-07-21 19:13:05"
         },
         {
             "name": "campaignchain/location-ezplatform",
@@ -10088,12 +10196,13 @@
         "campaignchain/report-google-analytics": 20,
         "campaignchain/security-authentication-server-oauth": 20,
         "campaignchain/activity-xing": 20,
+        "campaignchain/location-clearbit": 20,
+        "campaignchain/location-salesforce": 20,
         "campaignchain/dev-tools": 20,
         "amariki/data-test": 20,
         "amariki/data-demo": 20,
         "campaignchain/activity-social-media": 20,
-        "campaignchain/activity-ezplatform": 20,
-        "campaignchain/location-clearbit": 20
+        "campaignchain/activity-ezplatform": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
