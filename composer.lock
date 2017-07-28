@@ -1132,12 +1132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-salesforce.git",
-                "reference": "69ba6b8c353fc05ea3ae022420893cde2a2a8192"
+                "reference": "e7364d5b20b6d983642892ea77ba82f414cc326b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-salesforce/zipball/69ba6b8c353fc05ea3ae022420893cde2a2a8192",
-                "reference": "69ba6b8c353fc05ea3ae022420893cde2a2a8192",
+                "url": "https://api.github.com/repos/CampaignChain/channel-salesforce/zipball/e7364d5b20b6d983642892ea77ba82f414cc326b",
+                "reference": "e7364d5b20b6d983642892ea77ba82f414cc326b",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -1175,7 +1175,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-26 12:41:26"
+            "time": "2017-07-27 12:37:35"
         },
         {
             "name": "campaignchain/channel-slideshare",
@@ -1406,12 +1406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "62a6d41dbbf2581ff4a3c9d739b5554bbd03d90a"
+                "reference": "b7a0d92c290f647a6417d9be3816117b0e80bcb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/62a6d41dbbf2581ff4a3c9d739b5554bbd03d90a",
-                "reference": "62a6d41dbbf2581ff4a3c9d739b5554bbd03d90a",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b7a0d92c290f647a6417d9be3816117b0e80bcb2",
+                "reference": "b7a0d92c290f647a6417d9be3816117b0e80bcb2",
                 "shasum": ""
             },
             "require": {
@@ -1507,7 +1507,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-21 07:45:06"
+            "time": "2017-07-27 12:37:35"
         },
         {
             "name": "campaignchain/core-esp",
@@ -2282,12 +2282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-salesforce.git",
-                "reference": "2831ac843814c546a19967ac296fd953ecabf38c"
+                "reference": "30818dad49db758572e1b59bb81d2e601fe8d3ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-salesforce/zipball/2831ac843814c546a19967ac296fd953ecabf38c",
-                "reference": "2831ac843814c546a19967ac296fd953ecabf38c",
+                "url": "https://api.github.com/repos/CampaignChain/location-salesforce/zipball/30818dad49db758572e1b59bb81d2e601fe8d3ca",
+                "reference": "30818dad49db758572e1b59bb81d2e601fe8d3ca",
                 "shasum": ""
             },
             "require": {
@@ -2328,7 +2328,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-25 07:15:17"
+            "time": "2017-07-27 12:37:35"
         },
         {
             "name": "campaignchain/location-slideshare",
@@ -2977,12 +2977,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/protobuf.git",
-                "reference": "c0e588c3f4ef228ef6413b67420ab5956fccea05"
+                "reference": "4646bd7cb13fcdc17be298da873bff1253df7dda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/protobuf/zipball/c0e588c3f4ef228ef6413b67420ab5956fccea05",
-                "reference": "c0e588c3f4ef228ef6413b67420ab5956fccea05",
+                "url": "https://api.github.com/repos/CampaignChain/protobuf/zipball/4646bd7cb13fcdc17be298da873bff1253df7dda",
+                "reference": "4646bd7cb13fcdc17be298da873bff1253df7dda",
                 "shasum": ""
             },
             "require": {
@@ -3019,7 +3019,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-18 07:42:46"
+            "time": "2017-07-28 10:01:18"
         },
         {
             "name": "campaignchain/report-analytics-cta-tracking",
@@ -3251,12 +3251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "90f5cd45d3a38de2b3bf644d5d3c2f9b1c53a15f"
+                "reference": "6b00f51a0c0d0e6581aa5d2ae8425c3ca429547c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/90f5cd45d3a38de2b3bf644d5d3c2f9b1c53a15f",
-                "reference": "90f5cd45d3a38de2b3bf644d5d3c2f9b1c53a15f",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/6b00f51a0c0d0e6581aa5d2ae8425c3ca429547c",
+                "reference": "6b00f51a0c0d0e6581aa5d2ae8425c3ca429547c",
                 "shasum": ""
             },
             "require": {
@@ -3303,7 +3303,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2016-12-08 09:30:22"
+            "time": "2017-07-27 12:37:35"
         },
         {
             "name": "campaignchain/security-authentication-server-oauth",
@@ -5159,12 +5159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "8d5f2c57e81af62d414f00204dff3a1e4885c761"
+                "reference": "9b505a92bf6b3163ff9fb234a28dfef9c0330197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/8d5f2c57e81af62d414f00204dff3a1e4885c761",
-                "reference": "8d5f2c57e81af62d414f00204dff3a1e4885c761",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/9b505a92bf6b3163ff9fb234a28dfef9c0330197",
+                "reference": "9b505a92bf6b3163ff9fb234a28dfef9c0330197",
                 "shasum": ""
             },
             "require": {
@@ -5192,7 +5192,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-07-25 22:52:25"
+            "time": "2017-07-26 22:48:19"
         },
         {
             "name": "guzzle/guzzle",
