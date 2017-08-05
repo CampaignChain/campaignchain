@@ -49,4 +49,5 @@ parameters:
     campaignchain.max_date_interval: '+2 years'
     campaignchain.theme.skin: skin-black
     campaignchain.api.local_host: localhost
+    campaignchain.api.local_port: 80
     campaignchain.api.local_scheme: http
