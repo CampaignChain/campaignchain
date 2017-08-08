@@ -901,18 +901,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-facebook.git",
-                "reference": "55334d4c20162dee755b022f0ad09ec1332e9ddc"
+                "reference": "327c3c8845d924e495fe34073984aa6f780223ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/55334d4c20162dee755b022f0ad09ec1332e9ddc",
-                "reference": "55334d4c20162dee755b022f0ad09ec1332e9ddc",
+                "url": "https://api.github.com/repos/CampaignChain/channel-facebook/zipball/327c3c8845d924e495fe34073984aa6f780223ea",
+                "reference": "327c3c8845d924e495fe34073984aa6f780223ea",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/core": "dev-master",
                 "campaignchain/security-authentication-client-oauth": "dev-master",
-                "facebook/php-sdk-v4": "4.0.*"
+                "facebook/graph-sdk": "~5.0"
             },
             "type": "campaignchain-channel",
             "extra": {
@@ -951,7 +951,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-12-17 10:43:38"
+            "time": "2017-08-08 19:41:34"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -1075,12 +1075,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-mailchimp.git",
-                "reference": "8b20b214276c8c40a1fadafa7f9aacd18e192a74"
+                "reference": "a118465d11cc12d2e30d5eae2112413eb0b3141b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/8b20b214276c8c40a1fadafa7f9aacd18e192a74",
-                "reference": "8b20b214276c8c40a1fadafa7f9aacd18e192a74",
+                "url": "https://api.github.com/repos/CampaignChain/channel-mailchimp/zipball/a118465d11cc12d2e30d5eae2112413eb0b3141b",
+                "reference": "a118465d11cc12d2e30d5eae2112413eb0b3141b",
                 "shasum": ""
             },
             "require": {
@@ -1124,7 +1124,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-12-13 19:30:46"
+            "time": "2017-08-08 19:41:34"
         },
         {
             "name": "campaignchain/channel-salesforce",
@@ -2067,12 +2067,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-facebook.git",
-                "reference": "625315837dd7234eccd9f1cd25b3ac9a19b2ebdf"
+                "reference": "17d06b4e8ca52bd378abc202a43c374154b20bf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/625315837dd7234eccd9f1cd25b3ac9a19b2ebdf",
-                "reference": "625315837dd7234eccd9f1cd25b3ac9a19b2ebdf",
+                "url": "https://api.github.com/repos/CampaignChain/location-facebook/zipball/17d06b4e8ca52bd378abc202a43c374154b20bf4",
+                "reference": "17d06b4e8ca52bd378abc202a43c374154b20bf4",
                 "shasum": ""
             },
             "require": {
@@ -2110,7 +2110,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-10-29 09:24:03"
+            "time": "2017-08-08 19:41:34"
         },
         {
             "name": "campaignchain/location-google-analytics",
@@ -2175,12 +2175,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/location-linkedin.git",
-                "reference": "53ee36177f01e68625fac1a6ee56b5378fabe50c"
+                "reference": "7050749d702bdfa110cc6b887b1ec3d03e01e904"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/location-linkedin/zipball/53ee36177f01e68625fac1a6ee56b5378fabe50c",
-                "reference": "53ee36177f01e68625fac1a6ee56b5378fabe50c",
+                "url": "https://api.github.com/repos/CampaignChain/location-linkedin/zipball/7050749d702bdfa110cc6b887b1ec3d03e01e904",
+                "reference": "7050749d702bdfa110cc6b887b1ec3d03e01e904",
                 "shasum": ""
             },
             "require": {
@@ -2218,7 +2218,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-09-11 16:04:48"
+            "time": "2017-08-08 19:41:34"
         },
         {
             "name": "campaignchain/location-mailchimp",
@@ -2606,12 +2606,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "f321f7c878d914c95018ddaafecea35f93c07810"
+                "reference": "0309af1ecdba77d3df015f2f2914f012519962e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/f321f7c878d914c95018ddaafecea35f93c07810",
-                "reference": "f321f7c878d914c95018ddaafecea35f93c07810",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/0309af1ecdba77d3df015f2f2914f012519962e5",
+                "reference": "0309af1ecdba77d3df015f2f2914f012519962e5",
                 "shasum": ""
             },
             "require": {
@@ -2649,7 +2649,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2017-07-21 07:45:05"
+            "time": "2017-08-08 19:41:34"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -3251,17 +3251,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-client-oauth.git",
-                "reference": "6b00f51a0c0d0e6581aa5d2ae8425c3ca429547c"
+                "reference": "98cba1e8afc15b4eddfee85f120f1029ac5baa21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/6b00f51a0c0d0e6581aa5d2ae8425c3ca429547c",
-                "reference": "6b00f51a0c0d0e6581aa5d2ae8425c3ca429547c",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-client-oauth/zipball/98cba1e8afc15b4eddfee85f120f1029ac5baa21",
+                "reference": "98cba1e8afc15b4eddfee85f120f1029ac5baa21",
                 "shasum": ""
             },
             "require": {
                 "campaignchain/core": "dev-master",
-                "hybridauth/hybridauth": "2.7.*"
+                "hybridauth/hybridauth": "~2.0"
             },
             "type": "campaignchain-security",
             "extra": {
@@ -3303,7 +3303,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2017-07-27 12:37:35"
+            "time": "2017-08-08 17:15:12"
         },
         {
             "name": "campaignchain/security-authentication-server-oauth",
@@ -4529,35 +4529,44 @@
             "time": "2017-07-19T18:44:30+00:00"
         },
         {
-            "name": "facebook/php-sdk-v4",
-            "version": "4.0.23",
+            "name": "facebook/graph-sdk",
+            "version": "5.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/php-graph-sdk.git",
-                "reference": "c82611e05596622c9bd7abfa1cea1512d885c95e"
+                "reference": "34f5e5993c67acd264017373f23848961585dcac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/c82611e05596622c9bd7abfa1cea1512d885c95e",
-                "reference": "c82611e05596622c9bd7abfa1cea1512d885c95e",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/34f5e5993c67acd264017373f23848961585dcac",
+                "reference": "34f5e5993c67acd264017373f23848961585dcac",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": "^5.4|^7.0"
             },
             "require-dev": {
-                "guzzlehttp/guzzle": "~4.0",
-                "mockery/mockery": "dev-master",
-                "phpunit/phpunit": "3.7.*"
+                "guzzlehttp/guzzle": "~5.0",
+                "mockery/mockery": "~0.8",
+                "phpunit/phpunit": "~4.0"
             },
             "suggest": {
-                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client",
+                "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Facebook\\": "src/Facebook/"
-                }
+                },
+                "files": [
+                    "src/Facebook/polyfills.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4566,17 +4575,16 @@
             "authors": [
                 {
                     "name": "Facebook",
-                    "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
+                    "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
                 }
             ],
             "description": "Facebook SDK for PHP",
-            "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
+            "homepage": "https://github.com/facebook/php-graph-sdk",
             "keywords": [
                 "facebook",
                 "sdk"
             ],
-            "abandoned": "facebook/graph-sdk",
-            "time": "2015-04-03T20:31:47+00:00"
+            "time": "2017-07-23T14:06:52+00:00"
         },
         {
             "name": "friendsofsymfony/elastica-bundle",
@@ -4864,12 +4872,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "6fed261f4e41f7dfbe05dda65ce9f3e038ed809f"
+                "reference": "42f4bdb744b98376889999846eaef9089398e28c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/6fed261f4e41f7dfbe05dda65ce9f3e038ed809f",
-                "reference": "6fed261f4e41f7dfbe05dda65ce9f3e038ed809f",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/42f4bdb744b98376889999846eaef9089398e28c",
+                "reference": "42f4bdb744b98376889999846eaef9089398e28c",
                 "shasum": ""
             },
             "require": {
@@ -4958,7 +4966,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2017-07-25 07:52:10"
+            "time": "2017-08-08 11:01:19"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -5159,12 +5167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "fae381693f029da1456f6e90f91fe995723163f3"
+                "reference": "80e984e0076ea029cf5431f15dfdf94c5b73b83f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/fae381693f029da1456f6e90f91fe995723163f3",
-                "reference": "fae381693f029da1456f6e90f91fe995723163f3",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/80e984e0076ea029cf5431f15dfdf94c5b73b83f",
+                "reference": "80e984e0076ea029cf5431f15dfdf94c5b73b83f",
                 "shasum": ""
             },
             "require": {
@@ -5192,7 +5200,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-08-07 18:04:09"
+            "time": "2017-08-08 13:19:17"
         },
         {
             "name": "guzzle/guzzle",
@@ -5631,21 +5639,25 @@
         },
         {
             "name": "hybridauth/hybridauth",
-            "version": "v2.7.0",
+            "version": "v2.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "d4e5bc34008e8c187c302eb4e94200ee4a208c63"
+                "reference": "8e17bdb8d28efedb008504550db230c985723d8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/d4e5bc34008e8c187c302eb4e94200ee4a208c63",
-                "reference": "d4e5bc34008e8c187c302eb4e94200ee4a208c63",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/8e17bdb8d28efedb008504550db230c985723d8a",
+                "reference": "8e17bdb8d28efedb008504550db230c985723d8a",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
+                "facebook/graph-sdk": "^5.4",
                 "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.*"
             },
             "type": "library",
             "autoload": {
@@ -5679,7 +5691,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2016-09-05T03:02:22+00:00"
+            "time": "2017-07-09T07:14:21+00:00"
         },
         {
             "name": "imagine/imagine",
