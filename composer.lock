@@ -1406,12 +1406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "b0519aad7c9838c33a2ce211a447a7f7aa393c25"
+                "reference": "dbd5bf5dec800d717e0ee96fbe57766bcb34e117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/b0519aad7c9838c33a2ce211a447a7f7aa393c25",
-                "reference": "b0519aad7c9838c33a2ce211a447a7f7aa393c25",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/dbd5bf5dec800d717e0ee96fbe57766bcb34e117",
+                "reference": "dbd5bf5dec800d717e0ee96fbe57766bcb34e117",
                 "shasum": ""
             },
             "require": {
@@ -1507,7 +1507,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-07 18:39:19"
+            "time": "2017-08-08 07:35:18"
         },
         {
             "name": "campaignchain/core-esp",
