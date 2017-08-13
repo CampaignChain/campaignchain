@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a17e12ce17bbf9d35fc82a8c3d4a7023",
+    "content-hash": "3764a7c36d7bff989e37d1ffe827340b",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -137,7 +137,7 @@
                 "typography",
                 "webfonts"
             ],
-            "time": "2016-11-02 15:34:33"
+            "time": "2016-11-02T15:34:33+00:00"
         },
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -258,7 +258,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/activity-gotowebinar",
@@ -317,7 +317,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2016-12-06 18:59:41"
+            "time": "2016-12-06T18:59:41+00:00"
         },
         {
             "name": "campaignchain/activity-linkedin",
@@ -378,7 +378,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/activity-mailchimp",
@@ -437,7 +437,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-12-13 10:38:55"
+            "time": "2016-12-13T10:38:55+00:00"
         },
         {
             "name": "campaignchain/activity-slideshare",
@@ -495,7 +495,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2016-12-03 12:07:20"
+            "time": "2016-12-03T12:07:20+00:00"
         },
         {
             "name": "campaignchain/activity-twitter",
@@ -556,7 +556,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/activity-xing",
@@ -613,7 +613,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/campaign-repeating",
@@ -670,7 +670,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2016-10-29 21:36:25"
+            "time": "2016-10-29T21:36:25+00:00"
         },
         {
             "name": "campaignchain/campaign-scheduled",
@@ -729,7 +729,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2017-01-06 16:56:02"
+            "time": "2017-01-06T16:56:02+00:00"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -786,7 +786,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2017-01-06 16:56:02"
+            "time": "2017-01-06T16:56:02+00:00"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -842,7 +842,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2016-12-06 12:48:48"
+            "time": "2016-12-06T12:48:48+00:00"
         },
         {
             "name": "campaignchain/channel-clearbit",
@@ -893,7 +893,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-03 16:07:58"
+            "time": "2017-08-03T16:07:58+00:00"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -951,7 +951,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2017-08-08 19:41:34"
+            "time": "2017-08-08T19:41:34+00:00"
         },
         {
             "name": "campaignchain/channel-google-analytics",
@@ -1010,7 +1010,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-11-17T19:16:19+00:00"
         },
         {
             "name": "campaignchain/channel-linkedin",
@@ -1067,7 +1067,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-11-23 15:28:41"
+            "time": "2016-11-23T15:28:41+00:00"
         },
         {
             "name": "campaignchain/channel-mailchimp",
@@ -1124,7 +1124,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2017-08-08 19:41:34"
+            "time": "2017-08-08T19:41:34+00:00"
         },
         {
             "name": "campaignchain/channel-salesforce",
@@ -1175,7 +1175,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-06 15:09:31"
+            "time": "2017-08-06T15:09:31+00:00"
         },
         {
             "name": "campaignchain/channel-slideshare",
@@ -1228,7 +1228,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-11-17T19:16:19+00:00"
         },
         {
             "name": "campaignchain/channel-twitter",
@@ -1286,7 +1286,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-12-06 16:24:41"
+            "time": "2016-12-06T16:24:41+00:00"
         },
         {
             "name": "campaignchain/channel-website",
@@ -1343,7 +1343,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-11-17T19:16:19+00:00"
         },
         {
             "name": "campaignchain/channel-xing",
@@ -1398,7 +1398,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-11-17T19:16:19+00:00"
         },
         {
             "name": "campaignchain/core",
@@ -1507,7 +1507,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-08 07:35:18"
+            "time": "2017-08-08T07:35:18+00:00"
         },
         {
             "name": "campaignchain/core-esp",
@@ -1565,7 +1565,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-06 15:09:31"
+            "time": "2017-08-06T15:09:31+00:00"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -1615,7 +1615,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-30 11:06:17"
+            "time": "2016-11-30T11:06:17+00:00"
         },
         {
             "name": "campaignchain/form-type-textarea-count",
@@ -1662,7 +1662,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-01 18:53:41"
+            "time": "2016-12-01T18:53:41+00:00"
         },
         {
             "name": "campaignchain/hook-assignee",
@@ -1710,7 +1710,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-01-06 16:56:02"
+            "time": "2017-01-06T16:56:02+00:00"
         },
         {
             "name": "campaignchain/hook-date-repeat",
@@ -1758,7 +1758,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-01-06 16:56:02"
+            "time": "2017-01-06T16:56:02+00:00"
         },
         {
             "name": "campaignchain/hook-due",
@@ -1806,7 +1806,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-01-06 16:56:02"
+            "time": "2017-01-06T16:56:02+00:00"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -1854,7 +1854,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-01-06 16:56:02"
+            "time": "2017-01-06T16:56:02+00:00"
         },
         {
             "name": "campaignchain/hook-image",
@@ -1902,7 +1902,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-01-06 16:56:02"
+            "time": "2017-01-06T16:56:02+00:00"
         },
         {
             "name": "campaignchain/hook-timespan",
@@ -1950,7 +1950,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-02-17 15:09:55"
+            "time": "2017-02-17T15:09:55+00:00"
         },
         {
             "name": "campaignchain/location-citrix",
@@ -2005,7 +2005,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2016-07-23 18:47:16"
+            "time": "2016-07-23T18:47:16+00:00"
         },
         {
             "name": "campaignchain/location-clearbit",
@@ -2059,7 +2059,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-21 19:13:05"
+            "time": "2017-07-21T19:13:05+00:00"
         },
         {
             "name": "campaignchain/location-facebook",
@@ -2110,7 +2110,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2017-08-08 19:41:34"
+            "time": "2017-08-08T19:41:34+00:00"
         },
         {
             "name": "campaignchain/location-google-analytics",
@@ -2167,7 +2167,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2016-07-23 18:47:15"
+            "time": "2016-07-23T18:47:15+00:00"
         },
         {
             "name": "campaignchain/location-linkedin",
@@ -2218,7 +2218,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2017-08-08 19:41:34"
+            "time": "2017-08-08T19:41:34+00:00"
         },
         {
             "name": "campaignchain/location-mailchimp",
@@ -2274,7 +2274,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-07-23 18:47:16"
+            "time": "2016-07-23T18:47:16+00:00"
         },
         {
             "name": "campaignchain/location-salesforce",
@@ -2328,7 +2328,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-27 12:37:35"
+            "time": "2017-07-27T12:37:35+00:00"
         },
         {
             "name": "campaignchain/location-slideshare",
@@ -2384,7 +2384,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2016-07-23 18:47:16"
+            "time": "2016-07-23T18:47:16+00:00"
         },
         {
             "name": "campaignchain/location-twitter",
@@ -2435,7 +2435,7 @@
                 "campaignchain",
                 "twitter"
             ],
-            "time": "2016-10-29 09:24:03"
+            "time": "2016-10-29T09:24:03+00:00"
         },
         {
             "name": "campaignchain/location-website",
@@ -2486,7 +2486,7 @@
                 "campaignchain",
                 "website"
             ],
-            "time": "2016-10-29 10:46:23"
+            "time": "2016-10-29T10:46:23+00:00"
         },
         {
             "name": "campaignchain/location-xing",
@@ -2540,7 +2540,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-23 18:47:16"
+            "time": "2016-07-23T18:47:16+00:00"
         },
         {
             "name": "campaignchain/milestone-scheduled",
@@ -2598,7 +2598,7 @@
                 "campaignchain",
                 "milestone"
             ],
-            "time": "2017-01-06 16:56:02"
+            "time": "2017-01-06T16:56:02+00:00"
         },
         {
             "name": "campaignchain/operation-facebook",
@@ -2649,7 +2649,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2017-08-08 19:41:34"
+            "time": "2017-08-08T19:41:34+00:00"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -2701,7 +2701,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/operation-linkedin",
@@ -2752,7 +2752,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/operation-mailchimp",
@@ -2805,7 +2805,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2016-12-13 19:30:09"
+            "time": "2016-12-13T19:30:09+00:00"
         },
         {
             "name": "campaignchain/operation-slideshare",
@@ -2861,7 +2861,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/operation-twitter",
@@ -2915,7 +2915,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2016-12-06 16:24:41"
+            "time": "2016-12-06T16:24:41+00:00"
         },
         {
             "name": "campaignchain/operation-xing",
@@ -2969,7 +2969,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/protobuf",
@@ -3019,7 +3019,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-07-28 10:21:45"
+            "time": "2017-07-28T10:21:45+00:00"
         },
         {
             "name": "campaignchain/report-analytics-cta-tracking",
@@ -3072,7 +3072,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-11-06 20:21:27"
+            "time": "2016-11-06T20:21:27+00:00"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
@@ -3128,7 +3128,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-11-06 20:21:27"
+            "time": "2016-11-06T20:21:27+00:00"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-location",
@@ -3184,7 +3184,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2016-11-06 20:21:27"
+            "time": "2016-11-06T20:21:27+00:00"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -3243,7 +3243,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2016-11-07 21:08:06"
+            "time": "2016-11-07T21:08:06+00:00"
         },
         {
             "name": "campaignchain/security-authentication-client-oauth",
@@ -3303,7 +3303,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2017-08-08 17:15:12"
+            "time": "2017-08-08T17:15:12+00:00"
         },
         {
             "name": "campaignchain/security-authentication-server-oauth",
@@ -3361,7 +3361,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2017-08-02 10:02:20"
+            "time": "2017-08-02T10:02:20+00:00"
         },
         {
             "name": "campaignchain/update",
@@ -3412,7 +3412,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-10-29 10:46:23"
+            "time": "2016-10-29T10:46:23+00:00"
         },
         {
             "name": "cocur/slugify",
@@ -3880,23 +3880,23 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.8",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "6e96577cbbdbb5b6dcca2ff203d665976b51beb0"
+                "reference": "629d2a8b16f99a0b2ba6868f7af9986afee5fea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/6e96577cbbdbb5b6dcca2ff203d665976b51beb0",
-                "reference": "6e96577cbbdbb5b6dcca2ff203d665976b51beb0",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/629d2a8b16f99a0b2ba6868f7af9986afee5fea7",
+                "reference": "629d2a8b16f99a0b2ba6868f7af9986afee5fea7",
                 "shasum": ""
             },
             "require": {
-                "doctrine/dbal": "~2.3",
+                "doctrine/dbal": "^2.5.12",
                 "doctrine/doctrine-cache-bundle": "~1.2",
                 "jdorn/sql-formatter": "~1.1",
-                "php": ">=5.5.9",
+                "php": "^7.1",
                 "symfony/console": "~2.7|~3.0|~4.0",
                 "symfony/dependency-injection": "~2.7|~3.0|~4.0",
                 "symfony/doctrine-bridge": "~2.7|~3.0|~4.0",
@@ -3904,7 +3904,7 @@
             },
             "require-dev": {
                 "doctrine/orm": "~2.3",
-                "phpunit/phpunit": "~4",
+                "phpunit/phpunit": "^6.1",
                 "satooshi/php-coveralls": "^1.0",
                 "symfony/phpunit-bridge": "~2.7|~3.0|~4.0",
                 "symfony/property-info": "~2.8|~3.0|~4.0",
@@ -3919,7 +3919,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -3957,7 +3957,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2017-05-18T08:15:18+00:00"
+            "time": "2017-07-28T20:57:50+00:00"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -4588,16 +4588,16 @@
         },
         {
             "name": "friendsofsymfony/elastica-bundle",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSElasticaBundle.git",
-                "reference": "a11e71d835456c536ba449f14ee5ad387e105919"
+                "reference": "454f8d8d4cb99add96f08e1e38652ccbcd5d5542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSElasticaBundle/zipball/a11e71d835456c536ba449f14ee5ad387e105919",
-                "reference": "a11e71d835456c536ba449f14ee5ad387e105919",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSElasticaBundle/zipball/454f8d8d4cb99add96f08e1e38652ccbcd5d5542",
+                "reference": "454f8d8d4cb99add96f08e1e38652ccbcd5d5542",
                 "shasum": ""
             },
             "require": {
@@ -4628,6 +4628,7 @@
                 "symfony/expression-language": "~2.7|~3.0",
                 "symfony/serializer": "~2.7|~3.0",
                 "symfony/twig-bundle": "~2.7|~3.0",
+                "symfony/validator": "~2.7|~3.0",
                 "symfony/yaml": "~2.7|~3.0"
             },
             "type": "symfony-bundle",
@@ -4673,7 +4674,7 @@
                 "propel",
                 "search"
             ],
-            "time": "2017-03-30T10:46:20+00:00"
+            "time": "2017-08-10T13:45:18+00:00"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
@@ -4681,24 +4682,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
-                "reference": "31462ad469c275dd9994622ba46155566c4dd6eb"
+                "reference": "65cae87b8e051d72c82e4bbd7b4322136f37a94e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/31462ad469c275dd9994622ba46155566c4dd6eb",
-                "reference": "31462ad469c275dd9994622ba46155566c4dd6eb",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/65cae87b8e051d72c82e4bbd7b4322136f37a94e",
+                "reference": "65cae87b8e051d72c82e4bbd7b4322136f37a94e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "symfony/console": "~2.3||~3.0",
                 "symfony/framework-bundle": "~2.3||~3.0",
-                "symfony/serializer": "~2.0||~3.0",
+                "symfony/serializer": "~2.3||~3.0",
                 "willdurand/jsonp-callback-validator": "~1.0"
             },
             "require-dev": {
                 "symfony/expression-language": "~2.4||~3.0",
-                "symfony/phpunit-bridge": "~2.7||~3.0"
+                "symfony/phpunit-bridge": "^3.3"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -4732,7 +4733,7 @@
                 "javascript",
                 "routing"
             ],
-            "time": "2016-11-26 12:01:27"
+            "time": "2017-08-10T12:23:04+00:00"
         },
         {
             "name": "friendsofsymfony/oauth-server-bundle",
@@ -4810,7 +4811,7 @@
                 "oauth2",
                 "server"
             ],
-            "time": "2016-12-30 09:09:18"
+            "time": "2016-12-30T09:09:18+00:00"
         },
         {
             "name": "friendsofsymfony/oauth2-php",
@@ -4966,7 +4967,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2017-08-08 11:01:19"
+            "time": "2017-08-08T11:01:19+00:00"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -5114,7 +5115,7 @@
                 }
             ],
             "description": "PHP Javascript packer",
-            "time": "2017-08-04 06:50:39"
+            "time": "2017-08-04T06:50:39+00:00"
         },
         {
             "name": "google/apiclient",
@@ -5167,12 +5168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "80e984e0076ea029cf5431f15dfdf94c5b73b83f"
+                "reference": "ccb6b622497c9627898dadcb3818014b3a245d4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/80e984e0076ea029cf5431f15dfdf94c5b73b83f",
-                "reference": "80e984e0076ea029cf5431f15dfdf94c5b73b83f",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/ccb6b622497c9627898dadcb3818014b3a245d4e",
+                "reference": "ccb6b622497c9627898dadcb3818014b3a245d4e",
                 "shasum": ""
             },
             "require": {
@@ -5200,7 +5201,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-08-08 13:19:17"
+            "time": "2017-08-10T20:03:44+00:00"
         },
         {
             "name": "guzzle/guzzle",
@@ -5362,6 +5363,57 @@
                 "web service"
             ],
             "time": "2017-06-22T18:50:49+00:00"
+        },
+        {
+            "name": "guzzlehttp/oauth-subscriber",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/oauth-subscriber.git",
+                "reference": "04960cdef3cd80ea401d6b0ca8b3e110e9bf12cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/oauth-subscriber/zipball/04960cdef3cd80ea401d6b0ca8b3e110e9bf12cf",
+                "reference": "04960cdef3cd80ea401d6b0ca8b3e110e9bf12cf",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Subscriber\\Oauth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle OAuth 1.0 subscriber",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "oauth"
+            ],
+            "time": "2015-08-15T19:44:28+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -5635,7 +5687,7 @@
                 "mongodb",
                 "orm"
             ],
-            "time": "2016-04-30 10:30:50"
+            "time": "2016-04-30T10:30:50+00:00"
         },
         {
             "name": "hybridauth/hybridauth",
@@ -6181,7 +6233,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2017-07-20 09:37:01"
+            "time": "2017-07-20T09:37:01+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -6466,7 +6518,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2017-06-20 13:42:20"
+            "time": "2017-06-20T13:42:20+00:00"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -6523,7 +6575,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2016-11-28 00:01:40"
+            "time": "2016-11-28T00:01:40+00:00"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -6585,7 +6637,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2017-08-07 11:29:52"
+            "time": "2017-08-07T11:29:52+00:00"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -8448,7 +8500,7 @@
                 "bower manager",
                 "dependencies"
             ],
-            "time": "2017-03-20 20:14:58"
+            "time": "2017-03-20T20:14:58+00:00"
         },
         {
             "name": "stephanecollot/datetimepicker-bundle",
@@ -9793,7 +9845,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-06 22:55:25"
+            "time": "2016-12-06T22:55:25+00:00"
         },
         {
             "name": "amariki/data-test",
@@ -9826,7 +9878,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-06 22:55:25"
+            "time": "2016-12-06T22:55:25+00:00"
         },
         {
             "name": "campaignchain/activity-ezplatform",
@@ -9881,7 +9933,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/activity-social-media",
@@ -9935,7 +9987,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/channel-ezplatform",
@@ -9990,7 +10042,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-11-17 19:16:19"
+            "time": "2016-11-17T19:16:19+00:00"
         },
         {
             "name": "campaignchain/dev-tools",
@@ -10033,7 +10085,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:20"
+            "time": "2016-12-03T12:07:20+00:00"
         },
         {
             "name": "campaignchain/location-ezplatform",
@@ -10087,7 +10139,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-07-23 18:47:15"
+            "time": "2016-07-23T18:47:15+00:00"
         },
         {
             "name": "campaignchain/operation-ezplatform",
@@ -10133,7 +10185,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
         },
         {
             "name": "campaignchain/operation-social-media",
@@ -10184,7 +10236,69 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2016-12-03 12:07:19"
+            "time": "2016-12-03T12:07:19+00:00"
+        },
+        {
+            "name": "symfony/phpunit-bridge",
+            "version": "v3.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/phpunit-bridge.git",
+                "reference": "c2c124b7f9de79f4a64dc011f041a3a2c768b913"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/c2c124b7f9de79f4a64dc011f041a3a2c768b913",
+                "reference": "c2c124b7f9de79f4a64dc011f041a3a2c768b913",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+            },
+            "suggest": {
+                "ext-zip": "Zip support is required when using bin/simple-phpunit",
+                "symfony/debug": "For tracking deprecated interfaces usages at runtime with DebugClassLoader"
+            },
+            "bin": [
+                "bin/simple-phpunit"
+            ],
+            "type": "symfony-bridge",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Bridge\\PhpUnit\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony PHPUnit Bridge",
+            "homepage": "https://symfony.com",
+            "time": "2017-06-12T13:35:45+00:00"
         }
     ],
     "aliases": [],
