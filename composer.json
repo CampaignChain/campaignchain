@@ -1,0 +1,148 @@
+{
+    "name": "campaignchain/campaignchain",
+    "description": "CampaignChain Community Edition",
+    "version": "dev-master",
+    "type": "project",
+    "license": [
+        "Apache-2.0",
+        "GPL-3.0+"
+    ],
+    "keywords": ["campaignchain"],
+    "homepage": "http://www.campaignchain.com",
+    "support": {
+        "email": "support@campaignchain.com",
+        "issues": "https://github.com/CampaignChain/campaignchain/issues",
+        "docs": "http://docs.campaignchain.com"
+    },
+    "authors": [
+        {
+            "name": "CampaignChain, Inc.",
+            "email": "info@campaignchain.com",
+            "homepage": "http://www.campaignchain.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AppBundle\\": "src/AppBundle"
+        },
+        "classmap": [
+            "app/AppKernel.php",
+            "app/AppCache.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        },
+        "files": [
+            "vendor/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "~7.0|~7.1",
+        "doctrine/doctrine-bundle": "^1.6",
+        "doctrine/orm": "^2.5",
+        "incenteev/composer-parameter-handler": "^2.0",
+        "sensio/distribution-bundle": "^5.0.19",
+        "sensio/framework-extra-bundle": "^3.0.2",
+        "symfony/monolog-bundle": "^3.1.0",
+        "symfony/polyfill-apcu": "^1.0",
+        "symfony/swiftmailer-bundle": "^2.3.10",
+        "symfony/symfony": "3.3.*",
+        "twig/twig": "^1.0||^2.0",
+        "ext-intl": "*",
+        "packagist/yuicompressor-bin": "2.4.8",
+        "packagist/cssembed-bin": "0.4.5",
+        "avanzu/admin-theme-bundle": "~2.0",
+        "campaignchain/core": "dev-master",
+        "campaignchain/update": "dev-master",
+        "campaignchain/campaign-scheduled": "dev-master",
+        "campaignchain/campaign-template": "dev-master",
+        "campaignchain/campaign-repeating": "dev-master",
+        "campaignchain/milestone-scheduled": "dev-master",
+        "campaignchain/activity-twitter": "dev-master",
+        "campaignchain/activity-facebook": "dev-master",
+        "campaignchain/activity-linkedin": "dev-master",
+        "campaignchain/activity-gotowebinar": "dev-master",
+        "campaignchain/activity-mailchimp": "dev-master",
+        "campaignchain/activity-slideshare": "dev-master",
+        "campaignchain/report-analytics-metrics-per-activity": "dev-master",
+        "campaignchain/report-analytics-metrics-per-location": "dev-master",
+        "campaignchain/report-analytics-cta-tracking": "dev-master",
+        "campaignchain/report-google-analytics": "dev-master",
+        "campaignchain/security-authentication-server-oauth": "dev-master",
+        "campaignchain/activity-xing": "dev-master",
+        "campaignchain/location-clearbit": "dev-master",
+        "campaignchain/location-salesforce": "dev-master"
+    },
+    "require-dev": {
+        "amariki/data-demo": "dev-master",
+        "amariki/data-test": "dev-master",
+        "campaignchain/activity-ezplatform": "dev-master",
+        "campaignchain/activity-social-media": "dev-master",
+        "campaignchain/dev-tools": "dev-master",
+        "sensio/generator-bundle": "^3.0",
+        "symfony/phpunit-bridge": "^3.3"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "SymfonyStandard\\Composer::hookRootPackageInstall"
+        ],
+        "campaignchain-setup": [
+            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::initKernel",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::removeSymfonyStandardFiles",
+            "bin/console campaignchain:update:kernel",
+            "bin/console campaignchain:update:schema",
+            "bin/console campaignchain:update:module",
+            "bin/console campaignchain:update:schema",
+            "bin/console campaignchain:update:data",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "bin/console sp:bower:install",
+            "bin/console cache:clear --env=prod --no-debug --no-warmup",
+            "bin/console cache:warmup --env=prod",
+            "bin/console assetic:dump --env=prod --no-debug",
+            "bin/console avanzu:admin:initialize"
+        ],
+        "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "@campaignchain-setup",
+            "CampaignChain\\CoreBundle\\Composer\\ScriptHandler::enableInstallMode"
+        ],
+        "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "@campaignchain-setup"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-bin-dir": "bin",
+        "symfony-var-dir": "var",
+        "symfony-web-dir": "web",
+        "symfony-tests-dir": "tests",
+        "symfony-assets-install": "relative",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
+        "branch-alias": null,
+        "campaignchain": {
+            "distribution": {
+                "modules": {
+                    "repositories": [
+                        "http://store.campaignchain.com/modules/"
+                    ],
+                    "repositories-dev": [
+                        "http://store.campaignchain.com/modules/dev/"
+                    ]
+                }
+            }
+        }
+    }
+}

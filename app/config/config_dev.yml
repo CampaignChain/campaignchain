@@ -1,0 +1,71 @@
+# Copyright 2016 CampaignChain, Inc. <info@campaignchain.com>
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+imports:
+    - { resource: config.yml }
+
+framework:
+    router:
+        resource: "%kernel.root_dir%/config/routing_dev.yml"
+        strict_requirements: true
+    profiler: { only_exceptions: false }
+
+web_profiler:
+    toolbar: "%debug_toolbar%"
+    intercept_redirects: "%debug_redirects%"
+
+monolog:
+    channels: ["scheduler", "tracking", "external"]
+    handlers:
+        scheduler:
+            type: stream
+            path: "%kernel.logs_dir%/scheduler.log"
+            level: debug
+            channels: [scheduler]
+        tracking:
+            type: rotating_file
+            path: "%kernel.logs_dir%/tracking.log"
+            level: debug
+            channels: [tracking]
+            max_files: 10
+        external:
+            type: rotating_file
+            path: "%kernel.logs_dir%/external.log"
+            level: debug
+            channels: [external]
+            max_files: 10
+        main:
+            type:   stream
+            path:   "%kernel.logs_dir%/%kernel.environment%.log"
+            level:  debug
+            excluded_404s:
+                - ^/
+            channels: [!scheduler, !event, !external]
+        console:
+            type:   console
+            bubble: false
+        # uncomment to get logging in your browser
+        # you may have to allow bigger header sizes in your Web server configuration
+        #firephp:
+        #    type:   firephp
+        #    level:  info
+        #chromephp:
+        #    type:   chromephp
+        #    level:  info
+
+assetic:
+    use_controller: "%use_assetic_controller%"
+
+#swiftmailer:
+#    delivery_address: me@example.com

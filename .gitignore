@@ -1,0 +1,56 @@
+## Symfony default
+/.web-server-pid
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/vendor/
+/web/bundles/
+src
+
+## CampaignChain
+!var/CampaignChainRequirements.php
+app/campaignchain/*
+!app/campaignchain/.gitkeep
+app/config/parameters.yml
+app/sessions/*
+!app/sessions/.gitkeep
+components
+web/assetic
+web/css
+web/fonts
+web/images
+web/js
+web/media
+web/storage
+web/theme
+/web/vendor/
+
+## Mac OS X
+.DS_Store
+
+## Backup files created by editor
+*~
+
+## PHPStorm
+.idea/
+*.ipr
+*.iml
+*.iws
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# vagrant
+.vagrant/
+vagrant/
+VagrantFile
