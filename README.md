@@ -1,4 +1,4 @@
-campaignchain-symfony-3
-=======================
+# CampaignChain
 
-A Symfony project created on August 11, 2017, 1:15 pm.
+Version 2.x of CampaignChain is work in progress. Please install 1.x:
+https://github.com/CampaignChain/campaignchain/tree/1.0
