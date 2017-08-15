@@ -115,7 +115,8 @@
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "@campaignchain-setup"
+            "@campaignchain-setup",
+            "bin/console api:doc:dump --no-sandbox > vendor/campaignchain/core/Resources/docs/rest_api.md"
         ]
     },
     "config": {
