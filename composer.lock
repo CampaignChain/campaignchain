@@ -851,12 +851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/channel-clearbit.git",
-                "reference": "9f257f021500f81b981bf1e5cdd111289013ed23"
+                "reference": "5146defbedb2cc98119f22c616b80537f9bcd02d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/9f257f021500f81b981bf1e5cdd111289013ed23",
-                "reference": "9f257f021500f81b981bf1e5cdd111289013ed23",
+                "url": "https://api.github.com/repos/CampaignChain/channel-clearbit/zipball/5146defbedb2cc98119f22c616b80537f9bcd02d",
+                "reference": "5146defbedb2cc98119f22c616b80537f9bcd02d",
                 "shasum": ""
             },
             "type": "campaignchain-channel",
@@ -894,7 +894,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-14T17:06:24+00:00"
+            "time": "2017-08-15T13:18:25+00:00"
         },
         {
             "name": "campaignchain/channel-facebook",
@@ -3314,12 +3314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "c47337317d00ae0ca2e297f6d0a499f57f76fcd1"
+                "reference": "f6e602f2f73c7a9c4a1b8f96dfb94930cb57e55d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/c47337317d00ae0ca2e297f6d0a499f57f76fcd1",
-                "reference": "c47337317d00ae0ca2e297f6d0a499f57f76fcd1",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/f6e602f2f73c7a9c4a1b8f96dfb94930cb57e55d",
+                "reference": "f6e602f2f73c7a9c4a1b8f96dfb94930cb57e55d",
                 "shasum": ""
             },
             "require": {
@@ -3364,7 +3364,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2017-08-14T12:21:02+00:00"
+            "time": "2017-08-15T13:18:25+00:00"
         },
         {
             "name": "campaignchain/update",
