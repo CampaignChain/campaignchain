@@ -1407,12 +1407,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "aec20ca1066c49d1a8c55a455028e9fba2f6d7d9"
+                "reference": "e01823756f6689cba873d4ef8573998ada9bd7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/aec20ca1066c49d1a8c55a455028e9fba2f6d7d9",
-                "reference": "aec20ca1066c49d1a8c55a455028e9fba2f6d7d9",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e01823756f6689cba873d4ef8573998ada9bd7e1",
+                "reference": "e01823756f6689cba873d4ef8573998ada9bd7e1",
                 "shasum": ""
             },
             "require": {
@@ -1511,7 +1511,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-15T12:57:33+00:00"
+            "time": "2017-08-15T14:04:57+00:00"
         },
         {
             "name": "campaignchain/core-esp",
@@ -3314,12 +3314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "f6e602f2f73c7a9c4a1b8f96dfb94930cb57e55d"
+                "reference": "3bea4c0ca81972cd390b44d6f8fdc15d6c7999a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/f6e602f2f73c7a9c4a1b8f96dfb94930cb57e55d",
-                "reference": "f6e602f2f73c7a9c4a1b8f96dfb94930cb57e55d",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/3bea4c0ca81972cd390b44d6f8fdc15d6c7999a1",
+                "reference": "3bea4c0ca81972cd390b44d6f8fdc15d6c7999a1",
                 "shasum": ""
             },
             "require": {
@@ -3364,7 +3364,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2017-08-15T13:18:25+00:00"
+            "time": "2017-08-15T14:04:57+00:00"
         },
         {
             "name": "campaignchain/update",
@@ -5164,29 +5164,31 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.6.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3|^7.0"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
                 "ext-intl": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
             "extra": {
-                "branch-alias": []
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -5208,7 +5210,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-04-29T12:21:54+00:00"
+            "time": "2017-08-15T16:48:10+00:00"
         },
         {
             "name": "gkralik/php-uglifyjs",
@@ -5294,12 +5296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "e0d24cc84a81d236daf0bbf783037c8c8c24d814"
+                "reference": "5e39ecc569153db63bc4e1587f703c7894223375"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/e0d24cc84a81d236daf0bbf783037c8c8c24d814",
-                "reference": "e0d24cc84a81d236daf0bbf783037c8c8c24d814",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/5e39ecc569153db63bc4e1587f703c7894223375",
+                "reference": "5e39ecc569153db63bc4e1587f703c7894223375",
                 "shasum": ""
             },
             "require": {
@@ -5327,7 +5329,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-08-11T18:33:53+00:00"
+            "time": "2017-08-15T21:58:38+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
