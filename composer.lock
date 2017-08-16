@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-scheduled.git",
-                "reference": "3157c88a468cd5c1c713f543d8ee874c4a23723e"
+                "reference": "e1d413a9e5d8f73a0405516f9bfc396883559b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/3157c88a468cd5c1c713f543d8ee874c4a23723e",
-                "reference": "3157c88a468cd5c1c713f543d8ee874c4a23723e",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-scheduled/zipball/e1d413a9e5d8f73a0405516f9bfc396883559b30",
+                "reference": "e1d413a9e5d8f73a0405516f9bfc396883559b30",
                 "shasum": ""
             },
             "require": {
@@ -730,7 +730,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/campaign-template",
@@ -738,12 +738,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/campaign-template.git",
-                "reference": "41877708ea3852d62bbd2e02cff5ac1361bd4190"
+                "reference": "d8bb12b01b35bb98d2a4b50efd7a96157feefd3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/41877708ea3852d62bbd2e02cff5ac1361bd4190",
-                "reference": "41877708ea3852d62bbd2e02cff5ac1361bd4190",
+                "url": "https://api.github.com/repos/CampaignChain/campaign-template/zipball/d8bb12b01b35bb98d2a4b50efd7a96157feefd3a",
+                "reference": "d8bb12b01b35bb98d2a4b50efd7a96157feefd3a",
                 "shasum": ""
             },
             "require": {
@@ -787,7 +787,7 @@
                 "campaign",
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T09:10:48+00:00"
         },
         {
             "name": "campaignchain/channel-citrix",
@@ -1407,12 +1407,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core.git",
-                "reference": "e01823756f6689cba873d4ef8573998ada9bd7e1"
+                "reference": "3e98179cfdc150b0c973f05e0f29b4b849c148b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core/zipball/e01823756f6689cba873d4ef8573998ada9bd7e1",
-                "reference": "e01823756f6689cba873d4ef8573998ada9bd7e1",
+                "url": "https://api.github.com/repos/CampaignChain/core/zipball/3e98179cfdc150b0c973f05e0f29b4b849c148b0",
+                "reference": "3e98179cfdc150b0c973f05e0f29b4b849c148b0",
                 "shasum": ""
             },
             "require": {
@@ -1511,7 +1511,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-15T14:04:57+00:00"
+            "time": "2017-08-16T18:58:52+00:00"
         },
         {
             "name": "campaignchain/core-esp",
@@ -1519,12 +1519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/core-esp.git",
-                "reference": "06681a2479e878dc1fd6cc23953578167b63f7ee"
+                "reference": "21a946295e5d68e2cf42dbcc63edb84433793d04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/06681a2479e878dc1fd6cc23953578167b63f7ee",
-                "reference": "06681a2479e878dc1fd6cc23953578167b63f7ee",
+                "url": "https://api.github.com/repos/CampaignChain/core-esp/zipball/21a946295e5d68e2cf42dbcc63edb84433793d04",
+                "reference": "21a946295e5d68e2cf42dbcc63edb84433793d04",
                 "shasum": ""
             },
             "require": {
@@ -1569,7 +1569,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-06T15:09:31+00:00"
+            "time": "2017-08-16T09:10:49+00:00"
         },
         {
             "name": "campaignchain/form-type-autocomplete",
@@ -1674,12 +1674,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-assignee.git",
-                "reference": "510abb40fc07a69f040b43c4eab0d1545aedb087"
+                "reference": "aae1a02634f4af37fb826d50ffbd7d26187b12ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/510abb40fc07a69f040b43c4eab0d1545aedb087",
-                "reference": "510abb40fc07a69f040b43c4eab0d1545aedb087",
+                "url": "https://api.github.com/repos/CampaignChain/hook-assignee/zipball/aae1a02634f4af37fb826d50ffbd7d26187b12ce",
+                "reference": "aae1a02634f4af37fb826d50ffbd7d26187b12ce",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1714,7 +1714,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:04+00:00"
+            "time": "2017-08-16T18:56:20+00:00"
         },
         {
             "name": "campaignchain/hook-date-repeat",
@@ -1722,12 +1722,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-data-repeat.git",
-                "reference": "9f3d072d52a7351771c2f00b1c683a0fb2dddf55"
+                "reference": "764caf775345b35ca2fdcad1fb35da4fef7ddfa2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/9f3d072d52a7351771c2f00b1c683a0fb2dddf55",
-                "reference": "9f3d072d52a7351771c2f00b1c683a0fb2dddf55",
+                "url": "https://api.github.com/repos/CampaignChain/hook-data-repeat/zipball/764caf775345b35ca2fdcad1fb35da4fef7ddfa2",
+                "reference": "764caf775345b35ca2fdcad1fb35da4fef7ddfa2",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1762,7 +1762,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:04+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/hook-due",
@@ -1770,12 +1770,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "154183bfa522f0ab454cbf370ce40e79e60871a3"
+                "reference": "8b47123ff7977f44347fa78b64db50cb71bcb1e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/154183bfa522f0ab454cbf370ce40e79e60871a3",
-                "reference": "154183bfa522f0ab454cbf370ce40e79e60871a3",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/8b47123ff7977f44347fa78b64db50cb71bcb1e8",
+                "reference": "8b47123ff7977f44347fa78b64db50cb71bcb1e8",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1810,7 +1810,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:04+00:00"
+            "time": "2017-08-16T18:56:20+00:00"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -1818,12 +1818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-duration.git",
-                "reference": "d2f0b6bc7b1eb1771554a627010f1fe6bf9afd96"
+                "reference": "0af3a0b5026410c28a72a1c433157d1e619c3a73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/d2f0b6bc7b1eb1771554a627010f1fe6bf9afd96",
-                "reference": "d2f0b6bc7b1eb1771554a627010f1fe6bf9afd96",
+                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/0af3a0b5026410c28a72a1c433157d1e619c3a73",
+                "reference": "0af3a0b5026410c28a72a1c433157d1e619c3a73",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1858,7 +1858,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:04+00:00"
+            "time": "2017-08-16T18:56:20+00:00"
         },
         {
             "name": "campaignchain/hook-image",
@@ -1866,12 +1866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-image.git",
-                "reference": "237a9f047a7e4f81a0609514f8bd222b0ca48e51"
+                "reference": "e405ce2bf52b3df30a6cee57913f0abc8293ae6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/237a9f047a7e4f81a0609514f8bd222b0ca48e51",
-                "reference": "237a9f047a7e4f81a0609514f8bd222b0ca48e51",
+                "url": "https://api.github.com/repos/CampaignChain/hook-image/zipball/e405ce2bf52b3df30a6cee57913f0abc8293ae6d",
+                "reference": "e405ce2bf52b3df30a6cee57913f0abc8293ae6d",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1906,7 +1906,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-08-14T09:19:30+00:00"
+            "time": "2017-08-16T18:56:20+00:00"
         },
         {
             "name": "campaignchain/hook-timespan",
@@ -1914,12 +1914,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-timespan.git",
-                "reference": "d0d4945595a91535ed49078916c6790ab3dc5ea7"
+                "reference": "8b19d4f6f181324d327c2bf6bf4e944f659dbdce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/d0d4945595a91535ed49078916c6790ab3dc5ea7",
-                "reference": "d0d4945595a91535ed49078916c6790ab3dc5ea7",
+                "url": "https://api.github.com/repos/CampaignChain/hook-timespan/zipball/8b19d4f6f181324d327c2bf6bf4e944f659dbdce",
+                "reference": "8b19d4f6f181324d327c2bf6bf4e944f659dbdce",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1954,7 +1954,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:04+00:00"
+            "time": "2017-08-16T18:56:20+00:00"
         },
         {
             "name": "campaignchain/location-citrix",
@@ -2610,12 +2610,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-facebook.git",
-                "reference": "f30fff5f6d2cae22c5b1c490b1a573dcfcdc08c1"
+                "reference": "5f7cc375e60a512b54b29de757d9976848341d1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/f30fff5f6d2cae22c5b1c490b1a573dcfcdc08c1",
-                "reference": "f30fff5f6d2cae22c5b1c490b1a573dcfcdc08c1",
+                "url": "https://api.github.com/repos/CampaignChain/operation-facebook/zipball/5f7cc375e60a512b54b29de757d9976848341d1d",
+                "reference": "5f7cc375e60a512b54b29de757d9976848341d1d",
                 "shasum": ""
             },
             "require": {
@@ -2653,7 +2653,7 @@
                 "campaignchain",
                 "facebook"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/operation-gotowebinar",
@@ -2661,12 +2661,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-gotowebinar.git",
-                "reference": "0b848d4ca3ceae98aa12ee2e224b706a7c815de2"
+                "reference": "6d7e74d94ef57266eb71b4073b7410dd23c8c095"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/0b848d4ca3ceae98aa12ee2e224b706a7c815de2",
-                "reference": "0b848d4ca3ceae98aa12ee2e224b706a7c815de2",
+                "url": "https://api.github.com/repos/CampaignChain/operation-gotowebinar/zipball/6d7e74d94ef57266eb71b4073b7410dd23c8c095",
+                "reference": "6d7e74d94ef57266eb71b4073b7410dd23c8c095",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -2705,7 +2705,7 @@
                 "GoToWebinar",
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/operation-linkedin",
@@ -2713,12 +2713,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-linkedin.git",
-                "reference": "cc03248adbd67cdb0b815f156e3147410028bbae"
+                "reference": "4c3565bef36cf8e6677f135e547badad2dc27abf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/cc03248adbd67cdb0b815f156e3147410028bbae",
-                "reference": "cc03248adbd67cdb0b815f156e3147410028bbae",
+                "url": "https://api.github.com/repos/CampaignChain/operation-linkedin/zipball/4c3565bef36cf8e6677f135e547badad2dc27abf",
+                "reference": "4c3565bef36cf8e6677f135e547badad2dc27abf",
                 "shasum": ""
             },
             "require": {
@@ -2756,7 +2756,7 @@
                 "campaignchain",
                 "linkedin"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/operation-mailchimp",
@@ -2764,12 +2764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-mailchimp.git",
-                "reference": "ddf8ea3c3089fb7f5bed1a193b8da17907d3d7e7"
+                "reference": "319a1c5d009c932dc84373492ea0c25d415983b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/ddf8ea3c3089fb7f5bed1a193b8da17907d3d7e7",
-                "reference": "ddf8ea3c3089fb7f5bed1a193b8da17907d3d7e7",
+                "url": "https://api.github.com/repos/CampaignChain/operation-mailchimp/zipball/319a1c5d009c932dc84373492ea0c25d415983b0",
+                "reference": "319a1c5d009c932dc84373492ea0c25d415983b0",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -2809,7 +2809,7 @@
                 "campaignchain",
                 "mailchimp"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/operation-slideshare",
@@ -2817,12 +2817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-slideshare.git",
-                "reference": "039c3bb6053ec99767b073f34b669a5832a095de"
+                "reference": "8a522372acd113cb41f43b16614f62a6cbc0dd3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/039c3bb6053ec99767b073f34b669a5832a095de",
-                "reference": "039c3bb6053ec99767b073f34b669a5832a095de",
+                "url": "https://api.github.com/repos/CampaignChain/operation-slideshare/zipball/8a522372acd113cb41f43b16614f62a6cbc0dd3c",
+                "reference": "8a522372acd113cb41f43b16614f62a6cbc0dd3c",
                 "shasum": ""
             },
             "require": {
@@ -2865,7 +2865,7 @@
                 "campaignchain",
                 "slideshare"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/operation-twitter",
@@ -2873,12 +2873,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-twitter.git",
-                "reference": "5e80a7c32e6fb20ad8f16cc398950d21bbb4f493"
+                "reference": "e070997062ae15146ad3ccff3c992a4b39e3cf66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/5e80a7c32e6fb20ad8f16cc398950d21bbb4f493",
-                "reference": "5e80a7c32e6fb20ad8f16cc398950d21bbb4f493",
+                "url": "https://api.github.com/repos/CampaignChain/operation-twitter/zipball/e070997062ae15146ad3ccff3c992a4b39e3cf66",
+                "reference": "e070997062ae15146ad3ccff3c992a4b39e3cf66",
                 "shasum": ""
             },
             "require": {
@@ -2918,7 +2918,7 @@
                 "operation",
                 "twitter"
             ],
-            "time": "2017-08-14T12:21:04+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/operation-xing",
@@ -2926,12 +2926,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-xing.git",
-                "reference": "16e8a2feaa53102cd81aeb506abfd38d405690fe"
+                "reference": "b3c51b2fcf80d8ed4bf41dca55fec4191a0301f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/16e8a2feaa53102cd81aeb506abfd38d405690fe",
-                "reference": "16e8a2feaa53102cd81aeb506abfd38d405690fe",
+                "url": "https://api.github.com/repos/CampaignChain/operation-xing/zipball/b3c51b2fcf80d8ed4bf41dca55fec4191a0301f3",
+                "reference": "b3c51b2fcf80d8ed4bf41dca55fec4191a0301f3",
                 "shasum": ""
             },
             "require": {
@@ -2972,7 +2972,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:04+00:00"
+            "time": "2017-08-16T18:56:20+00:00"
         },
         {
             "name": "campaignchain/protobuf",
@@ -3030,12 +3030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-cta-tracking.git",
-                "reference": "5efaa13f34ec0a39942d5349d1148c359f475199"
+                "reference": "7636fe7f8685aadce70adfe317edf3b8af03785f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/5efaa13f34ec0a39942d5349d1148c359f475199",
-                "reference": "5efaa13f34ec0a39942d5349d1148c359f475199",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-cta-tracking/zipball/7636fe7f8685aadce70adfe317edf3b8af03785f",
+                "reference": "7636fe7f8685aadce70adfe317edf3b8af03785f",
                 "shasum": ""
             },
             "type": "campaignchain-report-analytics",
@@ -3075,7 +3075,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2017-08-14T12:21:02+00:00"
+            "time": "2017-08-16T09:10:48+00:00"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-activity",
@@ -3083,12 +3083,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-activity.git",
-                "reference": "0d86e47527ec05862e54b0f32fe4f7c1a511e34b"
+                "reference": "ce12845f7a8938893d2c3d33ed05579b08425cf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/0d86e47527ec05862e54b0f32fe4f7c1a511e34b",
-                "reference": "0d86e47527ec05862e54b0f32fe4f7c1a511e34b",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-activity/zipball/ce12845f7a8938893d2c3d33ed05579b08425cf4",
+                "reference": "ce12845f7a8938893d2c3d33ed05579b08425cf4",
                 "shasum": ""
             },
             "require": {
@@ -3131,7 +3131,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2017-08-14T12:21:02+00:00"
+            "time": "2017-08-16T09:10:48+00:00"
         },
         {
             "name": "campaignchain/report-analytics-metrics-per-location",
@@ -3139,12 +3139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-analytics-metrics-per-location.git",
-                "reference": "c19810cfd68426a693f49b65e1ecfa891c7d9ff3"
+                "reference": "7cecf656bdd6f08a8f445362d84e2cc6284f3da9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-location/zipball/c19810cfd68426a693f49b65e1ecfa891c7d9ff3",
-                "reference": "c19810cfd68426a693f49b65e1ecfa891c7d9ff3",
+                "url": "https://api.github.com/repos/CampaignChain/report-analytics-metrics-per-location/zipball/7cecf656bdd6f08a8f445362d84e2cc6284f3da9",
+                "reference": "7cecf656bdd6f08a8f445362d84e2cc6284f3da9",
                 "shasum": ""
             },
             "require": {
@@ -3187,7 +3187,7 @@
                 "campaignchain",
                 "report"
             ],
-            "time": "2017-08-14T12:21:02+00:00"
+            "time": "2017-08-16T09:10:48+00:00"
         },
         {
             "name": "campaignchain/report-google-analytics",
@@ -3195,12 +3195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/report-google-analytics.git",
-                "reference": "70527312c70b09d04c2b552f11fd5bdf02d09e84"
+                "reference": "0e34a7307b6b8ffcb5f75f02b1d26003b3f01cde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/70527312c70b09d04c2b552f11fd5bdf02d09e84",
-                "reference": "70527312c70b09d04c2b552f11fd5bdf02d09e84",
+                "url": "https://api.github.com/repos/CampaignChain/report-google-analytics/zipball/0e34a7307b6b8ffcb5f75f02b1d26003b3f01cde",
+                "reference": "0e34a7307b6b8ffcb5f75f02b1d26003b3f01cde",
                 "shasum": ""
             },
             "require": {
@@ -3246,7 +3246,7 @@
                 "campaignchain",
                 "google"
             ],
-            "time": "2017-08-14T17:06:24+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/security-authentication-client-oauth",
@@ -3314,12 +3314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/security-authentication-server-oauth.git",
-                "reference": "3bea4c0ca81972cd390b44d6f8fdc15d6c7999a1"
+                "reference": "0c2db97bbe1c5267fb09a2177356c1238512c03e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/3bea4c0ca81972cd390b44d6f8fdc15d6c7999a1",
-                "reference": "3bea4c0ca81972cd390b44d6f8fdc15d6c7999a1",
+                "url": "https://api.github.com/repos/CampaignChain/security-authentication-server-oauth/zipball/0c2db97bbe1c5267fb09a2177356c1238512c03e",
+                "reference": "0c2db97bbe1c5267fb09a2177356c1238512c03e",
                 "shasum": ""
             },
             "require": {
@@ -3364,7 +3364,7 @@
                 "campaignchain",
                 "oauth"
             ],
-            "time": "2017-08-15T14:04:57+00:00"
+            "time": "2017-08-16T18:56:18+00:00"
         },
         {
             "name": "campaignchain/update",
@@ -4418,16 +4418,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.5.8",
+            "version": "v2.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "e3aa3f2d1d7ac4bc732f8630f78fcb92d2885e68"
+                "reference": "4f96fc62cef60093573acea955ed5e07643401d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/e3aa3f2d1d7ac4bc732f8630f78fcb92d2885e68",
-                "reference": "e3aa3f2d1d7ac4bc732f8630f78fcb92d2885e68",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/4f96fc62cef60093573acea955ed5e07643401d8",
+                "reference": "4f96fc62cef60093573acea955ed5e07643401d8",
                 "shasum": ""
             },
             "require": {
@@ -4490,7 +4490,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2017-08-13T18:46:56+00:00"
+            "time": "2017-08-16T13:30:32+00:00"
         },
         {
             "name": "drewm/mailchimp-api",
@@ -4592,16 +4592,16 @@
         },
         {
             "name": "facebook/graph-sdk",
-            "version": "5.6.0",
+            "version": "5.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/php-graph-sdk.git",
-                "reference": "34f5e5993c67acd264017373f23848961585dcac"
+                "reference": "2f9639c15ae043911f40ffe44080b32bac2c5280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/34f5e5993c67acd264017373f23848961585dcac",
-                "reference": "34f5e5993c67acd264017373f23848961585dcac",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/2f9639c15ae043911f40ffe44080b32bac2c5280",
+                "reference": "2f9639c15ae043911f40ffe44080b32bac2c5280",
                 "shasum": ""
             },
             "require": {
@@ -4646,7 +4646,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2017-07-23T14:06:52+00:00"
+            "time": "2017-08-16T17:28:07+00:00"
         },
         {
             "name": "fig/link-util",
@@ -6516,12 +6516,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "f4f077649c2d702e7e118d0194a4f747103a81dd"
+                "reference": "c6dac4f21e490f6d736473952d503c8e22542b9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/f4f077649c2d702e7e118d0194a4f747103a81dd",
-                "reference": "f4f077649c2d702e7e118d0194a4f747103a81dd",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/c6dac4f21e490f6d736473952d503c8e22542b9e",
+                "reference": "c6dac4f21e490f6d736473952d503c8e22542b9e",
                 "shasum": ""
             },
             "require": {
@@ -6570,7 +6570,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2017-08-07T11:29:52+00:00"
+            "time": "2017-08-16T07:11:51+00:00"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -9004,16 +9004,16 @@
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "2e7965b8cdfbba50d0092d3f6dca97dddec409e2"
+                "reference": "cec32398a973a9bfe9d2f94f4b5d5e186b40b698"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/2e7965b8cdfbba50d0092d3f6dca97dddec409e2",
-                "reference": "2e7965b8cdfbba50d0092d3f6dca97dddec409e2",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/cec32398a973a9bfe9d2f94f4b5d5e186b40b698",
+                "reference": "cec32398a973a9bfe9d2f94f4b5d5e186b40b698",
                 "shasum": ""
             },
             "require": {
@@ -9022,7 +9022,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -9053,20 +9053,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-07-05T15:09:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "3191cbe0ce64987bd382daf6724af31c53daae01"
+                "reference": "4aa0b65dc71a7369c1e7e6e2a3ca027d9decdb09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/3191cbe0ce64987bd382daf6724af31c53daae01",
-                "reference": "3191cbe0ce64987bd382daf6724af31c53daae01",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/4aa0b65dc71a7369c1e7e6e2a3ca027d9decdb09",
+                "reference": "4aa0b65dc71a7369c1e7e6e2a3ca027d9decdb09",
                 "shasum": ""
             },
             "require": {
@@ -9079,7 +9079,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -9111,20 +9111,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
                 "shasum": ""
             },
             "require": {
@@ -9136,7 +9136,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -9170,20 +9170,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929"
+                "reference": "e85ebdef569b84e8709864e1a290c40f156b30ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/bc0b7d6cb36b10cfabb170a3e359944a95174929",
-                "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/e85ebdef569b84e8709864e1a290c40f156b30ca",
+                "reference": "e85ebdef569b84e8709864e1a290c40f156b30ca",
                 "shasum": ""
             },
             "require": {
@@ -9193,7 +9193,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -9226,20 +9226,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "032fd647d5c11a9ceab8ee8747e13b5448e93874"
+                "reference": "b6482e68974486984f59449ecea1fbbb22ff840f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/032fd647d5c11a9ceab8ee8747e13b5448e93874",
-                "reference": "032fd647d5c11a9ceab8ee8747e13b5448e93874",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/b6482e68974486984f59449ecea1fbbb22ff840f",
+                "reference": "b6482e68974486984f59449ecea1fbbb22ff840f",
                 "shasum": ""
             },
             "require": {
@@ -9249,7 +9249,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -9285,20 +9285,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d"
+                "reference": "67925d1cf0b84bd234a83bebf26d4eb281744c6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
-                "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/67925d1cf0b84bd234a83bebf26d4eb281744c6d",
+                "reference": "67925d1cf0b84bd234a83bebf26d4eb281744c6d",
                 "shasum": ""
             },
             "require": {
@@ -9307,7 +9307,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -9337,7 +9337,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-07-05T15:09:33+00:00"
         },
         {
             "name": "symfony/security-acl",
@@ -10390,12 +10390,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-ezplatform.git",
-                "reference": "1ee657b439404d4caba2cc4d63cb3c30c83b896a"
+                "reference": "c33556b84f66ec6e10f77e67e95e4c3c5b61f128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-ezplatform/zipball/1ee657b439404d4caba2cc4d63cb3c30c83b896a",
-                "reference": "1ee657b439404d4caba2cc4d63cb3c30c83b896a",
+                "url": "https://api.github.com/repos/CampaignChain/operation-ezplatform/zipball/c33556b84f66ec6e10f77e67e95e4c3c5b61f128",
+                "reference": "c33556b84f66ec6e10f77e67e95e4c3c5b61f128",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -10428,7 +10428,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "campaignchain/operation-social-media",
@@ -10436,12 +10436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/operation-social-media.git",
-                "reference": "aa68ea1a2f302654d6eccc9745bdfc16f8c72cbe"
+                "reference": "d889d49f35aa29cb1b84dc94b654dfa4ce2aaa75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/operation-social-media/zipball/aa68ea1a2f302654d6eccc9745bdfc16f8c72cbe",
-                "reference": "aa68ea1a2f302654d6eccc9745bdfc16f8c72cbe",
+                "url": "https://api.github.com/repos/CampaignChain/operation-social-media/zipball/d889d49f35aa29cb1b84dc94b654dfa4ce2aaa75",
+                "reference": "d889d49f35aa29cb1b84dc94b654dfa4ce2aaa75",
                 "shasum": ""
             },
             "type": "campaignchain-operation",
@@ -10479,7 +10479,7 @@
             "keywords": [
                 "campaignchain"
             ],
-            "time": "2017-08-14T12:21:03+00:00"
+            "time": "2017-08-16T18:56:19+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
