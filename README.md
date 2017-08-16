@@ -73,7 +73,7 @@ modules management. Install it with this command:
 In a folder of your choice, execute Composer to download all files of the
 CampaignChain base system. Please note that this might take a while.
 
-    $ composer create-project --stability=dev campaignchain/campaignchain campaignchain dev-master
+    $ composer create-project --stability=dev campaignchain/campaignchain campaignchain 1.0.x-dev
 
 ### Configure CampaignChain System
 
