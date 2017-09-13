@@ -1818,12 +1818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-duration.git",
-                "reference": "7d68f9c6ff53e9ffd34b478b9d6ee17da9a4b098"
+                "reference": "d8fb2542fc566f64bc0a59ee08f60401291c183d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/7d68f9c6ff53e9ffd34b478b9d6ee17da9a4b098",
-                "reference": "7d68f9c6ff53e9ffd34b478b9d6ee17da9a4b098",
+                "url": "https://api.github.com/repos/CampaignChain/hook-duration/zipball/d8fb2542fc566f64bc0a59ee08f60401291c183d",
+                "reference": "d8fb2542fc566f64bc0a59ee08f60401291c183d",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1858,7 +1858,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-09-12T18:54:25+00:00"
+            "time": "2017-09-13T09:06:48+00:00"
         },
         {
             "name": "campaignchain/hook-image",
@@ -5296,12 +5296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/protobuf.git",
-                "reference": "ed0a07eadde7b6705e382a0f336c335343c804a4"
+                "reference": "06aa8dc9e730cc39c67d0ff9c0c95e645ccf03c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/ed0a07eadde7b6705e382a0f336c335343c804a4",
-                "reference": "ed0a07eadde7b6705e382a0f336c335343c804a4",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/06aa8dc9e730cc39c67d0ff9c0c95e645ccf03c9",
+                "reference": "06aa8dc9e730cc39c67d0ff9c0c95e645ccf03c9",
                 "shasum": ""
             },
             "require": {
@@ -5329,7 +5329,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-09-12T18:09:02+00:00"
+            "time": "2017-09-12T20:46:52+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -6516,12 +6516,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "5745d9533bc8ae7ff99ab09d49fa134b0ba4f366"
+                "reference": "a7dd53af53644295e39c1e1fe8d75dd8d7802416"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/5745d9533bc8ae7ff99ab09d49fa134b0ba4f366",
-                "reference": "5745d9533bc8ae7ff99ab09d49fa134b0ba4f366",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/a7dd53af53644295e39c1e1fe8d75dd8d7802416",
+                "reference": "a7dd53af53644295e39c1e1fe8d75dd8d7802416",
                 "shasum": ""
             },
             "require": {
@@ -6570,7 +6570,7 @@
                 "paginator",
                 "symfony"
             ],
-            "time": "2017-09-12T16:33:55+00:00"
+            "time": "2017-09-13T08:20:44+00:00"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -6972,16 +6972,16 @@
         },
         {
             "name": "nelmio/alice",
-            "version": "v3.0.0-RC.1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/alice.git",
-                "reference": "8c7cc34a11888c7c96096164665b53b615e50cce"
+                "reference": "5c9e801856238ece1723b0b7488aae219e79f209"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/alice/zipball/8c7cc34a11888c7c96096164665b53b615e50cce",
-                "reference": "8c7cc34a11888c7c96096164665b53b615e50cce",
+                "url": "https://api.github.com/repos/nelmio/alice/zipball/5c9e801856238ece1723b0b7488aae219e79f209",
+                "reference": "5c9e801856238ece1723b0b7488aae219e79f209",
                 "shasum": ""
             },
             "require": {
@@ -7041,7 +7041,7 @@
                 "faker",
                 "test"
             ],
-            "time": "2017-06-28T23:22:17+00:00"
+            "time": "2017-09-12T22:14:56+00:00"
         },
         {
             "name": "nelmio/api-doc-bundle",
