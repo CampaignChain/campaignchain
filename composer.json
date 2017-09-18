@@ -35,7 +35,7 @@
         "ext-intl": "*",
         "packagist/yuicompressor-bin": "2.4.8",
         "packagist/cssembed-bin": "0.4.5",
-        "avanzu/admin-theme-bundle": "~2.0",
+        "avanzu/admin-theme-bundle": "2.0.0-beta.5",
         "campaignchain/core": "1.0.x-dev",
         "campaignchain/update": "1.0.x-dev",
         "campaignchain/campaign-scheduled": "1.0.x-dev",
