@@ -1,22 +1,22 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44c393f020e04e44997101efdaa711e4",
+    "content-hash": "cf59b4636a3629ebc239b0ca8c8a52ca",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
             "version": "v2.3.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "url": "https://github.com/ColorlibHQ/AdminLTE.git",
                 "reference": "2be703222af2edcb87e562d3da2299e4352bff8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/2be703222af2edcb87e562d3da2299e4352bff8a",
+                "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/2be703222af2edcb87e562d3da2299e4352bff8a",
                 "reference": "2be703222af2edcb87e562d3da2299e4352bff8a",
                 "shasum": ""
             },
@@ -137,6 +137,7 @@
                 "typography",
                 "webfonts"
             ],
+            "abandoned": true,
             "time": "2016-11-02T15:34:33+00:00"
         },
         {
@@ -1438,6 +1439,7 @@
                 "knplabs/knp-paginator-bundle": "dev-master",
                 "liip/imagine-bundle": "^1.3.1",
                 "mremi/url-shortener": "^2.0",
+                "mwsimple/scdatetimepicker-bundle": "dev-master",
                 "nelmio/api-doc-bundle": "^2.0",
                 "oneup/uploader-bundle": "^1.3.1",
                 "oyejorge/less.php": "~1.5",
@@ -1447,7 +1449,6 @@
                 "sonata-project/admin-bundle": "~3.0",
                 "sonata-project/block-bundle": "~3.0",
                 "sp/bower-bundle": "dev-master",
-                "stephanecollot/datetimepicker-bundle": "dev-master",
                 "symfony/assetic-bundle": "~2.0",
                 "symfony/finder": "~3.0",
                 "symfony/monolog-bundle": "~3.0",
@@ -1770,12 +1771,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CampaignChain/hook-due.git",
-                "reference": "cb746cdd2ac143da01de2f905cd5c3c5d85a83d3"
+                "reference": "376c98515b03de03719b6781714c2ee7e36bea2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/cb746cdd2ac143da01de2f905cd5c3c5d85a83d3",
-                "reference": "cb746cdd2ac143da01de2f905cd5c3c5d85a83d3",
+                "url": "https://api.github.com/repos/CampaignChain/hook-due/zipball/376c98515b03de03719b6781714c2ee7e36bea2e",
+                "reference": "376c98515b03de03719b6781714c2ee7e36bea2e",
                 "shasum": ""
             },
             "type": "campaignchain-hook",
@@ -1810,7 +1811,7 @@
                 "HOOK",
                 "campaignchain"
             ],
-            "time": "2017-09-12T18:54:25+00:00"
+            "time": "2017-09-13T09:06:48+00:00"
         },
         {
             "name": "campaignchain/hook-duration",
@@ -4421,12 +4422,12 @@
             "version": "v2.5.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "c78afd51721804f4f76ff30d9b6f6159eb046161"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/c78afd51721804f4f76ff30d9b6f6159eb046161",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/c78afd51721804f4f76ff30d9b6f6159eb046161",
                 "reference": "c78afd51721804f4f76ff30d9b6f6159eb046161",
                 "shasum": ""
             },
@@ -4798,24 +4799,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
-                "reference": "c0e600ba3c784161f401188bddb2a6def879182e"
+                "reference": "165b3f4ae1f798ec320b9942f6db921f7b568bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/c0e600ba3c784161f401188bddb2a6def879182e",
-                "reference": "c0e600ba3c784161f401188bddb2a6def879182e",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/165b3f4ae1f798ec320b9942f6db921f7b568bed",
+                "reference": "165b3f4ae1f798ec320b9942f6db921f7b568bed",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2",
-                "symfony/console": "~2.3||~3.0",
-                "symfony/framework-bundle": "~2.3||~3.0",
-                "symfony/serializer": "~2.3||~3.0",
+                "php": "^7.1",
+                "symfony/console": "~3.3|^4.0|^5.0",
+                "symfony/framework-bundle": "~3.3|^4.0|^5.0",
+                "symfony/serializer": "~3.3|^4.0|^5.0",
                 "willdurand/jsonp-callback-validator": "~1.0"
             },
             "require-dev": {
-                "symfony/expression-language": "~2.4||~3.0",
-                "symfony/phpunit-bridge": "^3.3"
+                "symfony/expression-language": "~3.3|^4.0|^5.0",
+                "symfony/phpunit-bridge": "^3.3|^4.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -4826,7 +4827,10 @@
             "autoload": {
                 "psr-4": {
                     "FOS\\JsRoutingBundle\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4834,12 +4838,12 @@
             ],
             "authors": [
                 {
-                    "name": "FriendsOfSymfony Community",
-                    "homepage": "https://github.com/friendsofsymfony/FOSJsRoutingBundle/contributors"
-                },
-                {
                     "name": "William Durand",
                     "email": "will+git@drnd.me"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/friendsofsymfony/FOSJsRoutingBundle/contributors"
                 }
             ],
             "description": "A pretty nice way to expose your Symfony2 routing to client applications.",
@@ -4849,7 +4853,7 @@
                 "javascript",
                 "routing"
             ],
-            "time": "2017-08-25T15:25:45+00:00"
+            "time": "2020-01-13T14:06:12+00:00"
         },
         {
             "name": "friendsofsymfony/oauth-server-bundle",
@@ -5218,12 +5222,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gkralik/php-uglifyjs.git",
-                "reference": "f8337076247d6f0e8bd8b149e15c46d052685901"
+                "reference": "0c63301bf131c6c0e48ef26cf40e65bf20936932"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gkralik/php-uglifyjs/zipball/f8337076247d6f0e8bd8b149e15c46d052685901",
-                "reference": "f8337076247d6f0e8bd8b149e15c46d052685901",
+                "url": "https://api.github.com/repos/gkralik/php-uglifyjs/zipball/0c63301bf131c6c0e48ef26cf40e65bf20936932",
+                "reference": "0c63301bf131c6c0e48ef26cf40e65bf20936932",
                 "shasum": ""
             },
             "type": "library",
@@ -5234,7 +5238,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL 2.1"
+                "LGPL-2.1-or-later"
             ],
             "authors": [
                 {
@@ -5243,19 +5247,19 @@
                 }
             ],
             "description": "PHP Javascript packer",
-            "time": "2017-08-04T06:50:39+00:00"
+            "time": "2019-10-03T11:54:22+00:00"
         },
         {
             "name": "google/apiclient",
             "version": "1.0.6-beta",
             "source": {
                 "type": "git",
-                "url": "https://github.com/google/google-api-php-client.git",
+                "url": "https://github.com/googleapis/google-api-php-client.git",
                 "reference": "a41a9dc0662e36420030eaab802dbb1f85459479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
                 "reference": "a41a9dc0662e36420030eaab802dbb1f85459479",
                 "shasum": ""
             },
@@ -5295,13 +5299,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/google/protobuf.git",
-                "reference": "06aa8dc9e730cc39c67d0ff9c0c95e645ccf03c9"
+                "url": "https://github.com/protocolbuffers/protobuf-php.git",
+                "reference": "ee8f63b02861d88f6cc3955788e97f1912741992"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/protobuf/zipball/06aa8dc9e730cc39c67d0ff9c0c95e645ccf03c9",
-                "reference": "06aa8dc9e730cc39c67d0ff9c0c95e645ccf03c9",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/ee8f63b02861d88f6cc3955788e97f1912741992",
+                "reference": "ee8f63b02861d88f6cc3955788e97f1912741992",
                 "shasum": ""
             },
             "require": {
@@ -5316,8 +5320,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Google\\Protobuf\\": "php/src/Google/Protobuf",
-                    "GPBMetadata\\Google\\Protobuf\\": "php/src/GPBMetadata/Google/Protobuf"
+                    "Google\\Protobuf\\": "src/Google/Protobuf",
+                    "GPBMetadata\\Google\\Protobuf\\": "src/GPBMetadata/Google/Protobuf"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5329,7 +5333,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2017-09-12T20:46:52+00:00"
+            "time": "2019-02-26T18:27:49+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5612,6 +5616,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "abandoned": true,
             "time": "2015-05-20T03:37:09+00:00"
         },
         {
@@ -5662,6 +5667,7 @@
                 "Guzzle",
                 "stream"
             ],
+            "abandoned": true,
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
@@ -6929,6 +6935,46 @@
             "time": "2017-03-29T18:03:19+00:00"
         },
         {
+            "name": "mwsimple/scdatetimepicker-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MWSimple/SCDatetimepickerBundle.git",
+                "reference": "6c4382123b09a961150e43c5436f585589286da7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MWSimple/SCDatetimepickerBundle/zipball/6c4382123b09a961150e43c5436f585589286da7",
+                "reference": "6c4382123b09a961150e43c5436f585589286da7",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "SC\\DatetimepickerBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephane Collot"
+                }
+            ],
+            "description": "Symfony bundle for Bootstrap DateTime picker",
+            "keywords": [
+                "bootstrap",
+                "bundle",
+                "datepicker",
+                "picker",
+                "symfony",
+                "timepicker"
+            ],
+            "time": "2019-05-08T13:44:30+00:00"
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.6.1",
             "source": {
@@ -7030,7 +7076,7 @@
                     "email": "shelburt02@gmail.com"
                 },
                 {
-                    "name": "Théo FIDRY",
+                    "name": "Théo Fidry",
                     "email": "theo.fidry@gmail.com"
                 }
             ],
@@ -7375,6 +7421,7 @@
                 "php",
                 "stylesheet"
             ],
+            "abandoned": true,
             "time": "2017-03-28T22:19:25+00:00"
         },
         {
@@ -7382,13 +7429,13 @@
             "version": "v0.4.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/packagist/cssembed-bin.git",
-                "reference": "470de313e2de3e9e24369e61f8c545744470b2a0"
+                "url": "https://github.com/packagelist/cssembed-bin.git",
+                "reference": "1870492c79311089c53c18c9c31a65c8c01d1a4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/packagist/cssembed-bin/zipball/470de313e2de3e9e24369e61f8c545744470b2a0",
-                "reference": "470de313e2de3e9e24369e61f8c545744470b2a0",
+                "url": "https://api.github.com/repos/packagelist/cssembed-bin/zipball/1870492c79311089c53c18c9c31a65c8c01d1a4a",
+                "reference": "1870492c79311089c53c18c9c31a65c8c01d1a4a",
                 "shasum": ""
             },
             "bin": [
@@ -7416,20 +7463,21 @@
             "keywords": [
                 "css"
             ],
-            "time": "2013-07-15T18:31:47+00:00"
+            "abandoned": "packagelist/cssembed-bin",
+            "time": "2018-01-20T09:18:19+00:00"
         },
         {
             "name": "packagist/yuicompressor-bin",
             "version": "v2.4.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/packagist/yuicompressor-bin.git",
-                "reference": "dc40696043218e3344279029308267b3ea48e03c"
+                "url": "https://github.com/packagelist/yuicompressor-bin.git",
+                "reference": "4dcd53c7833222b841cdc6470e8d89222ddff760"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/packagist/yuicompressor-bin/zipball/dc40696043218e3344279029308267b3ea48e03c",
-                "reference": "dc40696043218e3344279029308267b3ea48e03c",
+                "url": "https://api.github.com/repos/packagelist/yuicompressor-bin/zipball/4dcd53c7833222b841cdc6470e8d89222ddff760",
+                "reference": "4dcd53c7833222b841cdc6470e8d89222ddff760",
                 "shasum": ""
             },
             "bin": [
@@ -7460,7 +7508,8 @@
                 "minification",
                 "yui"
             ],
-            "time": "2013-07-15T18:05:47+00:00"
+            "abandoned": "packagelist/yuicompressor-bin",
+            "time": "2018-01-20T09:18:43+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -7989,6 +8038,7 @@
                 }
             ],
             "description": "Allows installation of Components via Composer.",
+            "abandoned": "oomphinc/composer-installers-extender",
             "time": "2015-08-10T12:35:38+00:00"
         },
         {
@@ -8222,6 +8272,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
+            "abandoned": true,
             "time": "2017-07-18T07:57:44+00:00"
         },
         {
@@ -8775,52 +8826,6 @@
             "time": "2017-08-23T15:39:46+00:00"
         },
         {
-            "name": "stephanecollot/datetimepicker-bundle",
-            "version": "dev-master",
-            "target-dir": "SC/DatetimepickerBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stephanecollot/DatetimepickerBundle.git",
-                "reference": "ebecd027c702816bc86e6727c8075a67b01a43f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/ebecd027c702816bc86e6727c8075a67b01a43f1",
-                "reference": "ebecd027c702816bc86e6727c8075a67b01a43f1",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9",
-                "symfony/framework-bundle": "~2.8 || ~3.0",
-                "symfony/symfony": "~2.8 || ~3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "SC\\DatetimepickerBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Stephane Collot"
-                }
-            ],
-            "description": "Symfony bundle for Bootstrap DateTime picker",
-            "keywords": [
-                "bootstrap",
-                "bundle",
-                "datepicker",
-                "picker",
-                "symfony",
-                "timepicker"
-            ],
-            "time": "2017-04-29T09:13:09+00:00"
-        },
-        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.8",
             "source": {
@@ -8942,6 +8947,7 @@
                 "compression",
                 "minification"
             ],
+            "abandoned": "symfony/webpack-encore-pack",
             "time": "2017-07-14T07:26:46+00:00"
         },
         {
@@ -10001,6 +10007,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2017-07-23T13:06:00+00:00"
         },
         {
@@ -10055,6 +10062,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2017-07-11T19:17:22+00:00"
         }
     ],
@@ -10484,17 +10492,63 @@
             "time": "2017-09-11T16:10:51+00:00"
         },
         {
-            "name": "symfony/phpunit-bridge",
-            "version": "v3.3.9",
+            "name": "stephanecollot/datetimepicker-bundle",
+            "version": "dev-master",
+            "target-dir": "SC/DatetimepickerBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "27d159bd9bd14a3bd9d3e136081c321a0d621c03"
+                "url": "https://github.com/stephanecollot/DatetimepickerBundle.git",
+                "reference": "ebecd027c702816bc86e6727c8075a67b01a43f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/27d159bd9bd14a3bd9d3e136081c321a0d621c03",
-                "reference": "27d159bd9bd14a3bd9d3e136081c321a0d621c03",
+                "url": "https://api.github.com/repos/stephanecollot/DatetimepickerBundle/zipball/ebecd027c702816bc86e6727c8075a67b01a43f1",
+                "reference": "ebecd027c702816bc86e6727c8075a67b01a43f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/framework-bundle": "~2.8 || ~3.0",
+                "symfony/symfony": "~2.8 || ~3.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "SC\\DatetimepickerBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephane Collot"
+                }
+            ],
+            "description": "Symfony bundle for Bootstrap DateTime picker",
+            "keywords": [
+                "bootstrap",
+                "bundle",
+                "datepicker",
+                "picker",
+                "symfony",
+                "timepicker"
+            ],
+            "time": "2017-04-29T09:13:09+00:00"
+        },
+        {
+            "name": "symfony/phpunit-bridge",
+            "version": "v3.4.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/phpunit-bridge.git",
+                "reference": "a43a2f6c465a2d99635fea0addbebddc3864ad97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/a43a2f6c465a2d99635fea0addbebddc3864ad97",
+                "reference": "a43a2f6c465a2d99635fea0addbebddc3864ad97",
                 "shasum": ""
             },
             "require": {
@@ -10504,7 +10558,6 @@
                 "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
             },
             "suggest": {
-                "ext-zip": "Zip support is required when using bin/simple-phpunit",
                 "symfony/debug": "For tracking deprecated interfaces usages at runtime with DebugClassLoader"
             },
             "bin": [
@@ -10513,7 +10566,11 @@
             "type": "symfony-bridge",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
+                },
+                "thanks": {
+                    "name": "phpunit/phpunit",
+                    "url": "https://github.com/sebastianbergmann/phpunit"
                 }
             },
             "autoload": {
@@ -10543,7 +10600,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2017-09-05T11:23:06+00:00"
+            "time": "2019-04-16T09:03:16+00:00"
         }
     ],
     "aliases": [],
